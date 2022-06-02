@@ -13,10 +13,8 @@
     - Add site logo to header (resize uploaded logo to width of 150px) - to the left position
     - Add navigation ('How to Tutorials' and 'Plugin Tutorials' category page) - to the right position
   - Edit footer:
-    - Add navigation ('WP HOW TO - WordPress plugin' - absolute path to subdomain, 'Privacy Policy' page) - to the left position
+    - Add navigation ('WP HOW TO - WordPress plugin' - absolute path to plugin. subdomain, 'Privacy Policy' - absolute path to plugin. subdomain policy page) - to the left position
     - Add text Created with 'Simply Static & GitHub Pages' (with their respective homepage links) - to the right position
-- Add pages:
-  - Privacy Policy page (slug: privacy-policy) with hardcoded content 
 - Install plugins:
   - Simply Static
   - RPD (my own)
