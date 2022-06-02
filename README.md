@@ -8,6 +8,7 @@
 - Add categories:
   - Plugin tutorial (slug: wordpress-plugin)
   - How to tutorial (slug: wordpress-topic)
+- Download the latest official wordpress theme (parent) and activate the customized child theme.
 - Install plugins:
   - Simply Static
   - RPD (my own)
