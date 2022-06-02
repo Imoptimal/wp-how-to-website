@@ -6,9 +6,17 @@
   - Discussion - check off "Allow people to submit comments on new posts"
   - Permalinks - rename category to "tutorials"; set custom structure to "/%category%/%postname%/"
 - Add categories:
-  - Plugin tutorial (slug: wordpress-plugin)
-  - How to tutorial (slug: wordpress-topic)
-- Download the latest official wordpress theme (parent) and activate the customized child theme.
+  - Plugin Tutorials (slug: wordpress-plugin)
+  - How to Tutorials (slug: wordpress-topic)
+- Download the latest official wordpress theme (parent) and activate the customized child theme:
+  - Open full site editor and edit header:
+    - Add site logo to header (resize uploaded logo to width of 150px) - to the left position
+    - Add navigation ('How to Tutorials' and 'Plugin Tutorials' category page) - to the right position
+  - Edit footer:
+    - Add navigation ('WP HOW TO - WordPress plugin' - absolute path to subdomain, 'Privacy Policy' page) - to the left position
+    - Add text Created with 'Simply Static & GitHub Pages' (with their respective homepage links) - to the right position
+- Add pages:
+  - Privacy Policy page (slug: privacy-policy) with hardcoded content 
 - Install plugins:
   - Simply Static
   - RPD (my own)
