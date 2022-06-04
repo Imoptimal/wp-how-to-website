@@ -22,6 +22,11 @@ function addCustomGoogleSearch(scriptSrc) {
     var searchDiv = document.createElement('div');
     searchDiv.classList.add('gcse-search');
     parentDiv.appendChild(searchDiv);
+    // Google search show/hide
+    searchIcon.addEventListener('click', function() {
+        this.classList.toggle('clicked');
+        parentDiv.classList.toggle('clicked');
+    });
 }
 if (wpHowTo_mainDomain === true) {
     var wpHowTo_analytics = document.createElement('script');
@@ -58,11 +63,6 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     }
-    // Google search show/hide
-    wpHowTo_searchIcon.addEventListener('click', function() {
-        this.classList.toggle('clicked');
-        wpHowTo_parent.classList.toggle('clicked');
-    });
     // Premium only (vs free version code)
     if (wpHowTo_mainDomain === true || wpHowTo_pluginSubdomain === true) {
         // Only if the website is in an iframe
