@@ -3,9 +3,9 @@ var wpHowTo_websiteUrl = window.location.href;
 function websiteStartsWith(str, word) {
     return str.lastIndexOf(word, 0) === 0;
 }
-var wpHowTo_mainDomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://wphowto.tv/');
-var wpHowTo_freeSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://free.wphowto.tv/');
-var wpHowTo_pluginSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://plugin.wphowto.tv/');
+var wpHowTo_mainDomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://wphowto.tv');
+var wpHowTo_freeSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://free.wphowto.tv');
+var wpHowTo_pluginSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://plugin.wphowto.tv');
 // Add google search and analytics to website
 function addCustomGoogleSearch(scriptSrc) {
     var script = document.createElement('script');
