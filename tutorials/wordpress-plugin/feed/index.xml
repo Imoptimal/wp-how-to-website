@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Plugin Tutorials &#8211; wphowto.tv</title>
-	<atom:link href="http://localhost/category/wordpress-plugin/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/tutorials/wordpress-plugin/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>WordPress Tutorials</description>
 	<lastBuildDate>Sat, 04 Jun 2022 16:24:28 +0000</lastBuildDate>
