@@ -14,14 +14,14 @@
     - Add site logo to header (resize uploaded logo to width of 150px) - to the left position
     - Add navigation ('How to Tutorials' and 'Plugin Tutorials' category page) - to the right position
   - Edit footer:
-    - Add navigation ('WP HOW TO - WordPress plugin' - absolute path to plugin. subdomain, 'Privacy Policy' - absolute path to plugin. subdomain policy page) - to the left position
+    - Add columns block ('WP HOW TO - WordPress plugin' - absolute path to plugin. subdomain, 'Privacy Policy' - absolute path to plugin. subdomain policy page) - to the left position
     - Add text Created with 'Simply Static & GitHub Pages' (with their respective homepage links) - to the right position
 - Install plugins:
   - Simply Static
   - RPD (my own)
 - Run RPD three steps:
   - <b>NOTE:</b> After the second step, check json file folders for small files (aprox under 1 kb), and delete those with empty 'youtubeVideos' array, so the third step can run smoothly.
-  - In the third step, choose to store all video per item (premium).
+  - In the third step, choose to store all video per item (premium), and do plugin tutorials first (how to items will remain as the latest posts).
 - Convert webiste to static using Simply static plugin (Set relative paths - avoiding issue with website resources).
 - Upload here.
 - Create 404.html file here on GitHub website, and populate it with needed elements. <br>
