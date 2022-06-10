@@ -63,6 +63,10 @@ header.premium-only~main {
     margin-top: 50px !important;
 }
 
+.custom-logo-link img {
+    width: 150px !important;
+}
+
 .relevance-filter,
 .date-filter {
     display: inline-block;
@@ -243,6 +247,20 @@ a.gs-title b {
 
 .gcsc-more-maybe-branding-root {
     display: none;
+}
+
+.gsc-results-wrapper-overlay {
+    border: 2px solid #fbf0de !important;
+}
+
+.gsc-results-close-btn {
+    display: none;
+}
+
+.gsc-results-close-btn::before {
+    display: block;
+    content: 'X';
+    color: #fbf0de;
 }
 
 
