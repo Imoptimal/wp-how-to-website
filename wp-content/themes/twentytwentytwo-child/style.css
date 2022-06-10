@@ -260,7 +260,14 @@ a.gs-title b {
 .gsc-results-close-btn::before {
     display: block;
     content: 'X';
-    color: #fbf0de;
+    color: #ff6666;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.gsc-results-close-btn::before:hover {
+    color: #FBE81C;
 }
 
 
