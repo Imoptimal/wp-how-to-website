@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="max-image-preview:large">
+<title>Plugin: Upsell Order Bump Offer for WooCommerce – Increase Sales,Upsell &#038; Crosssell , Checkout Page &#8211; wphowto.tv</title>
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="wphowto.tv &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="wphowto.tv &raquo; Comments Feed" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="wphowto.tv &raquo; Plugin: Upsell Order Bump Offer for WooCommerce – Increase Sales,Upsell &#038; Crosssell , Checkout Page Comments Feed" href="/wordpress-plugin/upsell-order-bump-offer-for-woocommerce/feed/">
+<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
+<style id="wp-block-group-inline-css">.wp-block-group{box-sizing:border-box}
+:where(.wp-block-group.has-background){padding:1.25em 2.375em}</style>
+<style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label{word-break:normal;overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}</style>
+<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.0" media="all">
+<style id="wp-block-template-part-inline-css">.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
+<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word}.wp-block-post-title a{display:inline-block}</style>
+<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}</style>
+<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border-top:1px solid;border-bottom:1px solid}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
+.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}</style>
+<style id="wp-block-spacer-inline-css">.wp-block-spacer{clear:both}</style>
+<style id="wp-block-post-author-inline-css">.wp-block-post-author{display:flex;flex-wrap:wrap}.wp-block-post-author__byline{width:100%;margin-top:0;margin-bottom:0;font-size:.5em}.wp-block-post-author__avatar{margin-right:1em}.wp-block-post-author__bio{margin-bottom:.7em;font-size:.7em}.wp-block-post-author__content{flex-grow:1;flex-basis:0}.wp-block-post-author__name{margin:0}</style>
+<style id="wp-block-post-terms-inline-css">.wp-block-post-terms__separator{white-space:pre-wrap}</style>
+<style id="wp-block-post-comments-inline-css">.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{content:"";display:table;clear:both}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-top:.5em;margin-right:.75em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{margin-top:1em;margin-bottom:1em;display:block}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{display:block;box-sizing:border-box;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-size:1em;font-family:inherit}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}.wp-block-post-comments input[type=submit]{border:none}</style>
+<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-button.aligncenter{text-align:center}</style>
+<style id="wp-block-button-inline-css">.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;cursor:pointer;display:inline-block;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-align:center;text-decoration:none;word-break:break-word;box-sizing:border-box}.wp-block-button__link:active,.wp-block-button__link:focus,.wp-block-button__link:hover,.wp-block-button__link:visited{color:#fff}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.is-style-outline>:where(.wp-block-button__link),:where(.wp-block-button__link).is-style-outline{border:2px solid;padding:.667em 1.333em}.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent}</style>
+<style id="wp-block-paragraph-inline-css">.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}p.has-drop-cap.has-background{overflow:hidden}p.has-background{padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}</style>
+<style id="wp-block-columns-inline-css">.wp-block-columns{display:flex;margin-bottom:1.75em;box-sizing:border-box;flex-wrap:wrap!important;align-items:normal!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;word-break:break-word;overflow-wrap:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}</style>
+<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color),html :where([style*=border-width]){border-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0; }body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);--wp--style--block-gap: 1.5rem;}.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: var( --wp--style--block-gap ); }h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}a{color: var(--wp--preset--color--foreground);}.wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}.wp-block-post-comments{padding-top: var(--wp--custom--spacing--small);}.wp-block-pullquote{border-width: 1px 0;}.wp-block-query-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}.wp-block-quote{border-width: 1px;}.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="wp-webfonts-inline-css">@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}</style>
+<link rel="stylesheet" id="wphowtotv-style-css" href="/wp-content/themes/twentytwentytwo-child/style.css?ver=1.0.0" media="all">
+<link rel="stylesheet" id="twentytwentytwo-style-css" href="/wp-content/themes/twentytwentytwo/style.css?ver=1.0.0" media="all">
+<script src="/wp-includes/blocks/navigation/view.min.js?ver=009e29110e016c14bac4ba0ecc809fcd" id="wp-block-navigation-view-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/31103">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 6.0">
+<link rel="canonical" href="/wordpress-plugin/upsell-order-bump-offer-for-woocommerce/">
+<link rel="shortlink" href="/?p=31103">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=httplocalhost%3A10015%2Fwordpress-plugin%2Fupsell-order-bump-offer-for-woocommerce%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=httplocalhost%3A10015%2Fwordpress-plugin%2Fupsell-order-bump-offer-for-woocommerce%2F&#038;format=xml">
+<style>.wp-container-1 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-1 > * { margin: 0; }</style>
+<style>.wp-container-3 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: flex-end;}.wp-container-3 > * { margin: 0; }</style>
+<style>.wp-container-4 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-4 > * { margin: 0; }</style>
+<style>.wp-container-5 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-5 > .alignwide { max-width: 1000px;}.wp-container-5 .alignfull { max-width: none; }.wp-container-5 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-5 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-5 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-5 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-5 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-6 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-6 > .alignwide { max-width: 1000px;}.wp-container-6 .alignfull { max-width: none; }.wp-container-6 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-6 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-6 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-6 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-6 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-7 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-7 > .alignwide { max-width: 1000px;}.wp-container-7 .alignfull { max-width: none; }.wp-container-7 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-7 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-7 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-7 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-7 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-8 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-8 > * { margin: 0; }</style>
+<style>.wp-container-9 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-9 > .alignwide { max-width: 1000px;}.wp-container-9 .alignfull { max-width: none; }.wp-container-9 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-9 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-9 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-9 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-9 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-10 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-10 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-10 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-10 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-10 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-11 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-11 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-11 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-11 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-11 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-12 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-12 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-12 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-12 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-12 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-13 {display: flex;gap: var( --wp--style--block-gap, 2em );flex-wrap: nowrap;align-items: center;}.wp-container-13 > * { margin: 0; }</style>
+<style>.wp-container-14 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-14 > * { margin: 0; }</style>
+<style>.wp-container-15 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-15 > .alignwide { max-width: 1000px;}.wp-container-15 .alignfull { max-width: none; }.wp-container-15 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-15 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-15 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-15 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-15 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-16 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-16 > .alignwide { max-width: 1000px;}.wp-container-16 .alignfull { max-width: none; }.wp-container-16 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-16 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-16 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-16 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-16 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<link rel="icon" href="/wp-content/uploads/2022/06/wp-how-to-150x150.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2022/06/wp-how-to-e1654198534227.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2022/06/wp-how-to-e1654198534227.png">
+<meta name="msapplication-TileImage" content="httplocalhost:10015/wp-content/uploads/2022/06/wp-how-to-e1654198534227.png">
+</head>
+
+<body class="post-template-default single single-post postid-31103 single-format-standard wp-custom-logo wp-embed-responsive">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
+<div class="wp-site-blocks">
+<header class="wp-block-template-part">
+<div class="wp-container-5 wp-block-group">
+<div class="wp-container-4 wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
+<div class="wp-container-1 wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img loading="lazy" width="150" height="83" src="/wp-content/uploads/2022/06/wp-how-to-e1654198534227.png" class="custom-logo" alt="wphowto.tv"></a></div></div>
+
+
+<nav class="wp-container-3 is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+			<div class="wp-block-navigation__responsive-container  " id="modal-2">
+				<div class="wp-block-navigation__responsive-close" tabindex="-1" data-micromodal-close>
+					<div class="wp-block-navigation__responsive-dialog" aria-label="Menu">
+							<button aria-label="Close menu" data-micromodal-close class="wp-block-navigation__responsive-container-close"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"></path></svg></button>
+						<div class="wp-block-navigation__responsive-container-content" id="modal-2-content">
+							<ul class="wp-block-navigation__container">
+<li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="/tutorials/wordpress-topic/"><span class="wp-block-navigation-item__label">How to Tutorials</span></a></li>
+<li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="/tutorials/wordpress-plugin/"><span class="wp-block-navigation-item__label">Plugin Tutorials</span></a></li>
+</ul>
+						</div>
+					</div>
+				</div>
+			</div></nav>
+</div>
+</div>
+</header>
+
+
+<main class="wp-container-10 wp-block-group">
+<div class="wp-container-6 wp-block-group">
+<h1 style="margin-bottom: var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: Upsell Order Bump Offer for WooCommerce – Increase Sales,Upsell &#038; Crosssell , Checkout Page</h1>
+
+
+
+
+<hr class="wp-block-separator alignwide is-style-wide">
+</div>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-container-7 entry-content wp-block-post-content">
+<p><iframe id="youtube-player" loading="lazy" src="https://www.youtube.com/embed/?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<div class="youtube-videos">
+<div class="youtube-item" id="p9KIQyXauY4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=p9KIQyXauY4">1) How To Create Upsell Order Bumps In Your WooCommerce Store?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-10-04</span></p>
+<p class="description"><b>Short description:</b> The video tutorial will guide you on how to create upsell order bump offers on your checkout page with Upsell Order Bump Offer &#8230;</p>
+</div>
+<div class="youtube-item" id="f2R9owV1kOE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=f2R9owV1kOE">2) How To Add An Upsell To Your WooCommerce Checkout | Order Bump</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-26</span></p>
+<p class="description"><b>Short description:</b> Learn how to add an upsell to your WooCommerce checkout on WordPress MY COURSES: 🟣 Elementor Mobile Responsive &#8230;</p>
+</div>
+<div class="youtube-item" id="XzLhsO2YaEM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=XzLhsO2YaEM">3) Upsell Order Bump Offer For WooCommerce Pro: Give Bump Offers Right During Checkout &amp; Increase Sales</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-08-19</span></p>
+<p class="description"><b>Short description:</b> Are you looking to delight your customers this festive season, with upsell, offers right on the checkout page? So they can have &#8230;</p>
+</div>
+<div class="youtube-item" id="OFvAJqr-T4w">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=OFvAJqr-T4w">4) Set Up WooCommerce UpSells, Cross-Sells &amp; Discounts  [Promo Made Easy]</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-09-27</span></p>
+<p class="description"><b>Short description:</b> Setting up Up-Sells and Cross-Sells and discounts in WooCommerce is easy once you added your first products. Check the How &#8230;</p>
+</div>
+<div class="youtube-item" id="BpFq9B4YGRM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BpFq9B4YGRM">5) How Upsell Order Bump Offer For WooCommerce Pro helped Jack Warner  Increase Average Order Value?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-04-25</span></p>
+<p class="description"><b>Short description:</b> Get to know how Upsell Order Bump Offer For WooCommerce Pro helped Jack Warner to increase his average order value of the &#8230;</p>
+</div>
+<div class="youtube-item" id="AJRa0aghVNE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=AJRa0aghVNE">6) WooCommerce One-Click Upsells: How to Create Profitable Post Purchase Offers (2021 MASTERCLASS)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-22</span></p>
+<p class="description"><b>Short description:</b> Only rookies focus on front-end, pros know that the profits are in the back-end” Post-purchase one-click upsells help in boosting &#8230;</p>
+</div>
+<div class="youtube-item" id="PvyKF8WEkAk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=PvyKF8WEkAk">7) One-Click Upsell Funnel For WooCommerce Tutorial 2022[Free Version]: Part 1: Installation and Setup</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-06</span></p>
+<p class="description"><b>Short description:</b> One-click offers always captivate customers&#8217; attention and evoke them to shop more from you. The video tutorial explains One &#8230;</p>
+</div>
+<div class="youtube-item" id="pGjrRZ1vGok">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=pGjrRZ1vGok">8) Upsells, Cross-sells and Custom Related Product free Plugin for Woocommerce Business scaling</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-08-28</span></p>
+<p class="description"><b>Short description:</b> Related products are a great way to provoke customers to buy more stuff. &#8220;You may also like&#8221; &#038; &#8220;People also bought&#8221; tabs display &#8230;</p>
+</div>
+<div class="youtube-item" id="bBAySBI-7Fs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=bBAySBI-7Fs">9) WooCommerce Upsells: How to Customize Post-Purchase Funnel Pages | Show multiple Products on a page</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-02</span></p>
+<p class="description"><b>Short description:</b> WooCommerce Upsells (Post-Purchase) help boosts the order value automatically. Offer relevant products after securing the &#8230;</p>
+</div>
+<div class="youtube-item" id="q4UoFsSHpGg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=q4UoFsSHpGg">10) Boost Sales for WooCommerce – Set up Up-Sells &amp; Cross sells|Frequently Bought Together For WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-24</span></p>
+<p class="description"><b>Short description:</b> Download:https://bit.ly/3jr5a4E WooCommerce Boost Sales stimulates the purchase of customers by up-selling, cross-selling.</p>
+</div>
+<div class="youtube-item" id="ds8_mWNlwG0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ds8_mWNlwG0">11) How To Replace The Main Order With a CartFlows Order Bump Or Upsell</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-09-08</span></p>
+<p class="description"><b>Short description:</b> In this CartFlows tutorial, I will show you how to replace the main order with a CartFlows order bump or upsell. The features go &#8230;</p>
+</div>
+<div class="youtube-item" id="CCHqwGY_DQU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=CCHqwGY_DQU">12) Como Fazer Upsell, Order Bump e Cross-Sell na Loja WooCommerce [Aumentar as Vendas]</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-11-02</span></p>
+<p class="description"><b>Short description:</b> Aprenda neste Tutorial Como aumentar as vendas de uma Loja criada com WordPress e WooCommerce, através das estratégias &#8230;</p>
+</div>
+<div class="youtube-item" id="cagYPks1LLk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=cagYPks1LLk">13) How To Make A Sales Funnel Website With WordPress &#8211; Including, Checkout, Order Bumps, &amp; Upsells</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-04-23</span></p>
+<p class="description"><b>Short description:</b> Ready to learn how to make a sales funnel website? Perfect for sales funnels, lead gen funnels, application funnels. It&#8217;s all pretty &#8230;</p>
+</div>
+<div class="youtube-item" id="aTbxmOd6tuw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=aTbxmOd6tuw">14) Upsell    Marketing strategy with WooCommerce Boost Sales</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-09</span></p>
+<p class="description"><b>Short description:</b> You are looking for a tool that can do upselling products on your site. WooCommerce Boost Sales plugin will support you with this &#8230;</p>
+</div>
+<div class="youtube-item" id="Z2FE0bADmXk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Z2FE0bADmXk">15) Setup WooCommerce upsell and cross sell product| Quick Tips</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-01-27</span></p>
+<p class="description"><b>Short description:</b> In this video, I will show you how to setup woocommerce upsell and cross sell products. Setting up upsells and cross sells product &#8230;</p>
+</div>
+<div class="youtube-item" id="T3332nEYj3s">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=T3332nEYj3s">16) Upsells vs. Order Bumps | What&#39;s The Difference?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-17</span></p>
+<p class="description"><b>Short description:</b> REGISTER FOR THE NEXT EVENT: https://lu.ma/samcart-takeover-live 👈 Ready to Launch Your Samcart Course?</p>
+</div>
+<div class="youtube-item" id="_sWc5XEqmZg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=_sWc5XEqmZg">17) WooCommerce Boost Sales &#8211; Upsells &amp; Cross Sells Popups &amp; Discount [WordPress eCommerce]</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-04-02</span></p>
+<p class="description"><b>Short description:</b> PHPScripts #WordPressPlugins #eCommerceplugins #JavaScriptTemplates #HTML5Templates Buy it: &#8230;</p>
+</div>
+<div class="youtube-item" id="tTONdbz-8lo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=tTONdbz-8lo">18) Install and Use WooCommerce Checkout Upsell Funnel.</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-30</span></p>
+<p class="description"><b>Short description:</b> WooCommerce Checkout Upsell Funnel is a WooCommerce extension that helps you to offer the product suggestions, and the &#8230;</p>
+</div>
+<div class="youtube-item" id="a7h-OM6zOcg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=a7h-OM6zOcg">19) Setup Upsell and Cross Sell in WooCommerce Website | WordPress Theme | ThemeHunk</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-12</span></p>
+<p class="description"><b>Short description:</b> Big Store Free : https://themehunk.com/product/big-store/​ Big Store Pro : https://themehunk.com/product/big-store-pro/ This video &#8230;</p>
+</div>
+<div class="youtube-item" id="PZSWa9ri4XM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=PZSWa9ri4XM">20) How To Do Upselling Using One-Click Upsell Funnel For WooCommerce Pro?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-06-08</span></p>
+<p class="description"><b>Short description:</b> Wanna know, How to upsell customers in your WooCommerce stores? Want To Earn More Revenue and Make More On Every &#8230;</p>
+</div>
+<div class="youtube-item" id="Wa3NL4oy-tE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Wa3NL4oy-tE">21) One-Click Upsell Funnel For WooCommerce Tutorial 2022 Part 2: How to Create One-Click Offers Funnel?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-01-18</span></p>
+<p class="description"><b>Short description:</b> Are you looking for a one-click upsell plugin for your WordPress website or WooCommerce store to set up a funnel of offers and &#8230;</p>
+</div>
+<div class="youtube-item" id="w2BUuzlLBno">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=w2BUuzlLBno">22) WooCommerce Increase Revenue 30% With Multiple Order Bumps By CartFlows</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-07-21</span></p>
+<p class="description"><b>Short description:</b> CartFlows order bumps can increase revenue of WooCommerce stores by up to 30%. And now you can generate more revenue &#8230;</p>
+</div>
+<div class="youtube-item" id="yIMxGWqiI7k">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yIMxGWqiI7k">23) WooCommerce Notification | Boost Your Sales &#8211; Live Feed Sales &#8211; Recent Sales Popup &#8211; Upsells PLUGIN</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-12</span></p>
+<p class="description"><b>Short description:</b> WooCommerce Notification | Boost Your Sales &#8211; Live Feed Sales &#8211; Recent Sales Popup &#8211; Upsells PLUGIN &#8230;</p>
+</div>
+<div class="youtube-item" id="5FWElOFw1tw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=5FWElOFw1tw">24) The BEST WooCommerce One-click Upsells Plugin With Built-in AB Testing (THIS is a GAME-CHANGER!)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-04-21</span></p>
+<p class="description"><b>Short description:</b> See the best One-click Upsells plugin for WooCommerce with built-in AB Testing&#8230;WooFunnels! Once you see how to set up your &#8230;</p>
+</div>
+<div class="youtube-item" id="bCfRP7vrSk8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=bCfRP7vrSk8">25) Sales Funnels Without WooCommerce or ClickFunnels | Upsell Plugin Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-05-21</span></p>
+<p class="description"><b>Short description:</b> ProfitableTools #WordPress #WooCommerce #salesfunnels Building sales funnels on WordPress typically means using a &#8230;</p>
+</div>
+<div class="youtube-item" id="z4pvogxKbQw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=z4pvogxKbQw">26) How to Add Product Bundle Discount Dynamic Pricing WooCommerce to Increase Sales Easy Step by Step</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-21</span></p>
+<p class="description"><b>Short description:</b> Do you want to increase sales for your WooCommerce store? In this video, I&#8217;ll show you how to install and configure a product &#8230;</p>
+</div>
+<div class="youtube-item" id="vvrHeOOSWXI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vvrHeOOSWXI">27) Top 5  Upselling Ideas To Create Upsell Offers[2022]</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-02-27</span></p>
+<p class="description"><b>Short description:</b> The top 5 WooCommerce upsell techniques that can help you to increase the average order value and customer satisfaction rate.</p>
+</div>
+<div class="youtube-item" id="BJQiMFxqX0E">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BJQiMFxqX0E">28) How To Increase Sales With  One Click Upsell Funnel For WooCommerce Pro?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-04-30</span></p>
+<p class="description"><b>Short description:</b> Have you often faced that despite doing tremendous efforts, your sales are still not up to the mark? If so, we have a solution for you &#8230;</p>
+</div>
+<div class="youtube-item" id="JiJk055rDw8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JiJk055rDw8">29) WooFunnels EXPLAINED &#8211; Do you still need AeroCheckout, Upstroke and Order Bumps?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-03-25</span></p>
+<p class="description"><b>Short description:</b> This video explains WooFunnels and why you don&#8217;t need AeroCheckout, Order Bumps or One Click Upsells as the standalone &#8230;</p>
+</div>
+<div class="youtube-item" id="Qdj4ih-ekK0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Qdj4ih-ekK0">30) How Can Upselling in WooCommerce Store Bring Huge Sales?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-10-17</span></p>
+<p class="description"><b>Short description:</b> The right upselling techniques in your WooCommerce stores can bring huge conversions on the checkout page because the &#8230;</p>
+</div>
+<div class="youtube-item" id="K2SycaZdsnY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=K2SycaZdsnY">31) How To Implement One Click Upsell in Your WooCommerce Store?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-08-31</span></p>
+<p class="description"><b>Short description:</b> Check Our Updated Demo Video on One Clic Upsell for WooComerce: https://www.youtube.com/watch?v=Wa3NL4oy-tE Get One &#8230;</p>
+</div>
+<div class="youtube-item" id="QFEEv54j58M">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QFEEv54j58M">32) WooCommerce Order Bump &amp; Warenkorb Upsell = Mehr Umsatz pro Kunde 💵</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-28</span></p>
+<p class="description"><b>Short description:</b> Mehr Umsatz pro Kunde und einen höheren Warenkorbwert? Mit diesen 2 Plugins geht das ganz einfach im WooCommerce &#8230;</p>
+</div>
+<div class="youtube-item" id="T4kjLsy5iS0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=T4kjLsy5iS0">33) OrderBump Shopify Plus Upsell Tool: Demo and Review in 5 Minutes or More | Ecommerce Tech</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-04-17</span></p>
+<p class="description"><b>Short description:</b> To try out OrderBump, go here: https://ecomtech.link/orderbump OrderBump is a Shopify Plus app that helps you display offers for &#8230;</p>
+</div>
+<div class="youtube-item" id="ya9YMi8BH18">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ya9YMi8BH18">34) Woocommerce: Up-Sell with Grouped Products</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-09-27</span></p>
+<p class="description"><b>Short description:</b> Want to sell more products or offer custom packages with WooCommerce for WordPress? Then Grouped Products is for you.</p>
+</div>
+<div class="youtube-item" id="J9gY2pdX5tQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=J9gY2pdX5tQ">35) How to create popup template for single upsell product (Woocommerce Upsell Popup)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-05-23</span></p>
+<p class="description"><b>Short description:</b> Instructional video for Woocommerce Upsell Popup plugin. https://woocommerce.upsellpopup.com/</p>
+</div>
+<div class="youtube-item" id="4KrDwKzjxkA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4KrDwKzjxkA">36) Checkout X + Woocommerce = More Sales = More Revenue</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-05-17</span></p>
+<p class="description"><b>Short description:</b> Have you been looking for a better checkout experience? Checkout X can help. It&#8217;s the best way to make your transactions faster &#8230;</p>
+</div>
+<div class="youtube-item" id="IFDyQ_tH81Q">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IFDyQ_tH81Q">37) How to Create a Product Recommendation Popup for WooCommerce (Upsell/Cross-Sell Made EASY)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-08-04</span></p>
+<p class="description"><b>Short description:</b> Do you want to boost sales on your WooCommerce Store with a Product Recommendation Popup? Product Recommendation &#8230;</p>
+</div>
+<div class="youtube-item" id="sOTGjhfKwoU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=sOTGjhfKwoU">38) CANDY RACK UPSELL REVIEW! The BEST Upsell App for Shopify Dropshipping 2021 (FULL TUTORIAL)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-01-01</span></p>
+<p class="description"><b>Short description:</b> JOIN MY DISCORD SERVER! (FREE) https://discord.gg/UYVPWte9BK 🔥PURCHASE INFLUENCER DATABASE (2000+ &#8230;</p>
+</div>
+<div class="youtube-item" id="TQsjAXfQy7Y">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=TQsjAXfQy7Y">39) Post Purchase Upsell Add-on for Alidropship plugin (WordPress)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-05-27</span></p>
+<p class="description"><b>Short description:</b> This add-on allows you to create an unlimited number of offers to motivate customers to buy more right after successful order &#8230;</p>
+</div>
+<div class="youtube-item" id="ZbXRsseaf7s">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ZbXRsseaf7s">40) How is WooCommerce Upselling a Best Checkout Practice To Delight Customers and Increase Revenue?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-03-05</span></p>
+<p class="description"><b>Short description:</b> The WooCommerce upsell providing amazing one-click offers to the customers on the checkout page delights their shopping &#8230;</p>
+</div>
+<div class="youtube-item" id="p3bvR2UjsJg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=p3bvR2UjsJg">41) How To Offer WooCommerce One Click Upsells Using PayPal Without Reference Transactions</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-04-30</span></p>
+<p class="description"><b>Short description:</b> Thought you needed PayPal reference transactions to offer one click upsells to your buyer on your WooCommerce website?</p>
+</div>
+<div class="youtube-item" id="QVFquPjz68c">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QVFquPjz68c">42) WooCommerce Boost Sales -UPSELL, CROSS-SELL &amp; COUPON DISCOUNT (Updated Version)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-05-15</span></p>
+<p class="description"><b>Short description:</b> Woocommerce Boost sales allows upselling, cross-selling products and discount popup. As a result, we can sell more products &#8230;</p>
+</div>
+<div class="youtube-item" id="GkOoj8bp-D4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=GkOoj8bp-D4">43) Discounted Upsells &#8211; Getting Started</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-02-22</span></p>
+<p class="description"><b>Short description:</b> A quick setup guide to getting setup with Discounted Upsells https://apps.shopify.com/discounted-upsells.</p>
+</div>
+<div class="youtube-item" id="WpWf8hGmnNo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=WpWf8hGmnNo">44) Get More Sales With WooCommerce One Click Upsell Pro</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-08-08</span></p>
+<p class="description"><b>Short description:</b> Everyone wants to increase their business revenue. But, how many actually able to do that? To Know More About Upsell, Please &#8230;</p>
+</div>
+<div class="youtube-item" id="Rx7Nx9AbQfg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Rx7Nx9AbQfg">45) Free WordPress Upsell Plugin</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-22</span></p>
+<p class="description"><b>Short description:</b> In this video, we explain how to use the free WordPress Upsell plugin. You can get free access to Cartfuel here: &#8230;</p>
+</div>
+<div class="youtube-item" id="gL52Ig0g0Uk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gL52Ig0g0Uk">46) The Best FREE Shopify Upsell App</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-04-07</span></p>
+<p class="description"><b>Short description:</b> Vanga App: https://apps.shopify.com/upsellin In this video I show you how to add upsells to your Shopify Dropshipping &#8230;</p>
+</div>
+<div class="youtube-item" id="MbPYzX4gelo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=MbPYzX4gelo">47) One-Click Upsell Funnel  For WooCommerce Pro: Why is Upselling Necessary For Your WooCommerce Store?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-08-29</span></p>
+<p class="description"><b>Short description:</b> One-Click Upsell Funnel For WooCommerce Pro helps the admin to create customizable offer pages on the WooCommerce store.</p>
+</div>
+<div class="youtube-item" id="Ef_8L0Xzp14">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Ef_8L0Xzp14">48) How To Grow Your WooCommerce Sales With One Click Upsell Funnel For WooCommerce Pro During Festive?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-07-15</span></p>
+<p class="description"><b>Short description:</b> Customers want to be considered and helped before they purchase from you. It&#8217;s festive, a golden time to make it happen. It&#8217;s the &#8230;</p>
+</div>
+<div class="youtube-item" id="Tw8pPNTziDw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Tw8pPNTziDw">49) How to Boost Repeat Sales with Targeted Product Upsell SMS | SMSBump for Shopify</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-08-13</span></p>
+<p class="description"><b>Short description:</b> Get extra post-purchase sales with automatic product upsells using text messages for customers who just made an order in your &#8230;</p>
+</div>
+<div class="youtube-item" id="k6ovjmPuZ6Y">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=k6ovjmPuZ6Y">50) Speed Up Ordering with a WooCommerce Popup Cart &amp; Checkout</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-23</span></p>
+<p class="description"><b>Short description:</b> 0:00 Introduction 1:14 Installing the WooCommerce Fast Cart plugin 1:43 Plugin Settings 2:54 WooCommerce Fast Cart in &#8230;</p>
+</div>
+</div>
+</div>
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-9 wp-block-group">
+<div class="wp-container-8 wp-block-group">
+<div style="font-style:italic; font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2022-06-08T15:30:04+00:00">June 8, 2022</time></div>
+
+<div class="wp-block-post-author has-small-font-size"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name">Imoptimal</p></div></div>
+
+<div class="taxonomy-category wp-block-post-terms has-small-font-size"><a href="/tutorials/wordpress-plugin/" rel="tag">Plugin Tutorials</a></div>
+
+</div>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator is-style-wide">
+
+
+</div>
+</main>
+
+
+<footer class="wp-block-template-part">
+<div class="wp-container-16 wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
+<div class="wp-container-15 wp-block-group alignfull">
+<div class="wp-container-14 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
+<div class="wp-container-13 wp-block-columns">
+<div class="wp-container-11 wp-block-column">
+<p><a href="https://plugin.wphowto.tv/" target="_blank" rel="noreferrer noopener">WP HOW TO &#8211; WordPress plugin</a></p>
+</div>
+
+
+
+<div class="wp-container-12 wp-block-column">
+<p><a href="https://plugin.wphowto.tv/privacy-policy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></p>
+</div>
+</div>
+
+
+
+<p class="has-text-align-right">Created with <a rel="noreferrer noopener" href="https://sr.wordpress.org/plugins/simply-static/" target="_blank">Simply Static</a> &amp; <a rel="noreferrer noopener" href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+		<style id="skip-link-styles">.skip-link.screen-reader-text {
+			border: 0;
+			clip: rect(1px,1px,1px,1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip: auto !important;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}</style>
+		<script>
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		// Get the site wrapper.
+		// The skip-link will be injected in the beginning of it.
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	</script>
+	<script src="/wp-content/themes/twentytwentytwo-child/script.js?ver=1.0.0" id="wphowtotv-script-js"></script>
+<script src="https://www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js?ver=1.0.0" id="wphowtotv-cookies-script-js"></script>
+<script src="/wp-content/themes/twentytwentytwo-child/cookies-consent.js?ver=1.0.0" id="wphowtotv-cookies-code-script-js"></script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+/*
+ Theme Name:   Twenty Twenty Two Custom Extension
+ Description:  For Wphowto.tv
+ Author:       Ivan Maljukanovic
+ Author URI:   https://imoptimal.com
+ Template:     twentytwentytwo
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  twentytwentytwochild
+*/
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 2px 0 #ff6666;
+    box-shadow: inset 2px 0 #ff6666;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff6666;
+    border-radius: 10px;
+}
+
+body {
+    color: #fbf0de;
+    background-color: #000000;
+    margin-top: 50px;
+}
+
+div {
+    background-color: #000000 !important;
+    color: #fbf0de !important;
+}
+
+a {
+    color: #ff6666 !important;
+}
+
+a:hover {
+    color: #FBE81C !important;
+}
+
+button {
+    background-color: #ff6666 !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+button:hover {
+    background-color: #FBE81C !important;
+    cursor: pointer !important;
+}
+
+select,
+option {
+    max-width: 90% !important;
+}
+
+header.premium-only~main {
+    margin-top: 50px !important;
+}
+
+.relevance-filter,
+.date-filter {
+    display: inline-block;
+    position: relative;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+.selected {
+    color: #FBE81C !important;
+}
+
+.relevance-filter.selected,
+.date-filter.selected,
+.favourite.selected {
+    color: #000000 !important;
+    background-color: #FBE81C !important;
+}
+
+#youtube-player {
+    position: relative;
+    width: 95%;
+    height: 300px;
+    border: 2px solid #fbf0de;
+}
+
+.first-played {
+    margin-top: 20px !important;
+}
+
+.sticky {
+    position: fixed !important;
+    top: 0;
+    height: 200px;
+}
+
+.playing {
+    color: #FBE81C !important;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.premium-only {
+    display: none !important;
+}
+
+.buy-premium {
+    display: block;
+    margin: 0 auto;
+}
+
+.wp-block-post-date a {
+    color: #fbf0de !important;
+    text-decoration: none !important;
+}
+
+.wp-block-spacer,
+.wp-block-post-author__name {
+    display: none !important;
+}
+
+
+/* Google Custom Search */
+
+.gcse-icon {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    background-image: url("/wp-content/themes/twentytwentytwo-child/img/iconmonstr-magnifier-pink.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gcse-icon:hover {
+    cursor: pointer;
+    background-image: url("/wp-content/themes/twentytwentytwo-child/img/iconmonstr-magnifier-yellow.png");
+}
+
+.gcse-icon.clicked {
+    background-image: url("/wp-content/themes/twentytwentytwo-child/img/iconmonstr-magnifier-yellow.png");
+}
+
+.gcse-parent {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    width: 50%;
+    min-width: 250px;
+    z-index: 100;
+}
+
+.gcse-parent.clicked {
+    display: block;
+}
+
+.gsc-control-cse {
+    background-color: black !important;
+    border: none !important;
+}
+
+.gsc-search-button,
+.gsc-search-button button {
+    background-color: #ff6666 !important;
+    border: none !important;
+}
+
+.gsc-search-button svg {
+    fill: #fbf0de !important;
+}
+
+.gsc-search-button:hover,
+.gsc-search-button:hover>button {
+    background-color: #FBE81C !important;
+}
+
+.gsc-search-button:hover>svg {
+    fill: black !important;
+}
+
+.gsc-results-wrapper-overlay {
+    top: 10% !important;
+    left: 5% !important;
+    right: 5% !important;
+    width: 75% !important;
+    height: 75% !important;
+}
+
+iframe[title="Ads by Google"] {
+    display: none !important;
+}
+
+a.gs-title,
+.gsc-cursor-page {
+    color: #ff6666 !important;
+    background-color: black;
+    border-radius: 50px 50px 50px 0;
+    padding: 5px 10px;
+    -webkit-box-shadow: 5px 5px #ff6666;
+    box-shadow: 5px 5px #ff6666;
+}
+
+a.gs-title:hover,
+.gsc-cursor-page:hover {
+    color: #fbf0de !important;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+a.gs-title b {
+    color: #fbf0de !important;
+}
+
+.gs-visibleUrl {
+    color: black !important;
+}
+
+.gs-snippet b {
+    font-size: 16px !important;
+    text-decoration: underline;
+    color: black;
+}
+
+.gsc-cursor-current-page {
+    color: black !important;
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.gcsc-more-maybe-branding-root {
+    display: none;
+}
+
+
+/* Cookies Consent Styling */
+
+.cc-cp-body-tabs-item-link {
+    background-color: black !important;
+}
+
+.cc-cp-body-tabs-item[active=true] a {
+    border: solid 2px #FBE81C !important;
+    background-color: black !important;
+}

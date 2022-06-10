@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="max-image-preview:large">
+<title>Plugin: WunderWP – Reusable &#038; Preset Widget Styles and Templates for Elementor &#8211; wphowto.tv</title>
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="wphowto.tv &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="wphowto.tv &raquo; Comments Feed" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="wphowto.tv &raquo; Plugin: WunderWP – Reusable &#038; Preset Widget Styles and Templates for Elementor Comments Feed" href="/wordpress-plugin/wunderwp/feed/">
+<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
+<style id="wp-block-group-inline-css">.wp-block-group{box-sizing:border-box}
+:where(.wp-block-group.has-background){padding:1.25em 2.375em}</style>
+<style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label{word-break:normal;overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}</style>
+<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.0" media="all">
+<style id="wp-block-template-part-inline-css">.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
+<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word}.wp-block-post-title a{display:inline-block}</style>
+<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}</style>
+<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border-top:1px solid;border-bottom:1px solid}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
+.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}</style>
+<style id="wp-block-spacer-inline-css">.wp-block-spacer{clear:both}</style>
+<style id="wp-block-post-author-inline-css">.wp-block-post-author{display:flex;flex-wrap:wrap}.wp-block-post-author__byline{width:100%;margin-top:0;margin-bottom:0;font-size:.5em}.wp-block-post-author__avatar{margin-right:1em}.wp-block-post-author__bio{margin-bottom:.7em;font-size:.7em}.wp-block-post-author__content{flex-grow:1;flex-basis:0}.wp-block-post-author__name{margin:0}</style>
+<style id="wp-block-post-terms-inline-css">.wp-block-post-terms__separator{white-space:pre-wrap}</style>
+<style id="wp-block-post-comments-inline-css">.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{content:"";display:table;clear:both}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-top:.5em;margin-right:.75em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{margin-top:1em;margin-bottom:1em;display:block}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{display:block;box-sizing:border-box;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-size:1em;font-family:inherit}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}.wp-block-post-comments input[type=submit]{border:none}</style>
+<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-button.aligncenter{text-align:center}</style>
+<style id="wp-block-button-inline-css">.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;cursor:pointer;display:inline-block;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-align:center;text-decoration:none;word-break:break-word;box-sizing:border-box}.wp-block-button__link:active,.wp-block-button__link:focus,.wp-block-button__link:hover,.wp-block-button__link:visited{color:#fff}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.is-style-outline>:where(.wp-block-button__link),:where(.wp-block-button__link).is-style-outline{border:2px solid;padding:.667em 1.333em}.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent}</style>
+<style id="wp-block-paragraph-inline-css">.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}p.has-drop-cap.has-background{overflow:hidden}p.has-background{padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}</style>
+<style id="wp-block-columns-inline-css">.wp-block-columns{display:flex;margin-bottom:1.75em;box-sizing:border-box;flex-wrap:wrap!important;align-items:normal!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;word-break:break-word;overflow-wrap:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}</style>
+<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color),html :where([style*=border-width]){border-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0; }body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);--wp--style--block-gap: 1.5rem;}.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: var( --wp--style--block-gap ); }h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}a{color: var(--wp--preset--color--foreground);}.wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}.wp-block-post-comments{padding-top: var(--wp--custom--spacing--small);}.wp-block-pullquote{border-width: 1px 0;}.wp-block-query-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}.wp-block-quote{border-width: 1px;}.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="wp-webfonts-inline-css">@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}</style>
+<link rel="stylesheet" id="wphowtotv-style-css" href="/wp-content/themes/twentytwentytwo-child/style.css?ver=1.0.0" media="all">
+<link rel="stylesheet" id="twentytwentytwo-style-css" href="/wp-content/themes/twentytwentytwo/style.css?ver=1.0.0" media="all">
+<script src="/wp-includes/blocks/navigation/view.min.js?ver=009e29110e016c14bac4ba0ecc809fcd" id="wp-block-navigation-view-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/33754">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 6.0">
+<link rel="canonical" href="/wordpress-plugin/wunderwp/">
+<link rel="shortlink" href="/?p=33754">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=httplocalhost%3A10015%2Fwordpress-plugin%2Fwunderwp%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=httplocalhost%3A10015%2Fwordpress-plugin%2Fwunderwp%2F&#038;format=xml">
+<style>.wp-container-1 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-1 > * { margin: 0; }</style>
+<style>.wp-container-3 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: flex-end;}.wp-container-3 > * { margin: 0; }</style>
+<style>.wp-container-4 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-4 > * { margin: 0; }</style>
+<style>.wp-container-5 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-5 > .alignwide { max-width: 1000px;}.wp-container-5 .alignfull { max-width: none; }.wp-container-5 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-5 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-5 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-5 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-5 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-6 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-6 > .alignwide { max-width: 1000px;}.wp-container-6 .alignfull { max-width: none; }.wp-container-6 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-6 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-6 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-6 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-6 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-7 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-7 > .alignwide { max-width: 1000px;}.wp-container-7 .alignfull { max-width: none; }.wp-container-7 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-7 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-7 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-7 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-7 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-8 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-8 > * { margin: 0; }</style>
+<style>.wp-container-9 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-9 > .alignwide { max-width: 1000px;}.wp-container-9 .alignfull { max-width: none; }.wp-container-9 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-9 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-9 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-9 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-9 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-10 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-10 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-10 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-10 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-10 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-11 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-11 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-11 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-11 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-11 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-12 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-12 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-12 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-12 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-12 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-13 {display: flex;gap: var( --wp--style--block-gap, 2em );flex-wrap: nowrap;align-items: center;}.wp-container-13 > * { margin: 0; }</style>
+<style>.wp-container-14 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-14 > * { margin: 0; }</style>
+<style>.wp-container-15 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-15 > .alignwide { max-width: 1000px;}.wp-container-15 .alignfull { max-width: none; }.wp-container-15 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-15 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-15 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-15 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-15 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<style>.wp-container-16 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-16 > .alignwide { max-width: 1000px;}.wp-container-16 .alignfull { max-width: none; }.wp-container-16 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-16 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-16 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-16 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-16 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<link rel="icon" href="/wp-content/uploads/2022/06/wp-how-to-150x150.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2022/06/wp-how-to-e1654198534227.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2022/06/wp-how-to-e1654198534227.png">
+<meta name="msapplication-TileImage" content="httplocalhost:10015/wp-content/uploads/2022/06/wp-how-to-e1654198534227.png">
+</head>
+
+<body class="post-template-default single single-post postid-33754 single-format-standard wp-custom-logo wp-embed-responsive">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
+<div class="wp-site-blocks">
+<header class="wp-block-template-part">
+<div class="wp-container-5 wp-block-group">
+<div class="wp-container-4 wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
+<div class="wp-container-1 wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img loading="lazy" width="150" height="83" src="/wp-content/uploads/2022/06/wp-how-to-e1654198534227.png" class="custom-logo" alt="wphowto.tv"></a></div></div>
+
+
+<nav class="wp-container-3 is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+			<div class="wp-block-navigation__responsive-container  " id="modal-2">
+				<div class="wp-block-navigation__responsive-close" tabindex="-1" data-micromodal-close>
+					<div class="wp-block-navigation__responsive-dialog" aria-label="Menu">
+							<button aria-label="Close menu" data-micromodal-close class="wp-block-navigation__responsive-container-close"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"></path></svg></button>
+						<div class="wp-block-navigation__responsive-container-content" id="modal-2-content">
+							<ul class="wp-block-navigation__container">
+<li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="/tutorials/wordpress-topic/"><span class="wp-block-navigation-item__label">How to Tutorials</span></a></li>
+<li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="/tutorials/wordpress-plugin/"><span class="wp-block-navigation-item__label">Plugin Tutorials</span></a></li>
+</ul>
+						</div>
+					</div>
+				</div>
+			</div></nav>
+</div>
+</div>
+</header>
+
+
+<main class="wp-container-10 wp-block-group">
+<div class="wp-container-6 wp-block-group">
+<h1 style="margin-bottom: var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: WunderWP – Reusable &#038; Preset Widget Styles and Templates for Elementor</h1>
+
+
+
+
+<hr class="wp-block-separator alignwide is-style-wide">
+</div>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-container-7 entry-content wp-block-post-content">
+<p><iframe id="youtube-player" loading="lazy" src="https://www.youtube.com/embed/?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<div class="youtube-videos">
+<div class="youtube-item" id="nW4vduTqD64">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=nW4vduTqD64">1) WunderWP v1.4: Quickly build your Elementor page with preset and reusable styles or templates!</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-01-22</span></p>
+<p class="description"><b>Short description:</b> [v1.4] Introducing the new page and section templates! Now you can save an entire Elementor page template or its individual &#8230;</p>
+</div>
+<div class="youtube-item" id="SX1xmMGjSyM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SX1xmMGjSyM">2) How To Create An Elementor WordPress Website in 2022 ~ An Elementor Tutorial For Beginners Free</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-11-26</span></p>
+<p class="description"><b>Short description:</b> HOW TO CREATE AN ELEMENTOR WEBSITE FOR FREE 2022 This How to Make an Elementor WordPress Website for Free &#8230;</p>
+</div>
+<div class="youtube-item" id="w9cfA_l6oD0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=w9cfA_l6oD0">3) Create a Complete WordPress Website Using Elementor Kits and Theme Builder</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-11-11</span></p>
+<p class="description"><b>Short description:</b> Creating a complete WordPress website might seem daunting at times. But no worries &#8211; we are here to help! In this tutorial, you&#8217;ll &#8230;</p>
+</div>
+<div class="youtube-item" id="EFpkXMyFReM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EFpkXMyFReM">4) BEST &amp; FREE Elementor Plugins and Addons for WordPress Templates, Widgets &amp; Custom Header &amp; Footer</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-12-02</span></p>
+<p class="description"><b>Short description:</b> BEST &#038; FREE Elementor Plugins and Addons for FREE WordPress Templates, Widgets &#038; Custom Header &#038; Footer.</p>
+</div>
+<div class="youtube-item" id="KrEgYrXD9SI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=KrEgYrXD9SI">5) Elementor WordPress Tutorial 2022 ~ A Complete Elementor Page Builder For WordPress Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-02-13</span></p>
+<p class="description"><b>Short description:</b> ELEMENTOR FOR BEGINNERS 2022 This complete Elementor for WordPress tutorial for 2022 covers all the steps needed to &#8230;</p>
+</div>
+<div class="youtube-item" id="otyTx9WNq1w">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=otyTx9WNq1w">6) How To Use Elementor Templates</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-01-27</span></p>
+<p class="description"><b>Short description:</b> Making your WordPress website look professional can be hard especially if you are not a designer yourself. In this video, I will &#8230;</p>
+</div>
+<div class="youtube-item" id="E15iQEm9KF8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=E15iQEm9KF8">7) Elementor WordPress Tutorial &#8211; The Basics in 10 Minutes</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-08-05</span></p>
+<p class="description"><b>Short description:</b> In this Elementor WordPress Tutorial, I shall explain to you the basics of Elementor in 10 minutes showing you how Elementor &#8230;</p>
+</div>
+<div class="youtube-item" id="VwTk-uhWLbU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=VwTk-uhWLbU">8) Elementor WooCommerce Product Page Customization</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-08-09</span></p>
+<p class="description"><b>Short description:</b> Elementor WooCommerce Product Page customisation with Elementor Pro &#8211; your step-by-step guide to building your own custom &#8230;</p>
+</div>
+<div class="youtube-item" id="tm_FEaULxf8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=tm_FEaULxf8">9) Elementor Complete Tutorial 2022 ~ Build a Full Website with Elementor</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-08</span></p>
+<p class="description"><b>Short description:</b> ELEMENTOR TUTORIAL FOR BEGINNERS 2022 This how to make a Elementor website for beginners tutorial for 2022 covers all &#8230;</p>
+</div>
+<div class="youtube-item" id="fNaz9BOjdaE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=fNaz9BOjdaE">10) ELEMENTOR 3.0 Global Styles &amp; Theme Builder Explained &#8211; Full Walkthrough</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-08-11</span></p>
+<p class="description"><b>Short description:</b> Elementor 3.0 will soon be released and in this walkthrough, I&#8217;ll show you how to can use the new Global Styles &#038; Theme Builder &#8230;</p>
+</div>
+<div class="youtube-item" id="a67W7gRzK1w">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=a67W7gRzK1w">11) How to Create A Slider in WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-05-29</span></p>
+<p class="description"><b>Short description:</b> 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗵𝗲 𝗽𝗹𝘂𝗴𝗶𝗻 ➜ https://websitelearners.com/get/smartslider 🔥 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗕𝗲𝗴𝗶𝗻𝗻𝗲𝗿 &#8230;</p>
+</div>
+<div class="youtube-item" id="nmM5vsKVOYQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=nmM5vsKVOYQ">12) How to Use Elementor&#39;s Form Builder to Create a Form on WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-20</span></p>
+<p class="description"><b>Short description:</b> Learn how to create beautiful forms, with the ultimate drag &#038; drop WordPress form builder. No coding. Complete control. In this &#8230;</p>
+</div>
+<div class="youtube-item" id="qUF7HLdcjlg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=qUF7HLdcjlg">13) Create a custom WooCommerce Product Archive Elementor Pro &amp; Elementor Custom Skin</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-01-14</span></p>
+<p class="description"><b>Short description:</b> Create a custom WooCommerce Product Archive with Elementor Pro &#038; Elementor Custom Skin. If you&#8217;re looking for a quick and &#8230;</p>
+</div>
+<div class="youtube-item" id="jlUSbsX5AHQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=jlUSbsX5AHQ">14) Install Complete Elementor Template Kits For Free</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-04</span></p>
+<p class="description"><b>Short description:</b> In this video, I show you how to get 1840 professional and free templates for Elementor! What I love about these templates is that &#8230;</p>
+</div>
+<div class="youtube-item" id="Em8oIBGy6bs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Em8oIBGy6bs">15) Build Your First Page With Elementor Page Builder for WordPress 2018</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-08-19</span></p>
+<p class="description"><b>Short description:</b> Welcome to our FIRST STEPS tutorial. I&#8217;m gonna walk you through the first steps of page-building. In this tutorial, you&#8217;ll learn the &#8230;</p>
+</div>
+<div class="youtube-item" id="Ki5XBlid67A">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Ki5XBlid67A">16) The Basics of Dynamic Content in 15 Minutes</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-01</span></p>
+<p class="description"><b>Short description:</b> In this video, I explain in detail how you use dynamic content. The best way to add new content to the website from the back end, &#8230;</p>
+</div>
+<div class="youtube-item" id="QteosgBNe9Q">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QteosgBNe9Q">17) Design a Offset Slider with Elementor Pro &amp; Dynamic ooo</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-02-08</span></p>
+<p class="description"><b>Short description:</b> Learn how to create an offset / off canvas slider using the Dynamic Post Widget from Dynamic.ooo in Elementor Pro. Create &#8230;</p>
+</div>
+<div class="youtube-item" id="iLEr67qVHrg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=iLEr67qVHrg">18) Why you should NEVER start in Elementor, but in Adobe Xd (improve your web design process)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-07-14</span></p>
+<p class="description"><b>Short description:</b> He guys, today I&#8217;m finally answering the question of Why I always start in Adobe Xd with a web design project before I even touch &#8230;</p>
+</div>
+<div class="youtube-item" id="cpSxUt7gyLQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=cpSxUt7gyLQ">19) Free Elementor Pricing Table with Ribbon | WordPress Elementor Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-12-25</span></p>
+<p class="description"><b>Short description:</b> [No Coding &#8211; No Plugin] In this tutorial, using Elementor Free Version, I&#8217;ll show you How to Create a Pricing Table with Ribbon &#8230;</p>
+</div>
+<div class="youtube-item" id="Nap76tM6ToM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Nap76tM6ToM">20) Create Your First Landing Page With Elementor Pro</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-01-30</span></p>
+<p class="description"><b>Short description:</b> Welcome to the Elementor Basics Webinar. This Webinar will give you a basic breakdown of Elementor Pro and show you how to &#8230;</p>
+</div>
+<div class="youtube-item" id="b_pFelchBHc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=b_pFelchBHc">21) Create a Dynamic Real Estate Listing Website with Jet Engine from Crocoblock</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-23</span></p>
+<p class="description"><b>Short description:</b> In this video we&#8217;re going to use dynamic content in a Crocoblock Jet Engine WordPress website using the Elementor Pro page &#8230;</p>
+</div>
+<div class="youtube-item" id="Hw_Jj__hoV4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Hw_Jj__hoV4">22) 5 Free Elementor Add-ons | Best Free Plugins for Elementor. Elementor Addon. Elementor Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-06-27</span></p>
+<p class="description"><b>Short description:</b> Looking for FREE Elementor Add-ons to expand the possibilities of this already amazing Page Builder? 😍 Check out this list of 5 &#8230;</p>
+</div>
+<div class="youtube-item" id="_Lx2od2KqN4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=_Lx2od2KqN4">23) Dynamic Email for Elementor Pro Form &#8211; By Dynamic.ooo</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-29</span></p>
+<p class="description"><b>Short description:</b> Learn how to configure dynamic emails for Elementor Pro forms using the powerful Dynamic.ooo dynamic content for Elementor &#8230;</p>
+</div>
+<div class="youtube-item" id="QKIzgeTbDII">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QKIzgeTbDII">24) Elementor Tutorial For Beginners 2021</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-20</span></p>
+<p class="description"><b>Short description:</b> Elementor is the best free page builder for WordPress websites. Since Elementor is getting better and better all the time it is &#8230;</p>
+</div>
+<div class="youtube-item" id="4isDwEoVrkY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4isDwEoVrkY">25) Feedzy WordPress RSS Feeds Plugin Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-02-16</span></p>
+<p class="description"><b>Short description:</b> Learn how to add feeds to posts and pages on your WordPress website for free using Feedzy, a powerful RSS aggregator that &#8230;</p>
+</div>
+<div class="youtube-item" id="ICuykpqCtn4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ICuykpqCtn4">26) Elementor Pro Header Tutorial &#8211; Sticky Transparent Headers Hello Theme</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-06-04</span></p>
+<p class="description"><b>Short description:</b> Elementor Pro Header Tutorial with Hello Theme. Learn how to build a sticky, transparent header with Elementor Pro and the &#8230;</p>
+</div>
+<div class="youtube-item" id="4rug6q-67M0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4rug6q-67M0">27) GiveWP Review &amp; Tutorial &#8211; Learn The Best Way To Accept Donations On Any WordPress Website</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-05-10</span></p>
+<p class="description"><b>Short description:</b> GiveWP Review &#038; Tutorial &#8211; Learn The Best Way To Accept Donations On Any WordPress Website This video is actually a long &#8230;</p>
+</div>
+<div class="youtube-item" id="c6Dwyrj4wpE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=c6Dwyrj4wpE">28) Elementor Tutorial: How to Create Custom Headers with Elementor Pro</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-08-01</span></p>
+<p class="description"><b>Short description:</b> This Elementor Pro header tutorial will provide you with step-by-step instructions on how to create custom headers in Elementor &#8230;</p>
+</div>
+<div class="youtube-item" id="kqnhHb9g5Rs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=kqnhHb9g5Rs">29) How To Make a Blog or News Website with Elementor Pro  2020</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-01-13</span></p>
+<p class="description"><b>Short description:</b> In this tutorial, am going to show you a step by step procedure to make a blog or news website using elementor and elementor pro &#8230;</p>
+</div>
+<div class="youtube-item" id="XAbFnchckeE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=XAbFnchckeE">30) Elementor Pro Header Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-23</span></p>
+<p class="description"><b>Short description:</b> This video shows you how you can create custom headers, make them sticky, change the colors and logo when you scroll, and &#8230;</p>
+</div>
+<div class="youtube-item" id="4zX4CSl9H1U">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4zX4CSl9H1U">31) How to Easily Create A Full Width Slider In Elementor! #Shorts</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-20</span></p>
+<p class="description"><b>Short description:</b> Help us improve by answering this short survey: http://elemn.to/survey-time In this tutorial we&#8217;ll learn how to create a full-width &#8230;</p>
+</div>
+<div class="youtube-item" id="vuZOrRUovU4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vuZOrRUovU4">32) Elementor Pro + Advanced Custom Fields Tutorial 2021</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-12-22</span></p>
+<p class="description"><b>Short description:</b> WordPress enables you to create amazing websites. But when you want to take it to the next level by adding different kinds of &#8230;</p>
+</div>
+<div class="youtube-item" id="ciIuzYEjQYM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ciIuzYEjQYM">33) How To Create An Online Course Website In WordPress Using LearnDash</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-15</span></p>
+<p class="description"><b>Short description:</b> If you have an amazing course, you also should have an amazing website for your course(s). In this LearnDash tutorial, I show &#8230;</p>
+</div>
+<div class="youtube-item" id="o24U8d0Mosc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=o24U8d0Mosc">34) How to create a Transparent Sticky Header in WordPress with Elementor</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-29</span></p>
+<p class="description"><b>Short description:</b> In this video I will show you how to create a Transparent Header in Elementor with just a few clicks. Videos that I refer to in the &#8230;</p>
+</div>
+<div class="youtube-item" id="qrsKXIdSKwY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=qrsKXIdSKwY">35) Elementor Pro Tutorial With WordPress 5.9</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-02-03</span></p>
+<p class="description"><b>Short description:</b> Learn how to create a website using Elementor Pro within WordPress 5.9. Since WordPress 5.9 a lot has changed in the backend &#8230;</p>
+</div>
+<div class="youtube-item" id="kcs85I3WU1Q">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=kcs85I3WU1Q">36) Asset Cleanup Elementor Speeds Elementor Sites Even More &#8211; Asset Cleanup Plugin Settings</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-15</span></p>
+<p class="description"><b>Short description:</b> This tutorial is a continuation from the previous tutorial where we tested 4 different speed optimization plugins to see which ones &#8230;</p>
+</div>
+<div class="youtube-item" id="Vm2VgX_JW9Y">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Vm2VgX_JW9Y">37) Elementor Dynamic Tags For Beginners</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-04-23</span></p>
+<p class="description"><b>Short description:</b> Beginners guide to Elementor Dynamic Tags &#8211; Learn how to make your WordPress websites more dynamic with this powerful &#8230;</p>
+</div>
+<div class="youtube-item" id="AyIWa3rY8HY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=AyIWa3rY8HY">38) Make a Custom Sidebar WordPress Elementor Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-16</span></p>
+<p class="description"><b>Short description:</b> Make incredible custom sidebars for WordPress using the Elementor sidebar. You can use any Elementor widget to design your &#8230;</p>
+</div>
+<div class="youtube-item" id="pGWxblFAHHc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=pGWxblFAHHc">39) How To Install Small Business Website Using Downloadable Templates in WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-03-25</span></p>
+<p class="description"><b>Short description:</b> Siteground Hosting https://www.siteground.com/go/step Best Blog Template With Full Site Editing &#8211; https://youtu.be/QMR4Ht8K_-s &#8230;</p>
+</div>
+<div class="youtube-item" id="zMkweQX2Mmo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zMkweQX2Mmo">40) [1] News Website Design Tutorial Course with Elementor &amp; WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-11-26</span></p>
+<p class="description"><b>Short description:</b> Watch this tutorial course to learn how to design news website with wordpress and elementor pro. SUPPORT ME 🛒 Buy &#8230;</p>
+</div>
+<div class="youtube-item" id="LmyWLqDYqBo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=LmyWLqDYqBo">41) How to Add Timetable Event Schedule Widget for Elementor</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-10</span></p>
+<p class="description"><b>Short description:</b> Subscribe to our channel https://www.youtube.com/c/MotoPressCom In this video tutorial, you&#8217;ll see how to create a &#8230;</p>
+</div>
+<div class="youtube-item" id="qYq5BCJQ7Rk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=qYq5BCJQ7Rk">42) Elementor Pro Flip Box Widget | Elementor Pro Tutorial 2020</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-08-19</span></p>
+<p class="description"><b>Short description:</b> Make your WordPress website more interactive with the cool Elementor Pro Flip Box. Simply hover and it&#8217;s design changes!</p>
+</div>
+<div class="youtube-item" id="EE443zANjcY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EE443zANjcY">43) Blog With Elementor (Free Version) How to Display Posts on Elementor</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-10-05</span></p>
+<p class="description"><b>Short description:</b> Updated 2021 version here ➡️ https://youtu.be/4ooQO44Mk3Y Want to display your blog posts in a stylish image grid? But, you &#8230;</p>
+</div>
+<div class="youtube-item" id="fduXqCaUHXk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=fduXqCaUHXk">44) Search and Filter Pro WordPress plugin tutorial &#8211; Build your custom WordPress search [ZERO CODING]</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-11</span></p>
+<p class="description"><b>Short description:</b> Learn how to use Search and filter pro WordPress plugin along with Elementor Pro to build your custom WordPress search &#8230;</p>
+</div>
+<div class="youtube-item" id="EBj7nmSxbuk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EBj7nmSxbuk">45) Create a Listing Website WordPress &amp; JetEngine | Real Estate Website in WordPress Elementor</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-15</span></p>
+<p class="description"><b>Short description:</b> How to create a Real Estate Listing Website | WordPress, JetEngine and Elementor Pro. In this Real Estate Listing Website &#8230;</p>
+</div>
+<div class="youtube-item" id="LTycfxNIZfM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=LTycfxNIZfM">46) Full Astra Theme Tutorial &#8211; Learn How To Use The Astra Theme To Make A WordPress Website</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-08-16</span></p>
+<p class="description"><b>Short description:</b> In this Astra tutorial, I will show you how to fully customize the new Astra 2.0 to match your brand. Every setting is covered in a &#8230;</p>
+</div>
+<div class="youtube-item" id="l9OZJw2WRFo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=l9OZJw2WRFo">47) Elementor WordPress Plugin Infoboxes Usage Guide</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-10</span></p>
+<p class="description"><b>Short description:</b> In today&#8217;s WordPress plugin video tutorial, we&#8217;ll learn how to create infoboxes in the Elementor page builder WordPress plugin &#8230;</p>
+</div>
+<div class="youtube-item" id="SqwQFiaFMOQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SqwQFiaFMOQ">48) Top 27 Elementor Hidden Features | Elementor Tips and Tricks</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-07</span></p>
+<p class="description"><b>Short description:</b> In this Elementor Tips and Tricks tutorial, I&#8217;ll share with you top 27 Elementor Hidden Features. ✓Get Elementor for FREE: &#8230;</p>
+</div>
+<div class="youtube-item" id="YIPzFU-q1D0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=YIPzFU-q1D0">49) Search &amp; Filter Pro WordPress Plugin &#8211; Better than SearchWP &amp; FacetWP?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-03-24</span></p>
+<p class="description"><b>Short description:</b> Is Search &#038; Filter Pro WordPress Plugin a viable alternative to SearchWP &#038; FacetWP? Join me as I show you how the use the &#8230;</p>
+</div>
+<div class="youtube-item" id="oTr--KR4qoM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=oTr--KR4qoM">50) The Complete WooCommerce Tutorial 2021 (eCommerce Tutorial)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-20</span></p>
+<p class="description"><b>Short description:</b> Learn how to use the WooCommerce Plugin in This Complete WooCommerce Tutorial. Nameheros Largest Discount: &#8230;</p>
+</div>
+</div>
+</div>
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-container-9 wp-block-group">
+<div class="wp-container-8 wp-block-group">
+<div style="font-style:italic; font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2022-06-08T16:04:59+00:00">June 8, 2022</time></div>
+
+<div class="wp-block-post-author has-small-font-size"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name">Imoptimal</p></div></div>
+
+<div class="taxonomy-category wp-block-post-terms has-small-font-size"><a href="/tutorials/wordpress-plugin/" rel="tag">Plugin Tutorials</a></div>
+
+</div>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<hr class="wp-block-separator is-style-wide">
+
+
+</div>
+</main>
+
+
+<footer class="wp-block-template-part">
+<div class="wp-container-16 wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
+<div class="wp-container-15 wp-block-group alignfull">
+<div class="wp-container-14 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
+<div class="wp-container-13 wp-block-columns">
+<div class="wp-container-11 wp-block-column">
+<p><a href="https://plugin.wphowto.tv/" target="_blank" rel="noreferrer noopener">WP HOW TO &#8211; WordPress plugin</a></p>
+</div>
+
+
+
+<div class="wp-container-12 wp-block-column">
+<p><a href="https://plugin.wphowto.tv/privacy-policy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></p>
+</div>
+</div>
+
+
+
+<p class="has-text-align-right">Created with <a rel="noreferrer noopener" href="https://sr.wordpress.org/plugins/simply-static/" target="_blank">Simply Static</a> &amp; <a rel="noreferrer noopener" href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+		<style id="skip-link-styles">.skip-link.screen-reader-text {
+			border: 0;
+			clip: rect(1px,1px,1px,1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip: auto !important;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}</style>
+		<script>
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		// Get the site wrapper.
+		// The skip-link will be injected in the beginning of it.
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	</script>
+	<script src="/wp-content/themes/twentytwentytwo-child/script.js?ver=1.0.0" id="wphowtotv-script-js"></script>
+<script src="https://www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js?ver=1.0.0" id="wphowtotv-cookies-script-js"></script>
+<script src="/wp-content/themes/twentytwentytwo-child/cookies-consent.js?ver=1.0.0" id="wphowtotv-cookies-code-script-js"></script>
+</body>
+</html>
