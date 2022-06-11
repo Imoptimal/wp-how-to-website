@@ -48,6 +48,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var linksArray = Array.prototype.slice.call(links, 0);
     var favouriteButtons = document.querySelectorAll('.youtube-item .buttons .favourite');
     var favouritesArray = Array.prototype.slice.call(favouriteButtons, 0);
+    var relevanceFilter = document.createElement('button');
+    var dateFilter = document.createElement('button');
+    var backToTop = document.createElement('button');
 
     // Disable post date link (not useful)
     if (dateLinks) {
@@ -58,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     }
-    // Premium only (vs free version code)
+
     if (wpHowTo_mainDomain === true || wpHowTo_pluginSubdomain === true) {
         // Only if the website is in an iframe
         if (window.self != window.top) {
@@ -73,14 +76,12 @@ document.addEventListener("DOMContentLoaded", function() {
             if (title) {
                 titleHeight += title.offsetHeight;
             }
-            var relevanceFilter = document.createElement('button');
             relevanceFilter.classList.add('relevance-filter');
             relevanceFilter.classList.add('selected');
             relevanceFilter.innerText = 'Filter by relevance';
             if (contentSection) {
                 contentSection.prepend(relevanceFilter);
             }
-            var dateFilter = document.createElement('button');
             dateFilter.classList.add('date-filter');
             dateFilter.innerText = 'Newest first';
             if (contentSection) {
@@ -116,7 +117,6 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             relevanceFilter.addEventListener("click", filterByRelevance);
             // Display 'back to top' button
-            var backToTop = document.createElement('button');
             backToTop.classList.add('back-to-top');
             backToTop.innerText = 'Back to top';
             if (contentSection) {
@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     favouritesArray.forEach(function(button) {
                         button.style.display = 'none';
                     });
-                    //Hide 'Back to top' button
+                    // Hide 'Back to top' button
                     backToTop.style.display = 'none';
                     // Add 'Buy Premium' link to the bottom of the page
                     if (contentSection) {
