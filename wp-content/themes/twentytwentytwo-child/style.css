@@ -30,6 +30,11 @@ body {
     margin-top: 50px;
 }
 
+body * {
+    max-width: 99% !important;
+    word-break: break-all;
+}
+
 div {
     background-color: #000000 !important;
     color: #fbf0de !important;
