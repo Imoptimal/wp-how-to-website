@@ -244,10 +244,15 @@ document.addEventListener("DOMContentLoaded", function() {
                         // Display only 1 video per item
                         youtubeItemsArray[i].style.display = 'block';
                     }
+                    // Hide filter buttons
+                    relevanceFilter.style.display = 'none';
+                    dateFilter.style.display = 'none';
                     // Hide 'add to favourites' buttons
                     favouritesArray.forEach(function(button) {
                         button.style.display = 'none';
                     });
+                    //Hide 'Back to top' button
+                    backToTop.style.display = 'none';
                     // Add 'Buy Premium' link to the bottom of the page
                     if (contentSection) {
                         var buyPremium = document.createElement('a');
