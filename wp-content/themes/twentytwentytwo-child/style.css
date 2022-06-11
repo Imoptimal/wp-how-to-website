@@ -32,8 +32,7 @@ body {
 }
 
 body * {
-    max-width: 99% !important;
-    word-break: break-all;
+    word-break: break-all !important;
 }
 
 div {
