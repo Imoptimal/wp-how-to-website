@@ -113,8 +113,9 @@ header.premium-only~main {
     bottom: 25px;
 }
 
+.youtube-item,
 .premium-only {
-    display: none !important;
+    display: none;
 }
 
 .buy-premium {
