@@ -23,6 +23,10 @@ function addCustomGoogleSearch(scriptSrc) {
     var searchDiv = document.createElement('div');
     searchDiv.classList.add('gcse-search');
     parentDiv.appendChild(searchDiv);
+    if (window.self != window.top) {
+        // Hide Google search if website in iframe
+        searchIcon.style.display = 'none';
+    }
     // Google search show/hide
     searchIcon.addEventListener('click', function() {
         this.classList.toggle('clicked');
@@ -65,8 +69,6 @@ document.addEventListener("DOMContentLoaded", function() {
     if (wpHowTo_mainDomain === true || wpHowTo_pluginSubdomain === true) {
         // Only if the website is in an iframe
         if (window.self != window.top) {
-            // Hide Google search
-            searchIcon.style.display = 'none';
             // Hide header n footer
             header.classList.add('premium-only');
             footer.classList.add('premium-only');
