@@ -6,7 +6,7 @@ function websiteStartsWith(str, word) {
 var wpHowTo_mainDomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://wphowto.tv');
 var wpHowTo_pluginSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://plugin.wphowto.tv');
 
-// Add google search to website
+// Add Google search to website
 function addCustomGoogleSearch(scriptSrc) {
     var searchScript = document.createElement('script');
     searchScript.src = scriptSrc;
@@ -65,6 +65,8 @@ document.addEventListener("DOMContentLoaded", function() {
     if (wpHowTo_mainDomain === true || wpHowTo_pluginSubdomain === true) {
         // Only if the website is in an iframe
         if (window.self != window.top) {
+            // Hide Google search
+            searchIcon.style.display = 'none';
             // Hide header n footer
             header.classList.add('premium-only');
             footer.classList.add('premium-only');
@@ -130,7 +132,9 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             // When visiting the website directly (not iframe)
             for (var i = 0; i < 5; i++) {
-                youtubeItemsArray[i].style.display = 'block';
+                if (youtubeItemsArray) {
+                    youtubeItemsArray[i].style.display = 'block';
+                }
             }
             favouritesArray.forEach(function(button) {
                 button.style.display = 'none';
@@ -237,12 +241,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (premiumLicense === 'true') {
                     for (var i = 0; i < allVideos; i++) {
                         // Display all items
-                        youtubeItemsArray[i].style.display = 'block';
+                        if (youtubeItemsArray) {
+                            youtubeItemsArray[i].style.display = 'block';
+                        }
                     }
                 } else { // If it's free version of plugin
                     for (var i = 0; i < 1; i++) {
                         // Display only 1 video per item
-                        youtubeItemsArray[i].style.display = 'block';
+                        if (youtubeItemsArray) {
+                            youtubeItemsArray[i].style.display = 'block';
+                        }
                     }
                     // Hide filter buttons
                     relevanceFilter.style.display = 'none';
