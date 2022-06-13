@@ -248,11 +248,9 @@ document.addEventListener("DOMContentLoaded", function() {
                         }
                     }
                 } else { // If it's free version of plugin
-                    for (var i = 0; i < 1; i++) {
+                    if (youtubeItemsArray) {
                         // Display only 1 video per item
-                        if (youtubeItemsArray) {
-                            youtubeItemsArray[i].style.display = 'block';
-                        }
+                        youtubeItemsArray[0].style.display = 'block';
                     }
                     // Hide filter buttons
                     relevanceFilter.style.display = 'none';
