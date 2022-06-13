@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var videosParent = document.querySelector('.youtube-videos');
     var youtubeItems = document.querySelectorAll('.youtube-item');
     var youtubeItemsArray = Array.prototype.slice.call(youtubeItems, 0);
+    console.log(youtubeItemsArray);
     var allVideos = youtubeItemsArray.length;
     var links = document.querySelectorAll('.youtube-item .link');
     var linksArray = Array.prototype.slice.call(links, 0);
