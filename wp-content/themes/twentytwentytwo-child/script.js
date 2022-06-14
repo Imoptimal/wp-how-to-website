@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var videosParent = document.querySelector('.youtube-videos');
     var youtubeItems = document.querySelectorAll('.youtube-item');
     var youtubeItemsArray = Array.prototype.slice.call(youtubeItems, 0);
-    console.log(youtubeItemsArray);
     var allVideos = youtubeItemsArray.length;
     var links = document.querySelectorAll('.youtube-item .link');
     var linksArray = Array.prototype.slice.call(links, 0);
@@ -135,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             // When visiting the website directly (not iframe)
             for (var i = 0; i < 5; i++) {
-                if (youtubeItemsArray) {
+                if (youtubeItemsArray.length > 0) {
                     youtubeItemsArray[i].style.display = 'block';
                 }
             }
@@ -244,12 +243,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (premiumLicense === 'true') {
                     for (var i = 0; i < allVideos; i++) {
                         // Display all items
-                        if (youtubeItemsArray) {
+                        if (youtubeItemsArray.length > 0) {
                             youtubeItemsArray[i].style.display = 'block';
                         }
                     }
                 } else { // If it's free version of plugin
-                    if (youtubeItemsArray) {
+                    if (youtubeItemsArray.length > 0) {
                         // Display only 1 video per item
                         youtubeItemsArray[0].style.display = 'block';
                     }
