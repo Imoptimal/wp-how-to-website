@@ -21,7 +21,7 @@
   - RPD (my own)
 - Run RPD three steps:
   - <b>NOTE:</b> After the second step, check json file folders for small files (aprox under 1 kb), and delete those with empty 'youtubeVideos' array, so the third step can run smoothly.
-  - In the third step, choose to store all video per item (premium), and do plugin tutorials first (how to items will remain as the latest posts).
+  - In the third step do plugin tutorials first (how to items will remain as the latest posts).
 - Convert webiste to static using Simply static plugin (Set relative paths - avoiding issue with website resources).
 - Upload here.
 - Create 404.html file here on GitHub website, and populate it with needed elements. <br>
