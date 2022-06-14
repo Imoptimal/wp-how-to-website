@@ -6,7 +6,7 @@
   - General - set tagline to 'WordPress Tutorials'
   - Discussion - check off "Allow people to submit comments on new posts"
   - Permalinks - rename category to "tutorials"; set custom structure to "/%category%/%postname%/"
-- Add categories:
+- Add post categories:
   - Plugin Tutorials (slug: wordpress-plugin)
   - How to Tutorials (slug: wordpress-topic)
 - Download the latest official wordpress theme (parent) and activate the customized child theme:
