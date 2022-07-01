@@ -3,7 +3,7 @@
 # Instructions:
 - Install wordpress locally, using Local by Flywheel - PHP version must be > 7.4 (Simply Static plugin requires it).
 - Adjust settings in admin dashboard:
-  - General - set tagline to 'WordPress Tutorials'
+  - General - set title to 'WP How to'; set tagline to 'WordPress Tutorials'
   - Discussion - check off "Allow people to submit comments on new posts"
   - Permalinks - rename category to "tutorials"; set custom structure to "/%category%/%postname%/"
 - Add post categories:
