@@ -168,8 +168,9 @@ header.premium-only~main {
     position: absolute;
     top: 50px;
     right: 25px;
-    width: 50%;
-    min-width: 250px;
+    width: 275px;
+    max-height: 200px;
+    overflow-y: scroll;
     z-index: 100;
     border: 2px solid #ff6666;
 }
@@ -181,11 +182,6 @@ header.premium-only~main {
 .gcse-parent>* {
     display: block !important;
     margin: 10px !important;
-}
-
-.gcse-parent ul {
-    max-height: 200px;
-    overflow-y: scroll;
 }
 
 
