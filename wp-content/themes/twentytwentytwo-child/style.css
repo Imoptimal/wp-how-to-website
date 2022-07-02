@@ -32,7 +32,7 @@ body {
 }
 
 body * {
-    word-break: break-all !important;
+    word-wrap: break-word !important;
 }
 
 div {
@@ -139,7 +139,7 @@ header.premium-only~main {
 }
 
 
-/* Google Custom Search */
+/* Custom Search */
 
 .gcse-icon {
     display: block;
@@ -171,109 +171,21 @@ header.premium-only~main {
     width: 50%;
     min-width: 250px;
     z-index: 100;
+    border: 2px solid #ff6666;
 }
 
 .gcse-parent.clicked {
     display: block;
 }
 
-.gsc-control-cse {
-    background-color: black !important;
-    border: none !important;
+.gcse-parent>* {
+    display: block !important;
+    margin: 10px !important;
 }
 
-.gsc-search-button,
-.gsc-search-button button {
-    background-color: #ff6666 !important;
-    border: none !important;
-}
-
-.gsc-search-button svg {
-    fill: #fbf0de !important;
-}
-
-.gsc-search-button:hover,
-.gsc-search-button:hover>button {
-    background-color: #FBE81C !important;
-}
-
-.gsc-search-button:hover>svg {
-    fill: black !important;
-}
-
-.gsc-results-wrapper-overlay {
-    top: 10% !important;
-    left: 5% !important;
-    right: 5% !important;
-    width: 75% !important;
-    height: 75% !important;
-}
-
-iframe[title="Ads by Google"] {
-    display: none !important;
-}
-
-a.gs-title,
-.gsc-cursor-page {
-    color: #ff6666 !important;
-    background-color: black;
-    border-radius: 50px 50px 50px 0;
-    padding: 5px 10px;
-    -webkit-box-shadow: 5px 5px #ff6666;
-    box-shadow: 5px 5px #ff6666;
-}
-
-a.gs-title:hover,
-.gsc-cursor-page:hover {
-    color: #fbf0de !important;
-    -webkit-box-shadow: none;
-    box-shadow: none
-}
-
-a.gs-title b {
-    color: #fbf0de !important;
-}
-
-.gs-visibleUrl {
-    color: black !important;
-}
-
-.gs-snippet b {
-    font-size: 16px !important;
-    text-decoration: underline;
-    color: black;
-}
-
-.gsc-cursor-current-page {
-    color: black !important;
-    background-color: transparent !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-}
-
-.gcsc-more-maybe-branding-root {
-    display: none;
-}
-
-.gsc-results-wrapper-overlay {
-    border: 2px solid #fbf0de !important;
-}
-
-.gsc-results-close-btn {
-    display: none;
-}
-
-.gsc-results-close-btn::before {
-    display: block;
-    content: 'X';
-    color: #ff6666;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 5px;
-}
-
-.gsc-results-close-btn::before:hover {
-    color: #FBE81C;
+.gcse-parent ul {
+    max-height: 200px;
+    overflow-y: scroll;
 }
 
 

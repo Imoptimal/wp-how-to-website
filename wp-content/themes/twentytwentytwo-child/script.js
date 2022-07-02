@@ -6,34 +6,161 @@ function websiteStartsWith(str, word) {
 var wpHowTo_mainDomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://wphowto.tv');
 var wpHowTo_pluginSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://plugin.wphowto.tv');
 
-// Add Google search to website
-function addCustomGoogleSearch(scriptSrc) {
-    var searchScript = document.createElement('script');
-    searchScript.src = scriptSrc;
-    searchScript.type = 'text/javascript';
+// Add custom search to website
+function addCustomSearch() {
     var mainContent = document.getElementsByTagName('main')[0];
-    mainContent.appendChild(searchScript);
-    var searchIcon = document.createElement('a');
-    searchIcon.classList.add('gcse-icon');
-    searchIcon.title = 'Open/close search';
-    mainContent.appendChild(searchIcon);
-    var parentDiv = document.createElement('div');
-    parentDiv.classList.add('gcse-parent');
-    mainContent.appendChild(parentDiv);
-    var searchDiv = document.createElement('div');
-    searchDiv.classList.add('gcse-search');
-    parentDiv.appendChild(searchDiv);
-    if (window.self != window.top) {
-        // Hide Google search if website in iframe
-        searchIcon.style.display = 'none';
+    if (mainContent) {
+        var searchIcon = document.createElement('a');
+        searchIcon.classList.add('gcse-icon');
+        searchIcon.title = 'Open/close search';
+        mainContent.appendChild(searchIcon);
+        var parentDiv = document.createElement('div');
+        parentDiv.classList.add('gcse-parent');
+        mainContent.appendChild(parentDiv);
+        var searchDiv = document.createElement('div');
+        searchDiv.classList.add('gcse-search');
+        parentDiv.appendChild(searchDiv);
+        var searchSelect = document.createElement('select');
+        searchSelect.innerHTML = "<option value='wordpress-topic'>'How to' tutorials</option><option value='wordpress-plugin'>Plugin tutorials</option>";
+        parentDiv.appendChild(searchSelect);
+        var searchInput = document.createElement('input');
+        searchInput.type = 'text';
+        parentDiv.appendChild(searchInput);
+        var searchButton = document.createElement('button');
+        searchButton.innerText = 'Search';
+        parentDiv.appendChild(searchButton);
+        var results = document.createElement('div');
+        var resultInfo = document.createElement('p');
+        var resultList = document.createElement('ul');
+        results.appendChild(resultInfo);
+        results.appendChild(resultList);
+        parentDiv.appendChild(results);
+        // Get search input value
+        var typedTerm = searchInput.value;
+        searchInput.addEventListener('change', function() {
+            typedTerm = this.value;
+        });
+        // Get category selected
+        var selectedCategory = searchSelect.value;
+        searchSelect.addEventListener('change', function() {
+            selectedCategory = this.value;
+        });
+        // Helper function for data conversion
+        function convertTextToArray(storedText) {
+            var arrayFromText = [];
+            var searchItemsArray = storedText.split('},');
+            var lastItem = searchItemsArray.length - 1;
+            searchItemsArray.forEach(function(item, index) {
+                if (index === lastItem) { // Last item
+                    // Change the quotes to default ones!
+                    item = item.replace(/“|”|″/g, '"');
+                    // Remove line breaks
+                    item = item.replace(/(\r\n|\n|\r)/gm, "");
+                    // Remove extra spaces
+                    item = item.replace(/  /g, " ");
+                    arrayFromText.push(item);
+                } else { // All other items
+                    // Change the quotes to default ones!
+                    item = item.replace(/“|”|″/g, '"');
+                    // Remove line breaks
+                    item = item.replace(/(\r\n|\n|\r)/gm, "");
+                    // Remove extra spaces
+                    item = item.replace(/  /g, " ");
+                    item = item + '}';
+                    arrayFromText.push(item);
+                }
+            });
+            return arrayFromText;
+        }
+        // Helper function for data search and display
+        function displaySearchResults(data, categoryLink) {
+            // Compare stored data with search input
+            var searchItems = data;
+            var matchingItems = [];
+            searchItems.forEach(function(item) {
+                // If there's a match
+                var title = item.title;
+                var lowerCaseTitle = title.toLowerCase();
+                var lowerCaseTerm = typedTerm.toLowerCase();
+                if (lowerCaseTitle.indexOf(lowerCaseTerm) !== -1) {
+                    matchingItems.push(item);
+                }
+            });
+            // Display found results
+            var resultCount = matchingItems.length;
+            var resultTitle = 'Result for the searched term "' + typedTerm + '" (Items found: ' + resultCount + ')';
+            resultInfo.innerText = resultTitle;
+            resultList.innerHTML = '';
+            matchingItems.forEach(function(item) {
+                var slug = item.slug;
+                var urlBase = 'https://wphowto.tv/';
+                var fullSrc = urlBase + categoryLink + slug;
+                var title = item.title;
+                var itemLink = '<li><a class="matched-item" href=' + fullSrc + '>' + title + '</a></li>';
+                resultList.innerHTML += itemLink;
+            });
+            // Change embedded webpage source on click
+            var links = $('.wp-how-to.slide-in .matched-item');
+            links.on('click', function(e) {
+                e.preventDefault();
+                var clickedLink = e.target;
+                var link = clickedLink.href;
+                window.location = link;
+            });
+        }
+        // Search functionality - get and display data on search button click
+        searchButton.addEventListener('click', function() {
+            var filePath;
+            var itemCategoryLink;
+            // Set full file (post) path
+            if (selectedCategory === 'wordpress-topic') {
+                filePath = 'https://plugin.wphowto.tv/wordpress-topic-json';
+                itemCategoryLink = 'wordpress-topic/';
+            } else if (selectedCategory === 'wordpress-plugin') {
+                filePath = 'https://plugin.wphowto.tv/wordpress-plugin-json';
+                itemCategoryLink = 'wordpress-plugin/';
+            } else {
+                return;
+            }
+            // Loading text
+            resultInfo.innerText = 'Loading...';
+            // Get json data
+            fetch(filePath)
+                .then(function(result) {
+                    if (result.status != 200) {
+                        throw new Error("Bad Server Response");
+                    }
+                    // Ajax call succesful
+                    return result.text();
+                })
+                .then(function(html) {
+                    // Convert the HTML string into a document object
+                    var parser = new DOMParser();
+                    var doc = parser.parseFromString(html, 'text/html');
+                    // Get the image file
+                    var jsonData = doc.querySelector('#json-data').textContent;
+                    var modifiedArray = convertTextToArray(jsonData);
+                    return modifiedArray;
+                }).then(function(data) {
+                    var jsObject = JSON.parse(data);
+                    displaySearchResults(jsObject, itemCategoryLink);
+                })
+                .catch(function(error) {
+                    console.log(error);
+                });
+        });
+        if (window.self != window.top) {
+            // Hide search if website in iframe
+            searchIcon.style.display = 'none';
+        }
+        // Google search show/hide
+        searchIcon.addEventListener('click', function() {
+            this.classList.toggle('clicked');
+            parentDiv.classList.toggle('clicked');
+        });
     }
-    // Google search show/hide
-    searchIcon.addEventListener('click', function() {
-        this.classList.toggle('clicked');
-        parentDiv.classList.toggle('clicked');
-    });
 }
-addCustomGoogleSearch("https://cse.google.com/cse.js?cx=f276d6b0c7b698cb6");
+addCustomSearch();
 
 // When page has loaded
 document.addEventListener("DOMContentLoaded", function() {
@@ -55,6 +182,11 @@ document.addEventListener("DOMContentLoaded", function() {
     var relevanceFilter = document.createElement('button');
     var dateFilter = document.createElement('button');
     var backToTop = document.createElement('button');
+    // Hide the footer nav containing json pages with data for search
+    var footerNav = document.querySelector('footer nav');
+    if (footerNav) {
+        footerNav.style.display = 'none';
+    }
 
     // Disable post date link (not useful)
     if (dateLinks) {
