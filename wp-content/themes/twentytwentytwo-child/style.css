@@ -64,6 +64,11 @@ option {
     max-width: 90% !important;
 }
 
+iframe {
+    max-width: 90% !important;
+    height: auto !important;
+}
+
 header.premium-only~main {
     margin-top: 50px !important;
 }
