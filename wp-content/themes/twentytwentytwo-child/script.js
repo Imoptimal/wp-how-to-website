@@ -20,7 +20,7 @@ function addCustomSearch() {
             function addInfo() {
                 var infoHeight = infoParagraph.offsetHeight;
                 mainContent.style.marginTop = infoHeight + 'px';
-                infoParagraph.style.top = (-infoHeight - 50) + 'px';
+                infoParagraph.style.top = (-infoHeight - 75) + 'px';
                 infoParagraph.style.left = '25px';
             }
             window.addEventListener('load', addInfo);
