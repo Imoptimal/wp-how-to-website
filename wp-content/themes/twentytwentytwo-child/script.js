@@ -10,13 +10,30 @@ var wpHowTo_pluginSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://plu
 function addCustomSearch() {
     var mainContent = document.getElementsByTagName('main')[0];
     if (mainContent) {
+        // Add info paragraph for homepage on main domain only (if accessed directly)
+        if (wpHowTo_websiteUrl === 'https://wphowto.tv/' && window.self === window.top) {
+            var infoParagraph = document.createElement('p');
+            infoParagraph.classList.add('info-paragraph');
+            infoParagraph.innerHTML = "On this website you can find video tutorials for 10.000+ most popular WordPress plugins and 300+ most searched topics related to WordPress. Scroll down or use the search to find exactly what you need. <b>Check out the official <a href='https://plugin.wphowto.tv' target='_blank'>'WP How to' WordPress plugin</a> that brings all of these video tutorials to your admin dashboard, with many other additional features!</b>";
+            mainContent.appendChild(infoParagraph);
+
+            function addInfo() {
+                var infoHeight = infoParagraph.offsetHeight;
+                mainContent.style.marginTop = infoHeight + 'px';
+                infoParagraph.style.top = (-infoHeight - 50) + 'px';
+                infoParagraph.style.left = '25px';
+            }
+            window.addEventListener('load', addInfo);
+            window.addEventListener('resize', addInfo);
+        }
+        var siteHeader = document.getElementsByTagName('header')[0];
         var searchIcon = document.createElement('a');
         searchIcon.classList.add('gcse-icon');
         searchIcon.title = 'Open/close search';
-        mainContent.appendChild(searchIcon);
+        siteHeader.appendChild(searchIcon);
         var parentDiv = document.createElement('div');
         parentDiv.classList.add('gcse-parent');
-        mainContent.appendChild(parentDiv);
+        siteHeader.appendChild(parentDiv);
         var searchDiv = document.createElement('div');
         searchDiv.classList.add('gcse-search');
         parentDiv.appendChild(searchDiv);

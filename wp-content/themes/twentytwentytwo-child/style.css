@@ -77,6 +77,16 @@ header.premium-only~main {
     width: 150px !important;
 }
 
+main {
+    position: relative;
+}
+
+.info-paragraph {
+    position: absolute;
+    font-size: 24px;
+    font-style: italic;
+}
+
 .relevance-filter,
 .date-filter {
     display: inline-block;
@@ -149,7 +159,7 @@ header.premium-only~main {
 .gcse-icon {
     display: block;
     position: absolute;
-    top: 5px;
+    top: 75px;
     right: 25px;
     width: 30px;
     height: 30px;
@@ -171,7 +181,7 @@ header.premium-only~main {
 .gcse-parent {
     display: none;
     position: absolute;
-    top: 50px;
+    top: 125px;
     right: 25px;
     width: 275px;
     max-height: 200px;
