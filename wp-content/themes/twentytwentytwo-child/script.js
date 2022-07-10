@@ -310,6 +310,19 @@ document.addEventListener("DOMContentLoaded", function() {
         return modifiedLink;
     }
 
+    // Set default link on page load
+    function setDefaultVideo() {
+        // Only if the website is accessed directly
+        if (window.self === window.top) {
+            var firstVideoLink = linksArray[0];
+            if (youtubePlayer) {
+                youtubePlayer.src = firstVideoLink;
+                firstVideoLink.classList.add('playing');
+            }
+        }
+    }
+    window.addEventListener('load', setDefaultVideo);
+
     // Change video played on link click
     var clickedEl;
     // Highlight video link last clicked
@@ -398,8 +411,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 } else { // If it's free version of plugin
                     if (youtubeItemsArray.length > 0) {
-                        // Display only 1 video per item
-                        youtubeItemsArray[0].style.display = 'block';
+                        // Display only 5 video per item
+                        for (var i = 0; i < 5; i++) {
+                            youtubeItemsArray[i].style.display = 'block';
+                        }
                     }
                     // Hide filter buttons
                     relevanceFilter.style.display = 'none';
