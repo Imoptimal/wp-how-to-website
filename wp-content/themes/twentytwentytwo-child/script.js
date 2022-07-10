@@ -314,7 +314,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function setDefaultVideo() {
         // Only if the website is accessed directly
         if (window.self === window.top) {
-            var firstVideoLink = linksArray[0];
+            var firstVideoLink = linksArray[0].href;
             var videoLink = adjustLinks(firstVideoLink);
             if (youtubePlayer) {
                 youtubePlayer.src = videoLink;
