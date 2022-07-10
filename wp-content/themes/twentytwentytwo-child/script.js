@@ -315,9 +315,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // Only if the website is accessed directly
         if (window.self === window.top) {
             var firstVideoLink = linksArray[0];
+            var videoLink = adjustLinks(firstVideoLink);
             if (youtubePlayer) {
-                youtubePlayer.src = firstVideoLink;
-                firstVideoLink.classList.add('playing');
+                youtubePlayer.src = videoLink;
+                videoLink.classList.add('playing');
             }
         }
     }
