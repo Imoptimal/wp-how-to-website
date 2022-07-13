@@ -314,12 +314,14 @@ document.addEventListener("DOMContentLoaded", function() {
     function setDefaultVideo() {
         // Only if the website is accessed directly
         if (window.self === window.top) {
-            var firstVideoParent = linksArray[0];
-            var firstVideoLink = linksArray[0].href;
-            var videoLink = adjustLinks(firstVideoLink);
-            if (youtubePlayer) {
-                youtubePlayer.src = videoLink;
-                firstVideoParent.classList.add('playing');
+            if (linksArray) {
+                var firstVideoParent = linksArray[0];
+                var firstVideoLink = linksArray[0].href;
+                var videoLink = adjustLinks(firstVideoLink);
+                if (youtubePlayer) {
+                    youtubePlayer.src = videoLink;
+                    firstVideoParent.classList.add('playing');
+                }
             }
         }
     }
