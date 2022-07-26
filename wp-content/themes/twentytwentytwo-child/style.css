@@ -68,7 +68,7 @@ iframe {
     max-width: 90% !important;
 }
 
-header.premium-only~main {
+header.website-only~main {
     margin-top: 50px !important;
 }
 
@@ -133,8 +133,8 @@ main {
 }
 
 .youtube-item,
-.premium-only {
-    display: none;
+.website-only {
+    display: none !important;
 }
 
 .buy-premium {
