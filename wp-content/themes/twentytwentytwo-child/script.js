@@ -229,7 +229,9 @@ document.addEventListener("DOMContentLoaded", function() {
             // Hide title
             if (postTitle) {
                 postTitle.classList.add('website-only');
-                blockSeparator.classList.add('website-only');
+                blockSeparator.forEach(function(element) {
+                    element.classList.add('website-only');
+                });
             }
             relevanceFilter.classList.add('relevance-filter');
             relevanceFilter.classList.add('selected');
