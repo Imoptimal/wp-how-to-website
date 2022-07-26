@@ -187,7 +187,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var header = document.getElementsByTagName('header')[0];
     var footer = document.getElementsByTagName('footer')[0];
     var postTitle = document.getElementsByTagName('h1')['0'];
-    var blockSeparator = document.getElementsByClassName('wp-block-separator');
+    var blockSeparators = document.querySelectorAll('.wp-block-separator');
+    var separatorsArray = Array.prototype.slice.call(blockSeparators, 0);
     var dateLinks = document.querySelectorAll('.wp-block-post-date a');
     var videosParent = document.querySelector('.youtube-videos');
     var youtubeItems = document.querySelectorAll('.youtube-item');
@@ -229,7 +230,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // Hide title
             if (postTitle) {
                 postTitle.classList.add('website-only');
-                blockSeparator.forEach(function(element) {
+                separatorsArray.forEach(function(element) {
                     element.classList.add('website-only');
                 });
             }
