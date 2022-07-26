@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var youtubePlayer = document.getElementById("youtube-player");
     var header = document.getElementsByTagName('header')[0];
     var footer = document.getElementsByTagName('footer')[0];
-    var postTitle = document.getElementsByClassName('wp-block-post-title');
+    var postTitle = document.getElementsByTagName('h1')['0'];
     var blockSeparator = document.getElementsByClassName('wp-block-separator');
     var dateLinks = document.querySelectorAll('.wp-block-post-date a');
     var videosParent = document.querySelector('.youtube-videos');
