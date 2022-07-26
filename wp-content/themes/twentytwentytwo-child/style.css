@@ -134,7 +134,7 @@ main {
 
 .youtube-item,
 .website-only {
-    display: none !important;
+    display: none;
 }
 
 .buy-premium {
