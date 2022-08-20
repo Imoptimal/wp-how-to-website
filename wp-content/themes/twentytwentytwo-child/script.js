@@ -14,7 +14,7 @@ function addCustomSearch() {
         if (wpHowTo_websiteUrl === 'https://wphowto.tv/' && window.self === window.top) {
             var infoParagraph = document.createElement('p');
             infoParagraph.classList.add('info-paragraph');
-            infoParagraph.innerHTML = "On this website you can find WordPress tutorial videos for 10.000+ most popular WordPress plugins and 300+ most searched topics related to WordPress. Scroll down or use the search to find exactly what you need. <b>Check out the official <a href='https://plugin.wphowto.tv' target='_blank'>'WP How to' WordPress plugin</a> that brings all of these WordPress tutorial videos to your admin dashboard, with many other additional features!</b>";
+            infoParagraph.innerHTML = "On this website you can find WordPress tutorial videos for 10.000+ most popular WordPress plugins and 300+ most searched topics related to WordPress. Scroll down or use the search to find exactly what you need. <b>Check out the official <a href='https://plugin.wphowto.tv' target='_blank'>'WP How to - WordPress Tutorial Videos' - WordPress plugin</a> that brings all of these WordPress tutorial videos to your admin dashboard, with many other additional features!</b>";
             mainContent.appendChild(infoParagraph);
 
             function addInfo() {
