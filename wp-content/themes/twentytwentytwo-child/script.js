@@ -6,7 +6,46 @@ function websiteStartsWith(str, word) {
 var wpHowTo_mainDomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://wphowto.tv');
 var wpHowTo_pluginSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://plugin.wphowto.tv');
 
-// Add custom search to website
+// Add structured data to tutorial pages 
+function addStructuredData(videoItems, videoLinks) {
+    var urlStart = urlStart = wpHowTo_websiteUrl.slice(0, -1);
+    var pageTitle = document.title;
+    var youtubeVideos = videoItems;
+    var videoOneId = '#' + youtubeVideos[0].id;
+    var videoTwoId = '#' + youtubeVideos[1].id;
+    var videoThreeId = '#' + youtubeVideos[2].id;
+    var videoFourId = '#' + youtubeVideos[3].id;
+    var videoFiveId = '#' + youtubeVideos[4].id;
+    var youtubeLinks = videoLinks;
+    var videoOneTitle = youtubeLinks[0].innerText;
+    var videoTwoTitle = youtubeLinks[1].innerText;
+    var videoThreeTitle = youtubeLinks[2].innerText;
+    var videoFourTitle = youtubeLinks[3].innerText;
+    var videoFiveTitle = youtubeLinks[4].innerText;
+    var structuredName;
+    var structuredSnippet;
+    if (pageTitle.indexOf('Topic:') !== -1) {
+        structuredName = pageTitle.replace('Topic: ', '');
+        var topic = structuredName.replace("'WP How to' WordPress Tutorial Videos", '');
+        structuredSnippet = "Check out these WordPress tutorial videos to find out how to understand one of the most searched topics related to WordPress: " + topic.toUpperCase() + "and build advanced websites with ease!";
+    } else if (pageTitle.indexOf('Plugin:') !== -1) {
+        structuredName = pageTitle.replace('Plugin: ', '');
+        var plugin = structuredName.replace("'WP How to' WordPress Tutorial Videos", '');
+        structuredSnippet = "Check out these WordPress tutorial videos to find out how to use the " + plugin.toUpperCase() + "WordPress plugin to build advanced websites with ease!";
+    }
+    // Script data
+    var structuredDataText = '{"@context": "https://schema.org", "@type": "HowTo", "name": "' + structuredName + '", "image": {"@type": "ImageObject", "url": "https://raw.githubusercontent.com/Imoptimal/plugin-wp-how-to-website/main/wp-how-to-black.png", "height": "300", "width": "300"},"step": [{"@type": "HowToStep", "url": "' + urlStart + videoOneId + '", "name":"' + videoOneTitle + '"}, {"@type": "HowToStep", "url":"' + urlStart + videoTwoId + '", "name":"' + videoTwoTitle + '"}, {"@type": "HowToStep", "url":"' + urlStart + videoThreeId + '", "name":"' + videoThreeTitle + '"}, {"@type": "HowToStep", "url":"' + urlStart + videoFourId + '", "name":"' + videoFourTitle + '"}, {"@type": "HowToStep", "url":"' + urlStart + videoFiveId + '", "name":"' + videoFiveTitle + '"}]}';
+    var customScript = document.createElement('script');
+    customScript.setAttribute('type', 'application/ld+json');
+    customScript.textContent = structuredDataText;
+    document.head.appendChild(customScript);
+    // Meta data
+    var customMeta = document.createElement('meta');
+    customMeta.name = 'description';
+    customMeta.content = structuredSnippet;
+    document.head.appendChild(customMeta);
+}
+// Add custom search of json data
 function addCustomSearch() {
     var mainContent = document.getElementsByTagName('main')[0];
     if (mainContent) {
@@ -177,10 +216,22 @@ function addCustomSearch() {
         });
     }
 }
-addCustomSearch();
 
 // When page has loaded
 document.addEventListener("DOMContentLoaded", function() {
+    // Meta data - search result snippet
+    var snippet;
+    if (wpHowTo_websiteUrl === 'https://wphowto.tv/') {
+        snippet = "On this website you can find WordPress tutorial videos for 10.000+ most popular WordPress plugins and 300+ most searched topics related to WordPress. Scroll down or use the search to find exactly what you need.";
+    } else if (wpHowTo_websiteUrl === 'https://plugin.wphowto.tv/') {
+        snippet = "This plugin helps you use WordPress to its full potential, by providing you with the access to abundance of YouTube video tutorials for 300+ most searched topics related to WordPress and 10.000+ most popular WordPress plugins, from your admin dashboard screen. You don't need to feel lost or overwhelmend with all of the different options WordPress provides.";
+    }
+    var customMeta = document.createElement('meta');
+    customMeta.name = 'description';
+    customMeta.content = snippet;
+    document.head.appendChild(customMeta);
+    // Add search functionality
+    addCustomSearch();
     // Select elements needed for later manipulation
     var contentSection = document.querySelectorAll('.wp-block-post-content')['0'];
     var youtubePlayer = document.getElementById("youtube-player");
@@ -205,6 +256,10 @@ document.addEventListener("DOMContentLoaded", function() {
     var footerNav = document.querySelector('footer nav');
     if (footerNav) {
         footerNav.style.display = 'none';
+    }
+    // If there's any youtube videos found on the page - add structured data for google search
+    if (youtubeItemsArray.length > 0) {
+        addStructuredData(youtubeItems, links);
     }
 
     // Disable post date link (not useful)
