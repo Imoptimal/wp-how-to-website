@@ -10,12 +10,12 @@
 	Comments on: Plugin: Media Grid	</title>
 	<atom:link href="http://localhost/wordpress-plugin/media-grid/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/media-grid/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:06:52 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:40:31 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

@@ -10,12 +10,12 @@
 	Comments on: Plugin: Landing Page Builder &#8211; Lead Page &#8211; Optin Page &#8211; Squeeze Page &#8211; WordPress Landing Pages	</title>
 	<atom:link href="http://localhost/wordpress-plugin/page-builder-add/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/page-builder-add/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:18:00 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:44:39 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

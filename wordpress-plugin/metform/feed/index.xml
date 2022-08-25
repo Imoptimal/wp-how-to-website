@@ -10,12 +10,12 @@
 	Comments on: Plugin: Metform Elementor Form Builder &#8211; Flexible and Design-Friendly Contact Form builder plugin for WordPress	</title>
 	<atom:link href="http://localhost/wordpress-plugin/metform/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/metform/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:23:43 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:49:25 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

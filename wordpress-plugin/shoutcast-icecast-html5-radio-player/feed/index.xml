@@ -10,12 +10,12 @@
 	Comments on: Plugin: Shoutcast Icecast HTML5 Radio Player	</title>
 	<atom:link href="http://localhost/wordpress-plugin/shoutcast-icecast-html5-radio-player/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/shoutcast-icecast-html5-radio-player/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:49:39 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:34:54 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

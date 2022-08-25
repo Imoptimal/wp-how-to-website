@@ -10,12 +10,12 @@
 	Comments on: Plugin: CMP &#8211; Coming Soon &#038; Maintenance Plugin by NiteoThemes	</title>
 	<atom:link href="http://localhost/wordpress-plugin/cmp-coming-soon-maintenance/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/cmp-coming-soon-maintenance/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:24:18 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:49:56 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

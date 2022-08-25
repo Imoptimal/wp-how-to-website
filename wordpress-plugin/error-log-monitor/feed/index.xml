@@ -10,12 +10,12 @@
 	Comments on: Plugin: Error Log Monitor	</title>
 	<atom:link href="http://localhost/wordpress-plugin/error-log-monitor/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/error-log-monitor/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:18:23 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:45:03 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

@@ -10,12 +10,12 @@
 	Comments on: Plugin: Campaign Monitor Ajax Forms	</title>
 	<atom:link href="http://localhost/wordpress-plugin/ajax-campaign-monitor-forms/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/ajax-campaign-monitor-forms/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:08:00 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:09:08 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

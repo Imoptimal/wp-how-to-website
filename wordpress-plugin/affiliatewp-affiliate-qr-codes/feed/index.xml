@@ -10,12 +10,12 @@
 	Comments on: Plugin: AffiliateWP &#8211; Affiliate QR Codes	</title>
 	<atom:link href="http://localhost/wordpress-plugin/affiliatewp-affiliate-qr-codes/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/affiliatewp-affiliate-qr-codes/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:02:52 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:08:15 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

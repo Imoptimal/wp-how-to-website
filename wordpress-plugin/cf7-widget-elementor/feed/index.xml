@@ -10,12 +10,12 @@
 	Comments on: Plugin: Void Contact Form 7 Widget For Elementor Page Builder	</title>
 	<atom:link href="http://localhost/wordpress-plugin/cf7-widget-elementor/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/cf7-widget-elementor/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:22:38 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:48:21 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

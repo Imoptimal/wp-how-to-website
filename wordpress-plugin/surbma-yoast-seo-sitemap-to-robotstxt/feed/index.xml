@@ -10,12 +10,12 @@
 	Comments on: Plugin: Surbma &#124; Yoast SEO Sitemap to robots.txt	</title>
 	<atom:link href="http://localhost/wordpress-plugin/surbma-yoast-seo-sitemap-to-robotstxt/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/surbma-yoast-seo-sitemap-to-robotstxt/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:52:28 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:36:26 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

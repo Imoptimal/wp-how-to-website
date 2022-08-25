@@ -10,12 +10,12 @@
 	Comments on: Plugin: Smooth Page Scroll to Top	</title>
 	<atom:link href="http://localhost/wordpress-plugin/smooth-page-scroll-to-top/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/smooth-page-scroll-to-top/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:28:00 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:26:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

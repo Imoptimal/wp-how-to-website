@@ -10,12 +10,12 @@
 	Comments on: Plugin: Booter &#8211; Bots &#038; Crawlers Manager	</title>
 	<atom:link href="http://localhost/wordpress-plugin/booter-bots-crawlers-manager/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/booter-bots-crawlers-manager/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:07:35 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:41:05 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

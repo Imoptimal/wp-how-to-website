@@ -10,12 +10,12 @@
 	Comments on: Topic: How to install wordpress from wordpress.org	</title>
 	<atom:link href="http://localhost/wordpress-topic/how-to-install-wordpress-from-wordpress-org/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-topic/how-to-install-wordpress-from-wordpress-org/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:35:47 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 18:08:01 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

@@ -10,12 +10,12 @@
 	Comments on: Plugin: Flying Analytics by WP Speed Matters	</title>
 	<atom:link href="http://localhost/wordpress-plugin/flying-analytics/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/flying-analytics/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:54:18 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:38:21 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

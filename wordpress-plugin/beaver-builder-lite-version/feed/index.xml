@@ -10,12 +10,12 @@
 	Comments on: Plugin: WordPress Page Builder &#8211; Beaver Builder	</title>
 	<atom:link href="http://localhost/wordpress-plugin/beaver-builder-lite-version/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/beaver-builder-lite-version/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:32:08 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:50:03 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

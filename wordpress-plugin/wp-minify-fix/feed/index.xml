@@ -10,12 +10,12 @@
 	Comments on: Plugin: WP Minify Fix	</title>
 	<atom:link href="http://localhost/wordpress-plugin/wp-minify-fix/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-minify-fix/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:28:54 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:27:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

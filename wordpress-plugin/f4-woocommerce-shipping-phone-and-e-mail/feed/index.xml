@@ -10,12 +10,12 @@
 	Comments on: Plugin: F4 Shipping Phone and E-Mail for WooCommerce	</title>
 	<atom:link href="http://localhost/wordpress-plugin/f4-woocommerce-shipping-phone-and-e-mail/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/f4-woocommerce-shipping-phone-and-e-mail/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:08:25 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:10:58 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

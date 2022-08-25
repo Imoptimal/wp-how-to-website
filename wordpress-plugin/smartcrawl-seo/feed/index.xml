@@ -10,12 +10,12 @@
 	Comments on: Plugin: SmartCrawl WordPress SEO checker, SEO analyzer, SEO optimizer	</title>
 	<atom:link href="http://localhost/wordpress-plugin/smartcrawl-seo/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/smartcrawl-seo/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 11:19:02 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:45:43 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

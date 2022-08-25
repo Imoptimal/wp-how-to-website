@@ -10,12 +10,12 @@
 	Comments on: Plugin: WooCommerce Simply Order Export	</title>
 	<atom:link href="http://localhost/wordpress-plugin/woocommerce-simply-order-export/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woocommerce-simply-order-export/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:48:02 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:33:21 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>

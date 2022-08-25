@@ -10,12 +10,12 @@
 	Comments on: Plugin: Zedity &#8211; The Layout-Free Content Editor	</title>
 	<atom:link href="http://localhost/wordpress-plugin/zedity/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/zedity/</link>
-	<description>WordPress Tutorials</description>
-	<lastBuildDate>Tue, 05 Jul 2022 10:34:45 +0000</lastBuildDate>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 24 Aug 2022 17:30:10 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0</generator>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
 </channel>
 </rss>
