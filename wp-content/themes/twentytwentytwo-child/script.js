@@ -3,11 +3,30 @@ var wpHowTo_websiteUrl = window.location.href;
 function websiteStartsWith(str, word) {
     return str.lastIndexOf(word, 0) === 0;
 }
-var wpHowTo_mainDomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://wphowto.tv');
-var wpHowTo_pluginSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://plugin.wphowto.tv');
+var wpHowTo_mainDomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://wphowto.tv/');
+var wpHowTo_pluginSubdomain = websiteStartsWith(wpHowTo_websiteUrl, 'https://plugin.wphowto.tv/');
+
+// Add structured data to homepages
+function addHomepageStructuredData() {
+    var structuredDataText;
+    if (wpHowTo_websiteUrl === 'https://wphowto.tv/') {
+        // Script data
+        structuredDataText = '{"@context": "https://schema.org", "@type": "Organization", "url": "https://wphowto.tv", "logo": "https://raw.githubusercontent.com/Imoptimal/plugin-wp-how-to-website/main/wp-how-to-black.png"}';
+    } else if (wpHowTo_websiteUrl === 'https://plugin.wphowto.tv/') {
+        // Script data
+        var structuredName = "'WP How to - WordPress Tutorial Videos' WordPress Plugin";
+        structuredDataText = '{"@context": "https://schema.org/", "@type": "Product", "name":"' + structuredName + '", "image": ["https://ps.w.org/how-to-wp/assets/screenshot-1.png", "https://ps.w.org/how-to-wp/assets/screenshot-2.png", "https://ps.w.org/how-to-wp/assets/screenshot-3.png", "https://ps.w.org/how-to-wp/assets/screenshot-4.png", "https://ps.w.org/how-to-wp/assets/screenshot-5.png", "https://ps.w.org/how-to-wp/assets/screenshot-6.png", "https://ps.w.org/how-to-wp/assets/screenshot-7.png"], "description": "' + structuredName + ' helps you use WordPress to its full potential, by providing you with the access to abundance of YouTube video tutorials for 300+ most searched topics related to WordPress and 10.000+ most popular WordPress plugins, from your admin dashboard screen. You don’t need to feel lost or overwhelmend with all of the different options WordPress provides.", "author": { "@type": "Person", "name": "Ivan Maljukanovic"},"offers": {"@type": "Offer", "url": "https://plugin.wphowto.tv/buy-premium/", "price": "19.99", "priceCurrency": "USD"}}';
+    } else {
+        return;
+    }
+    var customScript = document.createElement('script');
+    customScript.setAttribute('type', 'application/ld+json');
+    customScript.textContent = structuredDataText;
+    document.head.appendChild(customScript);
+}
 
 // Add structured data to tutorial pages 
-function addStructuredData(videoItems, videoLinks) {
+function addHowToStructuredData(videoItems, videoLinks) {
     var urlStart = urlStart = wpHowTo_websiteUrl.slice(0, -1);
     var pageTitle = document.title;
     var youtubeVideos = videoItems;
@@ -22,6 +41,7 @@ function addStructuredData(videoItems, videoLinks) {
     var videoThreeTitle = youtubeLinks[2].innerText;
     var videoFourTitle = youtubeLinks[3].innerText;
     var videoFiveTitle = youtubeLinks[4].innerText;
+    var structuredText = 'Watch the video in order to achieve the following: ';
     var structuredName;
     var structuredSnippet;
     if (pageTitle.indexOf('Topic:') !== -1) {
@@ -34,7 +54,7 @@ function addStructuredData(videoItems, videoLinks) {
         structuredSnippet = "Check out these WordPress tutorial videos to find out how to use the " + plugin.toUpperCase() + "WordPress plugin to build advanced websites with ease!";
     }
     // Script data
-    var structuredDataText = '{"@context": "https://schema.org", "@type": "HowTo", "name": "' + structuredName + '", "image": {"@type": "ImageObject", "url": "https://raw.githubusercontent.com/Imoptimal/plugin-wp-how-to-website/main/wp-how-to-black.png", "height": "300", "width": "300"},"step": [{"@type": "HowToStep", "url": "' + urlStart + videoOneId + '", "name":"' + videoOneTitle + '"}, {"@type": "HowToStep", "url":"' + urlStart + videoTwoId + '", "name":"' + videoTwoTitle + '"}, {"@type": "HowToStep", "url":"' + urlStart + videoThreeId + '", "name":"' + videoThreeTitle + '"}, {"@type": "HowToStep", "url":"' + urlStart + videoFourId + '", "name":"' + videoFourTitle + '"}, {"@type": "HowToStep", "url":"' + urlStart + videoFiveId + '", "name":"' + videoFiveTitle + '"}]}';
+    var structuredDataText = '{"@context": "https://schema.org", "@type": "HowTo", "name": "' + structuredName + '", "image": {"@type": "ImageObject", "url": "https://raw.githubusercontent.com/Imoptimal/plugin-wp-how-to-website/main/wp-how-to-black.png", "height": "300", "width": "300"},"step": [{"@type": "HowToStep", "name":"' + videoOneTitle + '", "url": "' + urlStart + videoOneId + '", "text":"' + structuredText + videoOneTitle + '"}, {"@type": "HowToStep", "name":"' + videoTwoTitle + '", "url":"' + urlStart + videoTwoId + '", "text":"' + structuredText + videoTwoTitle + '"}, {"@type": "HowToStep", "name":"' + videoThreeTitle + '", "url":"' + urlStart + videoThreeId + '", "text":"' + structuredText + videoThreeTitle + '"}, {"@type": "HowToStep", "name":"' + videoFourTitle + '", "url":"' + urlStart + videoFourId + '", "text":"' + structuredText + videoFourTitle + '"}, {"@type": "HowToStep", "name":"' + videoFiveTitle + '", "url":"' + urlStart + videoFiveId + '", "text":"' + structuredText + videoFiveTitle + '"}]}';
     var customScript = document.createElement('script');
     customScript.setAttribute('type', 'application/ld+json');
     customScript.textContent = structuredDataText;
@@ -257,9 +277,11 @@ document.addEventListener("DOMContentLoaded", function() {
     if (footerNav) {
         footerNav.style.display = 'none';
     }
+    // Add structured data for google search (homepages)
+    addHomepageStructuredData();
     // If there's any youtube videos found on the page - add structured data for google search
     if (youtubeItemsArray.length > 0) {
-        addStructuredData(youtubeItems, links);
+        addHowToStructuredData(youtubeItems, links);
     }
 
     // Disable post date link (not useful)
