@@ -6,6 +6,7 @@
   - General - set title to "'WP How to' WordPress Tutorial Videos"; set tagline to "Build advanced websites with ease"
   - Discussion - check off "Allow people to submit comments on new posts"
   - Permalinks - rename category to "tutorials"; set custom structure to "/%category%/%postname%/"
+  - Edit profile - set first name to 'WP How to', last name to 'WordPress Tutorial Videos', nickname to 'WP How to - WordPress Tutorial Videos', and choose publicaly displayed name 'WP How to - WordPress Tutorial Videos'
 - Add post categories:
   - Plugin Tutorials (slug: wordpress-plugin)
   - How to Tutorials (slug: wordpress-topic)
