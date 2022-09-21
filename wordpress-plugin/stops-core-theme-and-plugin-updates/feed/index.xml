@@ -11,11 +11,11 @@
 	<atom:link href="http://localhost/wordpress-plugin/stops-core-theme-and-plugin-updates/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/stops-core-theme-and-plugin-updates/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Wed, 24 Aug 2022 17:51:32 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 20 Sep 2022 20:04:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
 </channel>
 </rss>

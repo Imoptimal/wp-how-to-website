@@ -11,11 +11,11 @@
 	<atom:link href="http://localhost/wordpress-plugin/ms-custom-login/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/ms-custom-login/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Wed, 24 Aug 2022 17:26:57 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 20 Sep 2022 19:42:43 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
 </channel>
 </rss>

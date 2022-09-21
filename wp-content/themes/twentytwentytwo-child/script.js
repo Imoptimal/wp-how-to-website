@@ -11,7 +11,7 @@ function addHomepageStructuredData() {
     var structuredDataText;
     if (wpHowTo_websiteUrl === 'https://wphowto.tv/') {
         // Script data
-        structuredDataText = '{"@context": "https://schema.org", "@type": "Organization", "url": "https://wphowto.tv", "logo": "https://raw.githubusercontent.com/Imoptimal/plugin-wp-how-to-website/main/wp-how-to-black.png"}';
+        structuredDataText = '{"@context": "https://schema.org", "@type": "Organization", "url": "https://wphowto.tv", "logo": "https://wphowto.tv/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png"}';
     } else if (wpHowTo_websiteUrl === 'https://plugin.wphowto.tv/') {
         // Script data
         var structuredName = "'WP How to - WordPress Tutorial Videos' WordPress Plugin";
@@ -47,11 +47,11 @@ function addHowToStructuredData(videoItems, videoLinks) {
     if (pageTitle.indexOf('Topic:') !== -1) {
         structuredName = pageTitle.replace('Topic: ', '');
         var topic = structuredName.replace("'WP How to' WordPress Tutorial Videos", '');
-        structuredSnippet = "Check out these WordPress tutorial videos to find out how to understand one of the most searched topics related to WordPress: " + topic.toUpperCase() + "and build advanced websites with ease!";
+        structuredSnippet = "Check out these #WordPressTutorial videos to find out how to understand one of the most searched topics related to #WordPress: " + topic.toUpperCase() + "and build advanced websites with ease!";
     } else if (pageTitle.indexOf('Plugin:') !== -1) {
         structuredName = pageTitle.replace('Plugin: ', '');
         var plugin = structuredName.replace("'WP How to' WordPress Tutorial Videos", '');
-        structuredSnippet = "Check out these WordPress tutorial videos to find out how to use the " + plugin.toUpperCase() + "WordPress plugin to build advanced websites with ease!";
+        structuredSnippet = "Check out these #WordPressTutorial videos to find out how to use the " + plugin.toUpperCase() + "#WordPress plugin to build advanced websites with ease!";
     }
     // Script data
     var structuredDataText = '{"@context": "https://schema.org", "@type": "HowTo", "name": "' + structuredName + '", "image": {"@type": "ImageObject", "url": "https://raw.githubusercontent.com/Imoptimal/plugin-wp-how-to-website/main/wp-how-to-black.png", "height": "300", "width": "300"},"step": [{"@type": "HowToStep", "name":"' + videoOneTitle + '", "url": "' + urlStart + videoOneId + '", "text":"' + structuredText + videoOneTitle + '"}, {"@type": "HowToStep", "name":"' + videoTwoTitle + '", "url":"' + urlStart + videoTwoId + '", "text":"' + structuredText + videoTwoTitle + '"}, {"@type": "HowToStep", "name":"' + videoThreeTitle + '", "url":"' + urlStart + videoThreeId + '", "text":"' + structuredText + videoThreeTitle + '"}, {"@type": "HowToStep", "name":"' + videoFourTitle + '", "url":"' + urlStart + videoFourId + '", "text":"' + structuredText + videoFourTitle + '"}, {"@type": "HowToStep", "name":"' + videoFiveTitle + '", "url":"' + urlStart + videoFiveId + '", "text":"' + structuredText + videoFiveTitle + '"}]}';

@@ -11,11 +11,11 @@
 	<atom:link href="http://localhost/wordpress-plugin/responsive-filterable-portfolio/feed/" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/responsive-filterable-portfolio/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Wed, 24 Aug 2022 17:34:01 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 20 Sep 2022 19:47:44 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
 </channel>
 </rss>
