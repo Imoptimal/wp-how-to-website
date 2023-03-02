@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WP Google Analytics Events	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-google-analytics-events/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WP Google Analytics Events &#8211; No-Code Custom Event Tracking for Google Analytics	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wp-google-analytics-events/feed/?simply_static_page=179594" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-google-analytics-events/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:59:13 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:37:21 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

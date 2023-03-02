@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Twenty Eleven Theme Extensions	</title>
-	<atom:link href="http://localhost/wordpress-plugin/twenty-eleven-theme-extensions/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/twenty-eleven-theme-extensions/feed/?simply_static_page=191622" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/twenty-eleven-theme-extensions/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:53:09 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:29:44 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

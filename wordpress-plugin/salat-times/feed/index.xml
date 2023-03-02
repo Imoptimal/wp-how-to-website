@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Salat Times	</title>
-	<atom:link href="http://localhost/wordpress-plugin/salat-times/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/salat-times/feed/?simply_static_page=175316" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/salat-times/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:34:23 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 18:40:32 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

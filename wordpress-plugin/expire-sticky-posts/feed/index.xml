@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Expire Sticky Posts	</title>
-	<atom:link href="http://localhost/wordpress-plugin/expire-sticky-posts/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/expire-sticky-posts/feed/?simply_static_page=201998" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/expire-sticky-posts/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:28 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:05:15 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

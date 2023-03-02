@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WordPress Importer : Import any XML File to WordPress	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-smart-import/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WP Smart Import : Import any XML File to WordPress	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wp-smart-import/feed/?simply_static_page=198839" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-smart-import/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:18 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:51:34 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

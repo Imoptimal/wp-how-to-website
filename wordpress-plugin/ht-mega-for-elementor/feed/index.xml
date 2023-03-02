@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: HT Mega &#8211; Absolute Addons for Elementor Page Builder	</title>
-	<atom:link href="http://localhost/wordpress-plugin/ht-mega-for-elementor/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: HT Mega &#8211; Absolute Addons For Elementor	</title>
+	<atom:link href="http://localhost/wordpress-plugin/ht-mega-for-elementor/feed/?simply_static_page=173196" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/ht-mega-for-elementor/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:02:17 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:12 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WordPress Team Members &#8211; GS Plugins	</title>
-	<atom:link href="http://localhost/wordpress-plugin/gs-team-members/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Team Members &#8211; A WordPress Team Plugin with Gallery, Grid, Carousel, Slider, Table, List, and More	</title>
+	<atom:link href="http://localhost/wordpress-plugin/gs-team-members/feed/?simply_static_page=186572" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/gs-team-members/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:40:16 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:08:09 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

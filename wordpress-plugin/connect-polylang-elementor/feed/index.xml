@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Polylang Connect for Elementor &#8211; Templates Translation &#038; Language Switcher	</title>
-	<atom:link href="http://localhost/wordpress-plugin/connect-polylang-elementor/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/connect-polylang-elementor/feed/?simply_static_page=173301" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/connect-polylang-elementor/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:01:51 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:10 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

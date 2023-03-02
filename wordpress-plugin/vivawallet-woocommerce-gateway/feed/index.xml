@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: VivaWallet WooCommerce Gateway	</title>
-	<atom:link href="http://localhost/wordpress-plugin/vivawallet-woocommerce-gateway/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Viva Wallet Smart Checkout for your WooCommerce store	</title>
+	<atom:link href="http://localhost/wordpress-plugin/vivawallet-woocommerce-gateway/feed/?simply_static_page=196975" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/vivawallet-woocommerce-gateway/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:57 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:27:59 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WappPress &#8211; Create a Mobile App for any WordPress site in just 1 click and 1 minute with our Mobile App Builder and Maker	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wapppress-builds-android-app-for-website/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WappPress &#8211; Create Mobile App for any WordPress site with our Mobile App Builder in just 1 minute	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wapppress-builds-android-app-for-website/feed/?simply_static_page=171785" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wapppress-builds-android-app-for-website/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:32:03 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 18:39:39 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

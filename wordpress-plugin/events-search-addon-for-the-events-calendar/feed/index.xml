@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: The Events Calendar Search Addon	</title>
-	<atom:link href="http://localhost/wordpress-plugin/events-search-addon-for-the-events-calendar/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Events Search For The Events Calendar	</title>
+	<atom:link href="http://localhost/wordpress-plugin/events-search-addon-for-the-events-calendar/feed/?simply_static_page=202085" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/events-search-addon-for-the-events-calendar/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:32 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:05:14 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

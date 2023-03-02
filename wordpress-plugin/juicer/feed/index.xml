@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Juicer: Show all your social media posts in a beautiful feed.	</title>
-	<atom:link href="http://localhost/wordpress-plugin/juicer/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Embed, curate &#038; aggregate social media feeds into your website using JUICER	</title>
+	<atom:link href="http://localhost/wordpress-plugin/juicer/feed/?simply_static_page=185845" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/juicer/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:55:11 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:50:50 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

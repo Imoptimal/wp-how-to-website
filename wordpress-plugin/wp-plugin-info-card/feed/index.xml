@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: WP Plugin Info Card	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-plugin-info-card/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/wp-plugin-info-card/feed/?simply_static_page=176807" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-plugin-info-card/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:32:59 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:00:46 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

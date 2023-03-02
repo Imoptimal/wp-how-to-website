@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: WP Help	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-help/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/wp-help/feed/?simply_static_page=183568" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-help/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:57:20 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:35:55 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

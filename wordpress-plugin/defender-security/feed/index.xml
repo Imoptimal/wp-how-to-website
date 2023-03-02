@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Defender Security &#8211; Malware Scanner, Login Security &#038; Firewall	</title>
-	<atom:link href="http://localhost/wordpress-plugin/defender-security/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/defender-security/feed/?simply_static_page=173683" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/defender-security/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:01:48 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:01 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

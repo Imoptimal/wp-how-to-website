@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Post, Registration and Profile Form Builder &#8211; FrontEnd Editor BuddyForms &#8211; Easy WordPress Forms	</title>
-	<atom:link href="http://localhost/wordpress-plugin/buddyforms/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Post Form &#8211; Registration Form &#8211; Profile Form for User Profiles and Content Forms for User Submissions	</title>
+	<atom:link href="http://localhost/wordpress-plugin/buddyforms/feed/?simply_static_page=196143" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/buddyforms/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:37 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:50:48 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Google Webfont Optimizer	</title>
-	<atom:link href="http://localhost/wordpress-plugin/google-webfont-optimizer/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/google-webfont-optimizer/feed/?simply_static_page=197549" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/google-webfont-optimizer/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:45 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:51:12 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

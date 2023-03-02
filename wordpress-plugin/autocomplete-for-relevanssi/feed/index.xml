@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Autocomplete For Relevanssi	</title>
-	<atom:link href="http://localhost/wordpress-plugin/autocomplete-for-relevanssi/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/autocomplete-for-relevanssi/feed/?simply_static_page=191919" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/autocomplete-for-relevanssi/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:42:06 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:28:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

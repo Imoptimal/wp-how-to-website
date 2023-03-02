@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Quantity Plus Minus Button for WooCommerce	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wc-quantity-plus-minus-button/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Quantity Plus Minus Button for WooCommerce by CodeAstrology	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wc-quantity-plus-minus-button/feed/?simply_static_page=184710" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wc-quantity-plus-minus-button/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:54:44 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:51:17 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

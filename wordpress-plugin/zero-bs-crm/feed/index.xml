@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Jetpack CRM &#8211; Clients, Invoices, Leads, &#038; Billing for WordPress	</title>
-	<atom:link href="http://localhost/wordpress-plugin/zero-bs-crm/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Jetpack CRM &#8211; Clients, Leads, Invoices, Billing, Email Marketing, &#038; Automation	</title>
+	<atom:link href="http://localhost/wordpress-plugin/zero-bs-crm/feed/?simply_static_page=176371" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/zero-bs-crm/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:58:45 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:25:01 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Relative Image URLs	</title>
-	<atom:link href="http://localhost/wordpress-plugin/relative-image-urls/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/relative-image-urls/feed/?simply_static_page=195540" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/relative-image-urls/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:44:36 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:29:39 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

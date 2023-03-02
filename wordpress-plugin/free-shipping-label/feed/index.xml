@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Free Shipping Label	</title>
-	<atom:link href="http://localhost/wordpress-plugin/free-shipping-label/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Free Shipping Label and Progress Bar for WooCommerce	</title>
+	<atom:link href="http://localhost/wordpress-plugin/free-shipping-label/feed/?simply_static_page=202454" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/free-shipping-label/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:42:59 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:04:56 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

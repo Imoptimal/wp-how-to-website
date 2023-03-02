@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Extensive VC Addons for WPBakery page builder	</title>
-	<atom:link href="http://localhost/wordpress-plugin/extensive-vc-addon/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/extensive-vc-addon/feed/?simply_static_page=187883" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/extensive-vc-addon/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:54:23 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:50:07 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

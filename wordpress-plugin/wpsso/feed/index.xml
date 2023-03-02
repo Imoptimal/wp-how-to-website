@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WordPress Social and Search Optimization &#8211; The Complete Structured Data Plugin for WordPress	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wpsso/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WPSSO Core &#8211; The Complete Structured Data Plugin	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wpsso/feed/?simply_static_page=184970" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wpsso/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:57:10 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:51:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

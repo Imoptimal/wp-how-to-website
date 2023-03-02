@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: StoreCustomizer &#8211; WooCommerce plugin to Customize all WooCommerce Pages	</title>
-	<atom:link href="http://localhost/wordpress-plugin/woocustomizer/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: StoreCustomizer &#8211; A plugin to Customize all WooCommerce Pages	</title>
+	<atom:link href="http://localhost/wordpress-plugin/woocustomizer/feed/?simply_static_page=176625" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woocustomizer/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:00:37 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:24:55 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

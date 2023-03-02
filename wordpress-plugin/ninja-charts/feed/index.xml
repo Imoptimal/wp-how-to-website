@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Ninja Charts &#8211; Best WP Charts Plugin for WordPress	</title>
-	<atom:link href="http://localhost/wordpress-plugin/ninja-charts/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Ninja Charts- WordPress Charts and Graphs Plugin	</title>
+	<atom:link href="http://localhost/wordpress-plugin/ninja-charts/feed/?simply_static_page=197547" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/ninja-charts/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:44:29 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:51:13 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

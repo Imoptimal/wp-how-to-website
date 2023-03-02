@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Email Verification / SMS Verification / OTP Verification	</title>
-	<atom:link href="http://localhost/wordpress-plugin/miniorange-otp-verification/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Email Verification / SMS Verification / OTP Verification / OTP Authentication	</title>
+	<atom:link href="http://localhost/wordpress-plugin/miniorange-otp-verification/feed/?simply_static_page=192759" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/miniorange-otp-verification/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:52:01 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:29:21 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

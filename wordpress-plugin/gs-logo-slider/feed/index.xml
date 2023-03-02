@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: GS Logo Slider &#8211; Ticker, Grid, List, Table &#038; Filter Views	</title>
-	<atom:link href="http://localhost/wordpress-plugin/gs-logo-slider/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Logo Slider &#8211; A WordPress Plugin for Logo Showcase, Logo Gallery, Logo Carousel and Client Logo Presentation	</title>
+	<atom:link href="http://localhost/wordpress-plugin/gs-logo-slider/feed/?simply_static_page=179476" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/gs-logo-slider/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:58:59 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:37:23 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

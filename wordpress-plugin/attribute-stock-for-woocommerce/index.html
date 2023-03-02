@@ -5,74 +5,63 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="max-image-preview:large">
 <title>Plugin: WooCommerce Attribute Stock &#8211; Share Stock Between Products (Lite Version) &#8211; &#039;WP How to&#039; WordPress Tutorial Videos</title>
-<link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Comments Feed" href="/comments/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Plugin: WooCommerce Attribute Stock &#8211; Share Stock Between Products (Lite Version) Comments Feed" href="/wordpress-plugin/attribute-stock-for-woocommerce/feed/">
-<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
+<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
 <style id="wp-block-group-inline-css">.wp-block-group{box-sizing:border-box}
 :where(.wp-block-group.has-background){padding:1.25em 2.375em}</style>
 <style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label{word-break:normal;overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}</style>
-<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.0.2" media="all">
+<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.1.1" media="all">
+<style id="wp-block-navigation-inline-css">.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}</style>
 <style id="wp-block-template-part-inline-css">.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
-<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word}.wp-block-post-title a{display:inline-block}</style>
-<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}</style>
-<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border-top:1px solid;border-bottom:1px solid}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
+<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word;box-sizing:border-box}.wp-block-post-title a{display:inline-block}
+.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}</style>
+<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom;box-sizing:border-box}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim{position:absolute;inset:0;background-color:#000}.wp-block-post-featured-image{position:relative}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-gradient{background-color:transparent}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-0{opacity:0}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-10{opacity:.1}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-20{opacity:.2}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-30{opacity:.3}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-40{opacity:.4}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-50{opacity:.5}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-60{opacity:.6}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-70{opacity:.7}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-80{opacity:.8}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-90{opacity:.9}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-100{opacity:1}</style>
+<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border:1px solid;border-right:none;border-left:none}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
 .wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}</style>
 <style id="wp-block-spacer-inline-css">.wp-block-spacer{clear:both}</style>
+<style id="wp-block-post-date-inline-css">.wp-block-post-date{box-sizing:border-box}</style>
 <style id="wp-block-post-author-inline-css">.wp-block-post-author{display:flex;flex-wrap:wrap}.wp-block-post-author__byline{width:100%;margin-top:0;margin-bottom:0;font-size:.5em}.wp-block-post-author__avatar{margin-right:1em}.wp-block-post-author__bio{margin-bottom:.7em;font-size:.7em}.wp-block-post-author__content{flex-grow:1;flex-basis:0}.wp-block-post-author__name{margin:0}</style>
 <style id="wp-block-post-terms-inline-css">.wp-block-post-terms__separator{white-space:pre-wrap}</style>
-<style id="wp-block-post-comments-inline-css">.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{content:"";display:table;clear:both}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-top:.5em;margin-right:.75em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{margin-top:1em;margin-bottom:1em;display:block}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{display:block;box-sizing:border-box;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-size:1em;font-family:inherit}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}.wp-block-post-comments input[type=submit]{border:none}</style>
-<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-button.aligncenter{text-align:center}</style>
-<style id="wp-block-button-inline-css">.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;cursor:pointer;display:inline-block;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-align:center;text-decoration:none;word-break:break-word;box-sizing:border-box}.wp-block-button__link:active,.wp-block-button__link:focus,.wp-block-button__link:hover,.wp-block-button__link:visited{color:#fff}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.is-style-outline>:where(.wp-block-button__link),:where(.wp-block-button__link).is-style-outline{border:2px solid;padding:.667em 1.333em}.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent}</style>
+<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-button.aligncenter{text-align:center}</style>
+<style id="wp-block-button-inline-css">.wp-block-button__link{cursor:pointer;display:inline-block;text-align:center;word-break:break-word;box-sizing:border-box}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){box-shadow:none;text-decoration:none;border-radius:9999px;padding:calc(.667em + 2px) calc(1.333em + 2px)}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.wp-block-button.is-style-outline>.wp-block-button__link,.wp-block-button .wp-block-button__link.is-style-outline{border:2px solid;padding:.667em 1.333em}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent;background-image:none}
+.wp-block-button .wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}</style>
 <style id="wp-block-paragraph-inline-css">.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}p.has-drop-cap.has-background{overflow:hidden}p.has-background{padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}</style>
 <style id="wp-block-columns-inline-css">.wp-block-columns{display:flex;margin-bottom:1.75em;box-sizing:border-box;flex-wrap:wrap!important;align-items:normal!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;word-break:break-word;overflow-wrap:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}</style>
-<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color),html :where([style*=border-width]){border-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}</style>
-<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0; }body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);--wp--style--block-gap: 1.5rem;}.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: var( --wp--style--block-gap ); }h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}a{color: var(--wp--preset--color--foreground);}.wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}.wp-block-post-comments{padding-top: var(--wp--custom--spacing--small);}.wp-block-pullquote{border-width: 1px 0;}.wp-block-query-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}.wp-block-quote{border-width: 1px;}.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}figure{margin:0 0 1em}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0;--wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1000px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: 1.5rem; }body { --wp--style--block-gap: 1.5rem; }body .is-layout-flow > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-flow > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-constrained > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-constrained > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-flex{gap: 1.5rem;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--foreground);text-decoration: underline;}h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="core-block-supports-inline-css">.wp-block-navigation.wp-container-3{justify-content:flex-end;}.wp-block-columns.wp-container-13{flex-wrap:nowrap;}.wp-block-group.wp-container-4,.wp-block-group.wp-container-14{justify-content:space-between;}</style>
 <style id="wp-webfonts-inline-css">@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}</style>
 <link rel="stylesheet" id="wphowtotv-style-css" href="/wp-content/themes/twentytwentytwo-child/style.css?ver=1.0.0" media="all">
 <link rel="stylesheet" id="twentytwentytwo-style-css" href="/wp-content/themes/twentytwentytwo/style.css?ver=1.0.0" media="all">
-<script src="/wp-includes/blocks/navigation/view.min.js?ver=009e29110e016c14bac4ba0ecc809fcd" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view.min.js?ver=c24330f635f5cb9d5e0e" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view-modal.min.js?ver=45f05135277abf0b0408" id="wp-block-navigation-view-2-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/97887">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/138679">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
-<meta name="generator" content="WordPress 6.0.2">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
 <link rel="canonical" href="/wordpress-plugin/attribute-stock-for-woocommerce/">
-<link rel="shortlink" href="/?p=97887">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Fattribute-stock-for-woocommerce%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Fattribute-stock-for-woocommerce%2F&#038;format=xml">
-<style>.wp-container-1 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-1 > * { margin: 0; }</style>
-<style>.wp-container-3 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: flex-end;}.wp-container-3 > * { margin: 0; }</style>
-<style>.wp-container-4 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-4 > * { margin: 0; }</style>
-<style>.wp-container-5 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-5 > .alignwide { max-width: 1000px;}.wp-container-5 .alignfull { max-width: none; }.wp-container-5 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-5 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-5 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-5 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-5 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-6 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-6 > .alignwide { max-width: 1000px;}.wp-container-6 .alignfull { max-width: none; }.wp-container-6 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-6 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-6 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-6 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-6 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-7 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-7 > .alignwide { max-width: 1000px;}.wp-container-7 .alignfull { max-width: none; }.wp-container-7 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-7 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-7 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-7 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-7 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-8 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-8 > * { margin: 0; }</style>
-<style>.wp-container-9 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-9 > .alignwide { max-width: 1000px;}.wp-container-9 .alignfull { max-width: none; }.wp-container-9 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-9 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-9 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-9 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-9 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-10 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-10 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-10 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-10 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-10 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-11 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-11 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-11 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-11 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-11 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-12 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-12 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-12 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-12 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-12 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-13 {display: flex;gap: var( --wp--style--block-gap, 2em );flex-wrap: nowrap;align-items: center;}.wp-container-13 > * { margin: 0; }</style>
-<style>.wp-container-14 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-14 > * { margin: 0; }</style>
-<style>.wp-container-15 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-15 > .alignwide { max-width: 1000px;}.wp-container-15 .alignfull { max-width: none; }.wp-container-15 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-15 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-15 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-15 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-15 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-16 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-16 > .alignwide { max-width: 1000px;}.wp-container-16 .alignfull { max-width: none; }.wp-container-16 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-16 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-16 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-16 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-16 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<link rel="shortlink" href="/?p=138679">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Fattribute-stock-for-woocommerce%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Fattribute-stock-for-woocommerce%2F#038;format=xml">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 </head>
 
-<body class="post-template-default single single-post postid-97887 single-format-standard wp-custom-logo wp-embed-responsive">
+<body class="post-template-default single single-post postid-138679 single-format-standard wp-custom-logo wp-embed-responsive">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
 <div class="wp-site-blocks">
 <header class="wp-block-template-part">
-<div class="wp-container-5 wp-block-group">
-<div class="wp-container-4 is-content-justification-space-between wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-1 wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img loading="lazy" width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-content-justification-space-between is-layout-flex wp-container-4 wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-flex wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" decoding="async" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
 
 
-<nav class="wp-container-3 is-content-justification-right is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+<nav class="is-content-justification-right is-layout-flex wp-container-3 is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
 			<div class="wp-block-navigation__responsive-container  " id="modal-2">
 				<div class="wp-block-navigation__responsive-close" tabindex="-1" data-micromodal-close>
 					<div class="wp-block-navigation__responsive-dialog" aria-label="Menu">
@@ -92,9 +81,9 @@
 </header>
 
 
-<main class="wp-container-10 wp-block-group">
-<div class="wp-container-6 wp-block-group">
-<h1 style="margin-bottom: var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: WooCommerce Attribute Stock &#8211; Share Stock Between Products (Lite Version)</h1>
+<main class="is-layout-flow wp-block-group">
+<div class="is-layout-constrained wp-block-group">
+<h1 style="margin-bottom:var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: WooCommerce Attribute Stock &#8211; Share Stock Between Products (Lite Version)</h1>
 
 
 
@@ -107,308 +96,308 @@
 <div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<div class="wp-container-7 entry-content wp-block-post-content">
+<div class="is-layout-constrained entry-content wp-block-post-content">
 <p><iframe id="youtube-player" loading="lazy" src="https://www.youtube.com/embed/?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
 <div class="youtube-videos">
-<div class="youtube-item" id="WoQkSTpS18Q">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=WoQkSTpS18Q">1) Woocommerce tutorial  out of stock + backorder + stock management &amp; variable product stock</a></h5>
+<div class="youtube-item" id="oTga3hjASbM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=oTga3hjASbM">1) How to use WooCommerce Attribute Swatches?</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-02-07</span></p>
-<p class="description"><b>Short description:</b> WooCommerce tutorial How to manage Stock in WooCommerce How to show out of stock visibility in WooCommerce variable &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-13</span></p>
+<p class="description"><b>Short description:</b> In this video, we will show you how to use WooCommerce Attribute Swatches with Betheme. If you have any issues or questions, &#8230;</p>
 </div>
-<div class="youtube-item" id="eoTRiZVyO2c">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=eoTRiZVyO2c">2) How To Use Custom and Global Product Attributes In WooCommerce &#8211; WordPress Online Store</a></h5>
+<div class="youtube-item" id="tfSv2jyF_XU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=tfSv2jyF_XU">2) Products Variation Swatches for WooCommerce WordPress Plugin Attributes Guide 🛒</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-10-01</span></p>
-<p class="description"><b>Short description:</b> There are two types of Product Attributes that can be used with WooCommerce: Custom and Global Attributes. In this tutorial, we &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-12-01</span></p>
+<p class="description"><b>Short description:</b> In today&#8217;s video tutorial, we&#8217;ll learn how to use and setup the WooCommerce WordPress plugin products variation swatches in &#8230;</p>
 </div>
-<div class="youtube-item" id="IdmhdME2dMg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IdmhdME2dMg">3) How to set WooCommerce stock management [Variations &#8211; quantity &#8211; full stock control]</a></h5>
+<div class="youtube-item" id="NUDHD5--b_g">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=NUDHD5--b_g">3) 16 Best WooCommerce Inventory Management Plugins for 2023</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-04-01</span></p>
-<p class="description"><b>Short description:</b> Learn how to set up a WooCommerce stock management system. Also show the WooCommerce stock quantity on the product &#8230;</p>
-</div>
-<div class="youtube-item" id="guh-hkrJF_E">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=guh-hkrJF_E">4) Out of Stock message for woocommerce product &#8212; WordPress plugin</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-08-21</span></p>
-<p class="description"><b>Short description:</b> Out of Stock message and sold out badge for woocommerce product &#8212; WordPress plugin.</p>
-</div>
-<div class="youtube-item" id="ELmJFTKCsYU">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ELmJFTKCsYU">5) How to display stock market data in wordpress 2022</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-02-27</span></p>
-<p class="description"><b>Short description:</b> How to display stock market data in wordpress 2022 Powered By: https://www.outsource2bd.com Use simple shortcode &#8230;</p>
-</div>
-<div class="youtube-item" id="JDl3I4WH7ss">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JDl3I4WH7ss">6) WooCommerce &#8211; How to Change Stock Status on Hundreds of Products at Once</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-02-28</span></p>
-<p class="description"><b>Short description:</b> Download the plugin: https://wpsheeteditor.com/v/44 Want to mark 200 #WooCommerce products as out of #stock? Do you want &#8230;</p>
-</div>
-<div class="youtube-item" id="ySDGnPjW4p0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ySDGnPjW4p0">7) How To Display Stock Market Data In WordPress Website For Free?</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-06-04</span></p>
-<p class="description"><b>Short description:</b> In today&#8217;s WordPress plugin video tutorial you&#8217;ll learn a simple, fast and free method to display stock market data and information &#8230;</p>
-</div>
-<div class="youtube-item" id="e5qiIcg8moU">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=e5qiIcg8moU">8) WooCommerce Product SKU Generator</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-11-18</span></p>
-<p class="description"><b>Short description:</b> http://ytwizard.com/r/51hJx9 http://ytwizard.com/r/51hJx9 Woo Plugins &#8211; A Guide on the Best Plugins for WooCommerce Learn how &#8230;</p>
-</div>
-<div class="youtube-item" id="lDkJFD6afQM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lDkJFD6afQM">9) Using the Woocommerce Stock Manager</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2016-12-29</span></p>
-<p class="description"><b>Short description:</b> Tutorial on using the Woocommerce stock manager.</p>
-</div>
-<div class="youtube-item" id="vO-JlXKvwes">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vO-JlXKvwes">10) WooCommerce Tutorial &#8211; Cost Calculator WordPress Plugin</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-12-23</span></p>
-<p class="description"><b>Short description:</b> In this video, we will present and explain how to configure probably one of the main advantages of the Cost Calculator &#8211; the &#8230;</p>
-</div>
-<div class="youtube-item" id="YcxeWTv7-34">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=YcxeWTv7-34">11) WooCommerce Warehouses Demo: MultiLocation Inventory &amp; Order Routing</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-07-24</span></p>
-<p class="description"><b>Short description:</b> WooCommerce Warehouses by MyWorks Software is designed for stores running on WooCommerce who have more than one &#8230;</p>
-</div>
-<div class="youtube-item" id="RgY_IKKrYBw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=RgY_IKKrYBw">12) Importing &amp; Syncing Product Stock Levels to WooCommerce from a CSV (or XML)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2014-11-12</span></p>
-<p class="description"><b>Short description:</b> Import stock levels to WooCommerce with WP All Import: http://www.wpallimport.com/woocommerce-product-import/ Learn how to &#8230;</p>
-</div>
-<div class="youtube-item" id="R4OJx1eeLag">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=R4OJx1eeLag">13) WooCommerce Bulk Inventory Management Made Easy</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2016-04-13</span></p>
-<p class="description"><b>Short description:</b> This tutorial video will show you how to bulk update WooCommerce stock levels using WP All Import and WP All Export. You can &#8230;</p>
-</div>
-<div class="youtube-item" id="oOA5SW0-k_A">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=oOA5SW0-k_A">14) How to Dynamically Change Stock Status | CTX Feed | WooCommerce Product Feed Generator &#8211; WebAppick</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-09-08</span></p>
-<p class="description"><b>Short description:</b> In this video, you will learn how to dynamically change stock status with CTX Feed WooCommerce product feed generator plugin.</p>
-</div>
-<div class="youtube-item" id="n29Ov8bf77w">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=n29Ov8bf77w">15) Woocommerce Bulk Edit Products, Prices and Attributes | The Easy Method</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-10-06</span></p>
-<p class="description"><b>Short description:</b> If your Woocommerce catalog has a large number of products, it is rather cumbersome to manage, edit or update those products &#8230;</p>
-</div>
-<div class="youtube-item" id="IJjoJ408Gag">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IJjoJ408Gag">16) Woocommerce Tutorial Part 3: Product Variations and Product Attributes</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-01-25</span></p>
-<p class="description"><b>Short description:</b> Product Variations in Woocommerce for WordPress. Learn how to quickly add product variations and attributes to your &#8230;</p>
-</div>
-<div class="youtube-item" id="hTsd7GGsbo0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=hTsd7GGsbo0">17) Inventory Control and Stock management on WooCommerce | WordPress | 2020</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-11-12</span></p>
-<p class="description"><b>Short description:</b> Running an eCommerce store isn&#8217;t always walking in grass fields. It requires time and dedication in various things including &#8230;</p>
-</div>
-<div class="youtube-item" id="EhWpH5HY5pQ">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EhWpH5HY5pQ">18) Add Extra WooCommerce Product Options for [FREE]</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-10-01</span></p>
-<p class="description"><b>Short description:</b> Adding WooCommerce Product Options to your products with the free Extra Product Options for WooCommerce plugin.</p>
-</div>
-<div class="youtube-item" id="TaEbDsXuAc8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=TaEbDsXuAc8">19) How to Add a Variable Product to Your Ecommerce Website</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-04-08</span></p>
-<p class="description"><b>Short description:</b> Get the Premium Plugin here ➜ https://getwooplugins.com/?ref=2575 🛍️ Join our &#8230;</p>
-</div>
-<div class="youtube-item" id="C1xVWCG6ViY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=C1xVWCG6ViY">20) How to Change the WooCommerce Out of Stock Badge to a Red Dot &#8211; Great for the Art World!</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-12-13</span></p>
-<p class="description"><b>Short description:</b> In the art world, a red dot can indicate that a painting is sold. You can often see them when visiting a gallery. Rather than using an &#8230;</p>
-</div>
-<div class="youtube-item" id="V4VmeRdyNNA">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=V4VmeRdyNNA">21) WooCommerce Inventory Management</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-03-23</span></p>
-<p class="description"><b>Short description:</b> In this video, you&#8217;ll learn how to manage your inventory using WooCommerce. Our Recommended Tools Some of the links on this &#8230;</p>
-</div>
-<div class="youtube-item" id="gLm3eaXyZO8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gLm3eaXyZO8">22) How To Display Stock Market Data In WordPress Using Gutenberg?</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-06-10</span></p>
-<p class="description"><b>Short description:</b> In today&#8217;s WordPress plugin video tutorial you&#8217;ll learn a simple, fast and free method to display stock market data and information &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-08-26</span></p>
+<p class="description"><b>Short description:</b> Want to handle stocks in your physical store? 🛒 Track raw materials or stocks in specific locations? Or overhaul the system &#8230;</p>
 </div>
 <div class="youtube-item" id="gVQmUVWNeLc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gVQmUVWNeLc">23) How To Use WooCommerce Attribute Swatches</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gVQmUVWNeLc">4) How To Use WooCommerce Attribute Swatches</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2020-12-23</span></p>
 <p class="description"><b>Short description:</b> This video looks at How To Use WooCommerce Attribute Swatches, and the new Avada Attribute types, Avada Color, Avada &#8230;</p>
 </div>
-<div class="youtube-item" id="y6GQ1-_ESjA">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=y6GQ1-_ESjA">24) Set up Bulk Edit Products, Prices &amp; Attributes plugin for your WooCommerce store- A Complete Guide</a></h5>
+<div class="youtube-item" id="yPISUPdO3fE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yPISUPdO3fE">5) How to Add Woocommerce Product Attributes on your website</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-07-28</span></p>
-<p class="description"><b>Short description:</b> Check out the plugin &#8211; https://elextensions.com/plugin/bulk-edit-products-prices-attributes-for-woocommerce/ ⚡⚡ Do you have &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2019-11-04</span></p>
+<p class="description"><b>Short description:</b> Hello Friends, Today I have shown you that how you can easily add woocommerce product Attributes and define your products &#8230;</p>
 </div>
-<div class="youtube-item" id="-xNT49B8WkE">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=-xNT49B8WkE">25) Create Woocommerce Back in Stock Notifier and Waitlist for Free!</a></h5>
+<div class="youtube-item" id="9dgL_vo1Qzg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=9dgL_vo1Qzg">6) Set the Minimum Quantity for WooCommerce Products with Code Snippets &#8211; Elementor WordPress Tutorial</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-01-04</span></p>
-<p class="description"><b>Short description:</b> In this video I&#8217;m going to show you how to add Woocommerce back in stock notifier and waitlist for free. Custom CSS used in the &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-07</span></p>
+<p class="description"><b>Short description:</b> Super simple way to Set the Minimum Quantity for WooCommerce Products with Code Snippets. Add this to Code Snippets: &#8230;</p>
 </div>
-<div class="youtube-item" id="a2em_ieqDzo">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=a2em_ieqDzo">26) How to Customize Woocommerce Stock Status? (17 hacks)</a></h5>
+<div class="youtube-item" id="e8TRD3Cb7fg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=e8TRD3Cb7fg">7) Stock Management &#8211; Product Attributes Setup</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-07-18</span></p>
-<p class="description"><b>Short description:</b> Let&#8217;s take a look at how to customize Woocommerce stock status without any fancy plugin. All snippets shown in the video are &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2017-07-03</span></p>
+<p class="description"><b>Short description:</b> Unleashed allows you to add additional details to your products by creating attribute sets. These attribute sets can be custom &#8230;</p>
 </div>
-<div class="youtube-item" id="yGuW0-LbGAc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yGuW0-LbGAc">27) Top 15 Best WooCommerce Plugins That Will Make You Money!💰💰</a></h5>
+<div class="youtube-item" id="V4VmeRdyNNA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=V4VmeRdyNNA">8) WooCommerce Inventory Management</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-03-27</span></p>
-<p class="description"><b>Short description:</b> Looking for plugins for your ecommerce wordpress website? I did alot of research and came across some really helpful &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-03-23</span></p>
+<p class="description"><b>Short description:</b> In this video, you&#8217;ll learn how to manage your inventory using WooCommerce. Our Recommended Tools Some of the links on this &#8230;</p>
 </div>
-<div class="youtube-item" id="7LouIhtxaog">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=7LouIhtxaog">28) 📢 Announcing Stock Sync with Google Sheet for WooCommerce | Ultimate WooCommerce bulk edit plugin</a></h5>
+<div class="youtube-item" id="eoTRiZVyO2c">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=eoTRiZVyO2c">9) How To Use Custom and Global Product Attributes In WooCommerce &#8211; WordPress Online Store</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-04-28</span></p>
-<p class="description"><b>Short description:</b> In this video, we will show some amazing features of Stock Sync with Google Sheet for WooCommerce and will announce &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-01</span></p>
+<p class="description"><b>Short description:</b> There are two types of Product Attributes that can be used with WooCommerce: Custom and Global Attributes. In this tutorial, we &#8230;</p>
 </div>
-<div class="youtube-item" id="9ZUQ1mSRm2c">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=9ZUQ1mSRm2c">29) Woocommerce: Quick Variations Quick Tips Tutorial</a></h5>
+<div class="youtube-item" id="lDkJFD6afQM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lDkJFD6afQM">10) Using the Woocommerce Stock Manager</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-12-04</span></p>
-<p class="description"><b>Short description:</b> Confused by variations? Need to add variations and attributes to just one product in Woocommerce for WordPress? Then this &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2016-12-29</span></p>
+<p class="description"><b>Short description:</b> Tutorial on using the Woocommerce stock manager.</p>
 </div>
-<div class="youtube-item" id="hRxXHYtGgBg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=hRxXHYtGgBg">30) WooCommerce Product Labels</a></h5>
+<div class="youtube-item" id="n29Ov8bf77w">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=n29Ov8bf77w">11) Woocommerce Bulk Edit Products, Prices and Attributes | The Easy Method</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-08-16</span></p>
-<p class="description"><b>Short description:</b> WooCommerce plugin for adding labels or badges for products. Download Plugin at &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-06</span></p>
+<p class="description"><b>Short description:</b> If your Woocommerce catalog has a large number of products, it is rather cumbersome to manage, edit or update those products &#8230;</p>
 </div>
-<div class="youtube-item" id="NyH967B5KTA">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=NyH967B5KTA">31) WooCommerce Product Variations Attributes Tutorial | Add Colors, Size, Image For Variable Products</a></h5>
+<div class="youtube-item" id="fZbDRNfbuA8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=fZbDRNfbuA8">12) How to Add Product Sizes in Woocommerce (WordPress)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-12-08</span></p>
-<p class="description"><b>Short description:</b> WooCommerce Variable products enable to add different product attributes for each product of a single product. A product, for &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-26</span></p>
+<p class="description"><b>Short description:</b> Learn How to Add Product Sizes in Woocommerce (WordPress) In this video I show you how you can add sizes to woocommerce &#8230;</p>
 </div>
-<div class="youtube-item" id="VTtMBwArQGU">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=VTtMBwArQGU">32) WOOF – Products Filter for WooCommerce (Free Version)</a></h5>
+<div class="youtube-item" id="IJjoJ408Gag">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IJjoJ408Gag">13) Woocommerce Tutorial Part 3: Product Variations and Product Attributes</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-06-01</span></p>
-<p class="description"><b>Short description:</b> It is a powerful plugin for product filter in WooCommerce. You can filter product by attributes, categories, price, title etc. You can &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2017-01-25</span></p>
+<p class="description"><b>Short description:</b> Product Variations in Woocommerce for WordPress. Learn how to quickly add product variations and attributes to your &#8230;</p>
 </div>
-<div class="youtube-item" id="AvY9EB7T57k">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=AvY9EB7T57k">33) Woocommerce Stock Management | Out of Stock Tutorial</a></h5>
+<div class="youtube-item" id="Wo2O2BqU_n0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Wo2O2BqU_n0">14) How to Add, Edit &amp; Display WooCommerce Bulk Variations: WordPress Plugin Tutorial</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-03-10</span></p>
-<p class="description"><b>Short description:</b> Tutorial on how you can manage the stock levels in Woocommerce and how you can mark the product out of stock. Once the &#8230;</p>
-</div>
-<div class="youtube-item" id="XIhqvEsrupo">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=XIhqvEsrupo">34) WooCommerce Excel Import / Upload &#8211; Create &amp; Import Variable Products from Excel to WooCommerce</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2014-11-12</span></p>
-<p class="description"><b>Short description:</b> WooCommerce Excel import tutorial &#8211; learn how to upload product data from Microsoft Excel spreadsheets to WooCommerce &#8230;</p>
-</div>
-<div class="youtube-item" id="x7k0K-INp4Y">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=x7k0K-INp4Y">35) Manage &amp; Update Products Stock for WooCommerce Fast with Excel</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-07-11</span></p>
-<p class="description"><b>Short description:</b> Are you struggling keeping track of your stock number among your WooCommerce eshop and retail shop? Manage fast with &#8230;</p>
-</div>
-<div class="youtube-item" id="CK25RD2M8Qg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=CK25RD2M8Qg">36) 6 Best WooCommerce Multistore Plugins</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-04-03</span></p>
-<p class="description"><b>Short description:</b> Go check out LearnWoo &#8211; https://learnwoo.com/ ⚡ Go subscribe to our channel &#8211; https://www.youtube.com/channel/UCmH3.</p>
-</div>
-<div class="youtube-item" id="nbuIHitO9LA">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=nbuIHitO9LA">37) Premium WordPress Theme Woo Badge Designer &#8211; How to add Woo Badge | WordPress Tutorial</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-07-15</span></p>
-<p class="description"><b>Short description:</b> The MOST feature-rich Woo Badge Plugin in the market! Tested with more than 100 most popular WooCommerce themes in the &#8230;</p>
-</div>
-<div class="youtube-item" id="8YD5WnZCIgg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=8YD5WnZCIgg">38) How to Include Product Addons &#8211; WooCommerce Product Addons Plugin Review</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-01-11</span></p>
-<p class="description"><b>Short description:</b> In today&#8217;s video I am going to show you how to provide addons to your products in your WooCommerce store. I will be using the &#8230;</p>
-</div>
-<div class="youtube-item" id="0pdVl_1TsiI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=0pdVl_1TsiI">39) WooCommerce Lesson #29. Inventory Control in WooCommerce</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-09-06</span></p>
-<p class="description"><b>Short description:</b> Let&#8217;s see how to manage inventory for products in your WooCommerce store. SPECIAL WOOCOMMERCE OFFER: Experience &#8230;</p>
-</div>
-<div class="youtube-item" id="suVr5ukUyQg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=suVr5ukUyQg">40) WooCommerce Clearance Sale – Feature Low Stock Products</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-03-22</span></p>
-<p class="description"><b>Short description:</b> Download the plugin: https://wpsheeteditor.com/v/413 Read the written tutorial: &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-02-28</span></p>
+<p class="description"><b>Short description:</b> Discover the WooCommerce Bulk Variations plugin by Barn2: the faster way to manage variations in bulk, and then display them &#8230;</p>
 </div>
 <div class="youtube-item" id="fWSDnbxfxnI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=fWSDnbxfxnI">41) Manage product level stock/inventory in WooCommerce store for simple product?</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=fWSDnbxfxnI">15) Manage product level stock/inventory in WooCommerce store for simple product?</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2020-05-04</span></p>
 <p class="description"><b>Short description:</b> inventoryManagementInWooCommerce, #stockManagementInWooCommerce In this video we will learn product Level stock &#8230;</p>
 </div>
-<div class="youtube-item" id="SbmiQ4Tc5BI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SbmiQ4Tc5BI">42) How To Show WooCommerce Variation Swatches in Printful Plugin</a></h5>
+<div class="youtube-item" id="EkBLzUBS5ZM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EkBLzUBS5ZM">16) WZone Tutorial 2021 &#8211; Complete WooZone WooCommerce Amazon Affiliate Plugin Overview</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-04-26</span></p>
-<p class="description"><b>Short description:</b> Download Links &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;- Download Plugin (Light Version): http://bit.ly/lightversion-youtube​​​​ Download Plugin &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-11-17</span></p>
+<p class="description"><b>Short description:</b> Check out my WooZone (WZone) Tutorial for 2022. I will show you how to import Amazon Affiliate Marketing products directly to &#8230;</p>
 </div>
-<div class="youtube-item" id="Xc8WIziGoSw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Xc8WIziGoSw">43) Best Rating &amp; Review Plugins For WordPress</a></h5>
+<div class="youtube-item" id="Lalb-8G05Z8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Lalb-8G05Z8">17) How To Add A Variable Product In WooCommerce (Different Prices&amp;Images)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-10-02</span></p>
-<p class="description"><b>Short description:</b> In today&#8217;s video we take a look at the best rating and review plugins for WordPress. Blog post: &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2018-09-24</span></p>
+<p class="description"><b>Short description:</b> Add Variable Products in WooCommerce with different prices and images. If you have items that have different product attributes &#8230;</p>
 </div>
-<div class="youtube-item" id="iFADj-a7UZA">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=iFADj-a7UZA">44) How to update WooCommerce Products by SKU with product importer with Excel</a></h5>
+<div class="youtube-item" id="Chw6LehtJ4k">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Chw6LehtJ4k">18) Best Woocommerce Lead Time Plugin | ONLY ONE on the market | Full Tutorial by Mr Web Reviews 2021</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-08-22</span></p>
-<p class="description"><b>Short description:</b> The latest release of &#8221; WordPress Product Import Export with Excel for WooCommerce &#8221; which is compatible with WordPress 5.5 &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-01-26</span></p>
+<p class="description"><b>Short description:</b> Looking for a Woocommerce Lead Time Plugin? Not anymore&#8230; This is the only plugin on the market that will allow you to display &#8230;</p>
 </div>
-<div class="youtube-item" id="Y94JyDGnG2k">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Y94JyDGnG2k">45) WooCommerce Bulk Variations Plugin: An Introduction</a></h5>
+<div class="youtube-item" id="FeuvVCshFgU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=FeuvVCshFgU">19) How To Remove Out of Stock Product From Feed | CTX Feed | WooCommerce Product Feed &#8211; WebAppick</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-05-11</span></p>
-<p class="description"><b>Short description:</b> An overview of the WooCommerce Bulk Variations plugin by Barn2: the faster way for your customers to view and buy product &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-25</span></p>
+<p class="description"><b>Short description:</b> In this video, you will learn how to remove Out of Stock products from the product feed using CTX Feed Plugin. CTX Feed &#8230;</p>
 </div>
-<div class="youtube-item" id="9_OaGaoGhwk">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=9_OaGaoGhwk">46) This product is currently out of stock and unavailable woocommerce wordpress</a></h5>
+<div class="youtube-item" id="R4OJx1eeLag">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=R4OJx1eeLag">20) WooCommerce Bulk Inventory Management Made Easy</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-03-28</span></p>
-<p class="description"><b>Short description:</b> this product is currently out of stock and unavailable woocommerce wordpress.</p>
+<p><span class="publish-date"><b>Published at:</b> 2016-04-13</span></p>
+<p class="description"><b>Short description:</b> This tutorial video will show you how to bulk update WooCommerce stock levels using WP All Import and WP All Export. You can &#8230;</p>
+</div>
+<div class="youtube-item" id="VTtMBwArQGU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=VTtMBwArQGU">21) WOOF – Products Filter for WooCommerce (Free Version)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-01</span></p>
+<p class="description"><b>Short description:</b> It is a powerful plugin for product filter in WooCommerce. You can filter product by attributes, categories, price, title etc. You can &#8230;</p>
+</div>
+<div class="youtube-item" id="PLVSFd-lto18zhS-pz3SgvEBPuULv20lNC">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLVSFd-lto18zhS-pz3SgvEBPuULv20lNC">22) WordPress Gutenberg (<b>playlist</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-06-17</span></p>
+<p class="description"><b>Short description:</b> </p>
+</div>
+<div class="youtube-item" id="BdCOCGeUo7A">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BdCOCGeUo7A">23) WooCommerce Product Filter plugin by WooBeWoo</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-06-03</span></p>
+<p class="description"><b>Short description:</b> Create and customize filters for your online store using Free WooCommerce Product Filter WordPress plugin. This is a perfect way &#8230;</p>
+</div>
+<div class="youtube-item" id="1uTLIL5lz7c">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1uTLIL5lz7c">24) When To Update WordPress &amp; How To Avoid Disaster #shorts</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-10</span></p>
+<p class="description"><b>Short description:</b> shorts #WordPress #Plugins In this video, I&#8217;ll introduce you to the concept of semantic versioning, which can guide you on when to &#8230;</p>
+</div>
+<div class="youtube-item" id="GbbPwRvW5Gs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=GbbPwRvW5Gs">25) WooCommerce. How To Remove Available Product Quantity Text (&quot;In Stock&quot;)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2015-01-12</span></p>
+<p class="description"><b>Short description:</b> Our Support team is ready to present you a new tutorial that will show you how to remove available product quantity text in &#8230;</p>
+</div>
+<div class="youtube-item" id="ddTX_Ldf8as">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ddTX_Ldf8as">26) How to Hide Out of Stock Items in WooCommerce</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-03-24</span></p>
+<p class="description"><b>Short description:</b> This is how to hide out of stock items in WooCommerce. #shorts Our Recommended Tools Some of the links on this page are &#8230;</p>
+</div>
+<div class="youtube-item" id="guh-hkrJF_E">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=guh-hkrJF_E">27) Out of Stock message for woocommerce product &#8212; WordPress plugin</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-08-21</span></p>
+<p class="description"><b>Short description:</b> Out of Stock message and sold out badge for woocommerce product &#8212; WordPress plugin.</p>
+</div>
+<div class="youtube-item" id="SOMKHcX1uFg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SOMKHcX1uFg">28) How to Create &amp; Manage WooCommerce Discontinued Products</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-07-23</span></p>
+<p class="description"><b>Short description:</b> 0:00 Introduction 1:52 Installing the plugin 2:17 Plugin settings 2:31 How to mark a product as discontinued 3:25 How to mark a &#8230;</p>
+</div>
+<div class="youtube-item" id="IdmhdME2dMg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IdmhdME2dMg">29) How to set WooCommerce stock management [Variations &#8211; quantity &#8211; full stock control]</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-01</span></p>
+<p class="description"><b>Short description:</b> Learn how to set up a WooCommerce stock management system. Also show the WooCommerce stock quantity on the product &#8230;</p>
+</div>
+<div class="youtube-item" id="vO-JlXKvwes">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vO-JlXKvwes">30) WooCommerce Tutorial &#8211; Cost Calculator WordPress Plugin</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-12-23</span></p>
+<p class="description"><b>Short description:</b> In this video, we will present and explain how to configure probably one of the main advantages of the Cost Calculator &#8211; the &#8230;</p>
+</div>
+<div class="youtube-item" id="g51OKxVl4rg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=g51OKxVl4rg">31) How to Create Custom Filters Based on Product Attributes with MWB Product Filter For WooCommerce?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-05-03</span></p>
+<p class="description"><b>Short description:</b> Hey Watchers! We are glad to inform you that all the plugins and their support are handled by WP Swings, in order to deliver the &#8230;</p>
+</div>
+<div class="youtube-item" id="uAUXj4vUYRs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=uAUXj4vUYRs">32) ATUM Introduction Video &#8211; The WooCommerce Free Inventory Plugin</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-04-08</span></p>
+<p class="description"><b>Short description:</b> Hey there! Is your inventory a mess? Do you find editing your products, lengthy and complicated? We have great news for you!</p>
+</div>
+<div class="youtube-item" id="XIhqvEsrupo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=XIhqvEsrupo">33) WooCommerce Excel Import / Upload &#8211; Create &amp; Import Variable Products from Excel to WooCommerce</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2014-11-12</span></p>
+<p class="description"><b>Short description:</b> WooCommerce Excel import tutorial &#8211; learn how to upload product data from Microsoft Excel spreadsheets to WooCommerce &#8230;</p>
+</div>
+<div class="youtube-item" id="8ed8_bqcZW4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=8ed8_bqcZW4">34) Customizing WooCommerce with Confidence</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-14</span></p>
+<p class="description"><b>Short description:</b> This is a recording of our WooCommerce Live Special Event, &#8220;Customize with Confidence&#8221;,. In this event we covered: * An &#8230;</p>
+</div>
+<div class="youtube-item" id="SY4Hoqh7NXs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SY4Hoqh7NXs">35) How to Grey Out Out-of-Stock Variations WooCommerce</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-01-24</span></p>
+<p class="description"><b>Short description:</b> In this video, you will learn how to grey out out-of-stock variations on your WooCommerce store in a few simple steps. You&#8217;ll learn &#8230;</p>
+</div>
+<div class="youtube-item" id="TaEbDsXuAc8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=TaEbDsXuAc8">36) How to Add a Variable Product to Your Ecommerce Website</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-04-08</span></p>
+<p class="description"><b>Short description:</b> 𝗚𝗲𝘁 𝘁𝗵𝗲 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗣𝗹𝘂𝗴𝗶𝗻 𝗵𝗲𝗿𝗲 ➜ https://getwooplugins.com/?ref=2575 🛍️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 &#8230;</p>
+</div>
+<div class="youtube-item" id="WoQkSTpS18Q">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=WoQkSTpS18Q">37) Woocommerce tutorial  out of stock + backorder + stock management &amp; variable product stock</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-02-07</span></p>
+<p class="description"><b>Short description:</b> WooCommerce tutorial How to manage Stock in WooCommerce How to show out of stock visibility in WooCommerce variable &#8230;</p>
+</div>
+<div class="youtube-item" id="LnxLt71FYhQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=LnxLt71FYhQ">38) Hide or Visible Out of Stock Product in Woocommerce | WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-10-06</span></p>
+<p class="description"><b>Short description:</b> bluetek #woocommerce #wordpress For More Tutorial and Question Join With our social Media: Join Facebook Groups &#8230;</p>
+</div>
+<div class="youtube-item" id="EhWpH5HY5pQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EhWpH5HY5pQ">39) Add Extra WooCommerce Product Options for [FREE]</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-01</span></p>
+<p class="description"><b>Short description:</b> Adding WooCommerce Product Options to your products with the free Extra Product Options for WooCommerce plugin.</p>
+</div>
+<div class="youtube-item" id="JDs_C0PhaLU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JDs_C0PhaLU">40) Use WooCommerce product attributes or custom fields for Facebook Product Catalog or Google Merchant</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-22</span></p>
+<p class="description"><b>Short description:</b> You can use existing product attributes or custom fields to send additional information to Facebook or Google. The Product &#8230;</p>
+</div>
+<div class="youtube-item" id="6hwoS8oHvWs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=6hwoS8oHvWs">41) 10 Best WooCommerce Product Designer Plugins</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-11-12</span></p>
+<p class="description"><b>Short description:</b> Go check out LearnWoo &#8211; https://learnwoo.com/ ⚡ Go subscribe to our channel &#8211; https://www.youtube.com/channel/UCmH3.</p>
 </div>
 <div class="youtube-item" id="oslBOGMQ2TY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=oslBOGMQ2TY">47) WooCommerce Default Quantity &#8211; WordPress Plugin Tutorial</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=oslBOGMQ2TY">42) WooCommerce Default Quantity &#8211; WordPress Plugin Tutorial</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2019-10-16</span></p>
 <p class="description"><b>Short description:</b> Since making this video, we have replaced the WooCommerce Default Quantity plugin with our new plugin WooCommerce &#8230;</p>
 </div>
-<div class="youtube-item" id="6R5JvYBk0jU">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=6R5JvYBk0jU">48) WordPress plugins WooCommerce Product Slider and Carousel Plugin</a></h5>
+<div class="youtube-item" id="y7XpjUAXjTE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=y7XpjUAXjTE">43) How to Use Custom Product Filters for WooCommerce &amp; Elementor using ShopEngine</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-10-14</span></p>
-<p class="description"><b>Short description:</b> WooCommerce Product Slider and Carousel is the best product slider to slide your WooCommerce Product, Best Selling Product, &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-12-21</span></p>
+<p class="description"><b>Short description:</b> In this video, we have shown how to add custom attributes to WooCommerce products and also process about how to add custom &#8230;</p>
 </div>
-<div class="youtube-item" id="GVpnCv4ALzI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=GVpnCv4ALzI">49) Octolooks Scrapes is a WordPress plugin that can scrape content from other sites automatically</a></h5>
+<div class="youtube-item" id="rvUYmtiL8Z8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=rvUYmtiL8Z8">44) How to Import Products to WooCommerce</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-11-29</span></p>
-<p class="description"><b>Short description:</b> Octolooks Scrapes is a WordPress scraping plugin that will auto post on WordPress blog Deal: https://ilink.digital/scrapes &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-15</span></p>
+<p class="description"><b>Short description:</b> Go check out LearnWoo &#8211; https://learnwoo.com/ ⚡ Go subscribe to our channel &#8211; https://www.youtube.com/channel/UCmH3.</p>
 </div>
-<div class="youtube-item" id="f2qYs7C4V5g">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=f2qYs7C4V5g">50) 12 &#8211; How To Use Product Attributes? (WooCommerce Tutorial)</a></h5>
+<div class="youtube-item" id="fSIzPuvlXKM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=fSIzPuvlXKM">45) How to Use Variable Products in WooCommerce</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2015-03-11</span></p>
-<p class="description"><b>Short description:</b> WooCommerce Video Tutorial &#8211; How To Use Product Attributes? This video is part of WooCommerce Video Tutorial series.</p>
+<p><span class="publish-date"><b>Published at:</b> 2016-07-06</span></p>
+<p class="description"><b>Short description:</b> In this video you will learn how to set up a product with variables in your WooCommerce store. In our example, we will use a shirt &#8230;</p>
+</div>
+<div class="youtube-item" id="AqUiQ7-csaE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=AqUiQ7-csaE">46) How to add WooCommerce Stock Progress Bar using WooLentor [2022]</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-05-21</span></p>
+<p class="description"><b>Short description:</b> Topic: How to add WooCommerce Stock Progress Bar using WooLentor.</p>
+</div>
+<div class="youtube-item" id="HIuJRcOFSVk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=HIuJRcOFSVk">47) Adding Products to WooCommerce</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-04-01</span></p>
+<p class="description"><b>Short description:</b> In this video, you&#8217;ll learn the ins and outs of adding products to your WooCommerce store. Our Recommended Tools Some of the &#8230;</p>
+</div>
+<div class="youtube-item" id="qvKA2wxLcrM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=qvKA2wxLcrM">48) How to Add a Variable Price &amp; Product Attributes in WooCommerce (Full Guide)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-09-28</span></p>
+<p class="description"><b>Short description:</b> How to add variable product in woocommerce? How to set up woocommerce variable product with woocommerce attributes and &#8230;</p>
+</div>
+<div class="youtube-item" id="y8MZRY9DprI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=y8MZRY9DprI">49) WooCommerce Product Filter Plugins: Which One Is the Best?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-25</span></p>
+<p class="description"><b>Short description:</b> Find the best plugins for adding product filtering to your WooCommerce store in this helpful guide ✓ 👉 Subscribe: &#8230;</p>
+</div>
+<div class="youtube-item" id="1drnIDBGtEQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1drnIDBGtEQ">50) How to Restrict Pages with WooCommerce Products &#8211; Elementor WordPress Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-16</span></p>
+<p class="description"><b>Short description:</b> You can lock down or restrict access to pages &#8211; until a WooCommerce Product is purchased. Use this Plugin: &#8230;</p>
 </div>
 </div>
 </div>
@@ -418,9 +407,9 @@
 
 
 
-<div class="wp-container-9 wp-block-group">
-<div class="wp-container-8 wp-block-group">
-<div style="font-style:italic; font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2022-09-20T19:40:18+00:00">September 20, 2022</time></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-layout-flex wp-block-group">
+<div style="font-style:italic;font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2023-03-01T19:29:16+00:00">March 1, 2023</time></div>
 
 <div class="wp-block-post-author has-small-font-size"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name">WP How to &#8211; WordPress Tutorial Videos</p></div></div>
 
@@ -442,24 +431,24 @@
 
 
 <footer class="wp-block-template-part">
-<div class="wp-container-16 wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-15 wp-block-group alignfull">
-<div class="wp-container-14 is-content-justification-space-between wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
-<div class="wp-container-13 wp-block-columns">
-<div class="wp-container-11 wp-block-column">
+<div class="is-layout-constrained wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-constrained wp-block-group alignfull">
+<div class="is-content-justification-space-between is-layout-flex wp-container-14 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
+<div class="is-layout-flex wp-container-13 wp-block-columns">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/" target="_blank" rel="noreferrer noopener">WP HOW TO &#8211; WordPress plugin</a></p>
 </div>
 
 
 
-<div class="wp-container-12 wp-block-column">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/privacy-policy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></p>
 </div>
 </div>
 
 
 
-<p class="has-text-align-right">Created with <a rel="noreferrer noopener" href="https://sr.wordpress.org/plugins/simply-static/" target="_blank">Simply Static</a> &amp; <a rel="noreferrer noopener" href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+<p class="has-text-align-right">Designed &amp; developed by <a href="https://imoptimal.com/" data-type="URL" data-id="https://imoptimal.com/" target="_blank" rel="noreferrer noopener">Imoptimal</a></p>
 </div>
 </div>
 </div>
@@ -495,8 +484,7 @@
 			width: auto;
 			z-index: 100000;
 		}</style>
-		<script>
-	( function() {
+		<script>( function() {
 		var skipLinkTarget = document.querySelector( 'main' ),
 			sibling,
 			skipLinkTargetID,
@@ -531,8 +519,7 @@
 
 		// Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
-	}() );
-	</script>
+	}() );</script>
 	<script src="/wp-content/themes/twentytwentytwo-child/script.js?ver=1.0.0" id="wphowtotv-script-js"></script>
 <script src="https://www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js?ver=1.0.0" id="wphowtotv-cookies-script-js"></script>
 <script src="/wp-content/themes/twentytwentytwo-child/cookies-consent.js?ver=1.0.0" id="wphowtotv-cookies-code-script-js"></script>

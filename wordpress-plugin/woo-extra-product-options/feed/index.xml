@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Extra Product Options (Product Addons) for WooCommerce	</title>
-	<atom:link href="http://localhost/wordpress-plugin/woo-extra-product-options/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Extra product options For WooCommerce &#124; Custom Product Addons and Fields	</title>
+	<atom:link href="http://localhost/wordpress-plugin/woo-extra-product-options/feed/?simply_static_page=177678" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woo-extra-product-options/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:59:45 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:24:31 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Appointment Bookings for Zoom GoogleMeet and more &#8211; Wappointment	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wappointment/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/wappointment/feed/?simply_static_page=199110" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wappointment/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:42:13 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:51:41 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

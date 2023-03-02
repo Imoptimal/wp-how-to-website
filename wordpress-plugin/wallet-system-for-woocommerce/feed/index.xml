@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Wallet System for WooCommerce &#8211; Create an In-store Digital Wallet, Recharge User Wallets &#038; View Transition History	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wallet-system-for-woocommerce/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Wallet System for WooCommerce &#8211; Digital Wallet, Cashback Rewards, Recharge User Wallets, View Transaction History	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wallet-system-for-woocommerce/feed/?simply_static_page=194219" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wallet-system-for-woocommerce/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:33:10 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:29:17 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

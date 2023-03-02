@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Perfect Brands for WooCommerce	</title>
-	<atom:link href="http://localhost/wordpress-plugin/perfect-woocommerce-brands/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/perfect-woocommerce-brands/feed/?simply_static_page=174726" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/perfect-woocommerce-brands/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:01:27 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:25:38 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

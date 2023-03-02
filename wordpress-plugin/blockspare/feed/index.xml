@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Blockspare &#8211; Beautiful Page Building Gutenberg Blocks for WordPress	</title>
-	<atom:link href="http://localhost/wordpress-plugin/blockspare/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Blockspare &#8211; A stunning set of Gutenberg blocks to get you started with the new WordPress editor	</title>
+	<atom:link href="http://localhost/wordpress-plugin/blockspare/feed/?simply_static_page=181644" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/blockspare/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:58:05 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:36:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

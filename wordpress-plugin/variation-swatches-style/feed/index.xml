@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Smart Variation Swatches for WooCommerce	</title>
-	<atom:link href="http://localhost/wordpress-plugin/variation-swatches-style/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Smart WooCommerce Swatches, Photos And Filter by Attribute	</title>
+	<atom:link href="http://localhost/wordpress-plugin/variation-swatches-style/feed/?simply_static_page=191126" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/variation-swatches-style/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:52:10 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:29:53 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Upload Quota per User	</title>
-	<atom:link href="http://localhost/wordpress-plugin/upload-quota-per-user/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/upload-quota-per-user/feed/?simply_static_page=171059" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/upload-quota-per-user/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:32:17 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 18:39:31 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

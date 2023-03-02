@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Maps Plugin using Google Maps for WordPress &#8211; WP Google Map	</title>
-	<atom:link href="http://localhost/wordpress-plugin/gmap-embed/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/gmap-embed/feed/?simply_static_page=179191" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/gmap-embed/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:59:41 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:37:30 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

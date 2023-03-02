@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Media Cleaner &#8211; Clean &#038; Optimize Space	</title>
-	<atom:link href="http://localhost/wordpress-plugin/media-cleaner/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Media Cleaner: Clean your WordPress!	</title>
+	<atom:link href="http://localhost/wordpress-plugin/media-cleaner/feed/?simply_static_page=174317" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/media-cleaner/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:01:25 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:25:47 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

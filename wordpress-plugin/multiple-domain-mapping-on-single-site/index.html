@@ -5,74 +5,63 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="max-image-preview:large">
 <title>Plugin: Multiple Domain Mapping on Single Site &#8211; &#039;WP How to&#039; WordPress Tutorial Videos</title>
-<link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Comments Feed" href="/comments/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Plugin: Multiple Domain Mapping on Single Site Comments Feed" href="/wordpress-plugin/multiple-domain-mapping-on-single-site/feed/">
-<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
+<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
 <style id="wp-block-group-inline-css">.wp-block-group{box-sizing:border-box}
 :where(.wp-block-group.has-background){padding:1.25em 2.375em}</style>
 <style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label{word-break:normal;overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}</style>
-<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.0.2" media="all">
+<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.1.1" media="all">
+<style id="wp-block-navigation-inline-css">.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}</style>
 <style id="wp-block-template-part-inline-css">.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
-<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word}.wp-block-post-title a{display:inline-block}</style>
-<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}</style>
-<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border-top:1px solid;border-bottom:1px solid}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
+<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word;box-sizing:border-box}.wp-block-post-title a{display:inline-block}
+.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}</style>
+<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom;box-sizing:border-box}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim{position:absolute;inset:0;background-color:#000}.wp-block-post-featured-image{position:relative}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-gradient{background-color:transparent}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-0{opacity:0}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-10{opacity:.1}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-20{opacity:.2}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-30{opacity:.3}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-40{opacity:.4}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-50{opacity:.5}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-60{opacity:.6}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-70{opacity:.7}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-80{opacity:.8}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-90{opacity:.9}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-100{opacity:1}</style>
+<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border:1px solid;border-right:none;border-left:none}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
 .wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}</style>
 <style id="wp-block-spacer-inline-css">.wp-block-spacer{clear:both}</style>
+<style id="wp-block-post-date-inline-css">.wp-block-post-date{box-sizing:border-box}</style>
 <style id="wp-block-post-author-inline-css">.wp-block-post-author{display:flex;flex-wrap:wrap}.wp-block-post-author__byline{width:100%;margin-top:0;margin-bottom:0;font-size:.5em}.wp-block-post-author__avatar{margin-right:1em}.wp-block-post-author__bio{margin-bottom:.7em;font-size:.7em}.wp-block-post-author__content{flex-grow:1;flex-basis:0}.wp-block-post-author__name{margin:0}</style>
 <style id="wp-block-post-terms-inline-css">.wp-block-post-terms__separator{white-space:pre-wrap}</style>
-<style id="wp-block-post-comments-inline-css">.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{content:"";display:table;clear:both}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-top:.5em;margin-right:.75em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{margin-top:1em;margin-bottom:1em;display:block}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{display:block;box-sizing:border-box;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-size:1em;font-family:inherit}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}.wp-block-post-comments input[type=submit]{border:none}</style>
-<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-button.aligncenter{text-align:center}</style>
-<style id="wp-block-button-inline-css">.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;cursor:pointer;display:inline-block;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-align:center;text-decoration:none;word-break:break-word;box-sizing:border-box}.wp-block-button__link:active,.wp-block-button__link:focus,.wp-block-button__link:hover,.wp-block-button__link:visited{color:#fff}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.is-style-outline>:where(.wp-block-button__link),:where(.wp-block-button__link).is-style-outline{border:2px solid;padding:.667em 1.333em}.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent}</style>
+<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-button.aligncenter{text-align:center}</style>
+<style id="wp-block-button-inline-css">.wp-block-button__link{cursor:pointer;display:inline-block;text-align:center;word-break:break-word;box-sizing:border-box}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){box-shadow:none;text-decoration:none;border-radius:9999px;padding:calc(.667em + 2px) calc(1.333em + 2px)}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.wp-block-button.is-style-outline>.wp-block-button__link,.wp-block-button .wp-block-button__link.is-style-outline{border:2px solid;padding:.667em 1.333em}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent;background-image:none}
+.wp-block-button .wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}</style>
 <style id="wp-block-paragraph-inline-css">.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}p.has-drop-cap.has-background{overflow:hidden}p.has-background{padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}</style>
 <style id="wp-block-columns-inline-css">.wp-block-columns{display:flex;margin-bottom:1.75em;box-sizing:border-box;flex-wrap:wrap!important;align-items:normal!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;word-break:break-word;overflow-wrap:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}</style>
-<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color),html :where([style*=border-width]){border-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}</style>
-<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0; }body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);--wp--style--block-gap: 1.5rem;}.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: var( --wp--style--block-gap ); }h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}a{color: var(--wp--preset--color--foreground);}.wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}.wp-block-post-comments{padding-top: var(--wp--custom--spacing--small);}.wp-block-pullquote{border-width: 1px 0;}.wp-block-query-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}.wp-block-quote{border-width: 1px;}.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}figure{margin:0 0 1em}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0;--wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1000px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: 1.5rem; }body { --wp--style--block-gap: 1.5rem; }body .is-layout-flow > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-flow > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-constrained > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-constrained > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-flex{gap: 1.5rem;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--foreground);text-decoration: underline;}h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="core-block-supports-inline-css">.wp-block-navigation.wp-container-3{justify-content:flex-end;}.wp-block-columns.wp-container-13{flex-wrap:nowrap;}.wp-block-group.wp-container-4,.wp-block-group.wp-container-14{justify-content:space-between;}</style>
 <style id="wp-webfonts-inline-css">@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}</style>
 <link rel="stylesheet" id="wphowtotv-style-css" href="/wp-content/themes/twentytwentytwo-child/style.css?ver=1.0.0" media="all">
 <link rel="stylesheet" id="twentytwentytwo-style-css" href="/wp-content/themes/twentytwentytwo/style.css?ver=1.0.0" media="all">
-<script src="/wp-includes/blocks/navigation/view.min.js?ver=009e29110e016c14bac4ba0ecc809fcd" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view.min.js?ver=c24330f635f5cb9d5e0e" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view-modal.min.js?ver=45f05135277abf0b0408" id="wp-block-navigation-view-2-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/102279">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/142267">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
-<meta name="generator" content="WordPress 6.0.2">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
 <link rel="canonical" href="/wordpress-plugin/multiple-domain-mapping-on-single-site/">
-<link rel="shortlink" href="/?p=102279">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Fmultiple-domain-mapping-on-single-site%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Fmultiple-domain-mapping-on-single-site%2F&#038;format=xml">
-<style>.wp-container-1 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-1 > * { margin: 0; }</style>
-<style>.wp-container-3 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: flex-end;}.wp-container-3 > * { margin: 0; }</style>
-<style>.wp-container-4 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-4 > * { margin: 0; }</style>
-<style>.wp-container-5 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-5 > .alignwide { max-width: 1000px;}.wp-container-5 .alignfull { max-width: none; }.wp-container-5 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-5 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-5 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-5 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-5 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-6 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-6 > .alignwide { max-width: 1000px;}.wp-container-6 .alignfull { max-width: none; }.wp-container-6 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-6 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-6 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-6 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-6 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-7 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-7 > .alignwide { max-width: 1000px;}.wp-container-7 .alignfull { max-width: none; }.wp-container-7 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-7 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-7 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-7 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-7 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-8 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-8 > * { margin: 0; }</style>
-<style>.wp-container-9 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-9 > .alignwide { max-width: 1000px;}.wp-container-9 .alignfull { max-width: none; }.wp-container-9 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-9 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-9 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-9 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-9 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-10 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-10 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-10 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-10 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-10 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-11 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-11 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-11 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-11 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-11 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-12 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-12 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-12 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-12 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-12 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-13 {display: flex;gap: var( --wp--style--block-gap, 2em );flex-wrap: nowrap;align-items: center;}.wp-container-13 > * { margin: 0; }</style>
-<style>.wp-container-14 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-14 > * { margin: 0; }</style>
-<style>.wp-container-15 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-15 > .alignwide { max-width: 1000px;}.wp-container-15 .alignfull { max-width: none; }.wp-container-15 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-15 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-15 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-15 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-15 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-16 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-16 > .alignwide { max-width: 1000px;}.wp-container-16 .alignfull { max-width: none; }.wp-container-16 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-16 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-16 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-16 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-16 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<link rel="shortlink" href="/?p=142267">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Fmultiple-domain-mapping-on-single-site%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Fmultiple-domain-mapping-on-single-site%2F#038;format=xml">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 </head>
 
-<body class="post-template-default single single-post postid-102279 single-format-standard wp-custom-logo wp-embed-responsive">
+<body class="post-template-default single single-post postid-142267 single-format-standard wp-custom-logo wp-embed-responsive">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
 <div class="wp-site-blocks">
 <header class="wp-block-template-part">
-<div class="wp-container-5 wp-block-group">
-<div class="wp-container-4 is-content-justification-space-between wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-1 wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img loading="lazy" width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-content-justification-space-between is-layout-flex wp-container-4 wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-flex wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" decoding="async" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
 
 
-<nav class="wp-container-3 is-content-justification-right is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+<nav class="is-content-justification-right is-layout-flex wp-container-3 is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
 			<div class="wp-block-navigation__responsive-container  " id="modal-2">
 				<div class="wp-block-navigation__responsive-close" tabindex="-1" data-micromodal-close>
 					<div class="wp-block-navigation__responsive-dialog" aria-label="Menu">
@@ -92,9 +81,9 @@
 </header>
 
 
-<main class="wp-container-10 wp-block-group">
-<div class="wp-container-6 wp-block-group">
-<h1 style="margin-bottom: var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: Multiple Domain Mapping on Single Site</h1>
+<main class="is-layout-flow wp-block-group">
+<div class="is-layout-constrained wp-block-group">
+<h1 style="margin-bottom:var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: Multiple Domain Mapping on Single Site</h1>
 
 
 
@@ -107,308 +96,308 @@
 <div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<div class="wp-container-7 entry-content wp-block-post-content">
+<div class="is-layout-constrained entry-content wp-block-post-content">
 <p><iframe id="youtube-player" loading="lazy" src="https://www.youtube.com/embed/?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
 <div class="youtube-videos">
-<div class="youtube-item" id="ZtUn1y2Y54E">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ZtUn1y2Y54E">1) How to Setup WordPress Multisite Domain Mapping</a></h5>
+<div class="youtube-item" id="szQSRn0uHA4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=szQSRn0uHA4">1) How to RESTRICT number of active login for users in WordPress ?</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-05-10</span></p>
-<p class="description"><b>Short description:</b> Multisite Domain Mapping is a great way to manage all your WordPress websites from a single installation. Learn how to set it &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-02-08</span></p>
+<p class="description"><b>Short description:</b> In this video, we are going to show, How to RESTRICT 🔒 active login access for users in WordPress? By default in #WordPress &#8230;</p>
 </div>
-<div class="youtube-item" id="MrALnlTd7Ps">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=MrALnlTd7Ps">2) WordPress Multisite Tutorial &#8211; Domain Mapping Plugin &#8211; Custom URLs &#8211; WordPress Hosting Service</a></h5>
+<div class="youtube-item" id="HBGmPnIC0qc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=HBGmPnIC0qc">2) How and Why You Should Limit Login Attempts in WordPress</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-05-17</span></p>
-<p class="description"><b>Short description:</b> In this video I&#8217;m going to show you how to use WordPress Multisite Domain Mapping Plugin for Mapping Unique &#038; Custom URL&#8217;s &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-11-25</span></p>
+<p class="description"><b>Short description:</b> Do you Want to limit login attempts on your WordPress website? If you limit login attempts on your website, then you can keep &#8230;</p>
 </div>
-<div class="youtube-item" id="0R7toDXu0W4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=0R7toDXu0W4">3) How to Use the Domain Mapping Plugin with WordPress MultiSite</a></h5>
+<div class="youtube-item" id="HOJeqk1cTPU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=HOJeqk1cTPU">3) User Login Requirement in WP Fluent Form WordPress Plugin</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2014-04-30</span></p>
-<p class="description"><b>Short description:</b> Learn how to run multiple domains off one WordPress MultiSite Network with the Domain Mapping Plugin.</p>
+<p><span class="publish-date"><b>Published at:</b> 2018-10-10</span></p>
+<p class="description"><b>Short description:</b> Enabling WP Fluent Form&#8217;s User Login Requirement functionality will make sure that only your registered users will be able to fill &#8230;</p>
 </div>
-<div class="youtube-item" id="d-6m6f-DDYU">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=d-6m6f-DDYU">4) WordPress Domain Mapping Allows You To Map Custom Domain Names To WordPress Multisite Installs</a></h5>
+<div class="youtube-item" id="e9tzTgS9up4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=e9tzTgS9up4">4) LearnDash Login Redirects &#8211; Setup &amp; Plugins</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-05-03</span></p>
+<p><span class="publish-date"><b>Published at:</b> 2022-02-05</span></p>
+<p class="description"><b>Short description:</b> 00:00:00 &#8211; Intro 00:00:56 &#8211; Default Behavior 00:06:28 &#8211; Uncanny Toolkit for LearnDash 00:11:19 &#8211; LoginWP Plugin Learn various &#8230;</p>
+</div>
+<div class="youtube-item" id="3CLCdfOW6hY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=3CLCdfOW6hY">5) Hide Content for Non Register Users | WordPress Plugin Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-10-04</span></p>
+<p class="description"><b>Short description:</b> In this video we are going to see how we can show or hide content from our website if the visitors is registered or not in the &#8230;</p>
+</div>
+<div class="youtube-item" id="CKjc94n9gzA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=CKjc94n9gzA">6) Different Menus for Logged-In and Logged-Out User</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-05-30</span></p>
+<p class="description"><b>Short description:</b> This video tutorial shows you how to create different menus for logged-in and logged-out users. Create different menus for &#8230;</p>
+</div>
+<div class="youtube-item" id="lRdAfErKcFk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lRdAfErKcFk">7) How to Limit User Access in WordPress | Restrict Dashboard Access | Free Plugin | Tutorial 2022</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-12-13</span></p>
+<p class="description"><b>Short description:</b> How to Limit User Access in WordPress | Restrict Dashboard Access | Free Plugin | Tutorial 2022 You might occasionally want to &#8230;</p>
+</div>
+<div class="youtube-item" id="yRx_TC5YcXw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yRx_TC5YcXw">8) How to Enable User Registration and Social Login For Classified Listing Plugin</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-03-15</span></p>
+<p class="description"><b>Short description:</b> This is tutorial video of how you can enable user registration and add social login feature for Classima Theme &#038; Classified Listing &#8230;</p>
+</div>
+<div class="youtube-item" id="AQoCePKsj00">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=AQoCePKsj00">9) Restrict WordPress content access w/ Content Control plugin</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-07-31</span></p>
+<p class="description"><b>Short description:</b> I was looking for a lightweight plugin to restrict access to WordPress pages and posts to logged-in users only. Content Control &#8230;</p>
+</div>
+<div class="youtube-item" id="Z2q7tp2ZN4E">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Z2q7tp2ZN4E">10) WordPress limit login attempts using codes | No plugins | #WordPress 40</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2023-01-24</span></p>
+<p class="description"><b>Short description:</b> In this tutorial, we will show you how to improve your WordPress security by limiting the number of login attempts a user can make &#8230;</p>
+</div>
+<div class="youtube-item" id="eVleEcZGNfQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=eVleEcZGNfQ">11) Limit Login Attempts WordPress Security &#8211; WordPress Login Attempts for Protect Business Websites</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-08-16</span></p>
+<p class="description"><b>Short description:</b> Website security is vital for your business website. And, if you are using a WordPress website, then you should secure the admin &#8230;</p>
+</div>
+<div class="youtube-item" id="CAaN5wPKThM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=CAaN5wPKThM">12) UsersWP Basic Install and Configuration &#8211; WordPress User Profile &amp; Registration Plugin 2021</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-30</span></p>
+<p class="description"><b>Short description:</b> Lightweight WordPress User Profile Plugin, provides a front end login form, registration form, edit account form, forgot password, &#8230;</p>
+</div>
+<div class="youtube-item" id="nm7f7RDSYow">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=nm7f7RDSYow">13) Login to WordPress with Amelia User Role and Access Panels</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-11-04</span></p>
+<p class="description"><b>Short description:</b> Aleksandar is explaining how you WP users can use Amelia Panels for customers and employees with the same credentials that &#8230;</p>
+</div>
+<div class="youtube-item" id="8V9K_Wwf7pM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=8V9K_Wwf7pM">14) Limit Login Attempts Unblock &#8211; Use FTP To Unlock Your Login | WP Learning Lab</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2015-05-18</span></p>
 <p class="description"><b>Short description:</b> Grab Your Free 17-Point WordPress Pre-Launch PDF Checklist: &#8230;</p>
 </div>
-<div class="youtube-item" id="6b4jlWMupEg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=6b4jlWMupEg">5) 🔥🔥  [ 2022 ] WordPress Network Multisite Setup Step-By-Step Guide 🔥🔥</a></h5>
+<div class="youtube-item" id="digxlDvZVH8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=digxlDvZVH8">15) How to Remove the Remember Me Option from Your WordPress Login</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-01-05</span></p>
-<p class="description"><b>Short description:</b> Check out our buzzing deals here: https://wpbuzz.com/buzzing-deals/ How To Make A Crazy Fast Modern UX/UI WordPress Site &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2014-07-18</span></p>
+<p class="description"><b>Short description:</b> The remember me option for your WordPress login is a useful way for users not to need their passwords. This can however be a &#8230;</p>
 </div>
-<div class="youtube-item" id="NR_zJjl-7cc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=NR_zJjl-7cc">6) How to Create a Multisite on WordPress to Manage Multiple Sites</a></h5>
+<div class="youtube-item" id="-d2B_0rDFi0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=-d2B_0rDFi0">16) How to login into WordPress site through ultimate member login page using LDAP credentials?</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-06-15</span></p>
-<p class="description"><b>Short description:</b> In this Monday MasterClass we&#8217;re moving beyond standard websites and learning how to create and manage multiple wordpress &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-12-01</span></p>
+<p class="description"><b>Short description:</b> The Ultimate Member Login Integration add-on provides the feature to login in WordPress through Ultimate Member Plugin with &#8230;</p>
 </div>
-<div class="youtube-item" id="IpY9gzQU4QI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IpY9gzQU4QI">7) Setting Up Multiple Domains To One WordPress</a></h5>
+<div class="youtube-item" id="ISKIlYzQ__U">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ISKIlYzQ__U">17) Set Up The User Login Requirements for your WordPress Website | WP Fluent Forms</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2012-12-14</span></p>
-<p class="description"><b>Short description:</b> Set your website to run off of multiple domain names while only having to maintain one actual website. If I helped you at all and &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-07-11</span></p>
+<p class="description"><b>Short description:</b> User login requirements in a contact form are essential to avoid spam submissions and collect genuine data. With this functionality &#8230;</p>
 </div>
-<div class="youtube-item" id="8v1UXW9KSgM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=8v1UXW9KSgM">8) Domain Mapping in WordPress &#8211; Part 7 of Setting up a New Domain with WordPress</a></h5>
+<div class="youtube-item" id="WW-cr-0QN9o">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=WW-cr-0QN9o">18) How to Restrict Your WordPress Forms to Logged in Users Only</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-03-20</span></p>
-<p class="description"><b>Short description:</b> Domain Mapping allows you to map multiple domains to a single WordPress installation. In this video, I cover how to set up the &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-01-02</span></p>
+<p class="description"><b>Short description:</b> Are you wanting to restrict your WordPress form submissions to logged-in users only? These types of forms help to collect &#8230;</p>
 </div>
-<div class="youtube-item" id="g2HzrkMS6Z4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=g2HzrkMS6Z4">9) How To Setup WordPress Multisite |  How to create multiple websites in a single WordPress | In Hindi</a></h5>
+<div class="youtube-item" id="FTkAJsjqx-U">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=FTkAJsjqx-U">19) How to Add a Login Form in Your WordPress Sidebar</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-03-08</span></p>
-<p class="description"><b>Short description:</b> Hello Friends, In this video, we can see How to create multiple websites in a single WordPress. In this video, I cover all the things &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2015-03-04</span></p>
+<p class="description"><b>Short description:</b> If you have a site with multiple authors it can be difficult to walk them through logging in the back end of your site. To make it easier &#8230;</p>
 </div>
-<div class="youtube-item" id="1lZzq5b500s">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1lZzq5b500s">10) How To Add Multiple Websites Using SiteGround Addon Domains</a></h5>
+<div class="youtube-item" id="w8etgY04VRQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=w8etgY04VRQ">20) 5 tips to Protect &amp; Secure Your WordPress Website 🔒</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-10-11</span></p>
-<p class="description"><b>Short description:</b> Try Siteground: https://www.darrelwilson.com/siteground Slider Rev Tutorial: &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-05-17</span></p>
+<p class="description"><b>Short description:</b> In this video, I&#8217;ll share five tips on how to protect and secure your WordPress website. Because security is so important nowadays.</p>
 </div>
-<div class="youtube-item" id="Nqlq-tMhELc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Nqlq-tMhELc">11) How to create multiple websites | WordPress multisite setup tutorial</a></h5>
+<div class="youtube-item" id="gcgh6iWiyt0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gcgh6iWiyt0">21) How to Add Security Questions to WordPress Login Screen</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-06-15</span></p>
-<p class="description"><b>Short description:</b> HOW TO INSTALL AND SET UP A WORDPRESS MULTISITE In this tutorial we explain how you can install and set up a &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2016-09-26</span></p>
+<p class="description"><b>Short description:</b> Most financial institutions and companies ask you questions about your identity to verify it before allowing you to log in. This could &#8230;</p>
 </div>
-<div class="youtube-item" id="59CkpYgyUKI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=59CkpYgyUKI">12) How To Add Multiple Domains To One Hosting Account + Install WordPress (2022)</a></h5>
+<div class="youtube-item" id="NVlFJEJIJxw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=NVlFJEJIJxw">22) How to Limit Dashboard Access in WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2014-08-26</span></p>
+<p class="description"><b>Short description:</b> Some sites allow user registration but don&#8217;t know how to control what the users see. You can limit what controls are available or &#8230;</p>
+</div>
+<div class="youtube-item" id="sEbuMnTR-Mg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=sEbuMnTR-Mg">23) How to Change WordPress Login URL | Secure your WordPress Admin Login</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-07-11</span></p>
+<p class="description"><b>Short description:</b> Learn how to change your WordPress Admin Login URL. This is a highly effective way to enhance the security of your WordPress &#8230;</p>
+</div>
+<div class="youtube-item" id="tOE5vEnmr-M">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=tOE5vEnmr-M">24) WordPress Login Plugin &#8211; LoginPress FREE &amp; Pro</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-07-19</span></p>
+<p class="description"><b>Short description:</b> WordPress Login Plugin &#8211; LoginPress. If you&#8217;re looking for an easy to use WordPress Login Plugin, LoginPress fits the bill &#8230;</p>
+</div>
+<div class="youtube-item" id="EMfr31dHTXc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EMfr31dHTXc">25) WordPress: Temporary User Account, Login With URL &amp; JWT Token</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-01-18</span></p>
+<p class="description"><b>Short description:</b> Learn how to create a temporary user account, login user with just URL or programmatically interact with a WordPress website &#8230;</p>
+</div>
+<div class="youtube-item" id="_40wMT1kz1Y">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=_40wMT1kz1Y">26) How to Change WordPress Login URL (Hide WP-Admin)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-09-20</span></p>
+<p class="description"><b>Short description:</b> In today&#8217;s video I&#8217;ll show you how to change WordPress login URL with WPS Hide Login. This is a great way to improve your site &#8230;</p>
+</div>
+<div class="youtube-item" id="Ljj9ywqDIWs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Ljj9ywqDIWs">27) How to Redirect Users after Login in WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-04-17</span></p>
+<p class="description"><b>Short description:</b> In today&#8217;s video, we learn how to redirect users after login in WordPress. Blog post: &#8230;</p>
+</div>
+<div class="youtube-item" id="-qHgNcHxwsE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=-qHgNcHxwsE">28) How to setup WordPress Social Login plugin within seconds? | WordPress Social Login</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-07-07</span></p>
+<p class="description"><b>Short description:</b> Social Login enables social login, social sharing, social comments using social login apps like Facebook, Google, Linkedin, &#8230;</p>
+</div>
+<div class="youtube-item" id="KvTizFbyJAA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=KvTizFbyJAA">29) WordPress Security Plugin &#8211; Login Lockdown</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2014-07-23</span></p>
+<p class="description"><b>Short description:</b> This is one of many ways to improve WordPress security, one of them securing your login area with Login Lockdown plugin.</p>
+</div>
+<div class="youtube-item" id="JbcrfuoLmns">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JbcrfuoLmns">30) Create Login logout menu in WordPress and WooCommerce &#8211; No Premium Plugin Required</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-05-13</span></p>
+<p class="description"><b>Short description:</b> Login Logout menu in WordPress In this video tutorial, you&#8217;ll learn how to create a login logout menu in WordPress or &#8230;</p>
+</div>
+<div class="youtube-item" id="_c4l6Vnr9aQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=_c4l6Vnr9aQ">31) How To Move WordPress Login Page For WordPress Security &amp; Hack Prevention | WP Learning Lab</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2015-06-11</span></p>
+<p class="description"><b>Short description:</b> Name Your Own Price🔥 for the 11-Point WP Security Checklist Smart PDF: https://wplearninglab.com/go/wpsecurity024 In this &#8230;</p>
+</div>
+<div class="youtube-item" id="4DgayT7pUVQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4DgayT7pUVQ">32) How to Configure Front End Login for Your Membership Site</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-28</span></p>
+<p class="description"><b>Short description:</b> In this video, we talk about how to set up and configure a front end login page on your Paid Memberships Pro membership site.</p>
+</div>
+<div class="youtube-item" id="ZL4pOMhedUA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ZL4pOMhedUA">33) Seguridad 🔒 Oculta Pantalla Login WordPress (WPS Hide Login 👍)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-10-20</span></p>
+<p class="description"><b>Short description:</b> Mira ACCESO por defecto a inicio sesión o LOGIN de WordPress y MODIFICA URL para EVITAR ataques HACKERS Este &#8230;</p>
+</div>
+<div class="youtube-item" id="kYisjc_QlxE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=kYisjc_QlxE">34) Secure your WordPress Admin Login ⚔️</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-04-30</span></p>
+<p class="description"><b>Short description:</b> Security experts explain how to prevent Brute force attacks by securing the WordPress Admin Login Page. A security plugin with a &#8230;</p>
+</div>
+<div class="youtube-item" id="bnlbzakSWvc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=bnlbzakSWvc">35) Elementor Conditional Sections &amp; Widgets | FREE PLUGIN</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-01-21</span></p>
+<p class="description"><b>Short description:</b> Making Elementor Conditional Sections &#038; Widgets show or hide based upon the users logged in status or user role isn&#8217;t &#8230;</p>
+</div>
+<div class="youtube-item" id="VQ940mHkwBA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=VQ940mHkwBA">36) How To Set Up User Registration and Login on Your WordPress Website</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-08-02</span></p>
+<p class="description"><b>Short description:</b> UPDATED VIDEO: https://youtu.be/7KxqBhvs7QY Learn how to setup wp user manager on WordPress &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; Please &#8230;</p>
+</div>
+<div class="youtube-item" id="dW2oeMiTe88">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=dW2oeMiTe88">37) WPExtended | One WordPress Plugin To Rule Them All?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2023-02-15</span></p>
+<p class="description"><b>Short description:</b> WPExtended is a simple WordPress Plugin with a trick up its sleeve! It&#8217;s a hub for multiple simple little WordPress plugins all rolled &#8230;</p>
+</div>
+<div class="youtube-item" id="mmPzlRT65dY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=mmPzlRT65dY">38) How To Redirect WordPress Users After Login</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2023-01-11</span></p>
+<p class="description"><b>Short description:</b> Making one tiny change can have a big impact on your site&#8217;s UX. 😯 Learn how to redirect your users with this helpful guide &#8230;</p>
+</div>
+<div class="youtube-item" id="7NWJoSBY_b8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=7NWJoSBY_b8">39) WPS Hide Login Tutorial 2020 &#8211; How To Hide WordPress Login Url &#8211; Hide WordPress Admin Panel 2020</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-07</span></p>
+<p class="description"><b>Short description:</b> WPS Hide Login makes it easy to hide your WordPress Admin Login URL to protect against brute force attacks. Just keep in mind &#8230;</p>
+</div>
+<div class="youtube-item" id="yx1AEulzChc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yx1AEulzChc">40) WordPress Page Restriction | Restricts pages and posts</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-04</span></p>
+<p class="description"><b>Short description:</b> Page and Post Restriction #WordPress plugin restricts #pages and restricts posts based on #User Roles and User&#8217;s Login Status.</p>
+</div>
+<div class="youtube-item" id="31PHc2y1-VI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=31PHc2y1-VI">41) Login into WordPress using crypto wallet |  WEB3 Login</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-13</span></p>
+<p class="description"><b>Short description:</b> WordPress Web3 Authentication plugin supports crypto wallet login to WordPress website. Here users can login with a crypto &#8230;</p>
+</div>
+<div class="youtube-item" id="CoeXAyhdG6I">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=CoeXAyhdG6I">42) How to set various login settings in miniOrange premium plugin as two-factor for users?</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2022-01-03</span></p>
-<p class="description"><b>Short description:</b> How To Add Multiple Domains To One Hosting Account + Install WordPress (2022) Bluehost Hosting: &#8230;</p>
+<p class="description"><b>Short description:</b> miniOrange google authenticator plugin provides various Login Setting options such as Select Roles to enable 2-Factor, Enable &#8230;</p>
 </div>
-<div class="youtube-item" id="vroXwT660H8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vroXwT660H8">13) WordPress Network and Domain Mapping Installation</a></h5>
+<div class="youtube-item" id="VpYUyXqMlgw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=VpYUyXqMlgw">43) 11 Best WordPress Login Page Plugins in 2021</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2011-01-03</span></p>
-<p class="description"><b>Short description:</b> This is an in-depth video of how to install WordPress Network. We also look at how to install plugins and themes for the network.</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-11-15</span></p>
+<p class="description"><b>Short description:</b> Since your WordPress login page is the door to your website&#8217;s admin area, you need to make it secure. But at the same time, you &#8230;</p>
 </div>
-<div class="youtube-item" id="Y9wFjHcowk4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Y9wFjHcowk4">14) How to Merge Multiple WordPress Sites into one MultiSite</a></h5>
+<div class="youtube-item" id="EqiivbuKFBs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EqiivbuKFBs">44) Hide WordPress Login &amp; Admin Page (with WPS hide login plugin)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2013-03-29</span></p>
-<p class="description"><b>Short description:</b> In this WordPress tutorial we will look at what it takes to merge single WordPress sites into an existing MultiSite install. By the end &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-04</span></p>
+<p class="description"><b>Short description:</b> I&#8217;ll show you how to hide your WordPress login page or basically the admin login. You&#8217;ll be able to change it to any URL to &#8230;</p>
 </div>
-<div class="youtube-item" id="ItD3KjGy28Q">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ItD3KjGy28Q">15) Adding top level domains to a WordPress Multisite Network</a></h5>
+<div class="youtube-item" id="SC63R5Y2qzs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SC63R5Y2qzs">45) Redirect URL on WordPress using Redirection Plugin | 2022 #WordPress 16</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-08-14</span></p>
-<p class="description"><b>Short description:</b> How to add top level domains to a WordPress Multisite Network. 1. Add a sub site: Network Admin &#8211; Sites. Add New. Add the name &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-10-21</span></p>
+<p class="description"><b>Short description:</b> Redirection plugin tutorial: In this video we will learn how you can redirect a page or URL on your WordPress website, using a &#8230;</p>
 </div>
-<div class="youtube-item" id="Ah-1WEUxhxI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Ah-1WEUxhxI">16) How To Host Multiple Websites In A Single Hosting Plan</a></h5>
+<div class="youtube-item" id="R-7i1e2dwMw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=R-7i1e2dwMw">46) How to Add a Post Creation Limit for WordPress Users</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-09-18</span></p>
-<p class="description"><b>Short description:</b> Get your Hosting and Domain ➜ https://my.webspacekit.com/link.php?id=64 Checkout our &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2015-09-08</span></p>
+<p class="description"><b>Short description:</b> Text version of this tutorial: http://www.wpbeginner.com/plugins/how-to-add-a-post-creation-limit-for-wordpress-users/ Have you &#8230;</p>
 </div>
-<div class="youtube-item" id="Mj8C9jb8ow8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Mj8C9jb8ow8">17) How to forward multiple domain names to one website</a></h5>
+<div class="youtube-item" id="CQdMKa7C_oo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=CQdMKa7C_oo">47) How to Add Social Login to WordPress</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-05-22</span></p>
-<p class="description"><b>Short description:</b> Following on from my Facebook Live this morning, if you have more than one domain name and you want them all to lead to your &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2019-12-02</span></p>
+<p class="description"><b>Short description:</b> 𝗚𝗲𝘁 𝗰𝘂𝘀𝘁𝗼𝗺 𝘀𝗼𝗰𝗶𝗮𝗹 𝗹𝗼𝗴𝗶𝗻 𝗯𝘂𝘁𝘁𝗼𝗻𝘀 ➜ https://www.heateor.com/social-login-buttons/ 👉 𝗝𝗼𝗶𝗻 &#8230;</p>
 </div>
-<div class="youtube-item" id="KasHbOLf2zY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=KasHbOLf2zY">18) What is WordPress Multisite? Subdomain vs Subdirectory</a></h5>
+<div class="youtube-item" id="uCA50ltB8Vk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=uCA50ltB8Vk">48) How to Add Login with Facebook in WordPress</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-04-12</span></p>
-<p class="description"><b>Short description:</b> Find out what exactly the Multisite option is for WordPress and the difference between subdomain and subdirectory mapping.</p>
+<p><span class="publish-date"><b>Published at:</b> 2015-04-21</span></p>
+<p class="description"><b>Short description:</b> Have you been to websites that allow a connect with Facebook option for registering? You can add this to your own WordPress &#8230;</p>
 </div>
-<div class="youtube-item" id="IxEPQh5iESg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IxEPQh5iESg">19) How to Add Multiple Websites &amp; Funnels to One Domain Using a Single DNS Record</a></h5>
+<div class="youtube-item" id="WQfz-vpUGEE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=WQfz-vpUGEE">49) Customize Your WordPress Login Page With a Plugin &#8211; Customize the Admin Login 20i7</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-11-17</span></p>
-<p class="description"><b>Short description:</b> GoHighLevel #ClickFunnels #GoDaddy How to Add Multiple Websites &#038; Funnels to One Domain Using a Single DNS Record &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2017-01-20</span></p>
+<p class="description"><b>Short description:</b> In this WordPress Tutorial I&#8217;l show you how to customise your WordPress Admin Login Page. Download my FREE 2019 &#8230;</p>
 </div>
-<div class="youtube-item" id="HmeMk4Xk-mA">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=HmeMk4Xk-mA">20) How to Add Multiple Domains to One Hosting Account and Install WordPress (Namecheap &amp; CPanel)</a></h5>
+<div class="youtube-item" id="mMUJ2hK9cko">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=mMUJ2hK9cko">50) Creates Login Form with WP Fluent Forms Plugin</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-05-31</span></p>
-<p class="description"><b>Short description:</b> How to add another domain to your Namecheap hosting account and install WordPress to the add-on domain. We will be using &#8230;</p>
-</div>
-<div class="youtube-item" id="MWmXlcnPyoQ">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=MWmXlcnPyoQ">21) How to export a subsite out of a WordPress multisite and import into a WordPress single site.</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-12-31</span></p>
-<p class="description"><b>Short description:</b> Quick and easy tutorial. Learn how to export a single subsite out of your multisite network and import into a WordPress single site &#8230;</p>
-</div>
-<div class="youtube-item" id="QAVVXcoQU8g">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QAVVXcoQU8g">22) Introduction to Prime Mover : WordPress Multi-site/Single Site Migration and Backup Plugin</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-09-21</span></p>
-<p class="description"><b>Short description:</b> This is an introduction to using the Prime Mover plugin to migrate sites. In this example, you will learn how to migrate a WordPress &#8230;</p>
-</div>
-<div class="youtube-item" id="Vbcijw2E7nE">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Vbcijw2E7nE">23) WordPress Multisite Explained | Step-by-Step Setup Guide</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-06-30</span></p>
-<p class="description"><b>Short description:</b> Learn all about WordPress Multisite, from what it is to how to set it up. Start your WordPress Multisite journey with Hostinger web &#8230;</p>
-</div>
-<div class="youtube-item" id="OSr5eDSQyG0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=OSr5eDSQyG0">24) How to Create and Manage a WordPress Multisite Network Tutorial 2022</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-01-13</span></p>
-<p class="description"><b>Short description:</b> Checkout exclusive WordPress Hosting ➜ https://best10hostingreviews.com/besthosting Let us &#8230;</p>
-</div>
-<div class="youtube-item" id="lGSRDV2IQhw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lGSRDV2IQhw">25) How to Host Multiple WordPress Websites on One Server with Apache</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-08-14</span></p>
-<p class="description"><b>Short description:</b> Learn how to host multiple websites on a single IP address or server. This video will teach you the Apache configuration settings &#8230;</p>
-</div>
-<div class="youtube-item" id="K4WXuGtCcm8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=K4WXuGtCcm8">26) How To Manage Multiple WordPress Websites In 1 Control Panel Secure &amp; Completely Free</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-07-25</span></p>
-<p class="description"><b>Short description:</b> In this tutorial, I will teach you how to manage multiple WordPress websites from 1 centralized control panel for free. That&#8217;s right &#8230;</p>
-</div>
-<div class="youtube-item" id="vZKjj0Mclf4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vZKjj0Mclf4">27) FINALLY: How To Sync User Accounts Across Multiple WordPress Websites &#8211; Login Status, Changes [FREE]</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-07-18</span></p>
-<p class="description"><b>Short description:</b> In this WordPress tutorial, I will be teaching how to do something that I get asked all the time. That is &#8220;how to sync users accounts &#8230;</p>
-</div>
-<div class="youtube-item" id="kVx_yvFN3lg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=kVx_yvFN3lg">28) Add On Domain &#8211; Run Multiple Websites From A Single Hosting Plan | tentononline.com</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-06-18</span></p>
-<p class="description"><b>Short description:</b> From zero to profitable online business in just 7 simple steps! Download your FREE Online Business Jumpstart guide: &#8230;</p>
-</div>
-<div class="youtube-item" id="1t6QLXfZWEQ">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1t6QLXfZWEQ">29) WP Landing Kit create microsites &amp; map domains without WordPress multisite!!</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-04-06</span></p>
-<p class="description"><b>Short description:</b> WP Landing Kit is a great way to create complete landing pages or microsite using pages in your WordPress website. Map &#8230;</p>
-</div>
-<div class="youtube-item" id="h8NLSWx1wbk">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=h8NLSWx1wbk">30) How to Manage Multiple WordPress Websites with a Single Click</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-01-08</span></p>
-<p class="description"><b>Short description:</b> Web Hosting Course: https://brycejmatheson.com/web-hosting-course/ ⭐ The Only Web Host I Trust: &#8230;</p>
-</div>
-<div class="youtube-item" id="rXjzyRVIflQ">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=rXjzyRVIflQ">31) create a wordpress multisite step6 &#8211; domain map plugin install</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2013-10-27</span></p>
-<p class="description"><b>Short description:</b> http://www.howtovideowordpress.com create a wordpress multisite step6 = domain map plugin install.</p>
-</div>
-<div class="youtube-item" id="UxzEdIlj1x4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=UxzEdIlj1x4">32) Using Cloudflare Free SSL on WordPress multisite with Domain Mapping</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-01-28</span></p>
-<p class="description"><b>Short description:</b> Just trying out my new Logitech C930e webcam while making a tutorial on installing a CloudFlare SSL on my multisite WordPress.</p>
-</div>
-<div class="youtube-item" id="GTfGO0lUTFo">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=GTfGO0lUTFo">33) Easily Add Plugins to Multiple WordPress Sites with The Hub</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-08-23</span></p>
-<p class="description"><b>Short description:</b> If you&#8217;ve been looking for a way to bulk install plugins on all your WordPress sites, but don&#8217;t want to have to log in to each website &#8230;</p>
-</div>
-<div class="youtube-item" id="XQU2QHX3VZY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=XQU2QHX3VZY">34) If You Manage Multiple WordPress Websites You Need this &#8211; ManageWP Tutorial</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-08-10</span></p>
-<p class="description"><b>Short description:</b> In today&#8217;s video, I am going to show you how to manage multiple WordPress websites from a single dashboard by using the &#8230;</p>
-</div>
-<div class="youtube-item" id="DdRtbNkfmyw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=DdRtbNkfmyw">35) Prime Mover: Moving Multisite Subsite to Single-Site installation</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-06-14</span></p>
-<p class="description"><b>Short description:</b> Download Prime Mover Plugin here: https://wordpress.org/plugins/prime-mover/ Official site: https://codexonics.com/ Description: &#8230;</p>
-</div>
-<div class="youtube-item" id="IElX74ZFVvs">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IElX74ZFVvs">36) WP MU &#8211; Install Domain Map plugin</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2011-10-16</span></p>
-<p class="description"><b>Short description:</b> In this tutorial video we will show you how to map a domain for your WordPress Multisites network. http://TheTheFly.com &#8230;</p>
-</div>
-<div class="youtube-item" id="UCY7HJlun27MS-IuJanN3Qbw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=UCY7HJlun27MS-IuJanN3Qbw">37) Domain Mapping System (<b>channel</b>)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-03-12</span></p>
-<p class="description"><b>Short description:</b> Domain Mapping System is a WordPress plugin that lets you easily map multiple domains to a single WordPress installation!</p>
-</div>
-<div class="youtube-item" id="uzysFsYVQBw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=uzysFsYVQBw">38) The Complete Tutorial on How to Setup WordPress Multisite</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-04-01</span></p>
-<p class="description"><b>Short description:</b> Subscribe to our channel for more WordPress and agency-focused videos: &#8230;</p>
-</div>
-<div class="youtube-item" id="QXbrdVjWaME">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QXbrdVjWaME">39) How to Install a WordPress Plugin (3 Different Methods)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-06-11</span></p>
-<p class="description"><b>Short description:</b> After installing WordPress itself the first thing tutorials want you to know how to do and what most beginners want to know how to &#8230;</p>
-</div>
-<div class="youtube-item" id="SpjdmOZJgRk">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SpjdmOZJgRk">40) Create a clickable hotspot map with this WordPress plugin</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2016-12-30</span></p>
-<p class="description"><b>Short description:</b> Get Image Hotspot plugin: https://wordpress.org/plugins/devvn-image-hotspot/ I was looking for a simple to use plugin that allowed &#8230;</p>
-</div>
-<div class="youtube-item" id="-dQsRRIc7nc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=-dQsRRIc7nc">41) Multi-Location Dynamic Google Maps &#8211; Dynamic Content for Elementor</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-12-31</span></p>
-<p class="description"><b>Short description:</b> Multi-Location Dynamic Google Maps and Advanced Custom Fields has just become incredibly quick and easy with the power of &#8230;</p>
-</div>
-<div class="youtube-item" id="-DfOMjoAp3k">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=-DfOMjoAp3k">42) Website, WordPress, multiple Domains Hosting on DigitalOcean with the Plesk Control Panel</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-03-05</span></p>
-<p class="description"><b>Short description:</b> Managing your servers, websites, WordPress and multiple domains on DigitalOcean has never been this easy. Plesk is the &#8230;</p>
-</div>
-<div class="youtube-item" id="tHb-A1SvkxY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=tHb-A1SvkxY">43) What is a Subdomain and How to Use One with WordPress?</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-12-18</span></p>
-<p class="description"><b>Short description:</b> In today&#8217;s video, we&#8217;re going to learn about subdomains. Blog post: &#8230;</p>
-</div>
-<div class="youtube-item" id="Ona251pd93k">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Ona251pd93k">44) Running one app with Multiple domains  &#8211; Making Of &#8211; 38</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-04-14</span></p>
-<p class="description"><b>Short description:</b> In this video we&#8217;ve configured a Meteor app to respond a different initial HTML based on the domain that was used. We used the &#8230;</p>
-</div>
-<div class="youtube-item" id="4BqCxxHnC8U">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4BqCxxHnC8U">45) Slider Revolution Tutorial WordPress &#8211; Multi Image Slider</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-09-10</span></p>
-<p class="description"><b>Short description:</b> Slider Revolution Tutorial for WordPress Learn the basics of building your first Slider Revolution 6 Slider. Learn how to create a &#8230;</p>
-</div>
-<div class="youtube-item" id="4isDwEoVrkY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4isDwEoVrkY">46) Feedzy WordPress RSS Feeds Plugin Tutorial</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-02-16</span></p>
-<p class="description"><b>Short description:</b> Learn how to add feeds to posts and pages on your WordPress website for free using Feedzy, a powerful RSS aggregator that &#8230;</p>
-</div>
-<div class="youtube-item" id="wA38D5FO27Q">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=wA38D5FO27Q">47) GTranslate Tutorial 2020 &#8211; How To Setup &amp; Configure GTranslate For WordPress &#8211; GTranslate Plugin</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-07-01</span></p>
-<p class="description"><b>Short description:</b> GTranslate is a free WordPress translation plugin that easily translates your WordPress Website into hundreds of languages free.</p>
-</div>
-<div class="youtube-item" id="37uuUW-6L7s">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=37uuUW-6L7s">48) Page Specific Menus &#8211; Conditional Menus WordPress Tutorial 2017</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-01-25</span></p>
-<p class="description"><b>Short description:</b> It happens, you need a different menu on a different page on your WordPress Website. Well, you can have Page Specific Menus &#8230;</p>
-</div>
-<div class="youtube-item" id="uDLS1Hjj3-U">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=uDLS1Hjj3-U">49) Elementor Multi-domains &amp; PolyLang or WPML (Easy)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-05-24</span></p>
-<p class="description"><b>Short description:</b> How to make #Multi-Domains &#038; #Elementor &#038; #Polylang (Or #WPML) work together. So Elementor does not have multi domain &#8230;</p>
-</div>
-<div class="youtube-item" id="7xvkoxkg42Q">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=7xvkoxkg42Q">50) Setup PolyLang &amp; Multiple Domains | Multilingual WordPress (2019)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-05-21</span></p>
-<p class="description"><b>Short description:</b> How to setup and use multiple #languages for a multilingual website using #Polylang with #multiple #domains on a #cPanel &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-02-29</span></p>
+<p class="description"><b>Short description:</b> How do you create a login form with Fluent Forms plugin? In this video I am showing you the setup. Tutorial Link: &#8230;</p>
 </div>
 </div>
 </div>
@@ -418,9 +407,9 @@
 
 
 
-<div class="wp-container-9 wp-block-group">
-<div class="wp-container-8 wp-block-group">
-<div style="font-style:italic; font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2022-09-20T19:53:22+00:00">September 20, 2022</time></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-layout-flex wp-block-group">
+<div style="font-style:italic;font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2023-03-01T21:49:56+00:00">March 1, 2023</time></div>
 
 <div class="wp-block-post-author has-small-font-size"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name">WP How to &#8211; WordPress Tutorial Videos</p></div></div>
 
@@ -442,24 +431,24 @@
 
 
 <footer class="wp-block-template-part">
-<div class="wp-container-16 wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-15 wp-block-group alignfull">
-<div class="wp-container-14 is-content-justification-space-between wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
-<div class="wp-container-13 wp-block-columns">
-<div class="wp-container-11 wp-block-column">
+<div class="is-layout-constrained wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-constrained wp-block-group alignfull">
+<div class="is-content-justification-space-between is-layout-flex wp-container-14 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
+<div class="is-layout-flex wp-container-13 wp-block-columns">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/" target="_blank" rel="noreferrer noopener">WP HOW TO &#8211; WordPress plugin</a></p>
 </div>
 
 
 
-<div class="wp-container-12 wp-block-column">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/privacy-policy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></p>
 </div>
 </div>
 
 
 
-<p class="has-text-align-right">Created with <a rel="noreferrer noopener" href="https://sr.wordpress.org/plugins/simply-static/" target="_blank">Simply Static</a> &amp; <a rel="noreferrer noopener" href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+<p class="has-text-align-right">Designed &amp; developed by <a href="https://imoptimal.com/" data-type="URL" data-id="https://imoptimal.com/" target="_blank" rel="noreferrer noopener">Imoptimal</a></p>
 </div>
 </div>
 </div>
@@ -495,8 +484,7 @@
 			width: auto;
 			z-index: 100000;
 		}</style>
-		<script>
-	( function() {
+		<script>( function() {
 		var skipLinkTarget = document.querySelector( 'main' ),
 			sibling,
 			skipLinkTargetID,
@@ -531,8 +519,7 @@
 
 		// Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
-	}() );
-	</script>
+	}() );</script>
 	<script src="/wp-content/themes/twentytwentytwo-child/script.js?ver=1.0.0" id="wphowtotv-script-js"></script>
 <script src="https://www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js?ver=1.0.0" id="wphowtotv-cookies-script-js"></script>
 <script src="/wp-content/themes/twentytwentytwo-child/cookies-consent.js?ver=1.0.0" id="wphowtotv-cookies-code-script-js"></script>

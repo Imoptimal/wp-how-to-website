@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Optinly: Best WordPress Popup Plugin &#8211; Exit Intent, Newsletter Popups, Gamification &#038; Opt-in Forms	</title>
-	<atom:link href="http://localhost/wordpress-plugin/optinly/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Optinly &#8211; Exit Intent, Newsletter Popups, Gamification &#038; Opt-in Forms	</title>
+	<atom:link href="http://localhost/wordpress-plugin/optinly/feed/?simply_static_page=192086" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/optinly/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:39:36 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:28:40 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

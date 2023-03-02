@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Ads Invalid Click Protection	</title>
-	<atom:link href="http://localhost/wordpress-plugin/ads-invalid-click-protection/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/ads-invalid-click-protection/feed/?simply_static_page=194706" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/ads-invalid-click-protection/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:46:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:28:42 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

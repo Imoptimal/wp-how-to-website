@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Popups, Welcome Bar, Optins and Lead Generation Plugin &#8211; Icegram	</title>
-	<atom:link href="http://localhost/wordpress-plugin/icegram/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Icegram Engage &#8211; Popups, Lead Magnets, Optins, Call to Action and Promotions Plugin	</title>
+	<atom:link href="http://localhost/wordpress-plugin/icegram/feed/?simply_static_page=177172" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/icegram/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:00:51 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:24:42 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

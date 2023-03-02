@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Preloader Awesome &#8211; Page Loading Animation with Spinner &#038; Gif	</title>
-	<atom:link href="http://localhost/wordpress-plugin/preloader-awesome/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/preloader-awesome/feed/?simply_static_page=196269" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/preloader-awesome/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:43:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:50:50 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

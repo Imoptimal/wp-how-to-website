@@ -5,74 +5,63 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="max-image-preview:large">
 <title>Plugin: Divi Lightbox for Images &#8211; &#039;WP How to&#039; WordPress Tutorial Videos</title>
-<link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Comments Feed" href="/comments/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Plugin: Divi Lightbox for Images Comments Feed" href="/wordpress-plugin/lightbox-images-for-divi/feed/">
-<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
+<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
 <style id="wp-block-group-inline-css">.wp-block-group{box-sizing:border-box}
 :where(.wp-block-group.has-background){padding:1.25em 2.375em}</style>
 <style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label{word-break:normal;overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}</style>
-<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.0.2" media="all">
+<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.1.1" media="all">
+<style id="wp-block-navigation-inline-css">.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}</style>
 <style id="wp-block-template-part-inline-css">.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
-<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word}.wp-block-post-title a{display:inline-block}</style>
-<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}</style>
-<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border-top:1px solid;border-bottom:1px solid}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
+<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word;box-sizing:border-box}.wp-block-post-title a{display:inline-block}
+.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}</style>
+<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom;box-sizing:border-box}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim{position:absolute;inset:0;background-color:#000}.wp-block-post-featured-image{position:relative}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-gradient{background-color:transparent}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-0{opacity:0}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-10{opacity:.1}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-20{opacity:.2}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-30{opacity:.3}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-40{opacity:.4}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-50{opacity:.5}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-60{opacity:.6}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-70{opacity:.7}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-80{opacity:.8}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-90{opacity:.9}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-100{opacity:1}</style>
+<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border:1px solid;border-right:none;border-left:none}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
 .wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}</style>
 <style id="wp-block-spacer-inline-css">.wp-block-spacer{clear:both}</style>
+<style id="wp-block-post-date-inline-css">.wp-block-post-date{box-sizing:border-box}</style>
 <style id="wp-block-post-author-inline-css">.wp-block-post-author{display:flex;flex-wrap:wrap}.wp-block-post-author__byline{width:100%;margin-top:0;margin-bottom:0;font-size:.5em}.wp-block-post-author__avatar{margin-right:1em}.wp-block-post-author__bio{margin-bottom:.7em;font-size:.7em}.wp-block-post-author__content{flex-grow:1;flex-basis:0}.wp-block-post-author__name{margin:0}</style>
 <style id="wp-block-post-terms-inline-css">.wp-block-post-terms__separator{white-space:pre-wrap}</style>
-<style id="wp-block-post-comments-inline-css">.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{content:"";display:table;clear:both}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-top:.5em;margin-right:.75em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{margin-top:1em;margin-bottom:1em;display:block}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{display:block;box-sizing:border-box;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-size:1em;font-family:inherit}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}.wp-block-post-comments input[type=submit]{border:none}</style>
-<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-button.aligncenter{text-align:center}</style>
-<style id="wp-block-button-inline-css">.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;cursor:pointer;display:inline-block;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-align:center;text-decoration:none;word-break:break-word;box-sizing:border-box}.wp-block-button__link:active,.wp-block-button__link:focus,.wp-block-button__link:hover,.wp-block-button__link:visited{color:#fff}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.is-style-outline>:where(.wp-block-button__link),:where(.wp-block-button__link).is-style-outline{border:2px solid;padding:.667em 1.333em}.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent}</style>
+<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-button.aligncenter{text-align:center}</style>
+<style id="wp-block-button-inline-css">.wp-block-button__link{cursor:pointer;display:inline-block;text-align:center;word-break:break-word;box-sizing:border-box}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){box-shadow:none;text-decoration:none;border-radius:9999px;padding:calc(.667em + 2px) calc(1.333em + 2px)}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.wp-block-button.is-style-outline>.wp-block-button__link,.wp-block-button .wp-block-button__link.is-style-outline{border:2px solid;padding:.667em 1.333em}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent;background-image:none}
+.wp-block-button .wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}</style>
 <style id="wp-block-paragraph-inline-css">.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}p.has-drop-cap.has-background{overflow:hidden}p.has-background{padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}</style>
 <style id="wp-block-columns-inline-css">.wp-block-columns{display:flex;margin-bottom:1.75em;box-sizing:border-box;flex-wrap:wrap!important;align-items:normal!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;word-break:break-word;overflow-wrap:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}</style>
-<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color),html :where([style*=border-width]){border-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}</style>
-<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0; }body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);--wp--style--block-gap: 1.5rem;}.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: var( --wp--style--block-gap ); }h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}a{color: var(--wp--preset--color--foreground);}.wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}.wp-block-post-comments{padding-top: var(--wp--custom--spacing--small);}.wp-block-pullquote{border-width: 1px 0;}.wp-block-query-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}.wp-block-quote{border-width: 1px;}.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}figure{margin:0 0 1em}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0;--wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1000px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: 1.5rem; }body { --wp--style--block-gap: 1.5rem; }body .is-layout-flow > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-flow > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-constrained > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-constrained > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-flex{gap: 1.5rem;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--foreground);text-decoration: underline;}h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="core-block-supports-inline-css">.wp-block-navigation.wp-container-3{justify-content:flex-end;}.wp-block-columns.wp-container-13{flex-wrap:nowrap;}.wp-block-group.wp-container-4,.wp-block-group.wp-container-14{justify-content:space-between;}</style>
 <style id="wp-webfonts-inline-css">@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}</style>
 <link rel="stylesheet" id="wphowtotv-style-css" href="/wp-content/themes/twentytwentytwo-child/style.css?ver=1.0.0" media="all">
 <link rel="stylesheet" id="twentytwentytwo-style-css" href="/wp-content/themes/twentytwentytwo/style.css?ver=1.0.0" media="all">
-<script src="/wp-includes/blocks/navigation/view.min.js?ver=009e29110e016c14bac4ba0ecc809fcd" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view.min.js?ver=c24330f635f5cb9d5e0e" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view-modal.min.js?ver=45f05135277abf0b0408" id="wp-block-navigation-view-2-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/101230">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/141291">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
-<meta name="generator" content="WordPress 6.0.2">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
 <link rel="canonical" href="/wordpress-plugin/lightbox-images-for-divi/">
-<link rel="shortlink" href="/?p=101230">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Flightbox-images-for-divi%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Flightbox-images-for-divi%2F&#038;format=xml">
-<style>.wp-container-1 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-1 > * { margin: 0; }</style>
-<style>.wp-container-3 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: flex-end;}.wp-container-3 > * { margin: 0; }</style>
-<style>.wp-container-4 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-4 > * { margin: 0; }</style>
-<style>.wp-container-5 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-5 > .alignwide { max-width: 1000px;}.wp-container-5 .alignfull { max-width: none; }.wp-container-5 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-5 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-5 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-5 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-5 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-6 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-6 > .alignwide { max-width: 1000px;}.wp-container-6 .alignfull { max-width: none; }.wp-container-6 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-6 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-6 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-6 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-6 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-7 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-7 > .alignwide { max-width: 1000px;}.wp-container-7 .alignfull { max-width: none; }.wp-container-7 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-7 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-7 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-7 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-7 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-8 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-8 > * { margin: 0; }</style>
-<style>.wp-container-9 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-9 > .alignwide { max-width: 1000px;}.wp-container-9 .alignfull { max-width: none; }.wp-container-9 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-9 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-9 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-9 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-9 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-10 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-10 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-10 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-10 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-10 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-11 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-11 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-11 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-11 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-11 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-12 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-12 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-12 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-12 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-12 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-13 {display: flex;gap: var( --wp--style--block-gap, 2em );flex-wrap: nowrap;align-items: center;}.wp-container-13 > * { margin: 0; }</style>
-<style>.wp-container-14 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-14 > * { margin: 0; }</style>
-<style>.wp-container-15 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-15 > .alignwide { max-width: 1000px;}.wp-container-15 .alignfull { max-width: none; }.wp-container-15 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-15 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-15 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-15 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-15 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-16 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-16 > .alignwide { max-width: 1000px;}.wp-container-16 .alignfull { max-width: none; }.wp-container-16 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-16 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-16 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-16 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-16 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<link rel="shortlink" href="/?p=141291">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Flightbox-images-for-divi%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Flightbox-images-for-divi%2F#038;format=xml">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 </head>
 
-<body class="post-template-default single single-post postid-101230 single-format-standard wp-custom-logo wp-embed-responsive">
+<body class="post-template-default single single-post postid-141291 single-format-standard wp-custom-logo wp-embed-responsive">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
 <div class="wp-site-blocks">
 <header class="wp-block-template-part">
-<div class="wp-container-5 wp-block-group">
-<div class="wp-container-4 is-content-justification-space-between wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-1 wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img loading="lazy" width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-content-justification-space-between is-layout-flex wp-container-4 wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-flex wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" decoding="async" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
 
 
-<nav class="wp-container-3 is-content-justification-right is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+<nav class="is-content-justification-right is-layout-flex wp-container-3 is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
 			<div class="wp-block-navigation__responsive-container  " id="modal-2">
 				<div class="wp-block-navigation__responsive-close" tabindex="-1" data-micromodal-close>
 					<div class="wp-block-navigation__responsive-dialog" aria-label="Menu">
@@ -92,9 +81,9 @@
 </header>
 
 
-<main class="wp-container-10 wp-block-group">
-<div class="wp-container-6 wp-block-group">
-<h1 style="margin-bottom: var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: Divi Lightbox for Images</h1>
+<main class="is-layout-flow wp-block-group">
+<div class="is-layout-constrained wp-block-group">
+<h1 style="margin-bottom:var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: Divi Lightbox for Images</h1>
 
 
 
@@ -107,14 +96,14 @@
 <div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<div class="wp-container-7 entry-content wp-block-post-content">
+<div class="is-layout-constrained entry-content wp-block-post-content">
 <p><iframe id="youtube-player" loading="lazy" src="https://www.youtube.com/embed/?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
 <div class="youtube-videos">
-<div class="youtube-item" id="r7a7zfRkBLk">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=r7a7zfRkBLk">1) How to Open Image or Video LightBox in Divi &#8211; ( FREE &amp; UPDATED)</a></h5>
+<div class="youtube-item" id="vS0iWFBCltc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vS0iWFBCltc">1) Setup a WordPress Gallery and Lightbox using WP Featherlight in under 4 minutes</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-03-25</span></p>
-<p class="description"><b>Short description:</b> In this tutorial, I wanna show you. How to create Divi image or video lightbox with easy way, after watching this video you will be &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-28</span></p>
+<p class="description"><b>Short description:</b> Need to add a lightbox to your wordpress gallery? Well I&#8217;ve got you covered. It&#8217;s easy and I will walk you through the entire &#8230;</p>
 </div>
 <div class="youtube-item" id="G-ed7kPF_dw">
 <h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=G-ed7kPF_dw">2) How to create image lightbox by Divi image hover plugin</a></h5>
@@ -128,11 +117,11 @@
 <p><span class="publish-date"><b>Published at:</b> 2022-05-08</span></p>
 <p class="description"><b>Short description:</b> Divi Theme how to create an image that will zoom in on hover with lightbox. Today we will be demonstrating how to use the Divi &#8230;</p>
 </div>
-<div class="youtube-item" id="ZzAwhanqDsI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ZzAwhanqDsI">4) Image Overlay or LightBox in Divi Theme</a></h5>
+<div class="youtube-item" id="zXK0vLMi_sg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zXK0vLMi_sg">4) How to use the FooBox Image LightBox Plugin to add Image Gallery in WordPress Website #29</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-02-24</span></p>
-<p class="description"><b>Short description:</b> The image overlay options on the Design tab in Divi won&#8217;t show up until you go to Content &#8212; Link and select the Open in LightBox &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-09</span></p>
+<p class="description"><b>Short description:</b> JOIN: https://www.youtube.com/channel/UC0T6MVd3wQDB5ICAe45OxaQ/join In this video, We are explaining the FooBox Image &#8230;</p>
 </div>
 <div class="youtube-item" id="bUiFMV9Hhc4">
 <h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=bUiFMV9Hhc4">5) Divi Theme Blurb Module With Lightbox Popout Image 👍</a></h5>
@@ -146,269 +135,269 @@
 <p><span class="publish-date"><b>Published at:</b> 2019-01-11</span></p>
 <p class="description"><b>Short description:</b> Recently a client approached me asking for the best way to show multiple images on a single WordPress post. The built-in Gallery &#8230;</p>
 </div>
-<div class="youtube-item" id="vS0iWFBCltc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vS0iWFBCltc">7) Setup a WordPress Gallery and Lightbox using WP Featherlight in under 4 minutes</a></h5>
+<div class="youtube-item" id="ZzAwhanqDsI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ZzAwhanqDsI">7) Image Overlay or LightBox in Divi Theme</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-02-28</span></p>
-<p class="description"><b>Short description:</b> Need to add a lightbox to your wordpress gallery? Well I&#8217;ve got you covered. It&#8217;s easy and I will walk you through the entire &#8230;</p>
-</div>
-<div class="youtube-item" id="zXK0vLMi_sg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zXK0vLMi_sg">8) How to use the FooBox Image LightBox Plugin to add Image Gallery in WordPress Website #29</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-11-09</span></p>
-<p class="description"><b>Short description:</b> JOIN: https://www.youtube.com/channel/UC0T6MVd3wQDB5ICAe45OxaQ/join In this video, We are explaining the FooBox Image &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-02-24</span></p>
+<p class="description"><b>Short description:</b> The image overlay options on the Design tab in Divi won&#8217;t show up until you go to Content &#8212; Link and select the Open in LightBox &#8230;</p>
 </div>
 <div class="youtube-item" id="5ukm4cJiz1I">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=5ukm4cJiz1I">9) Divi Theme Full Width Image Carousel With Lightbox 😎</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=5ukm4cJiz1I">8) Divi Theme Full Width Image Carousel With Lightbox 😎</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2020-04-28</span></p>
 <p class="description"><b>Short description:</b> Divi Theme Full Width Image Carousel With Lightbox . We are going to be using the Divi Supreme Modules Plugin to create some &#8230;</p>
 </div>
-<div class="youtube-item" id="lref4lqoXX8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lref4lqoXX8">10) How to add a Light Box image to an Accordion module in Divi</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2016-08-27</span></p>
-<p class="description"><b>Short description:</b> Quick tutorial on how to add a lightbox effect to images in an accordion module using the Divi theme for WordPress Class used: &#8230;</p>
-</div>
-<div class="youtube-item" id="4i2RPFz_PXs">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4i2RPFz_PXs">11) Setup a WordPress Image Gallery (with Lightbox) &#8211; 2020</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2015-08-15</span></p>
-<p class="description"><b>Short description:</b> In this tutorial I show you how you can setup a beautiful professional looking Image Gallery in WordPress. When a user clicks on &#8230;</p>
-</div>
-<div class="youtube-item" id="I-OmSK71PzM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=I-OmSK71PzM">12) How To Use A WordPress Lightbox Gallery Plugin | WordPress Image Gallery | WordPress Tutorial</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-11-03</span></p>
-<p class="description"><b>Short description:</b> In this video, I&#8217;ll show you how to use a WordPress lightbox gallery plugin in just a few clicks/step by step. If you are figuring out &#8230;</p>
-</div>
-<div class="youtube-item" id="gNFEHEMCRlo">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gNFEHEMCRlo">13) Divi Theme WowCarousel Plugin Image Carousel With Lightbox Effect 👈</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-06-07</span></p>
-<p class="description"><b>Short description:</b> Divi Theme WowCarousel Plugin Image Carousel With Lightbox Effect. We are going to be using the Divi WowCarousel Plugin to &#8230;</p>
-</div>
-<div class="youtube-item" id="yN6YlT1Cvqc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yN6YlT1Cvqc">14) Elementor WordPress Plugin Full Width Image Gallery With Lightbox</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-08-22</span></p>
-<p class="description"><b>Short description:</b> Elementor WordPress Plugin Full Width Image Gallery With Lightbox. Elementor is a great free WordPress page builder plugin.</p>
-</div>
-<div class="youtube-item" id="FM9A2-Qqws0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=FM9A2-Qqws0">15) Divi Theme Text Over Image On Hover With Lightbox 👈👍👍👈</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-01-10</span></p>
-<p class="description"><b>Short description:</b> Divi Theme Text Over Image On Hover With Lightbox. We are going to be using the Divi theme to create some great effects in this &#8230;</p>
-</div>
-<div class="youtube-item" id="9_g-FZQdFmw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=9_g-FZQdFmw">16) How to add Images to WordPress (plus free Lightbox &amp; Gallery plugins)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-12-10</span></p>
-<p class="description"><b>Short description:</b> Please Like &#038; Subscribe. In this video, you&#8217;ll learn: &#8211; How to upload images through the WordPress editor or media library &#8211; How to &#8230;</p>
-</div>
-<div class="youtube-item" id="z5F8HmIfJlk">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=z5F8HmIfJlk">17) Divi Theme Supreme Modules Scrolling Image With Video Lightbox</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-01-02</span></p>
-<p class="description"><b>Short description:</b> Divi Theme Supreme Modules Scrolling Image With Video Lightbox.We are going to be using the Divi Supreme Modules Plugin to &#8230;</p>
-</div>
 <div class="youtube-item" id="zooJPwK62_I">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zooJPwK62_I">18) How to Add Lightbox to WordPress in Divi</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zooJPwK62_I">9) How to Add Lightbox to WordPress in Divi</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2020-08-28</span></p>
 <p class="description"><b>Short description:</b> Wonder Lightbox https://www.wonderplugin.com/wordpress-lightbox/ is the best WordPress lightbox plugin to display images and &#8230;</p>
 </div>
-<div class="youtube-item" id="IMXvlrprteI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IMXvlrprteI">19) Divi Supreme Modules Full Width Image Carousel With Lightbox 👍</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-03-03</span></p>
-<p class="description"><b>Short description:</b> Divi Supreme Modules Full Width Image Carousel With Lightbox. We are going to be using the Divi Supreme Modules Plugin to &#8230;</p>
-</div>
-<div class="youtube-item" id="FGG-LxHUwyE">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=FGG-LxHUwyE">20) How to open an Image or a Video in Lightbox in Divi</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-06-24</span></p>
-<p class="description"><b>Short description:</b> Hey, guys so in this video, I will show you how we can make an image or a video Lightbox. Which is a very useful feature for some &#8230;</p>
-</div>
-<div class="youtube-item" id="pMm3BzW2ZqU">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=pMm3BzW2ZqU">21) Divi Supreme Modules Plugin How To Create Image and Video Popup Buttons 👍</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-03-15</span></p>
-<p class="description"><b>Short description:</b> Divi Supreme Modules is a premium plugin that comes with many amazing features and extensions, that add great extra &#8230;</p>
-</div>
-<div class="youtube-item" id="mk_QZP230ys">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=mk_QZP230ys">22) Modula WordPress Image Gallery Plugin &#8211; Complete Walkthrough.</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-12-07</span></p>
-<p class="description"><b>Short description:</b> In this tutorial, we are going to check out the Module WordPress Image Gallery Plugin. It is one of the best image gallery plugins &#8230;</p>
-</div>
-<div class="youtube-item" id="Alclg0FJGbM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Alclg0FJGbM">23) How to Add Image Lightbox to WordPress Using Elementor</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-08-07</span></p>
-<p class="description"><b>Short description:</b> No more lightbox plugins needed! Watch the simple and free way to create an image lightbox in WordPress using Elementor page &#8230;</p>
-</div>
-<div class="youtube-item" id="mo9JP5gGG8U">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=mo9JP5gGG8U">24) Divi Theme 3D Image Lightbox Carousel</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-10-05</span></p>
-<p class="description"><b>Short description:</b> Divi Theme 3D Image Lightbox Carousel .We are going to be using the Divi Carousel Module Plugin to create. The Divi theme &#8230;</p>
-</div>
-<div class="youtube-item" id="sPItlTRHHn4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=sPItlTRHHn4">25) Divi Filtergrid Custom Lightbox Gallery</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-02-11</span></p>
-<p class="description"><b>Short description:</b> The Divi FilterGrid plugin comes with several click action options, including an option to open a custom lightbox gallery.</p>
-</div>
-<div class="youtube-item" id="yEG4VWDFJ5k">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yEG4VWDFJ5k">26) Free WordPress gallery plugin &#8211; how to create mobile friendly gallery lightbox</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-01-16</span></p>
-<p class="description"><b>Short description:</b> How to add into the WordPress free photo gallery plugin, which looks good even on smartphones. 5 minut tutorial how to work with &#8230;</p>
-</div>
-<div class="youtube-item" id="AvaOC1D1_A0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=AvaOC1D1_A0">27) Plugin simple Lightbox WordPress</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2014-03-20</span></p>
-<p class="description"><b>Short description:</b> </p>
-</div>
-<div class="youtube-item" id="BRjX-pNHk-s">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BRjX-pNHk-s">28) The Divi Gallery Module</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-12-21</span></p>
-<p class="description"><b>Short description:</b> Sharing a collection of images is always a great way to visually engage users in your content. The Gallery module lets you create &#8230;</p>
-</div>
-<div class="youtube-item" id="yrNU_Xck9Z0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yrNU_Xck9Z0">29) Divi Tutorial &#8211; Lightbox/Popup/Overlay Any Content Easily</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-11-05</span></p>
-<p class="description"><b>Short description:</b> Divi Lightbox Anypage Module &#8211; https://shop.smmile.com/product-divi-lightbox-anypage-plugin/ Here&#8217;s a simple tutorial on &#8230;</p>
-</div>
-<div class="youtube-item" id="uqTWHhIXObc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=uqTWHhIXObc">30) How To Display Images In The Divi Gallery Module With Advanced Custom Fields (ACF)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-05-03</span></p>
-<p class="description"><b>Short description:</b> In this tutorial, I will show you how to display images in the Divi Gallery module using the Advanced Custom Fields (ACF) plugin &#8230;</p>
-</div>
-<div class="youtube-item" id="zd6pnAibkzA">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zd6pnAibkzA">31) Divi Theme Add A Video Lightbox Popup</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-04-01</span></p>
-<p class="description"><b>Short description:</b> Divi WordPress Theme Add A Video Lightbox Popup.The Divi theme from elegant themes is absolutely awesome. Whenever I &#8230;</p>
-</div>
-<div class="youtube-item" id="94aSk1aDj4Q">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=94aSk1aDj4Q">32) Divi tutorial: image module</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-03-04</span></p>
-<p class="description"><b>Short description:</b> In this tutorial, I demonstrate how to move an image from a text module to an image module so it can open in a Lightbox.</p>
-</div>
 <div class="youtube-item" id="S7SE050p01g">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=S7SE050p01g">33) Image Gallery in WordPress &#8211; Create a Filterable Image Gallery with Lightbox</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=S7SE050p01g">10) Image Gallery in WordPress &#8211; Create a Filterable Image Gallery with Lightbox</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2021-11-13</span></p>
 <p class="description"><b>Short description:</b> Image Gallery in WordPress &#8211; Make a filterable gallery in WordPress. Web Hosting for Just $0.99/year: &#8230;</p>
 </div>
-<div class="youtube-item" id="1JvMEfoYuVI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1JvMEfoYuVI">34) Using Tooltip Glossary Plugin With DIVI Page Builder &#8211; WordPress Tutorial from CreativeMinds</a></h5>
+<div class="youtube-item" id="gNFEHEMCRlo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gNFEHEMCRlo">11) Divi Theme WowCarousel Plugin Image Carousel With Lightbox Effect 👈</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-03-27</span></p>
-<p class="description"><b>Short description:</b> It is easy to integrate Tooltip plugin with most popular website builders such as Divi, Elementor, Avia or others. You only need &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-07</span></p>
+<p class="description"><b>Short description:</b> Divi Theme WowCarousel Plugin Image Carousel With Lightbox Effect. We are going to be using the Divi WowCarousel Plugin to &#8230;</p>
 </div>
-<div class="youtube-item" id="QT9EdUS7EjI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QT9EdUS7EjI">35) Essential Grid Tutorial &#8211; Create AMAZING Grids With This WordPress Plugin</a></h5>
+<div class="youtube-item" id="lref4lqoXX8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lref4lqoXX8">12) How to add a Light Box image to an Accordion module in Divi</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-07-28</span></p>
-<p class="description"><b>Short description:</b> Download Essential Grid: https://darrelwilson.com/essentialgrid The essential grid plugin for wordpress is one of the best &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2016-08-27</span></p>
+<p class="description"><b>Short description:</b> Quick tutorial on how to add a lightbox effect to images in an accordion module using the Divi theme for WordPress Class used: &#8230;</p>
 </div>
-<div class="youtube-item" id="QI-1hv7e51Q">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QI-1hv7e51Q">36) How to Add an Image Gallery in WordPress</a></h5>
+<div class="youtube-item" id="FGG-LxHUwyE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=FGG-LxHUwyE">13) How to open an Image or a Video in Lightbox in Divi</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-03-10</span></p>
-<p class="description"><b>Short description:</b> Join our Beginner WordPress Course &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2019-06-24</span></p>
+<p class="description"><b>Short description:</b> Hey, guys so in this video, I will show you how we can make an image or a video Lightbox. Which is a very useful feature for some &#8230;</p>
 </div>
-<div class="youtube-item" id="OIWtWz8Ns3Q">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=OIWtWz8Ns3Q">37) Video Popup WordPress: 😀 Plugin para Lightbox Pop Up Videos en Página Web</a></h5>
+<div class="youtube-item" id="z5F8HmIfJlk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=z5F8HmIfJlk">14) Divi Theme Supreme Modules Scrolling Image With Video Lightbox</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-09-03</span></p>
-<p class="description"><b>Short description:</b> Curso WordPress DIVI Gratis: https://emmanuelgutierrez.com/curso-wordpress-divi/ RECURSOS &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-01-02</span></p>
+<p class="description"><b>Short description:</b> Divi Theme Supreme Modules Scrolling Image With Video Lightbox.We are going to be using the Divi Supreme Modules Plugin to &#8230;</p>
 </div>
-<div class="youtube-item" id="mXYF02zZ1zs">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=mXYF02zZ1zs">38) Divi Theme Is This the Best Masonry Gallery? 👍</a></h5>
+<div class="youtube-item" id="Ze8YqB4x5nk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Ze8YqB4x5nk">15) WordPress LIGHTBOX Gallery with Thumbnails (Beaver Builder Photo + Gallery Module Tutorial)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-04-07</span></p>
-<p class="description"><b>Short description:</b> Divi Theme is this the best example of a masonry gallery? Divi Supreme Modules is a premium plugin that comes with many &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-02-16</span></p>
+<p class="description"><b>Short description:</b> WordPress lightbox gallery with thumbnails (MADE SIMPLE) using either the Beaver Builder photo or gallery module. → Gallery &#8230;</p>
 </div>
-<div class="youtube-item" id="1Xtaz9MrPS4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1Xtaz9MrPS4">39) Divi Theme Gallery Image Zoom And Contain 👍👍👍</a></h5>
+<div class="youtube-item" id="4i2RPFz_PXs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4i2RPFz_PXs">16) Setup a WordPress Image Gallery (with Lightbox) &#8211; 2020</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-04-24</span></p>
-<p class="description"><b>Short description:</b> Divi Theme how to create a gallery image that will zoom in on hover. Today we will be demonstrating how to create a gallery with &#8230;</p>
-</div>
-<div class="youtube-item" id="yI_arqWrjZM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yI_arqWrjZM">40) Battle Suit for Divi: Video Lightbox Module (Re-create Elegant Themes Blog)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-06-29</span></p>
-<p class="description"><b>Short description:</b> This video shows how you can use the Video Lightbox module from the Battle Suit for Divi plugin &#8230;</p>
-</div>
-<div class="youtube-item" id="YvJ5Ey-jPoM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=YvJ5Ey-jPoM">41) How to Add Your Logo in WordPress Using the Divi Theme</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-02-08</span></p>
-<p class="description"><b>Short description:</b> This is a series of tutorials around setting up a website in Divi by elegant themes (www.podhost.me/elegant). It&#8217;s part of our course &#8230;</p>
-</div>
-<div class="youtube-item" id="EOfSpxqki-M">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EOfSpxqki-M">42) ELEMENTOR for WordPress Video Lightbox Tutorial</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-03-16</span></p>
-<p class="description"><b>Short description:</b> Video Lightbox in Elementor and Elementor Pro for WordPress. Learn how to use the latest update to #Elementor Pro and Free &#8230;</p>
-</div>
-<div class="youtube-item" id="JBlTyuRiees">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JBlTyuRiees">43) Divi Gallery</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-09-13</span></p>
-<p class="description"><b>Short description:</b> Sofware Deals &#038; Bonuses * FluentCRM &#8211; https://funnelstoincome.com/fluentcrm Get 20% OFF (Use Coupon MAK) * Presto Player &#8230;</p>
-</div>
-<div class="youtube-item" id="H-zYrXlufMQ">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=H-zYrXlufMQ">44) The 5 Best Gallery plugins for WordPress</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-11-08</span></p>
-<p class="description"><b>Short description:</b> If you haven&#8217;t found your best gallery plugin, this video is intended for you. The top 5 WordPress plugins, will give your website a &#8230;</p>
-</div>
-<div class="youtube-item" id="dw4Riqh8zOY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=dw4Riqh8zOY">45) How to Add Lightbox to WordPress</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-08-22</span></p>
-<p class="description"><b>Short description:</b> Wonder Lightbox https://www.wonderplugin.com/wordpress-lightbox is the best WordPress lightbox plugin to display images and &#8230;</p>
-</div>
-<div class="youtube-item" id="kSWtwmHuSGY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=kSWtwmHuSGY">46) WordPress text Lightbox &#8211; Using Lightbox effect on text link</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-05-12</span></p>
-<p class="description"><b>Short description:</b> In this short WordPress video tutorial we will show how to add lightbox effect on text link by using WpDevArt lightbox plugin.</p>
-</div>
-<div class="youtube-item" id="BftudDVeyHM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BftudDVeyHM">47) Divi Theme Hover Effects Icon To Image With Link 👍👍👍</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-05-06</span></p>
-<p class="description"><b>Short description:</b> Divi Theme how to create an icon with a background color that fades to and image with link on hover. Today we will be &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2015-08-15</span></p>
+<p class="description"><b>Short description:</b> In this tutorial I show you how you can setup a beautiful professional looking Image Gallery in WordPress. When a user clicks on &#8230;</p>
 </div>
 <div class="youtube-item" id="L4yzxRVFAIY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=L4yzxRVFAIY">48) Divi Brain Addons Free Divi Plugin Card With Lightbox 👍</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=L4yzxRVFAIY">17) Divi Brain Addons Free Divi Plugin Card With Lightbox 👍</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2021-01-26</span></p>
 <p class="description"><b>Short description:</b> Divi Brain Addons Free Divi Plugin Card With Lightbox. Divi Brain Addons is a great free plugin for the Divi Theme. Welcome to &#8230;</p>
 </div>
-<div class="youtube-item" id="W8p8UVvIdXY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=W8p8UVvIdXY">49) How to Integrate a Simple Lightbox Plugin | Autolightbox Plugin Tutorial</a></h5>
+<div class="youtube-item" id="jSAufJ6dIpM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=jSAufJ6dIpM">18) Open in Lightbox Blurb Images &#8211; DiviMenus On Media</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-09-28</span></p>
-<p class="description"><b>Short description:</b> How to Integrate a Simple Lightbox Plugin | Autolightbox Plugin Tutorial Plugin URL: &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-26</span></p>
+<p class="description"><b>Short description:</b> DiviMenus On Media: Display DiviMenus on Images &#038; Videos to add stunning Media options! DiviMenus module is required &#8230;</p>
 </div>
-<div class="youtube-item" id="iN2_e42EhlM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=iN2_e42EhlM">50) New Divi Theme Plugin! &#8211; Add 21 More Divi Modules To The Divi Theme!</a></h5>
+<div class="youtube-item" id="sPItlTRHHn4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=sPItlTRHHn4">19) Divi Filtergrid Custom Lightbox Gallery</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-01-08</span></p>
-<p class="description"><b>Short description:</b> Checkout Divi Theme Plugin: https://www.darrelwilson.com/divisupreme NEW Divi Theme Tutorial Here: &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-11</span></p>
+<p class="description"><b>Short description:</b> The Divi FilterGrid plugin comes with several click action options, including an option to open a custom lightbox gallery. In this &#8230;</p>
+</div>
+<div class="youtube-item" id="80NLEjV2UNE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=80NLEjV2UNE">20) How to Add a Dynamic Lightbox to Your WordPress Website</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-12-04</span></p>
+<p class="description"><b>Short description:</b> Using Elementor, you can easily add a dynamic lightbox for videos and images on your WordPress website or blog. In this video &#8230;</p>
+</div>
+<div class="youtube-item" id="IvFhc47v3_c">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IvFhc47v3_c">21) Divi Gallery Extended &#8211; Masonry Gallery With Category Filter 1.1.0 Update</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-12-26</span></p>
+<p class="description"><b>Short description:</b> Divi Gallery Extended Plugin by Divi Extended now let you create masonry galleries with image category filter on your Divi Theme &#8230;</p>
+</div>
+<div class="youtube-item" id="mo9JP5gGG8U">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=mo9JP5gGG8U">22) Divi Theme 3D Image Lightbox Carousel</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-10-05</span></p>
+<p class="description"><b>Short description:</b> Divi Theme 3D Image Lightbox Carousel .We are going to be using the Divi Carousel Module Plugin to create. The Divi theme &#8230;</p>
+</div>
+<div class="youtube-item" id="yrNU_Xck9Z0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=yrNU_Xck9Z0">23) Divi Tutorial &#8211; Lightbox/Popup/Overlay Any Content Easily</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-11-05</span></p>
+<p class="description"><b>Short description:</b> Divi Lightbox Anypage Module &#8211; https://shop.smmile.com/product-divi-lightbox-anypage-plugin/ Here&#8217;s a simple tutorial on &#8230;</p>
+</div>
+<div class="youtube-item" id="gPGdVcJ3BkA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gPGdVcJ3BkA">24) WordPress Gallery Plugin | Easy Image Gallery – Create a Lightbox Gallery on WordPress website</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-03-20</span></p>
+<p class="description"><b>Short description:</b> WordPress Gallery Plugin helps to create a gallery on your WordPress Website. Easy Image Gallery is an easy gallery plugin.</p>
+</div>
+<div class="youtube-item" id="tv5vymtalS4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=tv5vymtalS4">25) WordPress plugins Album and Image Gallery Plus Lightbox Plugin</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-10-12</span></p>
+<p class="description"><b>Short description:</b> A very simple plugin to add image gallery, image album in your post, page and custom post type section and display it on frontend &#8230;</p>
+</div>
+<div class="youtube-item" id="FM9A2-Qqws0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=FM9A2-Qqws0">26) Divi Theme Text Over Image On Hover With Lightbox 👈👍👍👈</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-01-10</span></p>
+<p class="description"><b>Short description:</b> Divi Theme Text Over Image On Hover With Lightbox. We are going to be using the Divi theme to create some great effects in this &#8230;</p>
+</div>
+<div class="youtube-item" id="Alclg0FJGbM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Alclg0FJGbM">27) How to Add Image Lightbox to WordPress Using Elementor</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-08-07</span></p>
+<p class="description"><b>Short description:</b> No more lightbox plugins needed! Watch the simple and free way to create an image lightbox in WordPress using Elementor page &#8230;</p>
+</div>
+<div class="youtube-item" id="hNp1jW0NpwI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=hNp1jW0NpwI">28) How to create a Divi Masonry Gallery in 2022</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-10-06</span></p>
+<p class="description"><b>Short description:</b> Learn how to create a Divi masonry gallery in this beginner tutorial. We build a responsive masonry gallery using the Divi Builder &#8230;</p>
+</div>
+<div class="youtube-item" id="BtfZJFHj4rM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BtfZJFHj4rM">29) Divi Theme Tips and Tricks: How to Create a Lightbox for Sections and Rows</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2023-02-16</span></p>
+<p class="description"><b>Short description:</b> How to popup a lightbox of any module, row or section with the Divi Theme. In this video we will be demonstrating how to create &#8230;</p>
+</div>
+<div class="youtube-item" id="pMm3BzW2ZqU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=pMm3BzW2ZqU">30) Divi Supreme Modules Plugin How To Create Image and Video Popup Buttons 👍</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-03-15</span></p>
+<p class="description"><b>Short description:</b> Divi Supreme Modules is a premium plugin that comes with many amazing features and extensions, that add great extra &#8230;</p>
+</div>
+<div class="youtube-item" id="rawBEPORHXY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=rawBEPORHXY">31) Divi Theme How To Add HOTSPOTS To An Image 👈👈👈</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2023-01-03</span></p>
+<p class="description"><b>Short description:</b> How to create an image that has two hotspot links and a lightbox with the Divi Theme. In this video we will be creating an image, &#8230;</p>
+</div>
+<div class="youtube-item" id="zd6pnAibkzA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zd6pnAibkzA">32) Divi Theme Add A Video Lightbox Popup</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-04-01</span></p>
+<p class="description"><b>Short description:</b> Divi WordPress Theme Add A Video Lightbox Popup.The Divi theme from elegant themes is absolutely awesome. Whenever I &#8230;</p>
+</div>
+<div class="youtube-item" id="rOl4KegsFXk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=rOl4KegsFXk">33) Organize Your Images | Folders in WordPress Media Library (Free Plugin)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-12-01</span></p>
+<p class="description"><b>Short description:</b> Folders (Free) https://wordpress.org/plugins/folders/ Folders (Premium) https://premio.io/downloads/folders/ &#8230;</p>
+</div>
+<div class="youtube-item" id="R0uEtU25es4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=R0uEtU25es4">34) 7 INCREDIBLE WordPress Lightbox Plugins in 2023</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2023-02-09</span></p>
+<p class="description"><b>Short description:</b> In this video, we&#8217;ll compare the best WordPress lightbox plugins so you can create user-friendly popups for your WordPress &#8230;</p>
+</div>
+<div class="youtube-item" id="D09c4Fa_FGA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=D09c4Fa_FGA">35) Divi Theme WowCarousel Plugin Create Amazing Carousels</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-09-28</span></p>
+<p class="description"><b>Short description:</b> Divi Theme WowCarousel Plugin Create Amazing Carousels. We are going to be using the Divi WowCarousel Plugin to create &#8230;</p>
+</div>
+<div class="youtube-item" id="EoCcKOmFAwk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EoCcKOmFAwk">36) Responsive Photo Gallery &amp; Lightbox ( WordPress Plugin ) Part &#8211; 1</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-07-10</span></p>
+<p class="description"><b>Short description:</b> Download &#8211; https://wordpress.org/plugins/responsive-photo-gallery-lightbox/ *.__.*.__.*.__ Video Topics __.*.__.*.__.* 00:00 &#8230;</p>
+</div>
+<div class="youtube-item" id="EOfSpxqki-M">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=EOfSpxqki-M">37) ELEMENTOR for WordPress Video Lightbox Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-03-16</span></p>
+<p class="description"><b>Short description:</b> Video Lightbox in Elementor and Elementor Pro for WordPress. Learn how to use the latest update to #Elementor Pro and Free &#8230;</p>
+</div>
+<div class="youtube-item" id="IMXvlrprteI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IMXvlrprteI">38) Divi Supreme Modules Full Width Image Carousel With Lightbox 👍</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-03</span></p>
+<p class="description"><b>Short description:</b> Divi Supreme Modules Full Width Image Carousel With Lightbox. We are going to be using the Divi Supreme Modules Plugin to &#8230;</p>
+</div>
+<div class="youtube-item" id="QT1jBhCU5SE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QT1jBhCU5SE">39) Divi Theme Tutorial &#8211; Customising the Video module</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-04-04</span></p>
+<p class="description"><b>Short description:</b> Buy DIVI here and claim your BONUSES https://funnelstoincome.com/divi ▷ Buy The Genesis Template &#8230;</p>
+</div>
+<div class="youtube-item" id="zxMZ8wlYYS0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zxMZ8wlYYS0">40) Add Image Lightbox, Iframe Lightbox and Clickable Images in WordPress Tables</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-07-17</span></p>
+<p class="description"><b>Short description:</b> Ninja tables download link: https://wordpress.org/plugins/ninja-tables/ How to create table: &#8230;</p>
+</div>
+<div class="youtube-item" id="SaaNk32HgxY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SaaNk32HgxY">41) Top 5 Plugins for the Divi Theme</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-28</span></p>
+<p class="description"><b>Short description:</b> Here are my top 5 Divi Plugins I use with the Divi Theme to get the most from an already incredible page builder. ✓ Video &#8230;</p>
+</div>
+<div class="youtube-item" id="cUkafUEmytc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=cUkafUEmytc">42) Introducing Image &amp; Gallery Lightbox: Easily Pop Up Images on WordPress!</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-08-02</span></p>
+<p class="description"><b>Short description:</b> Meet the easiest way to pop up a lightbox for your images and videos! Read the full post: &#8230;</p>
+</div>
+<div class="youtube-item" id="b4tqVGJ4P_U">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=b4tqVGJ4P_U">43) How to add popups in Divi theme Complete tutorial in Hindi 2021</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-05-26</span></p>
+<p class="description"><b>Short description:</b> Add popup in DIVI theme and builder with a free plugin After watching this video you will be able to add popups in your website &#8230;</p>
+</div>
+<div class="youtube-item" id="JYlpmWJP4GI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JYlpmWJP4GI">44) Divi Image Hover Plugin Overview And Examples 👈</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-29</span></p>
+<p class="description"><b>Short description:</b> Divi Image Hover Plugin Overview And Examples. We are going to be using the Divi Image Hover Plugint to create some great &#8230;</p>
+</div>
+<div class="youtube-item" id="8WJ8eViEhIY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=8WJ8eViEhIY">45) How to use Divi builder plugin</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-06-29</span></p>
+<p class="description"><b>Short description:</b> In this video, I show you how to use Divi builder plugin and also explain the differences between the Divi builder plugin and the &#8230;</p>
+</div>
+<div class="youtube-item" id="ugiT_MoWa5I">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ugiT_MoWa5I">46) Display Video as Featured Image/Thumbnail in WordPress (NO PLUGIN REQUIRED)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-03-02</span></p>
+<p class="description"><b>Short description:</b> In this super quick/cool tutorial, I&#8217;ll show you how to Display a Video as the WordPress Post Thumbnail or Featured Image.</p>
+</div>
+<div class="youtube-item" id="Q-ZOjgr9DKk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Q-ZOjgr9DKk">47) How To Use FooGallery Plugin To Add Image Gallery In Your WordPress Site | Learn WordPress #28</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-08</span></p>
+<p class="description"><b>Short description:</b> JOIN: https://www.youtube.com/channel/UC0T6MVd3wQDB5ICAe45OxaQ/join In this video, We are explaining about Please do &#8230;</p>
+</div>
+<div class="youtube-item" id="PI6XHNZglVA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=PI6XHNZglVA">48) Divi Theme Button To Video Popup 👍👍</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-10-24</span></p>
+<p class="description"><b>Short description:</b> How to create a button with fixed positioning that will pop up a YouTube video when clicked, with the Divi Theme. Today we will &#8230;</p>
+</div>
+<div class="youtube-item" id="E2vcE0UdKkM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=E2vcE0UdKkM">49) Divi Theme Image Swap With Slide In On Hover 👍</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-01-07</span></p>
+<p class="description"><b>Short description:</b> Divi Theme Image Swap With Slide In On Hover. We are going to be using the Divi theme to create some great effects in this &#8230;</p>
+</div>
+<div class="youtube-item" id="RJJ0rtRffHk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=RJJ0rtRffHk">50) Create an WordPress Image Gallery Using Gutenberg with Lightbox | WordPress Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-05-30</span></p>
+<p class="description"><b>Short description:</b> Want to create WordPress gallery with lightbox? We showed you how you can create professional WordPress image gallery using &#8230;</p>
 </div>
 </div>
 </div>
@@ -418,9 +407,9 @@
 
 
 
-<div class="wp-container-9 wp-block-group">
-<div class="wp-container-8 wp-block-group">
-<div style="font-style:italic; font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2022-09-20T19:50:05+00:00">September 20, 2022</time></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-layout-flex wp-block-group">
+<div style="font-style:italic;font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2023-03-01T21:28:44+00:00">March 1, 2023</time></div>
 
 <div class="wp-block-post-author has-small-font-size"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name">WP How to &#8211; WordPress Tutorial Videos</p></div></div>
 
@@ -442,24 +431,24 @@
 
 
 <footer class="wp-block-template-part">
-<div class="wp-container-16 wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-15 wp-block-group alignfull">
-<div class="wp-container-14 is-content-justification-space-between wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
-<div class="wp-container-13 wp-block-columns">
-<div class="wp-container-11 wp-block-column">
+<div class="is-layout-constrained wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-constrained wp-block-group alignfull">
+<div class="is-content-justification-space-between is-layout-flex wp-container-14 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
+<div class="is-layout-flex wp-container-13 wp-block-columns">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/" target="_blank" rel="noreferrer noopener">WP HOW TO &#8211; WordPress plugin</a></p>
 </div>
 
 
 
-<div class="wp-container-12 wp-block-column">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/privacy-policy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></p>
 </div>
 </div>
 
 
 
-<p class="has-text-align-right">Created with <a rel="noreferrer noopener" href="https://sr.wordpress.org/plugins/simply-static/" target="_blank">Simply Static</a> &amp; <a rel="noreferrer noopener" href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+<p class="has-text-align-right">Designed &amp; developed by <a href="https://imoptimal.com/" data-type="URL" data-id="https://imoptimal.com/" target="_blank" rel="noreferrer noopener">Imoptimal</a></p>
 </div>
 </div>
 </div>
@@ -495,8 +484,7 @@
 			width: auto;
 			z-index: 100000;
 		}</style>
-		<script>
-	( function() {
+		<script>( function() {
 		var skipLinkTarget = document.querySelector( 'main' ),
 			sibling,
 			skipLinkTargetID,
@@ -531,8 +519,7 @@
 
 		// Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
-	}() );
-	</script>
+	}() );</script>
 	<script src="/wp-content/themes/twentytwentytwo-child/script.js?ver=1.0.0" id="wphowtotv-script-js"></script>
 <script src="https://www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js?ver=1.0.0" id="wphowtotv-cookies-script-js"></script>
 <script src="/wp-content/themes/twentytwentytwo-child/cookies-consent.js?ver=1.0.0" id="wphowtotv-cookies-code-script-js"></script>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Seamless Donations: A Platform for Global Fundraising and Rebuilding using Stripe and PayPal	</title>
-	<atom:link href="http://localhost/wordpress-plugin/seamless-donations/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/seamless-donations/feed/?simply_static_page=189555" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/seamless-donations/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:54:12 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:49:26 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

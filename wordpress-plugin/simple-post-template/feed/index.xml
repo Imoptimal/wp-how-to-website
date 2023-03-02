@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Simple Content Templates for Blog Posts &#038; Pages	</title>
-	<atom:link href="http://localhost/wordpress-plugin/simple-post-template/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/simple-post-template/feed/?simply_static_page=198482" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/simple-post-template/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:06 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:51:29 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

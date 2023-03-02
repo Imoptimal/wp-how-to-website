@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Embed Plus Plugin for YouTube, with YouTube Gallery, Channel, Playlist, Live Stream, Facade	</title>
-	<atom:link href="http://localhost/wordpress-plugin/youtube-embed-plus/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Embed Plus YouTube WordPress Plugin With YouTube Gallery, Channel, Playlist, Live Stream	</title>
+	<atom:link href="http://localhost/wordpress-plugin/youtube-embed-plus/feed/?simply_static_page=171460" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/youtube-embed-plus/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:04:01 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:48 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

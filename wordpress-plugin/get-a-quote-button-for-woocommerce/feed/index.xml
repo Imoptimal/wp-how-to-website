@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Get a Quote Button for WooCommerce &#8211; Showing The Contact Form 7 Popup on Button Click	</title>
-	<atom:link href="http://localhost/wordpress-plugin/get-a-quote-button-for-woocommerce/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Request a Quote for WooCommerce and Elementor &#8211; Get a Quote Button &#8211; Product Enquiry Form Popup	</title>
+	<atom:link href="http://localhost/wordpress-plugin/get-a-quote-button-for-woocommerce/feed/?simply_static_page=200951" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/get-a-quote-button-for-woocommerce/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:14 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:05:35 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

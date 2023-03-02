@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: CHL-Change HTML Lang	</title>
-	<atom:link href="http://localhost/wordpress-plugin/chl-change-html-lang/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/chl-change-html-lang/feed/?simply_static_page=201965" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/chl-change-html-lang/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:46:09 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:05:16 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

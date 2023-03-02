@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: ShortPixel Image Optimizer	</title>
-	<atom:link href="http://localhost/wordpress-plugin/shortpixel-image-optimiser/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: ShortPixel Image Optimizer &#8211; Optimize Images, Convert WebP &#038; AVIF	</title>
+	<atom:link href="http://localhost/wordpress-plugin/shortpixel-image-optimiser/feed/?simply_static_page=170434" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/shortpixel-image-optimiser/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:04:12 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:45:23 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

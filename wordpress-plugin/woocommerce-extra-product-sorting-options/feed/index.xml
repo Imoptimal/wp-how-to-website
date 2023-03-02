@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WooCommerce Extra Product Sorting Options	</title>
-	<atom:link href="http://localhost/wordpress-plugin/woocommerce-extra-product-sorting-options/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Extra Product Sorting Options for WooCommerce	</title>
+	<atom:link href="http://localhost/wordpress-plugin/woocommerce-extra-product-sorting-options/feed/?simply_static_page=182647" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woocommerce-extra-product-sorting-options/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:57:57 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:36:15 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

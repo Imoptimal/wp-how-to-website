@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: News &#038; Blog Designer Pack &#8211; WordPress Blog Plugin	</title>
-	<atom:link href="http://localhost/wordpress-plugin/blog-designer-pack/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Blog designer pack	</title>
+	<atom:link href="http://localhost/wordpress-plugin/blog-designer-pack/feed/?simply_static_page=176908" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/blog-designer-pack/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:00:12 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:24:48 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

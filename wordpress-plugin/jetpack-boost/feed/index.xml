@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Jetpack Boost	</title>
-	<atom:link href="http://localhost/wordpress-plugin/jetpack-boost/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Jetpack Boost &#8211; Website Speed, Performance and Critical CSS	</title>
+	<atom:link href="http://localhost/wordpress-plugin/jetpack-boost/feed/?simply_static_page=171887" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/jetpack-boost/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:01:56 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:43 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

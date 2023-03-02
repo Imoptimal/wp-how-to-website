@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: iubenda &#8211; Cookie and Consent Solution for the GDPR &#038; ePrivacy	</title>
-	<atom:link href="http://localhost/wordpress-plugin/iubenda-cookie-law-solution/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: iubenda &#124; All-in-one Compliance for GDPR / CCPA Cookie Consent + more	</title>
+	<atom:link href="http://localhost/wordpress-plugin/iubenda-cookie-law-solution/feed/?simply_static_page=172531" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/iubenda-cookie-law-solution/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:02:25 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:28 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

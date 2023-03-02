@@ -5,74 +5,63 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="max-image-preview:large">
 <title>Plugin: CodeMirror Blocks &#8211; &#039;WP How to&#039; WordPress Tutorial Videos</title>
-<link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Comments Feed" href="/comments/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Plugin: CodeMirror Blocks Comments Feed" href="/wordpress-plugin/wp-codemirror-block/feed/">
-<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
+<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
 <style id="wp-block-group-inline-css">.wp-block-group{box-sizing:border-box}
 :where(.wp-block-group.has-background){padding:1.25em 2.375em}</style>
 <style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label{word-break:normal;overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}</style>
-<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.0.2" media="all">
+<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.1.1" media="all">
+<style id="wp-block-navigation-inline-css">.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}</style>
 <style id="wp-block-template-part-inline-css">.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
-<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word}.wp-block-post-title a{display:inline-block}</style>
-<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}</style>
-<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border-top:1px solid;border-bottom:1px solid}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
+<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word;box-sizing:border-box}.wp-block-post-title a{display:inline-block}
+.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}</style>
+<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom;box-sizing:border-box}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim{position:absolute;inset:0;background-color:#000}.wp-block-post-featured-image{position:relative}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-gradient{background-color:transparent}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-0{opacity:0}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-10{opacity:.1}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-20{opacity:.2}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-30{opacity:.3}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-40{opacity:.4}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-50{opacity:.5}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-60{opacity:.6}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-70{opacity:.7}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-80{opacity:.8}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-90{opacity:.9}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-100{opacity:1}</style>
+<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border:1px solid;border-right:none;border-left:none}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
 .wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}</style>
 <style id="wp-block-spacer-inline-css">.wp-block-spacer{clear:both}</style>
+<style id="wp-block-post-date-inline-css">.wp-block-post-date{box-sizing:border-box}</style>
 <style id="wp-block-post-author-inline-css">.wp-block-post-author{display:flex;flex-wrap:wrap}.wp-block-post-author__byline{width:100%;margin-top:0;margin-bottom:0;font-size:.5em}.wp-block-post-author__avatar{margin-right:1em}.wp-block-post-author__bio{margin-bottom:.7em;font-size:.7em}.wp-block-post-author__content{flex-grow:1;flex-basis:0}.wp-block-post-author__name{margin:0}</style>
 <style id="wp-block-post-terms-inline-css">.wp-block-post-terms__separator{white-space:pre-wrap}</style>
-<style id="wp-block-post-comments-inline-css">.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{content:"";display:table;clear:both}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-top:.5em;margin-right:.75em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{margin-top:1em;margin-bottom:1em;display:block}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{display:block;box-sizing:border-box;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-size:1em;font-family:inherit}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}.wp-block-post-comments input[type=submit]{border:none}</style>
-<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-button.aligncenter{text-align:center}</style>
-<style id="wp-block-button-inline-css">.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;cursor:pointer;display:inline-block;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-align:center;text-decoration:none;word-break:break-word;box-sizing:border-box}.wp-block-button__link:active,.wp-block-button__link:focus,.wp-block-button__link:hover,.wp-block-button__link:visited{color:#fff}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.is-style-outline>:where(.wp-block-button__link),:where(.wp-block-button__link).is-style-outline{border:2px solid;padding:.667em 1.333em}.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent}</style>
+<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-button.aligncenter{text-align:center}</style>
+<style id="wp-block-button-inline-css">.wp-block-button__link{cursor:pointer;display:inline-block;text-align:center;word-break:break-word;box-sizing:border-box}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){box-shadow:none;text-decoration:none;border-radius:9999px;padding:calc(.667em + 2px) calc(1.333em + 2px)}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.wp-block-button.is-style-outline>.wp-block-button__link,.wp-block-button .wp-block-button__link.is-style-outline{border:2px solid;padding:.667em 1.333em}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent;background-image:none}
+.wp-block-button .wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}</style>
 <style id="wp-block-paragraph-inline-css">.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}p.has-drop-cap.has-background{overflow:hidden}p.has-background{padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}</style>
 <style id="wp-block-columns-inline-css">.wp-block-columns{display:flex;margin-bottom:1.75em;box-sizing:border-box;flex-wrap:wrap!important;align-items:normal!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;word-break:break-word;overflow-wrap:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}</style>
-<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color),html :where([style*=border-width]){border-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}</style>
-<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0; }body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);--wp--style--block-gap: 1.5rem;}.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: var( --wp--style--block-gap ); }h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}a{color: var(--wp--preset--color--foreground);}.wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}.wp-block-post-comments{padding-top: var(--wp--custom--spacing--small);}.wp-block-pullquote{border-width: 1px 0;}.wp-block-query-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}.wp-block-quote{border-width: 1px;}.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}figure{margin:0 0 1em}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0;--wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1000px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: 1.5rem; }body { --wp--style--block-gap: 1.5rem; }body .is-layout-flow > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-flow > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-constrained > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-constrained > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-flex{gap: 1.5rem;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--foreground);text-decoration: underline;}h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="core-block-supports-inline-css">.wp-block-navigation.wp-container-3{justify-content:flex-end;}.wp-block-columns.wp-container-13{flex-wrap:nowrap;}.wp-block-group.wp-container-4,.wp-block-group.wp-container-14{justify-content:space-between;}</style>
 <style id="wp-webfonts-inline-css">@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}</style>
 <link rel="stylesheet" id="wphowtotv-style-css" href="/wp-content/themes/twentytwentytwo-child/style.css?ver=1.0.0" media="all">
 <link rel="stylesheet" id="twentytwentytwo-style-css" href="/wp-content/themes/twentytwentytwo/style.css?ver=1.0.0" media="all">
-<script src="/wp-includes/blocks/navigation/view.min.js?ver=009e29110e016c14bac4ba0ecc809fcd" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view.min.js?ver=c24330f635f5cb9d5e0e" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view-modal.min.js?ver=45f05135277abf0b0408" id="wp-block-navigation-view-2-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/100427">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/140326">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
-<meta name="generator" content="WordPress 6.0.2">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
 <link rel="canonical" href="/wordpress-plugin/wp-codemirror-block/">
-<link rel="shortlink" href="/?p=100427">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Fwp-codemirror-block%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Fwp-codemirror-block%2F&#038;format=xml">
-<style>.wp-container-1 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-1 > * { margin: 0; }</style>
-<style>.wp-container-3 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: flex-end;}.wp-container-3 > * { margin: 0; }</style>
-<style>.wp-container-4 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-4 > * { margin: 0; }</style>
-<style>.wp-container-5 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-5 > .alignwide { max-width: 1000px;}.wp-container-5 .alignfull { max-width: none; }.wp-container-5 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-5 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-5 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-5 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-5 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-6 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-6 > .alignwide { max-width: 1000px;}.wp-container-6 .alignfull { max-width: none; }.wp-container-6 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-6 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-6 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-6 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-6 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-7 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-7 > .alignwide { max-width: 1000px;}.wp-container-7 .alignfull { max-width: none; }.wp-container-7 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-7 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-7 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-7 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-7 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-8 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-8 > * { margin: 0; }</style>
-<style>.wp-container-9 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-9 > .alignwide { max-width: 1000px;}.wp-container-9 .alignfull { max-width: none; }.wp-container-9 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-9 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-9 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-9 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-9 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-10 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-10 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-10 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-10 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-10 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-11 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-11 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-11 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-11 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-11 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-12 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-12 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-12 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-12 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-12 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-13 {display: flex;gap: var( --wp--style--block-gap, 2em );flex-wrap: nowrap;align-items: center;}.wp-container-13 > * { margin: 0; }</style>
-<style>.wp-container-14 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-14 > * { margin: 0; }</style>
-<style>.wp-container-15 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-15 > .alignwide { max-width: 1000px;}.wp-container-15 .alignfull { max-width: none; }.wp-container-15 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-15 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-15 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-15 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-15 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-16 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-16 > .alignwide { max-width: 1000px;}.wp-container-16 .alignfull { max-width: none; }.wp-container-16 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-16 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-16 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-16 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-16 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<link rel="shortlink" href="/?p=140326">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Fwp-codemirror-block%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Fwp-codemirror-block%2F#038;format=xml">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 </head>
 
-<body class="post-template-default single single-post postid-100427 single-format-standard wp-custom-logo wp-embed-responsive">
+<body class="post-template-default single single-post postid-140326 single-format-standard wp-custom-logo wp-embed-responsive">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
 <div class="wp-site-blocks">
 <header class="wp-block-template-part">
-<div class="wp-container-5 wp-block-group">
-<div class="wp-container-4 is-content-justification-space-between wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-1 wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img loading="lazy" width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-content-justification-space-between is-layout-flex wp-container-4 wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-flex wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" decoding="async" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
 
 
-<nav class="wp-container-3 is-content-justification-right is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+<nav class="is-content-justification-right is-layout-flex wp-container-3 is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
 			<div class="wp-block-navigation__responsive-container  " id="modal-2">
 				<div class="wp-block-navigation__responsive-close" tabindex="-1" data-micromodal-close>
 					<div class="wp-block-navigation__responsive-dialog" aria-label="Menu">
@@ -92,9 +81,9 @@
 </header>
 
 
-<main class="wp-container-10 wp-block-group">
-<div class="wp-container-6 wp-block-group">
-<h1 style="margin-bottom: var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: CodeMirror Blocks</h1>
+<main class="is-layout-flow wp-block-group">
+<div class="is-layout-constrained wp-block-group">
+<h1 style="margin-bottom:var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: CodeMirror Blocks</h1>
 
 
 
@@ -107,7 +96,7 @@
 <div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<div class="wp-container-7 entry-content wp-block-post-content">
+<div class="is-layout-constrained entry-content wp-block-post-content">
 <p><iframe id="youtube-player" loading="lazy" src="https://www.youtube.com/embed/?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
 <div class="youtube-videos">
 <div class="youtube-item" id="o1DDWQDBT9Y">
@@ -122,293 +111,293 @@
 <p><span class="publish-date"><b>Published at:</b> 2016-04-17</span></p>
 <p class="description"><b>Short description:</b> In this tutorial we will learn to setup CodeMirror, a versatile text editor. TUTORIAL LINK: &#8230;</p>
 </div>
-<div class="youtube-item" id="lwXXckW3dT0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lwXXckW3dT0">3) Creating a plugin with  @wordpress/create-blocks that has multiple blocks</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-10-07</span></p>
-<p class="description"><b>Short description:</b> Update: This video is a little out of date. The code will still work, but the @wordpress/scripts package now supports multiple blocks &#8230;</p>
-</div>
-<div class="youtube-item" id="BxrIp83tURE">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BxrIp83tURE">4) Code syntax Highlighting block &#8211; Advanced Gutenberg Blocks</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-12-27</span></p>
-<p class="description"><b>Short description:</b> Syntax highlighting with custom themes for every languages with CodeMirror.</p>
-</div>
-<div class="youtube-item" id="sYHYTk0jeE8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=sYHYTk0jeE8">5) Easiest Way To Create A Dynamic WordPress Block (Gutenberg Development Tutorial)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-06-26</span></p>
-<p class="description"><b>Short description:</b> In this tutorial, we go over how to create a Dynamic WordPress Block using create-guten-block, React, and PHP. Gutenberg can &#8230;</p>
-</div>
-<div class="youtube-item" id="eAIcFTo73oI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=eAIcFTo73oI">6) #64 How to create Block Patterns | register_block_pattern | The Future of Page Building in WordPress</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-08-20</span></p>
-<p class="description"><b>Short description:</b> register_block_pattern | gutenberg patterns | blocks registerblocktype | block patterns gutenberg | wordpress gutenberg custom &#8230;</p>
-</div>
 <div class="youtube-item" id="cWUe1aW2Mp0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=cWUe1aW2Mp0">7) Codemirror Tutorial &#8211; Part 1: Introduction</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=cWUe1aW2Mp0">3) Codemirror Tutorial &#8211; Part 1: Introduction</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2016-07-05</span></p>
 <p class="description"><b>Short description:</b> Add a code editor to your website with Codemirror. This tutorial will show you how to setup Codemirror and add a simple online &#8230;</p>
 </div>
-<div class="youtube-item" id="tOtCaH-M_2Y">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=tOtCaH-M_2Y">8) Vertical Tabs | Qubely—blocks addon for WordPress Gutenberg 2020</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-04-24</span></p>
-<p class="description"><b>Short description:</b> Vertical Tabs is a premium block addon from Qubely that builds eye-catching and practical vertical tabs easily for your WordPress &#8230;</p>
-</div>
-<div class="youtube-item" id="1ElmQkQKikE">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1ElmQkQKikE">9) How To Display Code In Your WordPress Post</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-09-07</span></p>
-<p class="description"><b>Short description:</b> Hi guys, in this video, I will show you how to display code in your WordPress post. Hope you find this useful.</p>
-</div>
-<div class="youtube-item" id="G33s06Pzc2c">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=G33s06Pzc2c">10) How to add syntax highlighting to your website in 6 minutes</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-10-15</span></p>
-<p class="description"><b>Short description:</b> Add syntax highlighting to your HTML website or Ghost blog in just a few minutes with PrismJS and learn how to add more &#8230;</p>
-</div>
-<div class="youtube-item" id="TVLURx2nFqw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=TVLURx2nFqw">11) Editor.js &#8211; An Awesome Next Gen Block Styled Content Editor!</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-04-09</span></p>
-<p class="description"><b>Short description:</b> https://skl.sh/designcourse22 &#8211; First 500 people to sign up will get their first 2 months free! https://designcourse.com &#8211; Learn UI/UX &#8230;</p>
-</div>
-<div class="youtube-item" id="hbJiwm5YL5Q">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=hbJiwm5YL5Q">12) WordPress Plugin Development: Gutenberg Blocks, React &amp; More</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-06-08</span></p>
-<p class="description"><b>Short description:</b> Join my full course: https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/?</p>
-</div>
-<div class="youtube-item" id="PLD8nQCAhR3tTrToGi4ulHwDh18hNW2_-I">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLD8nQCAhR3tTrToGi4ulHwDh18hNW2_-I">13) Block Based Themes Development | Full Site Editing In WordPress | FSE | TT1 | Experimental (<b>playlist</b>)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-02-15</span></p>
-<p class="description"><b>Short description:</b> </p>
-</div>
-<div class="youtube-item" id="PLz-tsD7hAvuuvi9K6ukLdaSp9-T2I7xeV">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLz-tsD7hAvuuvi9K6ukLdaSp9-T2I7xeV">14) WordPress Plugin Development (<b>playlist</b>)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-05-02</span></p>
-<p class="description"><b>Short description:</b> Learn how to develop WordPress Plugins with these tutorials.</p>
-</div>
-<div class="youtube-item" id="PL9fcHFJHtFaY6xWxsDXcCc8MkRDaTkt-K">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PL9fcHFJHtFaY6xWxsDXcCc8MkRDaTkt-K">15) WordPress Plugin Development Tutorial Series in Urdu / Hindi (<b>playlist</b>)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-05-05</span></p>
-<p class="description"><b>Short description:</b> Hello Friends, Welcome to WordPress Plugin Development Tutorial Series in Urdu / Hindi, in this Playlist, you will find all the &#8230;</p>
-</div>
-<div class="youtube-item" id="L-aWnCUUBCM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=L-aWnCUUBCM">16) How to create a WordPress Gutenberg Custom Block</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-03-15</span></p>
-<p class="description"><b>Short description:</b> A WordPress Tutorial on how to build a custom Gutenberg Block. You can create a Gutenberg Block if you have a small &#8230;</p>
-</div>
-<div class="youtube-item" id="gxBis8EgoAg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gxBis8EgoAg">17) How to build a Markdown editor using Electron, ReactJS, Vite, CodeMirror, and Remark</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-08-17</span></p>
-<p class="description"><b>Short description:</b> Hello. I&#8217;m Takuya Matsuyama from Japan, a solo developer making a Markdown note-taking app called Inkdrop. This video is a &#8230;</p>
-</div>
-<div class="youtube-item" id="9NTMxbXcgrE">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=9NTMxbXcgrE">18) WordPress Tutorial: Visual Composers Text Blocks</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2015-03-23</span></p>
-<p class="description"><b>Short description:</b> In this video in the WordPress Visual Composer series, I show you how to work with the Text Block function. See how to create &#8230;</p>
-</div>
-<div class="youtube-item" id="pcKgMrgjMUk">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=pcKgMrgjMUk">19) #74 SVGR CLI | @svgr/cli | Custom Blocks | Gutenberg WordPress Tutorial</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-10-28</span></p>
-<p class="description"><b>Short description:</b> Learn to create custom Gutenberg Block in React | @wordpress/rich-text | gutenberg blocks npm package &#8230;</p>
-</div>
-<div class="youtube-item" id="PLriKzYyLb28kR_CPMz8uierDWC2y3znI2">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLriKzYyLb28kR_CPMz8uierDWC2y3znI2">20) WordPress Plugins Development Tutorials (<b>playlist</b>)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2015-06-04</span></p>
-<p class="description"><b>Short description:</b> </p>
-</div>
 <div class="youtube-item" id="4xD2ViRZnMY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4xD2ViRZnMY">21) Codemirror Tutorial &#8211; Part 5: Enable Autocomplete</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4xD2ViRZnMY">4) Codemirror Tutorial &#8211; Part 5: Enable Autocomplete</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2016-07-05</span></p>
 <p class="description"><b>Short description:</b> This tutorial will show you how to use autocomplete addon in Codemirror. User can activate autocomplete feature by pressing Ctrl &#8230;</p>
 </div>
-<div class="youtube-item" id="QC7p_bcJh0c">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QC7p_bcJh0c">22) Custom Gutenberg Block Development In React | WordPress Colombo Meetup | WordPress</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-11-10</span></p>
-<p class="description"><b>Short description:</b> Custom Gutenberg Block Development In React | WordPress Colombo Meetup | WordPress &#8212;&#8211; SUBSCRIBE TO CHANNEL &#8230;</p>
-</div>
 <div class="youtube-item" id="PLz9eT3FFzUftfvUWlrBAAzih78oNbhfku">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLz9eT3FFzUftfvUWlrBAAzih78oNbhfku">23) WordPress Plugin Development 2020 (<b>playlist</b>)</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLz9eT3FFzUftfvUWlrBAAzih78oNbhfku">5) WordPress Plugin Development 2020 (<b>playlist</b>)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2020-05-31</span></p>
 <p class="description"><b>Short description:</b> </p>
 </div>
-<div class="youtube-item" id="PLVwbFltmnQtX8jFVmNo_8qMKr2xVEcLSb">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLVwbFltmnQtX8jFVmNo_8qMKr2xVEcLSb">24) WordPress Plugin Development Tutorial For Beginners (<b>playlist</b>)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-04-02</span></p>
-<p class="description"><b>Short description:</b> A complete guide line for WordPress Plugin Developers. We hope this is easier and interesting for you. For More Detail: To Learn &#8230;</p>
-</div>
 <div class="youtube-item" id="JjfrzGeB5_g">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JjfrzGeB5_g">25) WordPress Gutenberg Tutorial: How to Easily Work With the Block Editor</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JjfrzGeB5_g">6) How to Use the WordPress Block Editor for Beginners</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2020-09-07</span></p>
 <p class="description"><b>Short description:</b> Are you looking for an easy tutorial on how to use WordPress Gutenberg editor? We&#8217;ll show you how to use Gutenberg to create &#8230;</p>
 </div>
 <div class="youtube-item" id="PLT9miexWCpPUQkQwL-COHmo0Jd0qxLjTn">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLT9miexWCpPUQkQwL-COHmo0Jd0qxLjTn">26) WordPress Plugin Development from scratch for beginners (<b>playlist</b>)</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLT9miexWCpPUQkQwL-COHmo0Jd0qxLjTn">7) WordPress Plugin Development from scratch for beginners (<b>playlist</b>)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2017-11-08</span></p>
 <p class="description"><b>Short description:</b> </p>
 </div>
-<div class="youtube-item" id="PL-OcaXZwrwuJk3UgmOlnQH7w3Hg-7Y6vb">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PL-OcaXZwrwuJk3UgmOlnQH7w3Hg-7Y6vb">27) WordPress Plugin Development (<b>playlist</b>)</a></h5>
+<div class="youtube-item" id="PLVwbFltmnQtX8jFVmNo_8qMKr2xVEcLSb">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLVwbFltmnQtX8jFVmNo_8qMKr2xVEcLSb">8) WordPress Plugin Development Tutorial For Beginners (<b>playlist</b>)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-10-03</span></p>
+<p><span class="publish-date"><b>Published at:</b> 2018-04-02</span></p>
+<p class="description"><b>Short description:</b> A complete guide line for WordPress Plugin Developers. We hope this is easier and interesting for you. For More Detail: To Learn &#8230;</p>
+</div>
+<div class="youtube-item" id="PL9fcHFJHtFaY6xWxsDXcCc8MkRDaTkt-K">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PL9fcHFJHtFaY6xWxsDXcCc8MkRDaTkt-K">9) WordPress Plugin Development Tutorial Series in Urdu / Hindi (<b>playlist</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-05-05</span></p>
+<p class="description"><b>Short description:</b> Hello Friends, Welcome to WordPress Plugin Development Tutorial Series in Urdu / Hindi, in this Playlist, you will find all the &#8230;</p>
+</div>
+<div class="youtube-item" id="PLz-tsD7hAvuuvi9K6ukLdaSp9-T2I7xeV">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLz-tsD7hAvuuvi9K6ukLdaSp9-T2I7xeV">10) WordPress Plugin Development (<b>playlist</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-05-02</span></p>
+<p class="description"><b>Short description:</b> Learn how to develop WordPress Plugins with these tutorials.</p>
+</div>
+<div class="youtube-item" id="Fo-7MKRRUec">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Fo-7MKRRUec">11) The Most UNDERRATED WordPress Plugin EVERYONE Needs!</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-08-04</span></p>
+<p class="description"><b>Short description:</b> In 2012, Syed created a free plugin called Insert Headers and Footers. The goal of this plugin was to make it easy for me and &#8230;</p>
+</div>
+<div class="youtube-item" id="lwXXckW3dT0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lwXXckW3dT0">12) Creating a plugin with  @wordpress/create-blocks that has multiple blocks</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-10-07</span></p>
+<p class="description"><b>Short description:</b> Update: This video is a little out of date. The code will still work, but the @wordpress/scripts package now supports multiple blocks &#8230;</p>
+</div>
+<div class="youtube-item" id="hbJiwm5YL5Q">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=hbJiwm5YL5Q">13) WordPress Plugin Development: Gutenberg Blocks, React &amp; More</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-06-08</span></p>
+<p class="description"><b>Short description:</b> Join my full course: https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/?</p>
+</div>
+<div class="youtube-item" id="PLriKzYyLb28lHhftzU7Z_DJ32mvLy4KKH">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLriKzYyLb28lHhftzU7Z_DJ32mvLy4KKH">14) Create Custom Gutenberg Blocks (<b>playlist</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-02-28</span></p>
 <p class="description"><b>Short description:</b> </p>
-</div>
-<div class="youtube-item" id="PLriKzYyLb28kpEnFFi9_vJWPf5-_7d3rX">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLriKzYyLb28kpEnFFi9_vJWPf5-_7d3rX">28) Create a Premium WordPress Theme (<b>playlist</b>)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2015-09-05</span></p>
-<p class="description"><b>Short description:</b> </p>
-</div>
-<div class="youtube-item" id="PLQRb04o3CWQY3ufPPhgA4qy0FctjKjzwN">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLQRb04o3CWQY3ufPPhgA4qy0FctjKjzwN">29) WordPress Plugin Development Tutorial in Bangla 2022 (Updated) (<b>playlist</b>)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-04-28</span></p>
-<p class="description"><b>Short description:</b> WordPress Plugin Development Tutorial in Bangla is the most helpful and premium quality free WordPress Plugin Development &#8230;</p>
-</div>
-<div class="youtube-item" id="DvGZAsCnmpY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=DvGZAsCnmpY">30) 2 Minute Gutenberg &#8211; Widget Blocks &#8211; Shortcode &#8211;  WordPress 5.0</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-10-23</span></p>
-<p class="description"><b>Short description:</b> Gutenberg #WordPress #WordPress_Gutenberg #Gutendev #Gutenberg_Tutorial The main goal of this series is to acknowledge &#8230;</p>
-</div>
-<div class="youtube-item" id="oSa3HmR3dJ8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=oSa3HmR3dJ8">31) #2 Gutenberg Build Tools | Block development tutorial | @wordpress/scripts | @wordpress/create-block</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-03-27</span></p>
-<p class="description"><b>Short description:</b> Gutenberg build Tools | Gutenberg wordpress | wordpress gutenberg block development | wordpress gutenberg theme &#8230;</p>
 </div>
 <div class="youtube-item" id="PL6Kd_lvAfBuYzxHmbOdoXjBuW6pFs_xja">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PL6Kd_lvAfBuYzxHmbOdoXjBuW6pFs_xja">32) WordPress Plugin Development Tutorials in Urdu-Hindi (<b>playlist</b>)</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PL6Kd_lvAfBuYzxHmbOdoXjBuW6pFs_xja">15) WordPress Plugin Development Tutorials in Urdu-Hindi (<b>playlist</b>)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2015-10-01</span></p>
 <p class="description"><b>Short description:</b> </p>
 </div>
+<div class="youtube-item" id="u92GBGYqF_A">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=u92GBGYqF_A">16) How to Easily Add Custom Code in WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2023-01-27</span></p>
+<p class="description"><b>Short description:</b> Full tutorial: https://youtu.be/9DMzB9ZPt9g Top Resources ⚡Use Promo Code WPBVIP⚡ ▻Best WordPress Contact Form Plugin &#8230;</p>
+</div>
+<div class="youtube-item" id="PLriKzYyLb28kR_CPMz8uierDWC2y3znI2">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLriKzYyLb28kR_CPMz8uierDWC2y3znI2">17) WordPress Plugins Development Tutorials (<b>playlist</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2015-06-04</span></p>
+<p class="description"><b>Short description:</b> </p>
+</div>
+<div class="youtube-item" id="ea7EKu54Jas">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ea7EKu54Jas">18) Add code syntax highlighting to your WordPress website! WordPress Plugin &#8211; Code Syntax Block</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-12-29</span></p>
+<p class="description"><b>Short description:</b> Quickly add code syntax highlighting to your WordPress website!! Today we are walking through the process of installing a really &#8230;</p>
+</div>
 <div class="youtube-item" id="PLa9NMvQUMD5c85kY0q6X15RTM8zm0s9H7">
-<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLa9NMvQUMD5c85kY0q6X15RTM8zm0s9H7">33) WordPress Plugin Development in Hindi for beginners | 2021 (<b>playlist</b>)</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLa9NMvQUMD5c85kY0q6X15RTM8zm0s9H7">19) WordPress Plugin Development in Hindi for beginners | 2021 (<b>playlist</b>)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2021-08-24</span></p>
 <p class="description"><b>Short description:</b> Hello Friends, Welcome to WordPress Plugin Development Tutorial Series in Hindi. In this Playlist, you will find all the necessary &#8230;</p>
 </div>
-<div class="youtube-item" id="xZ18r-w7C9k">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=xZ18r-w7C9k">34) Creating a WordPress Block Using Wicked Block Builder</a></h5>
+<div class="youtube-item" id="PLQRb04o3CWQY3ufPPhgA4qy0FctjKjzwN">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLQRb04o3CWQY3ufPPhgA4qy0FctjKjzwN">20) WordPress Plugin Development Tutorial in Bangla 2022 (Updated) (<b>playlist</b>)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-11-13</span></p>
-<p class="description"><b>Short description:</b> See how easy it is to create your own custom WordPress blocks using Wicked Block Builder. No need to know JavaScript or set up &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-28</span></p>
+<p class="description"><b>Short description:</b> WordPress Plugin Development Tutorial in Bangla is the most helpful and premium quality free WordPress Plugin Development &#8230;</p>
 </div>
-<div class="youtube-item" id="FJftlOSwS5Y">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=FJftlOSwS5Y">35) How to Create Tabs in WordPress Using default Gutenberg Blocks | WordPress Tips and Tricks</a></h5>
+<div class="youtube-item" id="i4fRrB4PRD0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=i4fRrB4PRD0">21) How to Display Your WordPress Blog Posts in a Grid Layout using Postx &#8211; Gutenberg Post Grid Blocks</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-05-21</span></p>
-<p class="description"><b>Short description:</b> Hey Everyone, in this tutorial, I will show you how to create Tabs in WordPress Gutenberg Editor. The purpose of this tutorial is to &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-20</span></p>
+<p class="description"><b>Short description:</b> Postx is a Gutenberg Post Grid Blocks . It is a powerful and highly customizable WordPress post grid Plugin. The user can convert &#8230;</p>
 </div>
-<div class="youtube-item" id="oDitntruMLc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=oDitntruMLc">36) Getting Started with CodeMirror and the Vue CLI</a></h5>
+<div class="youtube-item" id="v00m1PaRaJ0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=v00m1PaRaJ0">22) Let’s Build a Custom Block in One Hour</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-05-26</span></p>
-<p class="description"><b>Short description:</b> In this basics of Vue.js video, I go over how to set up CodeMirror in a Vue app. CodeMirror is a versatile text editor implemented in &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-10-06</span></p>
+<p class="description"><b>Short description:</b> Block development can be challenging, but getting started with block development has never been easier. In the past few years, &#8230;</p>
 </div>
-<div class="youtube-item" id="l6NL-rF9bE8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=l6NL-rF9bE8">37) WordPress &#8211; Making a Basic Plugin</a></h5>
+<div class="youtube-item" id="RO4XJkBKn6E">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=RO4XJkBKn6E">23) How to Use a Comment Blacklist for WordPress (without a plugin)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2014-01-30</span></p>
-<p class="description"><b>Short description:</b> WordPress is a free and open source blogging tool and a content management system (CMS) based on PHP and MySQL, which &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-11</span></p>
+<p class="description"><b>Short description:</b> Learn how to create a spam comment blacklist for your WordPress website to stop comment spam. Instead of installing a plugin, &#8230;</p>
 </div>
-<div class="youtube-item" id="GSHkN2b209o">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=GSHkN2b209o">38) Codemirror Tutorial &#8211; Part 3: Theme</a></h5>
+<div class="youtube-item" id="GmHwpOwC4co">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=GmHwpOwC4co">24) How to Create a Custom Block Type for Gutenberg Block Editor in WordPress | Part 1</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2016-07-05</span></p>
-<p class="description"><b>Short description:</b> This tutorial will show you how to change color theme in Codemirror Codemirror: http://codemirror.net/ Example Code: &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-22</span></p>
+<p class="description"><b>Short description:</b> In this lesson we are going to learn how to code our own new block type. Watch Full WordPress Theme Development Course here &#8230;</p>
 </div>
-<div class="youtube-item" id="gsOf8OoxHUg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gsOf8OoxHUg">39) How To Create Block Patterns To Speed Up Website Building</a></h5>
+<div class="youtube-item" id="9svZxQOIR2c">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=9svZxQOIR2c">25) How to Install, Activate &amp; Get started with Essential Blocks</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-03-27</span></p>
-<p class="description"><b>Short description:</b> In this WordPress tutorial, I&#8217;ll teach you how to build your own library of block patterns to drastically speed up your workflow and &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-08-17</span></p>
+<p class="description"><b>Short description:</b> Enhance WordPress block editor using Essential Blocks &#038; quickly design your website. Install now and get access to 22+ &#8230;</p>
 </div>
-<div class="youtube-item" id="QKySGpkmlQI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QKySGpkmlQI">40) How to Use the WordPress Cover Block</a></h5>
+<div class="youtube-item" id="PLgFB6lmeXFOrs9qAYBKhpcVi0Dj4pAA2n">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLgFB6lmeXFOrs9qAYBKhpcVi0Dj4pAA2n">26) WordPress Plugin Development (<b>playlist</b>)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-10-29</span></p>
-<p class="description"><b>Short description:</b> In today&#8217;s video, we&#8217;ll learn how to use the WordPress cover block. Blog post: &#8230;</p>
-</div>
-<div class="youtube-item" id="OrOLaYwGfVQ">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=OrOLaYwGfVQ">41) Getting Blocks from Code to Plugin Repo with Birgit Pauli-Haack</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-10-01</span></p>
-<p class="description"><b>Short description:</b> From the 2020 JavaScript for WordPress Conference &#8211; https://javascriptforwp.com/conference/</p>
-</div>
-<div class="youtube-item" id="xHmxJkIidJs">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=xHmxJkIidJs">42) WordPress 5 Gutenberg York 2020 Tutorial Series Part 2: Working with Blocks and Document Settings</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-11-10</span></p>
-<p class="description"><b>Short description:</b> WordPress 5 Gutenberg Editor tutorial with the new York 2020 theme for YorkU Staff and Faculty. In this second video of a &#8230;</p>
-</div>
-<div class="youtube-item" id="mck1lvw40_Q">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=mck1lvw40_Q">43) Plugin development in wordpress | wordpress plugin development tutorial in hindi</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-09-16</span></p>
-<p class="description"><b>Short description:</b> how to create plugin in wordpress in hindi wordpress plugin development tutorial for beginners wordpress plugin development &#8230;</p>
-</div>
-<div class="youtube-item" id="rtJpnXOdHuo">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=rtJpnXOdHuo">44) How to Edit the Home Page in WordPress</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-04-27</span></p>
-<p class="description"><b>Short description:</b> In this video tutorial, Envato Tuts+&#8217;s Adi Purdila shows you how to edit the home page in WordPress. ▻ Explore Thousands of &#8230;</p>
-</div>
-<div class="youtube-item" id="AZgcrI4GnIw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=AZgcrI4GnIw">45) 2 Minute Gutenberg &#8211; Formatting Blocks &#8211; Spacer &#8211;  WordPress 5.0</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-10-22</span></p>
-<p class="description"><b>Short description:</b> Gutenberg #WordPress #WordPress_Gutenberg #Gutendev #Gutenberg_Tutorial The main goal of this series is to acknowledge &#8230;</p>
-</div>
-<div class="youtube-item" id="9SpmZxbeMKc">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=9SpmZxbeMKc">46) WordPress Theme Development Tutorial 2022 &#8211; How To Build Custom Block Based Themes for WordPress</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-04-01</span></p>
-<p class="description"><b>Short description:</b> In this stream we&#8217;ll be learning how to create our own custom WordPress theme with all of the latest features enabled, like the full &#8230;</p>
-</div>
-<div class="youtube-item" id="CWOP7BKEw7s">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=CWOP7BKEw7s">47) Block Hacker IPs With The WordFence WordPress Plugin &#8211; WordPress Security | WP Learning Lab</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2015-06-19</span></p>
-<p class="description"><b>Short description:</b> Name Your Own Price   for the 11-Point WP Security Checklist Smart PDF: https://wplearninglab.com/go/wpsecurity020 In this &#8230;</p>
-</div>
-<div class="youtube-item" id="wcVxX7lu2d4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=wcVxX7lu2d4">48) How To Build CodePen With React</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-09-19</span></p>
-<p class="description"><b>Short description:</b> IMPORTANT: Learn React Today Course: https://courses.webdevsimplified.com/learn-react-today I love CodePen. It is perfect for &#8230;</p>
-</div>
-<div class="youtube-item" id="8hNvH3R-haY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=8hNvH3R-haY">49) How to setup TinyMCE | TinyMCE #01</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2016-05-29</span></p>
-<p class="description"><b>Short description:</b> In this video we will learn to setup TinyMCE an awesome WYSIWYG text editor for your web project. TUTORIAL LINK: &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-19</span></p>
+<p class="description"><b>Short description:</b> </p>
 </div>
 <div class="youtube-item" id="6_1aGbLgUEo">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=6_1aGbLgUEo">50) How To Use WordPress Block Editor 2022 [MADE EASY]</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=6_1aGbLgUEo">27) How To Use WordPress Block Editor 2023 [MADE EASY]</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2022-04-23</span></p>
 <p class="description"><b>Short description:</b> Hey everyone, Thanks for checking out this how to use wordpress block editor tutorial video where ill be going over the ins and &#8230;</p>
+</div>
+<div class="youtube-item" id="Mv68Sa-iHyo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Mv68Sa-iHyo">28) WordPress &amp; JavaScript in 2019: Coding a Custom Block Type for Gutenberg Block Editor</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2019-01-01</span></p>
+<p class="description"><b>Short description:</b> Link to full 25 hour course: https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/?</p>
+</div>
+<div class="youtube-item" id="TikfbtD5144">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=TikfbtD5144">29) Why and When you will need Crocoblock &#8211; Elementor Pro on steroids</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-29</span></p>
+<p class="description"><b>Short description:</b> In this first video about Crocoblock (because more are coming) I wanted to let you know why and when I think you will need to &#8230;</p>
+</div>
+<div class="youtube-item" id="gN1vXLBE94A">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gN1vXLBE94A">30) I&#39;m Switching to Gutenberg For WordPress | And YOU SHOULD Too (Probably!)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-27</span></p>
+<p class="description"><b>Short description:</b> Until recently, I&#8217;ve never felt like you could easily move from a Page Builder like Elementor to Gutenberg for WordPress. With this &#8230;</p>
+</div>
+<div class="youtube-item" id="3fwQjeL1UTw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=3fwQjeL1UTw">31) How to Use the WordPress Code Block</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-29</span></p>
+<p class="description"><b>Short description:</b> In today&#8217;s video, we&#8217;ll learn how to use the WordPress code block. Blog post: &#8230;</p>
+</div>
+<div class="youtube-item" id="PL9fcHFJHtFab3tUfw8w6veHLkUdkGuYBm">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PL9fcHFJHtFab3tUfw8w6veHLkUdkGuYBm">32) How to Customize WordPress Website Plugin and Themes in Urdu/Hindi (<b>playlist</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-12-05</span></p>
+<p class="description"><b>Short description:</b> In This WordPress Customization video tutorial series, you are going to learn and explore wordpress as a designer as well as a &#8230;</p>
+</div>
+<div class="youtube-item" id="PLzKN_iozW-I6PkSx8AVOE9wBaoVpJxLeS">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLzKN_iozW-I6PkSx8AVOE9wBaoVpJxLeS">33) Gutenberg FSE &#8211; Full Site Editing using Gutenberg Block Editor Complete Project in 2022 (<b>playlist</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-05-19</span></p>
+<p class="description"><b>Short description:</b> Hey, Welcome to this WordPress Full Site editing Series Tutorial. In this tutorial, I&#8217;ll show you how to create a beautiful and &#8230;</p>
+</div>
+<div class="youtube-item" id="ERQ_o2JjbYI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ERQ_o2JjbYI">34) Time To Move From Page Builders To Gutenberg? WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-06-16</span></p>
+<p class="description"><b>Short description:</b> Here&#8217;s an interesting question &#8211; can we say goodbye to page builders in favour of the new crop of Gutenberg themes and block &#8230;</p>
+</div>
+<div class="youtube-item" id="m0ayd1D_TXE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=m0ayd1D_TXE">35) How to use the WordPress Gutenberg Block Editor (full tutorial)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-19</span></p>
+<p class="description"><b>Short description:</b> Save 40% on the SUPERFAST Cloud hosting I use (Today only) https://buildthatwebsite.com/cloudways In this video you&#8217;ll learn &#8230;</p>
+</div>
+<div class="youtube-item" id="GGWWZaOhsHk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=GGWWZaOhsHk">36) How to Install Any Plugin in WordPress (2023)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2023-02-13</span></p>
+<p class="description"><b>Short description:</b> Learn how to install plugin from zip file or how to install plugin from WordPress dashboard. Get 3X website speed for FREE &#8230;</p>
+</div>
+<div class="youtube-item" id="lKqvykAdMVY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lKqvykAdMVY">37) 40+ Free Blocks for Gutenberg in WordPress &#8211; GetWid</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-04-07</span></p>
+<p class="description"><b>Short description:</b> Are you needing to add more functions to your WordPress website inside of Gutenberg? Try adding in the Free GetWid plugin for &#8230;</p>
+</div>
+<div class="youtube-item" id="QC7p_bcJh0c">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=QC7p_bcJh0c">38) Custom Gutenberg Block Development In React | WordPress Colombo Meetup | WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-11-10</span></p>
+<p class="description"><b>Short description:</b> Custom Gutenberg Block Development In React | WordPress Colombo Meetup | WordPress &#8212;&#8211; SUBSCRIBE TO CHANNEL &#8230;</p>
+</div>
+<div class="youtube-item" id="06AzRwWKhVE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=06AzRwWKhVE">39) WordPress Block Editor Essentials: Master the Gutenberg Workflow</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-04</span></p>
+<p class="description"><b>Short description:</b> Are you frustrated with the block editor? This short video will help you master the interface, workflow, settings and shortcuts of the &#8230;</p>
+</div>
+<div class="youtube-item" id="UZ12Lt0danM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=UZ12Lt0danM">40) Design Websites In Gutenberg With Essential Blocks Row</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-06-10</span></p>
+<p class="description"><b>Short description:</b> With the exclusive Row block from Essential Blocks, you can create complex and stunning layouts on your website and customize &#8230;</p>
+</div>
+<div class="youtube-item" id="PLD8nQCAhR3tTjCulq0Fw3wZxIoN1wVOaV">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PLD8nQCAhR3tTjCulq0Fw3wZxIoN1wVOaV">41) Advanced WordPress Plugin Development | Tutorial | Course | 2022 | Webpack | Babel | Composer | Submit Your plugin to WordPress.org | Packagist (<b>playlist</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-01-16</span></p>
+<p class="description"><b>Short description:</b> </p>
+</div>
+<div class="youtube-item" id="N3WVx4GARj4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=N3WVx4GARj4">42) Let&#39;s Build a WordPress Plugin From Scratch &#8211; 1. Intro &amp; Setup</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-19</span></p>
+<p class="description"><b>Short description:</b> WordPress is notoriously opinionated about the way you need to code to be able to fit within it&#8217;s ecosystem. Some people find &#8230;</p>
+</div>
+<div class="youtube-item" id="B4Aofw12hvQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=B4Aofw12hvQ">43) Kadence Blocks Tutorial – The Row Layout Block</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-07-16</span></p>
+<p class="description"><b>Short description:</b> A look at how Kadence Blocks adds page builder like features to Gutenberg The full tutorial: &#8230;</p>
+</div>
+<div class="youtube-item" id="D4qcvOyPSkw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=D4qcvOyPSkw">44) 10 GREAT WordPress Plugins You&#39;ve (PROBABLY) Never Heard Of</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-06-21</span></p>
+<p class="description"><b>Short description:</b> With over 50000 plugins on the WordPress repository, it&#8217;s almost impossible to find those hidden gems. Well, here are 10 you may &#8230;</p>
+</div>
+<div class="youtube-item" id="dyd0mGPZyeI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=dyd0mGPZyeI">45) Unlocking the Block Locking API in WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-09-19</span></p>
+<p class="description"><b>Short description:</b> Learn how curate the editing experience in WordPress using block locking API. This functionality allows you to effortlessly restrict &#8230;</p>
+</div>
+<div class="youtube-item" id="NKqogVcqDHA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=NKqogVcqDHA">46) React In WordPress Boilerplate (Both Gutenberg Block Types &amp; Front-End)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-08-03</span></p>
+<p class="description"><b>Short description:</b> My premium WordPress course https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/?</p>
+</div>
+<div class="youtube-item" id="jD3owg8H84w">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=jD3owg8H84w">47) Settings Sidebar:: Add Block Text, Image and Checkbox Fields &#8211; WordPress Gutenberg Block</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-08-24</span></p>
+<p class="description"><b>Short description:</b> Add new controls in the WordPress Gutenberg Block Settings Sidebar. We add Block Text, Image and Checkbox Fields using the &#8230;</p>
+</div>
+<div class="youtube-item" id="BxrIp83tURE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BxrIp83tURE">48) Code syntax Highlighting block &#8211; Advanced Gutenberg Blocks</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-12-27</span></p>
+<p class="description"><b>Short description:</b> Syntax highlighting with custom themes for every languages with CodeMirror.</p>
+</div>
+<div class="youtube-item" id="7REUdrDM_uE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=7REUdrDM_uE">49) How to Create a Simple WordPress Plugin | 2021 WordPress Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-27</span></p>
+<p class="description"><b>Short description:</b> If you have a WordPress project, where you need to add some custom code or a WordPress snippet for custom functionality, you &#8230;</p>
+</div>
+<div class="youtube-item" id="d3_KvlxnstM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=d3_KvlxnstM">50) Top 5 Gutenberg Block Editor Tools and Utilities for WordPress websites</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-10</span></p>
+<p class="description"><b>Short description:</b> Here are my Top 5 Gutenberg Block Editor Tools and Utilities that will turn you into a Gutenberg Ninja. Gutenberg Block Editor &#8230;</p>
 </div>
 </div>
 </div>
@@ -418,9 +407,9 @@
 
 
 
-<div class="wp-container-9 wp-block-group">
-<div class="wp-container-8 wp-block-group">
-<div style="font-style:italic; font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2022-09-20T19:47:29+00:00">September 20, 2022</time></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-layout-flex wp-block-group">
+<div style="font-style:italic;font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2023-03-01T21:05:37+00:00">March 1, 2023</time></div>
 
 <div class="wp-block-post-author has-small-font-size"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name">WP How to &#8211; WordPress Tutorial Videos</p></div></div>
 
@@ -442,24 +431,24 @@
 
 
 <footer class="wp-block-template-part">
-<div class="wp-container-16 wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-15 wp-block-group alignfull">
-<div class="wp-container-14 is-content-justification-space-between wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
-<div class="wp-container-13 wp-block-columns">
-<div class="wp-container-11 wp-block-column">
+<div class="is-layout-constrained wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-constrained wp-block-group alignfull">
+<div class="is-content-justification-space-between is-layout-flex wp-container-14 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
+<div class="is-layout-flex wp-container-13 wp-block-columns">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/" target="_blank" rel="noreferrer noopener">WP HOW TO &#8211; WordPress plugin</a></p>
 </div>
 
 
 
-<div class="wp-container-12 wp-block-column">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/privacy-policy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></p>
 </div>
 </div>
 
 
 
-<p class="has-text-align-right">Created with <a rel="noreferrer noopener" href="https://sr.wordpress.org/plugins/simply-static/" target="_blank">Simply Static</a> &amp; <a rel="noreferrer noopener" href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+<p class="has-text-align-right">Designed &amp; developed by <a href="https://imoptimal.com/" data-type="URL" data-id="https://imoptimal.com/" target="_blank" rel="noreferrer noopener">Imoptimal</a></p>
 </div>
 </div>
 </div>
@@ -495,8 +484,7 @@
 			width: auto;
 			z-index: 100000;
 		}</style>
-		<script>
-	( function() {
+		<script>( function() {
 		var skipLinkTarget = document.querySelector( 'main' ),
 			sibling,
 			skipLinkTargetID,
@@ -531,8 +519,7 @@
 
 		// Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
-	}() );
-	</script>
+	}() );</script>
 	<script src="/wp-content/themes/twentytwentytwo-child/script.js?ver=1.0.0" id="wphowtotv-script-js"></script>
 <script src="https://www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js?ver=1.0.0" id="wphowtotv-cookies-script-js"></script>
 <script src="/wp-content/themes/twentytwentytwo-child/cookies-consent.js?ver=1.0.0" id="wphowtotv-cookies-code-script-js"></script>

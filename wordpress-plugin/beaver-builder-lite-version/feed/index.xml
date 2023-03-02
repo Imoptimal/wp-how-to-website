@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WordPress Page Builder &#8211; Beaver Builder	</title>
-	<atom:link href="http://localhost/wordpress-plugin/beaver-builder-lite-version/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Beaver Builder &#8211; WordPress Page Builder	</title>
+	<atom:link href="http://localhost/wordpress-plugin/beaver-builder-lite-version/feed/?simply_static_page=171437" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/beaver-builder-lite-version/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:04:03 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:49 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Radio Player &#8211; Live Shoutcast, Icecast and Audio Stream Player for WordPress	</title>
-	<atom:link href="http://localhost/wordpress-plugin/radio-player/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Radio Player &#8211; Live Shoutcast, Icecast and Any Audio Stream Player for WordPress	</title>
+	<atom:link href="http://localhost/wordpress-plugin/radio-player/feed/?simply_static_page=199275" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/radio-player/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:40:27 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:06:06 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

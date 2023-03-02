@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Very Simple Contact Form	</title>
-	<atom:link href="http://localhost/wordpress-plugin/very-simple-contact-form/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: VS Contact Form	</title>
+	<atom:link href="http://localhost/wordpress-plugin/very-simple-contact-form/feed/?simply_static_page=184452" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/very-simple-contact-form/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:57:16 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:51:23 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

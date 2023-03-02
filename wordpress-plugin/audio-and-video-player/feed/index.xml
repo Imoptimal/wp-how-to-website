@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: CP Media Player &#8211; Audio Player and Video Player	</title>
-	<atom:link href="http://localhost/wordpress-plugin/audio-and-video-player/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/audio-and-video-player/feed/?simply_static_page=194543" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/audio-and-video-player/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:50:41 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:28:46 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Hide Admin Bar from Non-Admins	</title>
-	<atom:link href="http://localhost/wordpress-plugin/hide-admin-bar-from-non-admins/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/hide-admin-bar-from-non-admins/feed/?simply_static_page=179943" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/hide-admin-bar-from-non-admins/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:59:11 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:37:14 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WP Increase Upload Filesize &#124; Increase Maximum Execution Time	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-maximum-upload-file-size/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Increase Maximum Upload File Size &#124; Increase Execution Time	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wp-maximum-upload-file-size/feed/?simply_static_page=175636" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-maximum-upload-file-size/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:00:12 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:25:16 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

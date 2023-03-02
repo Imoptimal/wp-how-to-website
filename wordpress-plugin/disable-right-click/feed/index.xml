@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Prevent Content Theft [Disable Right Click]	</title>
-	<atom:link href="http://localhost/wordpress-plugin/disable-right-click/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/disable-right-click/feed/?simply_static_page=195406" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/disable-right-click/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:44:24 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:29:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

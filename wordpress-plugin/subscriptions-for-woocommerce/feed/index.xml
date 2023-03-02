@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Subscriptions For WooCommerce &#8211; Subscription plugin for collecting recurring revenue, sell membership subscription services &#038; products	</title>
-	<atom:link href="http://localhost/wordpress-plugin/subscriptions-for-woocommerce/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Subscriptions for WooCommerce &#8211; Subscription Plugin for Collecting Recurring Revenue, Sell Membership Subscription Services &#038; Products	</title>
+	<atom:link href="http://localhost/wordpress-plugin/subscriptions-for-woocommerce/feed/?simply_static_page=192755" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/subscriptions-for-woocommerce/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:35 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:29:21 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

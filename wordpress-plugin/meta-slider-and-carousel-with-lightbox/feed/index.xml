@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Meta slider and carousel with lightbox	</title>
-	<atom:link href="http://localhost/wordpress-plugin/meta-slider-and-carousel-with-lightbox/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Meta Slider and Carousel with Lightbox	</title>
+	<atom:link href="http://localhost/wordpress-plugin/meta-slider-and-carousel-with-lightbox/feed/?simply_static_page=189543" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/meta-slider-and-carousel-with-lightbox/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:53:36 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:49:27 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

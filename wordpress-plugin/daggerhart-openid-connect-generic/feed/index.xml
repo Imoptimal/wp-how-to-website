@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: OpenID Connect Generic Client	</title>
-	<atom:link href="http://localhost/wordpress-plugin/daggerhart-openid-connect-generic/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/daggerhart-openid-connect-generic/feed/?simply_static_page=196587" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/daggerhart-openid-connect-generic/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:47:42 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:28:07 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

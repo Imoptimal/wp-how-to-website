@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Image Gallery &#8211; Lightbox Gallery Responsive Gallery Masonry Gallery	</title>
-	<atom:link href="http://localhost/wordpress-plugin/new-image-gallery/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Image Gallery &#8211; Lightbox Gallery, Responsive Photo Gallery, Masonry Gallery	</title>
+	<atom:link href="http://localhost/wordpress-plugin/new-image-gallery/feed/?simply_static_page=192018" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/new-image-gallery/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:51:09 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:29:35 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

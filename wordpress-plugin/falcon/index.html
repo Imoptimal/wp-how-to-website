@@ -5,74 +5,63 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="max-image-preview:large">
 <title>Plugin: Falcon &#8211; WordPress Optimizations &amp; Tweaks &#8211; &#039;WP How to&#039; WordPress Tutorial Videos</title>
-<link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Comments Feed" href="/comments/feed/">
 <link rel="alternate" type="application/rss+xml" title="&#039;WP How to&#039; WordPress Tutorial Videos &raquo; Plugin: Falcon &#8211; WordPress Optimizations &amp; Tweaks Comments Feed" href="/wordpress-plugin/falcon/feed/">
-<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
+<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block}.wp-block-site-logo.is-default-size img{width:120px;height:auto}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}.wp-block-site-logo.is-style-rounded{border-radius:9999px}</style>
 <style id="wp-block-group-inline-css">.wp-block-group{box-sizing:border-box}
 :where(.wp-block-group.has-background){padding:1.25em 2.375em}</style>
 <style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label{word-break:normal;overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}</style>
-<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.0.2" media="all">
+<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.1.1" media="all">
+<style id="wp-block-navigation-inline-css">.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}</style>
 <style id="wp-block-template-part-inline-css">.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}</style>
-<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word}.wp-block-post-title a{display:inline-block}</style>
-<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}</style>
-<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border-top:1px solid;border-bottom:1px solid}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
+<style id="wp-block-post-title-inline-css">.wp-block-post-title{word-break:break-word;box-sizing:border-box}.wp-block-post-title a{display:inline-block}
+.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}</style>
+<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block}.wp-block-post-featured-image img{max-width:100%;width:100%;height:auto;vertical-align:bottom;box-sizing:border-box}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim{position:absolute;inset:0;background-color:#000}.wp-block-post-featured-image{position:relative}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-gradient{background-color:transparent}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-0{opacity:0}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-10{opacity:.1}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-20{opacity:.2}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-30{opacity:.3}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-40{opacity:.4}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-50{opacity:.5}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-60{opacity:.6}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-70{opacity:.7}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-80{opacity:.8}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-90{opacity:.9}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-100{opacity:1}</style>
+<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border:1px solid;border-right:none;border-left:none}.wp-block-separator.is-style-dots{background:none!important;border:none;text-align:center;line-height:1;height:auto}.wp-block-separator.is-style-dots:before{content:"···";color:currentColor;font-size:1.5em;letter-spacing:2em;padding-left:2em;font-family:serif}
 .wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}</style>
 <style id="wp-block-spacer-inline-css">.wp-block-spacer{clear:both}</style>
+<style id="wp-block-post-date-inline-css">.wp-block-post-date{box-sizing:border-box}</style>
 <style id="wp-block-post-author-inline-css">.wp-block-post-author{display:flex;flex-wrap:wrap}.wp-block-post-author__byline{width:100%;margin-top:0;margin-bottom:0;font-size:.5em}.wp-block-post-author__avatar{margin-right:1em}.wp-block-post-author__bio{margin-bottom:.7em;font-size:.7em}.wp-block-post-author__content{flex-grow:1;flex-basis:0}.wp-block-post-author__name{margin:0}</style>
 <style id="wp-block-post-terms-inline-css">.wp-block-post-terms__separator{white-space:pre-wrap}</style>
-<style id="wp-block-post-comments-inline-css">.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{content:"";display:table;clear:both}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-top:.5em;margin-right:.75em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{margin-top:1em;margin-bottom:1em;display:block}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{display:block;box-sizing:border-box;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-size:1em;font-family:inherit}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}.wp-block-post-comments input[type=submit]{border:none}</style>
-<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-button.aligncenter{text-align:center}</style>
-<style id="wp-block-button-inline-css">.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;cursor:pointer;display:inline-block;font-size:1.125em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-align:center;text-decoration:none;word-break:break-word;box-sizing:border-box}.wp-block-button__link:active,.wp-block-button__link:focus,.wp-block-button__link:hover,.wp-block-button__link:visited{color:#fff}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.is-style-outline>:where(.wp-block-button__link),:where(.wp-block-button__link).is-style-outline{border:2px solid;padding:.667em 1.333em}.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent}</style>
+<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-button.aligncenter{text-align:center}</style>
+<style id="wp-block-button-inline-css">.wp-block-button__link{cursor:pointer;display:inline-block;text-align:center;word-break:break-word;box-sizing:border-box}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){box-shadow:none;text-decoration:none;border-radius:9999px;padding:calc(.667em + 2px) calc(1.333em + 2px)}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*0.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*0.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*0.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{width:100%;flex-basis:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.wp-block-button.is-style-outline>.wp-block-button__link,.wp-block-button .wp-block-button__link.is-style-outline{border:2px solid;padding:.667em 1.333em}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color){color:currentColor}.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background),.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background){background-color:transparent;background-image:none}
+.wp-block-button .wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}</style>
 <style id="wp-block-paragraph-inline-css">.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;line-height:.68;font-weight:100;margin:.05em .1em 0 0;text-transform:uppercase;font-style:normal}p.has-drop-cap.has-background{overflow:hidden}p.has-background{padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}</style>
 <style id="wp-block-columns-inline-css">.wp-block-columns{display:flex;margin-bottom:1.75em;box-sizing:border-box;flex-wrap:wrap!important;align-items:normal!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;word-break:break-word;overflow-wrap:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}</style>
-<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color),html :where([style*=border-width]){border-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}</style>
-<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0; }body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);--wp--style--block-gap: 1.5rem;}.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: var( --wp--style--block-gap ); }h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}a{color: var(--wp--preset--color--foreground);}.wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}.wp-block-post-comments{padding-top: var(--wp--custom--spacing--small);}.wp-block-pullquote{border-width: 1px 0;}.wp-block-query-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}.wp-block-quote{border-width: 1px;}.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}figure{margin:0 0 1em}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0;--wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1000px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: 1.5rem; }body { --wp--style--block-gap: 1.5rem; }body .is-layout-flow > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-flow > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-constrained > *{margin-block-start: 0;margin-block-end: 0;}body .is-layout-constrained > * + *{margin-block-start: 1.5rem;margin-block-end: 0;}body .is-layout-flex{gap: 1.5rem;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--foreground);text-decoration: underline;}h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}</style>
+<style id="core-block-supports-inline-css">.wp-block-navigation.wp-container-3{justify-content:flex-end;}.wp-block-columns.wp-container-13{flex-wrap:nowrap;}.wp-block-group.wp-container-4,.wp-block-group.wp-container-14{justify-content:space-between;}</style>
 <style id="wp-webfonts-inline-css">@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:local("Source Serif Pro"), url('/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}</style>
 <link rel="stylesheet" id="wphowtotv-style-css" href="/wp-content/themes/twentytwentytwo-child/style.css?ver=1.0.0" media="all">
 <link rel="stylesheet" id="twentytwentytwo-style-css" href="/wp-content/themes/twentytwentytwo/style.css?ver=1.0.0" media="all">
-<script src="/wp-includes/blocks/navigation/view.min.js?ver=009e29110e016c14bac4ba0ecc809fcd" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view.min.js?ver=c24330f635f5cb9d5e0e" id="wp-block-navigation-view-js"></script>
+<script src="/wp-includes/blocks/navigation/view-modal.min.js?ver=45f05135277abf0b0408" id="wp-block-navigation-view-2-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/99071">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/137499">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
-<meta name="generator" content="WordPress 6.0.2">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
 <link rel="canonical" href="/wordpress-plugin/falcon/">
-<link rel="shortlink" href="/?p=99071">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Ffalcon%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%3A10015%2Fwordpress-plugin%2Ffalcon%2F&#038;format=xml">
-<style>.wp-container-1 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-1 > * { margin: 0; }</style>
-<style>.wp-container-3 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: flex-end;}.wp-container-3 > * { margin: 0; }</style>
-<style>.wp-container-4 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-4 > * { margin: 0; }</style>
-<style>.wp-container-5 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-5 > .alignwide { max-width: 1000px;}.wp-container-5 .alignfull { max-width: none; }.wp-container-5 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-5 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-5 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-5 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-5 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-6 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-6 > .alignwide { max-width: 1000px;}.wp-container-6 .alignfull { max-width: none; }.wp-container-6 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-6 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-6 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-6 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-6 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-7 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-7 > .alignwide { max-width: 1000px;}.wp-container-7 .alignfull { max-width: none; }.wp-container-7 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-7 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-7 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-7 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-7 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-8 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;}.wp-container-8 > * { margin: 0; }</style>
-<style>.wp-container-9 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-9 > .alignwide { max-width: 1000px;}.wp-container-9 .alignfull { max-width: none; }.wp-container-9 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-9 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-9 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-9 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-9 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-10 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-10 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-10 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-10 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-10 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-11 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-11 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-11 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-11 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-11 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-12 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-12 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-12 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-12 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-12 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-13 {display: flex;gap: var( --wp--style--block-gap, 2em );flex-wrap: nowrap;align-items: center;}.wp-container-13 > * { margin: 0; }</style>
-<style>.wp-container-14 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;justify-content: space-between;}.wp-container-14 > * { margin: 0; }</style>
-<style>.wp-container-15 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-15 > .alignwide { max-width: 1000px;}.wp-container-15 .alignfull { max-width: none; }.wp-container-15 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-15 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-15 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-15 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-15 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
-<style>.wp-container-16 > :where(:not(.alignleft):not(.alignright)) {max-width: 650px;margin-left: auto !important;margin-right: auto !important;}.wp-container-16 > .alignwide { max-width: 1000px;}.wp-container-16 .alignfull { max-width: none; }.wp-container-16 > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; }.wp-container-16 > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; }.wp-container-16 > .aligncenter { margin-left: auto !important; margin-right: auto !important; }.wp-container-16 > * { margin-block-start: 0; margin-block-end: 0; }.wp-container-16 > * + * { margin-block-start: var( --wp--style--block-gap ); margin-block-end: 0; }</style>
+<link rel="shortlink" href="/?p=137499">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Ffalcon%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fwordpress-plugin%2Ffalcon%2F#038;format=xml">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png">
 </head>
 
-<body class="post-template-default single single-post postid-99071 single-format-standard wp-custom-logo wp-embed-responsive">
+<body class="post-template-default single single-post postid-137499 single-format-standard wp-custom-logo wp-embed-responsive">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-foreground-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-background"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-secondary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-primary-and-tertiary"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr><fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg><fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
 <div class="wp-site-blocks">
 <header class="wp-block-template-part">
-<div class="wp-container-5 wp-block-group">
-<div class="wp-container-4 is-content-justification-space-between wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-1 wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img loading="lazy" width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-content-justification-space-between is-layout-flex wp-container-4 wp-block-group alignwide" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-flex wp-block-group"><div class="is-default-size wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img width="300" height="300" src="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png" class="custom-logo" alt="&#039;WP How to&#039; WordPress Tutorial Videos" decoding="async" srcset="/wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo.png 300w, /wp-content/uploads/2022/09/WP-How-To-WordPress-Tutorial-Videos-Logo-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></div></div>
 
 
-<nav class="wp-container-3 is-content-justification-right is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+<nav class="is-content-justification-right is-layout-flex wp-container-3 is-responsive items-justified-right wp-block-navigation" aria-label="Header navigation"><button aria-haspopup="true" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-micromodal-trigger="modal-2"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
 			<div class="wp-block-navigation__responsive-container  " id="modal-2">
 				<div class="wp-block-navigation__responsive-close" tabindex="-1" data-micromodal-close>
 					<div class="wp-block-navigation__responsive-dialog" aria-label="Menu">
@@ -92,9 +81,9 @@
 </header>
 
 
-<main class="wp-container-10 wp-block-group">
-<div class="wp-container-6 wp-block-group">
-<h1 style="margin-bottom: var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: Falcon &#8211; WordPress Optimizations &amp; Tweaks</h1>
+<main class="is-layout-flow wp-block-group">
+<div class="is-layout-constrained wp-block-group">
+<h1 style="margin-bottom:var(--wp--custom--spacing--medium, 6rem);" class="alignwide wp-block-post-title">Plugin: Falcon &#8211; WordPress Optimizations &amp; Tweaks</h1>
 
 
 
@@ -107,308 +96,308 @@
 <div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-<div class="wp-container-7 entry-content wp-block-post-content">
+<div class="is-layout-constrained entry-content wp-block-post-content">
 <p><iframe id="youtube-player" loading="lazy" src="https://www.youtube.com/embed/?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
 <div class="youtube-videos">
-<div class="youtube-item" id="ATXACFtcyKs">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ATXACFtcyKs">1) Easily Speed Up WordPress: How To Optimize Your Website &amp; Make It Load Fast</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-02-28</span></p>
-<p class="description"><b>Short description:</b> TABLE OF CONTENTS: 0:01 Speeding Up Your Website &#8211; Intro &#038; Overview 7:21 Real Deal Start &#8211; Identifying &#038; Removing Plugin &#8230;</p>
-</div>
-<div class="youtube-item" id="Cet5AWxOKhg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Cet5AWxOKhg">2) Autoptimize Tutorial 2022 🔥 Best JS CSS HTML Minify WordPress Plugin 💯</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-03-28</span></p>
-<p class="description"><b>Short description:</b> Autoptimize JS CSS HTML Optimization Tutorial &#8212;&#8212;&#8212;&#8212;&#8212;&#8211; In this video, we will see how to optimize the static resources of our &#8230;</p>
-</div>
-<div class="youtube-item" id="BwRMW2wv_Z4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BwRMW2wv_Z4">3) WP Optimize Tutorial 2021 &#8211; How To Setup WP Optimize &#8211; WP Optimize Best Settings 2021 &#8211; WP Optimize</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-09-10</span></p>
-<p class="description"><b>Short description:</b> WP-Optimize was once a simple database optimization plugin with an outdated user interface. Today, it is now a full optimization &#8230;</p>
-</div>
-<div class="youtube-item" id="0ECydtkSLzY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=0ECydtkSLzY">4) INSTANTLY Optimize Your WordPress Website And Get a 90+ GOOGLE SCORE With 1 Click!</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-07-17</span></p>
-<p class="description"><b>Short description:</b> Checkout 10Web: https://www.darrelwilson.com/10web NOTE: You Do NOT Need to be hosted with 10web for this plugin/service &#8230;</p>
-</div>
-<div class="youtube-item" id="CJw3GfxfeV0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=CJw3GfxfeV0">5) Best Settings for WordPress plugin Autoptimize to optimize website on google speed test Gtmetrix</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-12-19</span></p>
-<p class="description"><b>Short description:</b> autoptimize #wordpress #2021 #optimize #optimizeworpdress How to take backup WordPress site link is added at the end of &#8230;</p>
-</div>
-<div class="youtube-item" id="dJVJXUF4GY8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=dJVJXUF4GY8">6) Optimize WordPress In Minutes | Faster &amp; Lighter Websites</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-03-21</span></p>
-<p class="description"><b>Short description:</b> WordPress is super flexible with plugins to cater to almost every use case you can imagine. BUT, with that flexibility comes one &#8230;</p>
-</div>
-<div class="youtube-item" id="BrY6a-lsLp8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BrY6a-lsLp8">7) How to Speed Up Your WordPress Website (Simple Guide)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-10-07</span></p>
-<p class="description"><b>Short description:</b> In this video, you&#8217;ll learn how to speed up your WordPress website in 3 simple steps.</p>
-</div>
-<div class="youtube-item" id="7n_mKjosoOw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=7n_mKjosoOw">8) WP Optimize WordPress Plugin 2022 Tutorial 🔥 Best Settings in 5 Minutes 💯</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-04-30</span></p>
-<p class="description"><b>Short description:</b> You may speed up your website by using page caching. Optimize your site for speed and SEO, and lower your bounce rate by &#8230;</p>
-</div>
 <div class="youtube-item" id="53u2JZTtIfw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=53u2JZTtIfw">9) Increase WordPress Site Speed &#8211; FREE Plugin WP Optimize Review &amp; Setup Tutorial</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=53u2JZTtIfw">1) Increase WordPress Site Speed &#8211; FREE Plugin WP Optimize Review &amp; Setup Tutorial</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2021-04-06</span></p>
 <p class="description"><b>Short description:</b> Learn how to speed up your wordpress site speed by using this free plugin: WP Optimize. Increasing your site speed can also &#8230;</p>
 </div>
-<div class="youtube-item" id="y0Xs9-h8Ibg">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=y0Xs9-h8Ibg">10) Hummingbird Tutorial 2019 &#8211; How To Setup Hummingbird Plugin &#8211; Hummingbird Plugin</a></h5>
+<div class="youtube-item" id="vIeo40k99nY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vIeo40k99nY">2) How To Increase Website Speed 3x In 15 Mins ~ 2023 ~ A WordPress Speed Optimization Tutorial</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-12-31</span></p>
-<p class="description"><b>Short description:</b> Hummingbird is a freemium plugin developed by WPMUDev and for a free plugin, it comes with a lot of features. It&#8217;s more &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-13</span></p>
+<p class="description"><b>Short description:</b> WORDPRESS SPEED OPTIMIZATION 2023 This WordPress speed optimization video for beginners shows you how to increase &#8230;</p>
 </div>
-<div class="youtube-item" id="IIqow2MBfPQ">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=IIqow2MBfPQ">11) JCH Optimize Tutorial 2020 &#8211; How to Setup &amp; Configure JCH Optimize  &#8211; JCH Optimize Plugin WordPress</a></h5>
+<div class="youtube-item" id="9u7e0nXdC-w">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=9u7e0nXdC-w">3) Is This the Future of WordPress Speed Optimization? Preload Pages Instantly?</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-03-19</span></p>
-<p class="description"><b>Short description:</b> JCH Optimize is a free WordPress optimization plugin that has similar feature sets to plugins such as WP Rocket &#038; Swift &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-06-30</span></p>
+<p class="description"><b>Short description:</b> Checkout the free plugin and what it does: https://wordpress.org/plugins/flying-pages/ This plugin is completely free and what it &#8230;</p>
+</div>
+<div class="youtube-item" id="TtrX7YKdalY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=TtrX7YKdalY">4) Introducing the Clearfy plugin for WordPress optimization and disable unused functions</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-01-16</span></p>
+<p class="description"><b>Short description:</b> Download Clearfy for free: https://clearfy.pro Clarify is the WordPress optimization plugin that allows you to disable unused &#8230;</p>
+</div>
+<div class="youtube-item" id="7n_mKjosoOw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=7n_mKjosoOw">5) WP Optimize WordPress Plugin 2023 Tutorial 🔥 Best Settings in 5 Minutes 💯</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-30</span></p>
+<p class="description"><b>Short description:</b> You may speed up your website by using page caching. Optimize your site for speed and SEO, and lower your bounce rate by &#8230;</p>
+</div>
+<div class="youtube-item" id="drOC762c1sI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=drOC762c1sI">6) Clearfy is a TOP notch plugin to clean WordPress</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-06-27</span></p>
+<p class="description"><b>Short description:</b> Clearfy is a TOP notch plugin to clean WordPress Deal: https://r.freemius.com/2315/2436227/ What&#8217;s this plugin? This is a &#8230;</p>
+</div>
+<div class="youtube-item" id="UCywZST-Atk7XIVeU6LsUMdw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=UCywZST-Atk7XIVeU6LsUMdw">7) WP Wiki &#8211; Optimize WordPress (<b>channel</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-12-31</span></p>
+<p class="description"><b>Short description:</b> WP Wiki &#8211; Optimize WordPress is a channel that provides tutorials on various WordPress plugins, themes and others.</p>
+</div>
+<div class="youtube-item" id="Cet5AWxOKhg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Cet5AWxOKhg">8) Autoptimize Settings WordPress Plugin Tutorial 2023 🔥 Best JS CSS HTML Minify WordPress Plugin 💯</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-03-28</span></p>
+<p class="description"><b>Short description:</b> Autoptimize JS CSS HTML Optimization Tutorial, Autoptimize Settings WordPress Plugin Tutorial 2023 &#8212;&#8212;&#8212;&#8212;&#8212;&#8211; In this video, &#8230;</p>
 </div>
 <div class="youtube-item" id="zDix8THVpA8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zDix8THVpA8">12) How To Fix A Slow WordPress Site &#8211; WordPress Speed Optimization Tutorial</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zDix8THVpA8">9) How To Fix A Slow WordPress Site &#8211; WordPress Speed Optimization Tutorial</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2019-04-02</span></p>
 <p class="description"><b>Short description:</b> WordPress has a reputation for being slow. Well, in this tutorial, I go over how you can optimize any WordPress site with a few &#8230;</p>
 </div>
-<div class="youtube-item" id="vIeo40k99nY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=vIeo40k99nY">13) How To Increase Website Speed 3x In 15 Mins ~ 2022 ~ A WordPress Speed Optimization Tutorial</a></h5>
+<div class="youtube-item" id="786F4fvBbqE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=786F4fvBbqE">10) Best WordPress Plugin for Website Speed | How to Speed Up WordPress Website</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-06-13</span></p>
-<p class="description"><b>Short description:</b> WORDPRESS SPEED OPTIMIZATION 2022 This WordPress speed optimization video for beginners shows you how to increase &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2023-02-20</span></p>
+<p class="description"><b>Short description:</b> Best WordPress Plugin for Website Speed | How to Speed Up WordPress Website Bluehost Hosting Discount &#8230;</p>
 </div>
-<div class="youtube-item" id="UqNwWtbejUA">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=UqNwWtbejUA">14) How to Optimize Your WordPress Database with One Click</a></h5>
+<div class="youtube-item" id="BwRMW2wv_Z4">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BwRMW2wv_Z4">11) WP Optimize Tutorial 2021 &#8211; How To Setup WP Optimize &#8211; WP Optimize Best Settings 2021 &#8211; WP Optimize</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2017-05-15</span></p>
-<p class="description"><b>Short description:</b> Are you looking to optimize your WordPress database? This can feel complicated for a new user but we&#8217;re here to make database &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-10</span></p>
+<p class="description"><b>Short description:</b> WP-Optimize was once a simple database optimization plugin with an outdated user interface. Today, it is now a full optimization &#8230;</p>
 </div>
-<div class="youtube-item" id="MefkLuQHRvs">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=MefkLuQHRvs">15) WordPress Speed Optimization (100% PageSpeed Insights): 2021 Guide + Core Web Vitals</a></h5>
+<div class="youtube-item" id="zZl6M71sZhc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zZl6M71sZhc">12) Website Speed Optimization | Speed Up WordPress GUARANTEED</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-08-11</span></p>
-<p class="description"><b>Short description:</b> This is a COMPLETE guide to WordPress speed optimization and how to improve scores in PageSpeed Insights, Lighthouse, core &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-08-14</span></p>
+<p class="description"><b>Short description:</b> Nitropack Signup: https://geni.us/nitropack (10% OFF: RCH10OFF) Website Speed Optimization ➡️ Recommended Hosting: &#8230;</p>
 </div>
-<div class="youtube-item" id="JHMXvXr_R5o">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JHMXvXr_R5o">16) WP-Optimize WordPress Plugin Setup Tutorial | Have A FAST Loading Website</a></h5>
+<div class="youtube-item" id="MchM9eitLxQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=MchM9eitLxQ">13) 8 Best WordPress Image Optimization Plugins in 2023</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-11-19</span></p>
-<p class="description"><b>Short description:</b> In this tutorial;, I will show you how to setup the WP-Optimize WordPress plugin and have a fast-loading website. Get STarted with &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2023-02-17</span></p>
+<p class="description"><b>Short description:</b> Looking to optimize your website&#8217;s images and improve your website&#8217;s speed in 2023? In this video, we&#8217;ve compiled a list of the 8 &#8230;</p>
 </div>
-<div class="youtube-item" id="OfMSlxkVAho">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=OfMSlxkVAho">17) WORDPRESS PLUGIN TUTORIAL &#8211; WP-Optimize (Beginner Friendly)</a></h5>
+<div class="youtube-item" id="FCwJqbhhuZc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=FCwJqbhhuZc">14) Best Advanced Form Plugin in WordPress</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-12-08</span></p>
-<p class="description"><b>Short description:</b> In this video series of how to start a blog I will show you how to install and setup WordPress plugin WP-Optimize. Enjoy! Need a &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2023-01-20</span></p>
+<p class="description"><b>Short description:</b> If you need to do more advanced things with your form like calculations, then this is the video for you. full episode: &#8230;</p>
 </div>
-<div class="youtube-item" id="gsKhJaGzgiY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gsKhJaGzgiY">18) Best Free Easy Image Compression &amp; Optimization | Must Have for Every WordPress Website</a></h5>
+<div class="youtube-item" id="Ysu7eo1z2Hk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Ysu7eo1z2Hk">15) How to Speed Up Your WordPress Website (in just 5 steps)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-07-13</span></p>
-<p class="description"><b>Short description:</b> Image compression to save bandwidth and to make website fast is a must have for every website. You can compress images in a &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-02-10</span></p>
+<p class="description"><b>Short description:</b> Portent ran a study that looked at just over 94 million pages across 10 e-commerce sites. They found a website conversions &#8230;</p>
 </div>
-<div class="youtube-item" id="SpHkNlh0BOY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SpHkNlh0BOY">19) SG Optimizer Tutorial 2021 | #1 WordPress Speed Optimization</a></h5>
+<div class="youtube-item" id="eVrJY66vrHE">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=eVrJY66vrHE">16) Hummingbird Pro &#8211; WordPress Speed Optimization Plugin</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-07-31</span></p>
-<p class="description"><b>Short description:</b> To speed up WordPress website 2020 you need the #1 free WordPress website speed optimization plugin: SG Optimizer by &#8230;</p>
-</div>
-<div class="youtube-item" id="d9xXX_Qu8jM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=d9xXX_Qu8jM">20) WordPress Speed Optimization Without Plugin🔥🔥How To Optimize Website Speed &amp; Load Super Fast</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-07-21</span></p>
-<p class="description"><b>Short description:</b> WordPress Speed Optimization Without Plugin    How To Optimize Website Speed &#038; Load Super Fast Hello Doston Mera Naam &#8230;</p>
-</div>
-<div class="youtube-item" id="_dQtaGVXJYw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=_dQtaGVXJYw">21) How To Optimize WordPress Website Speed Using Autoptimize Plugin</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-06-09</span></p>
-<p class="description"><b>Short description:</b> In this video you will learn How To Optimize WordPress Speed Using Autoptimize Plugin. To get the perfect result you may need &#8230;</p>
-</div>
-<div class="youtube-item" id="aU65X9nltZ8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=aU65X9nltZ8">22) WP Rocket WordPress Plugin Settings 2022 🚀 Full Tutorial (3 Minute Setup)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-04-07</span></p>
-<p class="description"><b>Short description:</b> In this video we will see the best WP Rocket Best Settings 2022, this WordPress plugin is very renowned to millions and millions of &#8230;</p>
-</div>
-<div class="youtube-item" id="B7Jkyvgfu8I">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=B7Jkyvgfu8I">23) Autoptimize Tutorial 2020 &#8211; How To Setup Autoptimize Plugin &#8211; Autoptimize</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-01-06</span></p>
-<p class="description"><b>Short description:</b> Autoptimize is one of my favorite WordPress Speed Optimization plugins. It&#8217;s free, it&#8217;s well maintained with excellent support and &#8230;</p>
-</div>
-<div class="youtube-item" id="zUuQo3OLObw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zUuQo3OLObw">24) Best Settings for WordPress plugin WP-Optimize to optimize website google pagespeed Gtmetrix 2021</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-01-02</span></p>
-<p class="description"><b>Short description:</b> wp-optimize #worpress #2021 #optimize #databaseoptimize How to take backup WordPress site link is added at the end of the &#8230;</p>
-</div>
-<div class="youtube-item" id="scynlpcX5fE">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=scynlpcX5fE">25) How to speed up WordPress Website | Speed Optimization WordPress |  Wp Rocket Plugin Bangla Tutorial</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-03-15</span></p>
-<p class="description"><b>Short description:</b> sobujitpark #WordPressSpeedup How To Install WP Rocket and WordPress Website Speed Optimization Bangla Tutorial wp &#8230;</p>
-</div>
-<div class="youtube-item" id="WH7ghByG2vw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=WH7ghByG2vw">26) How to Speed up Your WordPress Site with Autoptimize and WP Super Cache | StylemixThemes</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-02-20</span></p>
-<p class="description"><b>Short description:</b> We prepared a video on a popular topic — Website Speed Optimization. In this tutorial, we are going to show you how to speed up &#8230;</p>
-</div>
-<div class="youtube-item" id="dKT_P6G49FE">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=dKT_P6G49FE">27) How To Optimize WordPress Website Speed | WP Rocket Setup Tutorial [2021]</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-04-12</span></p>
-<p class="description"><b>Short description:</b> Hi, want to know how to optimize the WordPress website&#8217;s speed using the WP Rocket premium plugin. Please watch the video to &#8230;</p>
-</div>
-<div class="youtube-item" id="RBNu2fX8qng">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=RBNu2fX8qng">28) How to Optimize Avada by Themefusion &#8211; How To Speed Up The Avada WordPress Theme &#8211; Free Plugins Only</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-05-22</span></p>
-<p class="description"><b>Short description:</b> Avada has beautiful demos and is quite honestly a theme that I really do like. That being said it has inherent performance issues &#8230;</p>
-</div>
-<div class="youtube-item" id="XzrA7yuH_Lw">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=XzrA7yuH_Lw">29) WordPress Optimization with WP Compress | Faster WordPress Websites</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-04-09</span></p>
-<p class="description"><b>Short description:</b> WordPress Optimization can be an art and one of the best places to start is with image compression. Enter WP Compress on &#8230;</p>
-</div>
-<div class="youtube-item" id="l98qhgVnyQs">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=l98qhgVnyQs">30) Optimize your website-JS,CSS, HTML and images-With Auto-optimize-WordPress plugins tutorials</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-06-30</span></p>
-<p class="description"><b>Short description:</b> This video tutorial is about WordPress plugin auto-optimize. This is a very important WordPress plugin. After watching this video &#8230;</p>
-</div>
-<div class="youtube-item" id="z6g73eQGu4g">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=z6g73eQGu4g">31) Top 10 WordPress Plugins for 2021</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-10-13</span></p>
-<p class="description"><b>Short description:</b> Get a 60-day free trial for Constant Contact: https://santrelmedia.com/constantcontact Elementor: &#8230;</p>
-</div>
-<div class="youtube-item" id="SOWvpnipcwQ">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SOWvpnipcwQ">32) WP Sweep &#8211; A Must Have Plugin for WordPress Website ( Database Optimization)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-09-20</span></p>
-<p class="description"><b>Short description:</b> We need to optimize the wordpress website database to improve website performance and security. WP Sweep is a free plugin to &#8230;</p>
-</div>
-<div class="youtube-item" id="Bc6BzzEF0t8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Bc6BzzEF0t8">33) WP Sweep Database Optimization &#8211; Speed Up WordPress Website Tutorial</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-01-24</span></p>
-<p class="description"><b>Short description:</b> WP Sweep Database Optimization &#8211; Speed Up WordPress Website Tutorial #wordpress #wpsweep #databaseoptimization &#8230;</p>
-</div>
-<div class="youtube-item" id="O3FBMLVivBM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=O3FBMLVivBM">34) Shortpixel Image Optimizer Settings 2022 🔥 ShortPixel WordPress Plugin Setup 💯</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-02-07</span></p>
-<p class="description"><b>Short description:</b> Shortpixel is one of the most popular wordpress plugins for image Optimisation. This plugin has some unique features that other &#8230;</p>
-</div>
-<div class="youtube-item" id="3pnLsC246Y0">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=3pnLsC246Y0">35) How To Make Website Speed Faster 2021 | WP-Optimize Plugin For WordPress | W3 Total Cache Plugin</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-06-17</span></p>
-<p class="description"><b>Short description:</b> In this video, You will learn &#8211; How To Make Website Speed Faster 2021 | WP-Optimize Plugin For WordPress | W3 Total Cache &#8230;</p>
-</div>
-<div class="youtube-item" id="iZwliEUen2A">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=iZwliEUen2A">36) How to Use the OptiMole Plugin to Speed Up Your WordPress Site</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-11-07</span></p>
-<p class="description"><b>Short description:</b> The OptiMole plugin can speed up your site by over 50% in a matter of minutes. Learn how in this behind-the-scenes OptiMole &#8230;</p>
-</div>
-<div class="youtube-item" id="Nd5FCXh9M8M">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Nd5FCXh9M8M">37) How To Make Your WordPress Website Fast With Autoptimize WordPress Plugin (Step By Step Tutorial)</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-02-24</span></p>
-<p class="description"><b>Short description:</b> How To Make Your WordPress Website Fast With Autoptimize WordPress Plugin (Step By Step Tutorial) &#8211; Claim You Free &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-09-02</span></p>
+<p class="description"><b>Short description:</b> Tackle WordPress speed optimization without breaking a sweat by using Hummingbird Pro! She boasts a ton of awesome &#8230;</p>
 </div>
 <div class="youtube-item" id="UJLJ5mITjbY">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=UJLJ5mITjbY">38) Optimize Your Images Using Imagify!</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=UJLJ5mITjbY">17) Optimize Your Images Using Imagify!</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2022-02-10</span></p>
 <p class="description"><b>Short description:</b> Speeding up your website is so important that we like to make sure we cover all the bases. And your images could be really &#8230;</p>
 </div>
-<div class="youtube-item" id="gCB4-kyOn2A">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gCB4-kyOn2A">39) Best Free Image Optimization WordPress Plugin🔥🔥How To Optimize &amp; Compress WordPress Images</a></h5>
+<div class="youtube-item" id="BrY6a-lsLp8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=BrY6a-lsLp8">18) How to Speed Up Your WordPress Website (Simple Guide)</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-12-07</span></p>
-<p class="description"><b>Short description:</b> Best Free Image Optimization WordPress Plugin    How To Optimize &#038; Compress WordPress Images Hello Doston Mera Naam &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2020-10-07</span></p>
+<p class="description"><b>Short description:</b> In this video, you&#8217;ll learn how to speed up your WordPress website in 3 simple steps.</p>
 </div>
-<div class="youtube-item" id="82Vau7m4EHI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=82Vau7m4EHI">40) How to Optimize and to Compress Images in WordPress | SMUSH Image Optimization Plugin (Pro version)</a></h5>
+<div class="youtube-item" id="qIdth_BL5Wg">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=qIdth_BL5Wg">19) WordPress SEO Plugin Free | Slim SEO | Lightweight &amp; Easy</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-12-04</span></p>
-<p class="description"><b>Short description:</b> Smush – Lazy Load Images, Optimize &#038; Compress Images for WordPress website. The Bulk Smush feature allows you to apply all &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-10-07</span></p>
+<p class="description"><b>Short description:</b> Slim SEO is simple, lightweight and fast WordPress SEO Plugin that&#8217;s 100% Free and incredibly easy to set up and use. Join me &#8230;</p>
 </div>
-<div class="youtube-item" id="JZVaeJwp7Zs">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=JZVaeJwp7Zs">41) WordPress Speed Optimization &#8211; How I Got 100% GTmetrix Scores</a></h5>
+<div class="youtube-item" id="0ECydtkSLzY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=0ECydtkSLzY">20) INSTANTLY Optimize Your WordPress Website and Get a 90+ GOOGLE SCORE With 1 Click!</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-08-08</span></p>
-<p class="description"><b>Short description:</b> Cloudways Vultr High Frequency (recommended host): https://www.cloudways.com/vultr-hosting.php?id=262128 (use promo &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-17</span></p>
+<p class="description"><b>Short description:</b> Checkout 10Web: https://www.darrelwilson.com/10web NOTE: You Do NOT Need to be hosted with 10web for this plugin/service &#8230;</p>
 </div>
-<div class="youtube-item" id="52QsCCI1xOM">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=52QsCCI1xOM">42) [5 Minute🔥] How to Optimize &amp; Compress WordPress Images 2022 | Increase Website Speed 2022</a></h5>
+<div class="youtube-item" id="Bc6BzzEF0t8">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Bc6BzzEF0t8">21) WP Sweep Database Optimization &#8211; Speed Up WordPress Website Tutorial</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-12-12</span></p>
-<p class="description"><b>Short description:</b> [5 Minute  ] How to Optimize &#038; Compress WordPress Images 2022 | Increase Website Speed 2022 Hello Friends Assalam u &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2019-01-24</span></p>
+<p class="description"><b>Short description:</b> WP Sweep Database Optimization &#8211; Speed Up WordPress Website Tutorial #wordpress #wpsweep #databaseoptimization &#8230;</p>
 </div>
-<div class="youtube-item" id="gVK9cVPBmss">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=gVK9cVPBmss">43) WordPress Website Image Optimization &#8211; EWWW Image Optimizer</a></h5>
+<div class="youtube-item" id="RAbmeR350Bo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=RAbmeR350Bo">22) WP Fastest Cache &#8211; Quick Overview &amp; Settings For Faster WordPress Sites</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2021-06-29</span></p>
-<p class="description"><b>Short description:</b> WordPress Website Image Optimization is a key part of builder a fast website. EWWW Image Optimizer is a popular tool for this &#8230;</p>
-</div>
-<div class="youtube-item" id="8cHNvpFY6l8">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=8cHNvpFY6l8">44) WP Smush It Is A Great Image Compression Plugin</a></h5>
-<div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2018-05-28</span></p>
+<p><span class="publish-date"><b>Published at:</b> 2018-05-30</span></p>
 <p class="description"><b>Short description:</b> Grab Your Free 17-Point WordPress Pre-Launch PDF Checklist: &#8230;</p>
 </div>
-<div class="youtube-item" id="aG5uFiWjsU4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=aG5uFiWjsU4">45) WP Rocket Setup Tutorial &#8211; Every Setting Configured &amp; EXPLAINED</a></h5>
+<div class="youtube-item" id="ZPQfsxcyXuA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=ZPQfsxcyXuA">23) Optimole WordPress Plugin setup Tutorial | Optimize Images</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-11-21</span></p>
-<p class="description"><b>Short description:</b> Follow these steps to fully optimize your site with the WP Rocket plugin. Insider tips and recommendations inside… Get WP &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-11-08</span></p>
+<p class="description"><b>Short description:</b> In this Optimole WordPress Plugin setup tutorial, I will show you how to optimize your images using optimole for a faster website.</p>
 </div>
-<div class="youtube-item" id="i_7gd30uEiA">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=i_7gd30uEiA">46) 🚀 How to Speed Up WordPress Site with A2 Optimized Plugin And Turbo Cache</a></h5>
+<div class="youtube-item" id="1De2gs8fPv0">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1De2gs8fPv0">24) How to use WP-Optimize &#8211; Optimization for Your WordPress Site</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2019-04-03</span></p>
-<p class="description"><b>Short description:</b> Improve loading speed up to 190% faster with A2 Optimized and Turbo Cache. In the video, I&#8217;m gonna be showing the step by &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2019-02-05</span></p>
+<p class="description"><b>Short description:</b> How to use WP-Optimize &#8211; Optimization for Your WordPress Site #optimize #wordpress #wordpresstutorials Full Blog Post: &#8230;</p>
 </div>
-<div class="youtube-item" id="1n8tl6Ekfns">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1n8tl6Ekfns">47) Best WordPress Plugin For Image Optimization | Bangla Tutorial | Deb Reviews</a></h5>
+<div class="youtube-item" id="jw9eH_EP5HM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=jw9eH_EP5HM">25) The Best Settings to Optimize Your Site with WP Rocket [2023 Edition]</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-06-18</span></p>
-<p class="description"><b>Short description:</b> The Best WordPress Plugin For Image Optimization is SMUSH Image Optimizer. An award-winning image optimization plugin is &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-10-22</span></p>
+<p class="description"><b>Short description:</b> This video is all about best practices. If you want to customize your experience with WP Rocket and get the best results for your &#8230;</p>
 </div>
-<div class="youtube-item" id="kAaFwOSXsBI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=kAaFwOSXsBI">48) Complete Guide on WordPress Database Optmizations</a></h5>
+<div class="youtube-item" id="oriVE6uIS30">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=oriVE6uIS30">26) How to Optimise WordPress Database to make your website secure and faster</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2022-04-26</span></p>
-<p class="description"><b>Short description:</b> You can find hundreds or thousands of #WordPress #Full Page #Caching solutions out there. Full-page WordPress caching is for &#8230;</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-09-15</span></p>
+<p class="description"><b>Short description:</b> WPThemes #wpdatabase :::Know More::: https://bit.ly/3B2BaG7 How to Optimize WordPress Database Manually, without plugin &#8230;</p>
 </div>
-<div class="youtube-item" id="4TTmBEAWceI">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=4TTmBEAWceI">49) Wp Optimize Plugin For WordPress Tutorial 2021 &#8211; Wp Optimize Settings</a></h5>
+<div class="youtube-item" id="lDcs4B3yWzU">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=lDcs4B3yWzU">27) WordPress Image Compression Settings &#8211; ShortPixel Adaptive Images + Image Optimizer</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
-<p><span class="publish-date"><b>Published at:</b> 2020-09-30</span></p>
-<p class="description"><b>Short description:</b> wp optimize plugin for wordpress | wp optimize plugin tutorial | wp optimize settings | wp optimize images | wp optimize 2021.</p>
+<p><span class="publish-date"><b>Published at:</b> 2021-10-08</span></p>
+<p class="description"><b>Short description:</b> WordPress image compression is an important topic that gets a lot of attention. There are new plugins and features developed &#8230;</p>
+</div>
+<div class="youtube-item" id="UqNwWtbejUA">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=UqNwWtbejUA">28) How to Optimize Your WordPress Database with One Click</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-05-15</span></p>
+<p class="description"><b>Short description:</b> Are you looking to optimize your WordPress database? This can feel complicated for a new user but we&#8217;re here to make database &#8230;</p>
+</div>
+<div class="youtube-item" id="MpuulHHSR7w">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=MpuulHHSR7w">29) How to Clean and Optimize your WordPress Database (with Perfmatters Plugin)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-01-13</span></p>
+<p class="description"><b>Short description:</b> Learn how to easily clean your WordPress database including post revisions, spam comments, and trashed posts with Perfmatters &#8230;</p>
+</div>
+<div class="youtube-item" id="9ZjngTnVQdc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=9ZjngTnVQdc">30) WordPress Optimization &amp; Speed Boosting &#8211; Urdu Tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-04-20</span></p>
+<p class="description"><b>Short description:</b> Do you need a quick solution to optimize your WordPress website and boost its speed in just 1 minute?</p>
+</div>
+<div class="youtube-item" id="iOWfemuRQDI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=iOWfemuRQDI">31) AWESOME Twitter Feed WordPress Plugin! 🔥 #shorts</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-10-11</span></p>
+<p class="description"><b>Short description:</b> Embed an amazing, fantastic-looking Twitter feed on your WordPress site and showcase user timelines, hashtags, Twitter &#8230;</p>
+</div>
+<div class="youtube-item" id="SvwNrNIPn0E">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=SvwNrNIPn0E">32) Speed Up WordPress By 90%+ Using Litespeed (3 Easy Steps)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-08-06</span></p>
+<p class="description"><b>Short description:</b> This is the best way to speed up any WordPress website, in 3 easy steps that anybody can follow. Get super fast LiteSpeed &#8230;</p>
+</div>
+<div class="youtube-item" id="zAtPUGqu6Sk">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zAtPUGqu6Sk">33) How to Speed up WordPress Website using WP Rocket</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-06-03</span></p>
+<p class="description"><b>Short description:</b> Most people are looking for how to speed up WordPress website. In this video, I will show you a very simple method to speed up &#8230;</p>
+</div>
+<div class="youtube-item" id="J-EVbNjl_-k">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=J-EVbNjl_-k">34) Top 5 WordPress Plugins To Speed Up Your WordPress Website!</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-09-30</span></p>
+<p class="description"><b>Short description:</b> Join The 1st WordPress Social Platform! Register NOW: https://www.wpfriends.com Heres some of the best wordpress plugins to &#8230;</p>
+</div>
+<div class="youtube-item" id="AVaeT6Akv0s">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=AVaeT6Akv0s">35) Speed Up WordPress Website by 300% with ONE PLUGIN (10Web Booster)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-20</span></p>
+<p class="description"><b>Short description:</b> Start here 👉 https://punchsalad.com/lp/10web-booster/ I&#8217;ll show how I was able to speed up my WordPress website by 300% with &#8230;</p>
+</div>
+<div class="youtube-item" id="OGyx6s9Lojs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=OGyx6s9Lojs">36) 6 Best WordPress Image Optimization Plugins Compared</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-08-18</span></p>
+<p class="description"><b>Short description:</b> UPDATED VIDEO: https://youtu.be/MchM9eitLxQ In today&#8217;s video we take a closer look at 6 WordPress image optimization plugins &#8230;</p>
+</div>
+<div class="youtube-item" id="kcs85I3WU1Q">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=kcs85I3WU1Q">37) Asset Cleanup Elementor Speeds Elementor Sites Even More &#8211; Asset Cleanup Plugin Settings</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-02-15</span></p>
+<p class="description"><b>Short description:</b> This tutorial is a continuation from the previous tutorial where we tested 4 different speed optimization plugins to see which ones &#8230;</p>
+</div>
+<div class="youtube-item" id="Fo-7MKRRUec">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Fo-7MKRRUec">38) The Most UNDERRATED WordPress Plugin EVERYONE Needs!</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-08-04</span></p>
+<p class="description"><b>Short description:</b> In 2012, Syed created a free plugin called Insert Headers and Footers. The goal of this plugin was to make it easy for me and &#8230;</p>
+</div>
+<div class="youtube-item" id="Uca0ARsELkc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=Uca0ARsELkc">39) Optimize WordPress Website | 2021</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-04-12</span></p>
+<p class="description"><b>Short description:</b> Today we are going to see how we can optimize a WordPress website. Bluehost(India): https://bluehost.sjv.io/packetcode &#8230;</p>
+</div>
+<div class="youtube-item" id="PL97Qo7C6CNAyqdo51aCQfkVjvBzJCpp1f">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=PL97Qo7C6CNAyqdo51aCQfkVjvBzJCpp1f">40) WordPress Performance &amp; Optimization (<b>playlist</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-07-11</span></p>
+<p class="description"><b>Short description:</b> </p>
+</div>
+<div class="youtube-item" id="q4J6liDW1CI">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=q4J6liDW1CI">41) How To Use Yoast SEO WordPress Plugin To Optimize Blog Posts For Google Search?</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2020-03-10</span></p>
+<p class="description"><b>Short description:</b> In today&#8217;s SEO video tutorial, we&#8217;ll be optimizing our first WordPress blog post for search engines using the Yoast WordPress SEO &#8230;</p>
+</div>
+<div class="youtube-item" id="zx6HlHfH0Mo">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=zx6HlHfH0Mo">42) WP Super Cache WordPress Plugin Setting up and configuration 2020</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2018-04-10</span></p>
+<p class="description"><b>Short description:</b> Learn How To setup and configure WP Super Cache WordPress Plugin for increasing faster user experience 2020 Hire someone &#8230;</p>
+</div>
+<div class="youtube-item" id="rJQIi2hb5Vs">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=rJQIi2hb5Vs">43) 3 Must Have WordPress Plugins for Bloggers in 2023</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-05</span></p>
+<p class="description"><b>Short description:</b> BLOG YOUR WAY TO $10K https://anastasiablogger.com/blogyourway/ ▷▷ FREE BLOGGING COURSE: &#8230;</p>
+</div>
+<div class="youtube-item" id="2JxyKfGzIuY">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=2JxyKfGzIuY">44) How To Bulk Install Your Favorite WordPress Plugins At Once? | Quick fix #5</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-12-19</span></p>
+<p class="description"><b>Short description:</b> In this video I&#8217;m going to show you how to bulk install your favorite WordPress plugins at once. Two really simple methods you&#8217;ll &#8230;</p>
+</div>
+<div class="youtube-item" id="aUxb9GveXVw">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=aUxb9GveXVw">45) Nitropack: WordPress Website Speed Optimization 2023 Guaranteed 🔥</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2021-05-29</span></p>
+<p class="description"><b>Short description:</b> ABOUT=== Nitropack: WordPress Website Speed Optimization 2023 Guaranteed 🔥 Nitropack Sign UP link: &#8230;</p>
+</div>
+<div class="youtube-item" id="UC4XXvs1fX1uxWMUesEERxiQ">
+<h5 class="title"><a class="link" href="https://www.youtube.com/playlist?list=UC4XXvs1fX1uxWMUesEERxiQ">46) SERT Media &#8211; WordPress Tutorials (<b>channel</b>)</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2017-05-25</span></p>
+<p class="description"><b>Short description:</b> SERTMedia is an all-inclusive, client-oriented, website development company that focuses on improving what the eye cannot see &#8230;</p>
+</div>
+<div class="youtube-item" id="8s3xjpFCJpc">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=8s3xjpFCJpc">47) AMP প্লাগিন্সের কাজ কি| amp plugin wordpress tutorial</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-10-11</span></p>
+<p class="description"><b>Short description:</b> Video Related Keyword amp plugin wordpress tutorial, what is amp, what is amp in wordpress, what is amp article, what is amp &#8230;</p>
+</div>
+<div class="youtube-item" id="1Yml9eQgm_k">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=1Yml9eQgm_k">48) The new WordPress plugin that BOOST&#39;s your Site&#39;s Speed for FREE 10Web Booster</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2022-07-14</span></p>
+<p class="description"><b>Short description:</b> How to Improve your WordPress Load Time with 10Web Booster 10Web Booster FREE: https://saasmaster.link/10webbooster &#8230;</p>
 </div>
 <div class="youtube-item" id="y77f1jSQ0W4">
-<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=y77f1jSQ0W4">50) WordPress Plugin Development &#8211; Part 22 &#8211; Database Optimization</a></h5>
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=y77f1jSQ0W4">49) WordPress Plugin Development &#8211; Part 22 &#8211; Database Optimization</a></h5>
 <div class="buttons"><button class="favourite">Add to favourites</button></div>
 <p><span class="publish-date"><b>Published at:</b> 2017-12-31</span></p>
 <p class="description"><b>Short description:</b> Support Me :: https://www.patreon.com/alecaddd http://www.alecaddd.com/support-me/ http://amzn.to/2DsPZUn Check out &#8230;</p>
+</div>
+<div class="youtube-item" id="oJyjFHc34RM">
+<h5 class="title"><a class="link" href="https://www.youtube.com/watch?v=oJyjFHc34RM">50) How to use WP Fastest Cache for WordPress Optimization</a></h5>
+<div class="buttons"><button class="favourite">Add to favourites</button></div>
+<p><span class="publish-date"><b>Published at:</b> 2016-08-05</span></p>
+<p class="description"><b>Short description:</b> In this episode I will demonstrate how to configure WP Fastest Cache WordPress Plugin to Speed up your WordPress Powered &#8230;</p>
 </div>
 </div>
 </div>
@@ -418,9 +407,9 @@
 
 
 
-<div class="wp-container-9 wp-block-group">
-<div class="wp-container-8 wp-block-group">
-<div style="font-style:italic; font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2022-09-20T19:43:21+00:00">September 20, 2022</time></div>
+<div class="is-layout-constrained wp-block-group">
+<div class="is-layout-flex wp-block-group">
+<div style="font-style:italic;font-weight:400;" class="wp-block-post-date has-small-font-size"><time datetime="2023-03-01T19:08:09+00:00">March 1, 2023</time></div>
 
 <div class="wp-block-post-author has-small-font-size"><div class="wp-block-post-author__content"><p class="wp-block-post-author__name">WP How to &#8211; WordPress Tutorial Videos</p></div></div>
 
@@ -442,24 +431,24 @@
 
 
 <footer class="wp-block-template-part">
-<div class="wp-container-16 wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
-<div class="wp-container-15 wp-block-group alignfull">
-<div class="wp-container-14 is-content-justification-space-between wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
-<div class="wp-container-13 wp-block-columns">
-<div class="wp-container-11 wp-block-column">
+<div class="is-layout-constrained wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
+<div class="is-layout-constrained wp-block-group alignfull">
+<div class="is-content-justification-space-between is-layout-flex wp-container-14 wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem">
+<div class="is-layout-flex wp-container-13 wp-block-columns">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/" target="_blank" rel="noreferrer noopener">WP HOW TO &#8211; WordPress plugin</a></p>
 </div>
 
 
 
-<div class="wp-container-12 wp-block-column">
+<div class="is-layout-flow wp-block-column">
 <p><a href="https://plugin.wphowto.tv/privacy-policy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a></p>
 </div>
 </div>
 
 
 
-<p class="has-text-align-right">Created with <a rel="noreferrer noopener" href="https://sr.wordpress.org/plugins/simply-static/" target="_blank">Simply Static</a> &amp; <a rel="noreferrer noopener" href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+<p class="has-text-align-right">Designed &amp; developed by <a href="https://imoptimal.com/" data-type="URL" data-id="https://imoptimal.com/" target="_blank" rel="noreferrer noopener">Imoptimal</a></p>
 </div>
 </div>
 </div>
@@ -495,8 +484,7 @@
 			width: auto;
 			z-index: 100000;
 		}</style>
-		<script>
-	( function() {
+		<script>( function() {
 		var skipLinkTarget = document.querySelector( 'main' ),
 			sibling,
 			skipLinkTargetID,
@@ -531,8 +519,7 @@
 
 		// Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
-	}() );
-	</script>
+	}() );</script>
 	<script src="/wp-content/themes/twentytwentytwo-child/script.js?ver=1.0.0" id="wphowtotv-script-js"></script>
 <script src="https://www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js?ver=1.0.0" id="wphowtotv-cookies-script-js"></script>
 <script src="/wp-content/themes/twentytwentytwo-child/cookies-consent.js?ver=1.0.0" id="wphowtotv-cookies-code-script-js"></script>

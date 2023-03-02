@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Delicious Recipes &#8211; WordPress Recipe Plugin	</title>
-	<atom:link href="http://localhost/wordpress-plugin/delicious-recipes/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Delicious Recipes &#8211; Best WordPress Recipe Plugin	</title>
+	<atom:link href="http://localhost/wordpress-plugin/delicious-recipes/feed/?simply_static_page=198373" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/delicious-recipes/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:48:22 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:06:24 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

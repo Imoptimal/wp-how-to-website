@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Newsletter	</title>
-	<atom:link href="http://localhost/wordpress-plugin/newsletter/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Newsletter &#8211; Send awesome emails from WordPress	</title>
+	<atom:link href="http://localhost/wordpress-plugin/newsletter/feed/?simply_static_page=170205" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/newsletter/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:04:18 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:45:25 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

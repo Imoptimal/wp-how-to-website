@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Multivendor Marketplace Solution for WooCommerce &#8211; WC Marketplace	</title>
-	<atom:link href="http://localhost/wordpress-plugin/dc-woocommerce-multi-vendor/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: MultiVendorX &#8211; MultiVendor Marketplace Solution For WooCommerce	</title>
+	<atom:link href="http://localhost/wordpress-plugin/dc-woocommerce-multi-vendor/feed/?simply_static_page=188265" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/dc-woocommerce-multi-vendor/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:55:12 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:49:59 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

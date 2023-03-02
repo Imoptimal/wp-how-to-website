@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Post Category Image With Grid and Slider	</title>
-	<atom:link href="http://localhost/wordpress-plugin/post-category-image-with-grid-and-slider/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/post-category-image-with-grid-and-slider/feed/?simply_static_page=199828" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/post-category-image-with-grid-and-slider/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:47:44 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:05:55 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

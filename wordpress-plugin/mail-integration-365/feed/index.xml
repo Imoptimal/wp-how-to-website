@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Mail Integration for Office 365/Outlook by Cross Connected	</title>
-	<atom:link href="http://localhost/wordpress-plugin/mail-integration-365/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WPO365 &#124; Mail Integration for Office 365 / Outlook	</title>
+	<atom:link href="http://localhost/wordpress-plugin/mail-integration-365/feed/?simply_static_page=194661" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/mail-integration-365/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:47:07 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:28:44 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

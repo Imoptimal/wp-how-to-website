@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Laobuluo baidu submit	</title>
-	<atom:link href="http://localhost/wordpress-plugin/laobuluo-baidu-submit/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/laobuluo-baidu-submit/feed/?simply_static_page=184759" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/laobuluo-baidu-submit/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:35:07 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:07:38 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

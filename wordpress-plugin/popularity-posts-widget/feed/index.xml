@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Popularity Posts Widget	</title>
-	<atom:link href="http://localhost/wordpress-plugin/popularity-posts-widget/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/popularity-posts-widget/feed/?simply_static_page=176076" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/popularity-posts-widget/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:35:24 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 18:40:44 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

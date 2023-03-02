@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Post slider elementor addons	</title>
-	<atom:link href="http://localhost/wordpress-plugin/post-slider-for-elementor/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/post-slider-for-elementor/feed/?simply_static_page=199405" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/post-slider-for-elementor/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:06:04 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

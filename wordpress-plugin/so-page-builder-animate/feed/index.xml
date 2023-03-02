@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: SO Page Builder Animate	</title>
-	<atom:link href="http://localhost/wordpress-plugin/so-page-builder-animate/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/so-page-builder-animate/feed/?simply_static_page=188302" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/so-page-builder-animate/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:54:39 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:49:57 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

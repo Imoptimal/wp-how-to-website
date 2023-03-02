@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Lazy Load	</title>
-	<atom:link href="http://localhost/wordpress-plugin/rocket-lazy-load/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Rocket lazy load	</title>
+	<atom:link href="http://localhost/wordpress-plugin/rocket-lazy-load/feed/?simply_static_page=172535" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/rocket-lazy-load/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:02:45 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:27 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

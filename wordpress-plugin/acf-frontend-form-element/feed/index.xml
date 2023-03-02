@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: ACF Frontend &#8211; Add and edit posts, pages, users and more all from the frontend	</title>
-	<atom:link href="http://localhost/wordpress-plugin/acf-frontend-form-element/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Frontend Admin by DynamiApps	</title>
+	<atom:link href="http://localhost/wordpress-plugin/acf-frontend-form-element/feed/?simply_static_page=187511" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/acf-frontend-form-element/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:53:48 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:50:14 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

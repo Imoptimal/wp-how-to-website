@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Charitable &#8211; Donation Plugin	</title>
-	<atom:link href="http://localhost/wordpress-plugin/charitable/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Donation Forms by Charitable &#8211; Donations Plugin &#038; Fundraising Platform for WordPress	</title>
+	<atom:link href="http://localhost/wordpress-plugin/charitable/feed/?simply_static_page=181134" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/charitable/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:58:40 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:36:48 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WP Reset &#8211; Most Advanced Reset Tool for WordPress	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-reset/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WP Reset &#8211; Most Advanced WordPress Reset Tool	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wp-reset/feed/?simply_static_page=170180" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-reset/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:04:17 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:45:26 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

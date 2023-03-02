@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Multilanguage by BestWebSoft &#8211; WordPress Translation Plugin and Language Switcher	</title>
-	<atom:link href="http://localhost/wordpress-plugin/multilanguage/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/multilanguage/feed/?simply_static_page=192119" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/multilanguage/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:51:53 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:29:34 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Sync to Etsy Marketplace from WooCommerce	</title>
-	<atom:link href="http://localhost/wordpress-plugin/exportfeed-for-woocommerce-product-to-etsy/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WooCommerce Etsy Integration	</title>
+	<atom:link href="http://localhost/wordpress-plugin/exportfeed-for-woocommerce-product-to-etsy/feed/?simply_static_page=178632" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/exportfeed-for-woocommerce-product-to-etsy/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:33:07 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:01:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

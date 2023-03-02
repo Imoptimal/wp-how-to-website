@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Content Slider Block &#8211; Gutenberg Content Slider Block	</title>
-	<atom:link href="http://localhost/wordpress-plugin/content-slider-block/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Content Slider Block &#8211; Display slider in a beautiful way.	</title>
+	<atom:link href="http://localhost/wordpress-plugin/content-slider-block/feed/?simply_static_page=199182" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/content-slider-block/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:40:18 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:06:07 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

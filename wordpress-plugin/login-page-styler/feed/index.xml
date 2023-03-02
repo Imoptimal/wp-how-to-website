@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WordPress Custom Login Page Customizer &#124; Custom WordPress Admin Login Page Customizer	</title>
-	<atom:link href="http://localhost/wordpress-plugin/login-page-styler/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Custom Admin Login Styler and Security	</title>
+	<atom:link href="http://localhost/wordpress-plugin/login-page-styler/feed/?simply_static_page=194956" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/login-page-styler/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:51:27 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:28:38 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

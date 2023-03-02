@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Video Gallery &#8211; YouTube Playlist, Channel Gallery by YotuWP	</title>
-	<atom:link href="http://localhost/wordpress-plugin/yotuwp-easy-youtube-embed/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/yotuwp-easy-youtube-embed/feed/?simply_static_page=177391" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/yotuwp-easy-youtube-embed/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:00:33 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:24:38 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

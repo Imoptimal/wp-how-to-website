@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WP SMS	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-sms/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WP SMS &#8211; Messaging &#038; SMS Notification for WordPress, WooCommerce, GravityForms, etc	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wp-sms/feed/?simply_static_page=187404" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-sms/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:54:08 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:50:16 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Video Gallery &#8211; YouTube and Vimeo, Link Gallery	</title>
-	<atom:link href="http://localhost/wordpress-plugin/new-video-gallery/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Video Gallery &#8211; Api Gallery, YouTube and Vimeo, Link Gallery	</title>
+	<atom:link href="http://localhost/wordpress-plugin/new-video-gallery/feed/?simply_static_page=199593" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/new-video-gallery/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:44:38 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:51:48 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

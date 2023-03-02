@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WooCommerce Fraud Prevention Plugin	</title>
-	<atom:link href="http://localhost/wordpress-plugin/woo-blocker-lite-prevent-fake-orders-and-blacklist-fraud-customers/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Fraud Prevention For Woocommerce	</title>
+	<atom:link href="http://localhost/wordpress-plugin/woo-blocker-lite-prevent-fake-orders-and-blacklist-fraud-customers/feed/?simply_static_page=198678" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woo-blocker-lite-prevent-fake-orders-and-blacklist-fraud-customers/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:47:04 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:06:16 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

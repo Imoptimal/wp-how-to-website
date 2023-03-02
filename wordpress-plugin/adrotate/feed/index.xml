@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: AdRotate &#8211; Ad manager &#038; AdSense Ads	</title>
-	<atom:link href="http://localhost/wordpress-plugin/adrotate/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: AdRotate Banner Manager &#8211; AdSense Ads &#038; more	</title>
+	<atom:link href="http://localhost/wordpress-plugin/adrotate/feed/?simply_static_page=176520" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/adrotate/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:00:58 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:24:57 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

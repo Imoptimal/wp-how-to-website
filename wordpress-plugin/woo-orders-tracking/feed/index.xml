@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Orders Tracking for WooCommerce	</title>
-	<atom:link href="http://localhost/wordpress-plugin/woo-orders-tracking/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/woo-orders-tracking/feed/?simply_static_page=181252" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woo-orders-tracking/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:57:42 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:36:45 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

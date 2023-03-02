@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: History Timeline for Biography, Company History &#038; Event Timeline	</title>
-	<atom:link href="http://localhost/wordpress-plugin/timeline-awesome/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/timeline-awesome/feed/?simply_static_page=188624" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/timeline-awesome/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:38:57 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:08:41 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

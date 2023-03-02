@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Shopping Feed For Google	</title>
-	<atom:link href="http://localhost/wordpress-plugin/shopping-feed-for-google/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: API Feed for Google Shopping and Facebook by Simprosys for WooCommerce	</title>
+	<atom:link href="http://localhost/wordpress-plugin/shopping-feed-for-google/feed/?simply_static_page=194830" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/shopping-feed-for-google/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:42:18 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:28:40 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: WPScan &#8211; WordPress Security Scanner	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wpscan/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/wpscan/feed/?simply_static_page=184941" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wpscan/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:54:57 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:51:12 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: MWB HubSpot for WooCommerce &#8211; CRM, Abandoned Cart, Email Marketing, Marketing Automation &#038; Analytics	</title>
-	<atom:link href="http://localhost/wordpress-plugin/makewebbetter-hubspot-for-woocommerce/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/makewebbetter-hubspot-for-woocommerce/feed/?simply_static_page=186256" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/makewebbetter-hubspot-for-woocommerce/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:54:32 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:50:40 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

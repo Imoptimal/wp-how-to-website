@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WP SMS Plugin for WordPress	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-twilio-core/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WP SMS: Texting &#8211; SMS Notification for WordPress, WooCommerce addon &#038; Twilio Integration	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wp-twilio-core/feed/?simply_static_page=191861" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-twilio-core/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:53:05 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:29:39 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

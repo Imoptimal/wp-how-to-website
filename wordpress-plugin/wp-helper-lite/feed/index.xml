@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WP Helper Lite	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-helper-lite/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WP Helper Premium	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wp-helper-lite/feed/?simply_static_page=202380" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-helper-lite/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:46:02 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:05:08 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

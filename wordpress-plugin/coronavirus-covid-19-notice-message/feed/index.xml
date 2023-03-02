@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Coronavirus (COVID-19) Notice Message	</title>
-	<atom:link href="http://localhost/wordpress-plugin/coronavirus-covid-19-notice-message/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/coronavirus-covid-19-notice-message/feed/?simply_static_page=176423" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/coronavirus-covid-19-notice-message/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:35:25 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 18:40:50 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

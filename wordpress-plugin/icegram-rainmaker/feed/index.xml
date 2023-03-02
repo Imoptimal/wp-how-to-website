@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Rainmaker Form &#8211; Best Forms Plugin on WP	</title>
-	<atom:link href="http://localhost/wordpress-plugin/icegram-rainmaker/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Icegram Collect &#8211; Easy Form, Lead Collection and Subscription plugin	</title>
+	<atom:link href="http://localhost/wordpress-plugin/icegram-rainmaker/feed/?simply_static_page=191343" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/icegram-rainmaker/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:53:32 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:29:50 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

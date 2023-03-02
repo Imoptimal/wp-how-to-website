@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: WP Featured Content Slider	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-featured-content-slider/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/wp-featured-content-slider/feed/?simply_static_page=185424" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-featured-content-slider/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:40:44 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:07:49 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

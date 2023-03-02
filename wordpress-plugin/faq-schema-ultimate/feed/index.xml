@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Plugin: FAQ Schema &#8211; Best FAQ Rich Snippets Plugin For WordPress	</title>
+	<atom:link href="http://localhost/wordpress-plugin/faq-schema-ultimate/feed/?simply_static_page=174538" rel="self" type="application/rss+xml" />
+	<link>/wordpress-plugin/faq-schema-ultimate/</link>
+	<description>Build advanced websites with ease</description>
+	<lastBuildDate>Wed, 01 Mar 2023 18:40:21 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+</channel>
+</rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: SEO by 10Web	</title>
-	<atom:link href="http://localhost/wordpress-plugin/seo-by-10web/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/seo-by-10web/feed/?simply_static_page=201589" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/seo-by-10web/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:47:53 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:05:23 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

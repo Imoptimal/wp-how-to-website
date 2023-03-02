@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WooCommerce Product SKU Generator	</title>
-	<atom:link href="http://localhost/wordpress-plugin/woocommerce-product-sku-generator/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Product SKU Generator for WooCommerce	</title>
+	<atom:link href="http://localhost/wordpress-plugin/woocommerce-product-sku-generator/feed/?simply_static_page=185189" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woocommerce-product-sku-generator/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:57:06 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:51:07 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

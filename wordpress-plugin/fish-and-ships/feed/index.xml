@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Fish and Ships &#8211; WooCommerce shipping table rate. The most flexible shipping method	</title>
-	<atom:link href="http://localhost/wordpress-plugin/fish-and-ships/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Fish and Ships &#8211; Most flexible shipping method table rate. A WooCommerce conditional shipping rate	</title>
+	<atom:link href="http://localhost/wordpress-plugin/fish-and-ships/feed/?simply_static_page=187856" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/fish-and-ships/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:35:16 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 19:08:29 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

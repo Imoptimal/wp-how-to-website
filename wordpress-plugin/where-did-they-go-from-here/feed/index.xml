@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WebberZone Followed Posts (formerly Where did they go from here)	</title>
-	<atom:link href="http://localhost/wordpress-plugin/where-did-they-go-from-here/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WZ Followed Posts &#8211; Display what visitors are reading	</title>
+	<atom:link href="http://localhost/wordpress-plugin/where-did-they-go-from-here/feed/?simply_static_page=169531" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/where-did-they-go-from-here/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:32:12 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 18:39:19 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

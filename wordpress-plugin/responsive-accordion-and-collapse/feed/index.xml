@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Accordion FAQ	</title>
-	<atom:link href="http://localhost/wordpress-plugin/responsive-accordion-and-collapse/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Accordion FAQ &#8211; Compatible With All Page Builder (Elementor, Gutenberg)	</title>
+	<atom:link href="http://localhost/wordpress-plugin/responsive-accordion-and-collapse/feed/?simply_static_page=175079" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/responsive-accordion-and-collapse/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:01:21 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:25:30 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

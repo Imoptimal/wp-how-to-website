@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: WP Courses LMS &#8211; Online Course Creation, eLearning, and Learning Managment System Plugin for WordPress	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-courses/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: WP Courses LMS &#8211; Online Course Builder, eLearning, and Learning Management System	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wp-courses/feed/?simply_static_page=176468" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-courses/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:34:29 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 18:40:50 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

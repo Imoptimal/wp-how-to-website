@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: WP tarteaucitron.js Self Hosted	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-tarteaucitron-js-self-hosted/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/wp-tarteaucitron-js-self-hosted/feed/?simply_static_page=199089" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-tarteaucitron-js-self-hosted/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:44:55 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:51:39 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

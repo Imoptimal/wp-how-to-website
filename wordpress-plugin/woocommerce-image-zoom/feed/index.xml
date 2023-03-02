@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Product Image Zoom for WooCommerce	</title>
-	<atom:link href="http://localhost/wordpress-plugin/woocommerce-image-zoom/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Product Image Zoom for WooCommerce &#8211; Zoom Product Image on Hover &#8211; Product Gallery &#038; Image Zoom	</title>
+	<atom:link href="http://localhost/wordpress-plugin/woocommerce-image-zoom/feed/?simply_static_page=183921" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woocommerce-image-zoom/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:55:35 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:35:48 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

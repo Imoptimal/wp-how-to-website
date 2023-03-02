@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Lara&#039;s Google Analytics	</title>
-	<atom:link href="http://localhost/wordpress-plugin/lara-google-analytics/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Lara&#039;s Google Analytics (GA4)	</title>
+	<atom:link href="http://localhost/wordpress-plugin/lara-google-analytics/feed/?simply_static_page=181477" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/lara-google-analytics/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:58:53 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 00:36:41 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

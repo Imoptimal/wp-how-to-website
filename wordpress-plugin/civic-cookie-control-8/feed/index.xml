@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Civic Cookie Control	</title>
-	<atom:link href="http://localhost/wordpress-plugin/civic-cookie-control-8/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/civic-cookie-control-8/feed/?simply_static_page=201527" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/civic-cookie-control-8/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:44:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:52:22 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

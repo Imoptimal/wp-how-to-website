@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: WooCommerce Address Book	</title>
-	<atom:link href="http://localhost/wordpress-plugin/woo-address-book/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/woo-address-book/feed/?simply_static_page=196343" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woo-address-book/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:48:10 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:28:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

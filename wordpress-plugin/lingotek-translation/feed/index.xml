@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Lingotek Translation	</title>
-	<atom:link href="http://localhost/wordpress-plugin/lingotek-translation/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Ray Enterprise Translation	</title>
+	<atom:link href="http://localhost/wordpress-plugin/lingotek-translation/feed/?simply_static_page=177903" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/lingotek-translation/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:00:25 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:24:27 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Photo Gallery	</title>
-	<atom:link href="http://localhost/wordpress-plugin/new-photo-gallery/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Photo Gallery &#8211; Responsive Photo Gallery, Image Gallery, Portfolio Gallery, Logo Gallery And Team Gallery	</title>
+	<atom:link href="http://localhost/wordpress-plugin/new-photo-gallery/feed/?simply_static_page=201579" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/new-photo-gallery/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:46:04 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:05:24 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

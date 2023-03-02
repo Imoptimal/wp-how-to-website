@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: KB Support &#8211; WordPress Help Desk	</title>
-	<atom:link href="http://localhost/wordpress-plugin/kb-support/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/kb-support/feed/?simply_static_page=196440" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/kb-support/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:43:15 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:50:53 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

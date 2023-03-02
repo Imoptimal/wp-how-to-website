@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Cookiebot &#124; GDPR/CCPA Compliant Cookie Consent and Control	</title>
-	<atom:link href="http://localhost/wordpress-plugin/cookiebot/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Cookiebot CMP by Usercentrics &#124; The reliable, flexible and easy to use consent solution	</title>
+	<atom:link href="http://localhost/wordpress-plugin/cookiebot/feed/?simply_static_page=172692" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/cookiebot/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:02:23 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:23 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

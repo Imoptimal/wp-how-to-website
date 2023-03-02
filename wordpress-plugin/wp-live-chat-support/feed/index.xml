@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: 3CX Live Chat	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-live-chat-support/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: 3CX Free Live Chat	</title>
+	<atom:link href="http://localhost/wordpress-plugin/wp-live-chat-support/feed/?simply_static_page=176629" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-live-chat-support/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:00:50 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:24:55 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

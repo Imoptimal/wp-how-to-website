@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Weglot Translate &#8211; Translate your WordPress website and go multilingual	</title>
-	<atom:link href="http://localhost/wordpress-plugin/weglot/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/weglot/feed/?simply_static_page=175339" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/weglot/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:01:01 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:25:24 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

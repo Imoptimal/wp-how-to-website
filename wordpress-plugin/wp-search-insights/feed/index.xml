@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: WP Search Insights &#8211; Privacy-Friendly Search Analytics	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wp-search-insights/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/wp-search-insights/feed/?simply_static_page=193930" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wp-search-insights/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:51:35 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:28:58 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

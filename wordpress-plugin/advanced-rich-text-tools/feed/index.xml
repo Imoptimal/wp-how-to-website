@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Advanced Rich Text Tools for Gutenberg	</title>
-	<atom:link href="http://localhost/wordpress-plugin/advanced-rich-text-tools/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/advanced-rich-text-tools/feed/?simply_static_page=190738" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/advanced-rich-text-tools/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:53:03 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:30:01 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: TeraWallet &#8211; For WooCommerce	</title>
-	<atom:link href="http://localhost/wordpress-plugin/woo-wallet/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/woo-wallet/feed/?simply_static_page=177942" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/woo-wallet/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:00:18 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:24:25 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

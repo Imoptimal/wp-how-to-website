@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: WP Telegram Widget and Join Link	</title>
-	<atom:link href="http://localhost/wordpress-plugin/wptelegram-widget/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/wptelegram-widget/feed/?simply_static_page=193137" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/wptelegram-widget/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:50:25 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 21:29:14 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

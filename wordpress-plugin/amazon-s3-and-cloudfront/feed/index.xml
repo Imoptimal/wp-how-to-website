@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: WP Offload Media Lite for Amazon S3, DigitalOcean Spaces, and Google Cloud Storage	</title>
-	<atom:link href="http://localhost/wordpress-plugin/amazon-s3-and-cloudfront/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/amazon-s3-and-cloudfront/feed/?simply_static_page=174992" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/amazon-s3-and-cloudfront/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:01:27 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:25:31 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

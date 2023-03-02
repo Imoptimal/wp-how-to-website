@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Responsive Image Slider, Photo Gallery And Carousel	</title>
-	<atom:link href="http://localhost/wordpress-plugin/slider-factory/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Slider Factory With 12 Slider Templates &#8211; Responsive Photo Video Slider, Photo Gallery, Carousel Slideshow And Template Designs	</title>
+	<atom:link href="http://localhost/wordpress-plugin/slider-factory/feed/?simply_static_page=200530" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/slider-factory/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:40:39 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:52:05 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

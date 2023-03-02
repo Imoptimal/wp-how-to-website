@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: Disable Variable Product Price Range Woocommerce	</title>
-	<atom:link href="http://localhost/wordpress-plugin/disable-variable-product-price-range/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/disable-variable-product-price-range/feed/?simply_static_page=198730" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/disable-variable-product-price-range/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:45:14 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Mar 2023 20:51:34 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Plugin: Royal Elementor Addons (Header Footer Builder, Popups, Post Grid, Woocommerce Product Grid, Slider, Parallax Image, Free Elementor Widgets &#038; Elementor Templates)	</title>
-	<atom:link href="http://localhost/wordpress-plugin/royal-elementor-addons/feed/" rel="self" type="application/rss+xml" />
+	Comments on: Plugin: Royal Elementor Addons and Templates	</title>
+	<atom:link href="http://localhost/wordpress-plugin/royal-elementor-addons/feed/?simply_static_page=172304" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/royal-elementor-addons/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 19:59:25 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:32 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Plugin: YITH WooCommerce Ajax Product Filter	</title>
-	<atom:link href="http://localhost/wordpress-plugin/yith-woocommerce-ajax-navigation/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress-plugin/yith-woocommerce-ajax-navigation/feed/?simply_static_page=173078" rel="self" type="application/rss+xml" />
 	<link>/wordpress-plugin/yith-woocommerce-ajax-navigation/</link>
 	<description>Build advanced websites with ease</description>
-	<lastBuildDate>Tue, 20 Sep 2022 20:02:32 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Mar 2023 01:26:14 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 </channel>
 </rss>
