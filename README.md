@@ -16,7 +16,7 @@
     - Add navigation ('How to Tutorials' and 'Plugin Tutorials' category page, 'WP HOW TO - WordPress plugin' - absolute path to plugin - open in new tab) - to the right position
   - Edit footer:
     - Add columns block ('WP HOW TO - WordPress plugin' - absolute path to plugin. subdomain, 'Privacy Policy' - absolute path to plugin. subdomain policy page - open all in the new tab) - to the left position
-    - Add text Created with 'Simply Static & GitHub Pages' (with their respective homepage links) - to the right position
+    - Add text 'Designed & developed by Imoptimal' (homepage link) - to the right position
 - Install plugins:
   - Simply Static
   - RPD (my own)
